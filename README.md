@@ -21,7 +21,7 @@ git clone https://github.com/pablovalle/VLA_UQ.git
 ```
 
 ## Installation for each VLA
-Each VLA needs it's own dependencies and libraries, so we opted to generate a virtual environment for each of them. First, follow the following steps that are common for all the environments.
+Each VLA needs it's own dependencies and libraries, so we opted to generate a virtual environment for each of them. First, follow the following steps that are common for all the environments execpt for Gr00t.
 
 Create an anaconda environment:
 ```
@@ -160,4 +160,44 @@ Update the modeling_spatialvla.py:
 ```
 cd {this_repo}/checkpoints
 cp modeling_spatialvla spatialvla-4b
+```
+
+
+### Nvidia-Gr00t
+Create and activate the conda environment:
+```
+conda create -n <env_name> python=3.10 (any version above 3.10 should be fine)
+conda activate <env_name>
+```
+
+Install the lerobot environment and its packages:
+```
+cd {this_repo}/Isaac-GR00T
+pip install --upgrade setuptools
+pip install -e .[base]
+pip install --no-build-isolation flash-attn==2.7.1.post4 
+```
+
+Install numpy<2.0 (otherwise errors in IK might occur in pinocchio):
+```
+pip install numpy==1.24.4
+```
+
+Install ManiSkill2 real-to-sim environments and their dependencies:
+```
+cd {this_repo}/ManiSkill2_real2sim
+pip install -e .
+```
+
+Install this package:
+```
+cd {this_repo}
+pip install -e .
+```
+
+Download the model:
+```
+cd {this_repo}/checkpoints
+python download_model.py youliangtan/gr00t-n1.5-bridge-posttrain
+python download_model.py youliangtan/gr00t-n1.5-fractal-posttrain
 ```
