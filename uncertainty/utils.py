@@ -1,8 +1,4 @@
-"""
-Name   : utils.py
-Author : Pablo Valle
-Time   : 05/22/2025
-"""
+
 
 import numpy as np
 import copy
