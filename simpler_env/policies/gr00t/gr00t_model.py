@@ -195,7 +195,7 @@ class Gr00tInference:
                     actions["action.gripper"],
                 ], axis=-1)[:self.pred_action_horizon]
                 self.action_plan.extend(action_chunk)
-                self.logits=logits 
+                self.logits=logits[0]  
 
         elif self.policy_setup == "google_robot":
             state = self.preprocess_google_robot_proprio(eef_pos)
