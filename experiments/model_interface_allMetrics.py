@@ -1,8 +1,4 @@
-"""
-Name   : model_interface_allMetrics.py
-Author : PABLO VALLE
-Time   : 7/19/24
-"""
+
 
 import os
 import sys

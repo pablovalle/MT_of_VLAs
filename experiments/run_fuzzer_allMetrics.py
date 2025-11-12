@@ -1,8 +1,4 @@
-"""
-Name   : run_fuzzer_allMetrics.py
-Author : PABLO VALLE
-Time   : 8/8/24
-"""
+
 import argparse
 import numpy as np
 from model_interface_allMetrics import VLAInterface
