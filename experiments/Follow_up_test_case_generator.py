@@ -3,9 +3,9 @@
 Follow_up_test_case_generator.py
 
 Usage examples:
-  python Follow_up_test_case_generator.py --mr C_MR1 --tasks 0-9
-  python Follow_up_test_case_generator.py --mr V_MR2 --tasks 3
-  python Follow_up_test_case_generator.py --mr C_MR2 --tasks 0-2,5,8-9
+  python Follow_up_test_case_generator.py --mr C_MR1 --model openvla-7b --tasks 0-9
+  python Follow_up_test_case_generator.py --mr V_MR2 --model openvla-7b --tasks 3
+  python Follow_up_test_case_generator.py --mr C_MR2 --model openvla-7b --tasks 0-2,5,8-9
 """
 
 import argparse
@@ -45,8 +45,8 @@ def parse_args():
             "list (e.g. 1,3,7), or any combination (e.g. 0-2,5,8-9)."
         ),
     )
-    p.add_argument("--outdir", default="results_environment", help="Base output directory.")
-    p.add_argument("--overwrite", action="store_true", help="Overwrite existing task files if present.")
+    p.add_argument("--model", default="gr00t", help="VLA model for which will be generated.")
+    p.add_argument("--dataset", default="t-grasp_n-1000_o-m3_s-2498586606.json", help="Dataset of tasks.")
     return p.parse_args()
 
 def expand_task_spec(spec: str) -> List[int]:
@@ -242,7 +242,7 @@ def add_to_task(task_data, selected_model: str, task_type:str, prompt:str):
 
         # Add object initialization data
         new_task_data['obj_init_options'][selected_model] = {
-            "init_xy": generate_valid_position(main_object_position, position_range, min_dist=0.1),
+            "init_xy": generate_valid_position(main_object_position, position_range, min_dist=0.05),
             "init_rot_quat": random_quaternion()
         }
 
@@ -270,8 +270,6 @@ def add_confunding_object(task_data, available_objects: List[str], task_type: st
             for model in task_data['model_ids']:
                 if model in available_objects_c:
                     available_objects_c.remove(model)
-
-    print(f"Available objects for distractors: {len(available_objects_c)}")
 
     for i in range(MAX_CONFUNDING_OBJECTS):
         new_task_data = copy.deepcopy(task_data)
@@ -412,7 +410,7 @@ def create_for_C_MR1(task_id: int, out_path: Path, task_data, prompt, task_type)
 def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt, task_type):
     """C_MR2: Consistency pattern Add more confunding objects."""
 
-    folder_path="ManiSkill2_real2sim/data/custom/models"
+    folder_path="../ManiSkill2_real2sim/data/custom/models"
     available_objects=[f for f in os.listdir(folder_path)
               if os.path.isdir(os.path.join(folder_path, f))]
     
@@ -483,24 +481,22 @@ MR_FUNCTIONS = {
 # Runner
 # ---------------------------
 
-def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, overwrite: bool):
+def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, dataset, overwrite: bool):
     fn = MR_FUNCTIONS.get(mr_code)
     if fn is None:
         raise KeyError(f"No function defined for MR '{mr_code}'")
 
-    
-
     # Read task data and prompts
-    task_data="data/t-put-in_n-1000_o-m3_s-2905191776.json"
-    with open(task_data, 'r') as f:
+    #task_data="data/t-put-in_n-1000_o-m3_s-2905191776.json"
+    with open(dataset, 'r') as f:
         tasks = json.load(f)
+
+    dataset_name = dataset.split('/')[-1]
+    match = re.search(r't-(.*?)_n', dataset_name)
     
-    prompt_data="data/prompts/t-put-in_n-1000_o-m3_s-2905191776.json"
+    prompt_data=f"../data/prompts/{dataset_name}"
     with open(prompt_data, 'r') as f:
         prompts = json.load(f)
-
-    dataset_name = task_data.split('/')[-1]
-    match = re.search(r't-(.*?)_n', dataset_name)
 
     if match:
         task_type = match.group(1)
@@ -521,24 +517,28 @@ def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, overwrite: bool)
 
 def main():
     setup_logger()
-    #args = parse_args()
+    args = parse_args()
 
-    #mr = args.mr.strip()
-    mr="V_MR2"
+    mr = args.mr
+    model=args.model
+    dataset= args.dataset
+    #mr="V_MR2"
+    #model="pi0"
+    #dataset="data/t-grasp_n-1000_o-m3_s-2498586606.json"
+
     if mr not in KNOWN_MRS:
         logging.error("Unknown MR '%s'. Known MRs: %s", mr, ", ".join(KNOWN_MRS))
         raise SystemExit(2)
 
     try:
-        #task_ids = expand_task_spec(args.tasks)
-        task_ids = [1,2,3]
+        #task_ids=[0]
+        task_ids = expand_task_spec(args.tasks)
     except Exception as e:
         logging.error("Invalid --tasks spec: %s", e)
         raise SystemExit(3)
-
-    outdir = Path("data/FollowUp")
+    outdir = Path(f"../data/FollowUp/{model}")
     overwrite= False
-    run_for_mr(mr, task_ids, outdir, overwrite=overwrite)
+    run_for_mr(mr, task_ids, outdir,dataset, overwrite=overwrite)
     logging.info("Finished MR %s. Outputs in: %s", mr, outdir / mr)
 
 if __name__ == "__main__":
