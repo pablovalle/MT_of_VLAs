@@ -19,12 +19,13 @@ from datetime import datetime
 import random
 import copy
 import math
+import re
 
 random.seed(42)
 # Known MR codes
 KNOWN_MRS = ["C_MR1", "C_MR2", "V_MR1", "V_MR2"]
 MAX_CONFUNDING_OBJECTS=4
-
+OFFSET_DISTANCE=0.1
 
 def setup_logger():
     logging.basicConfig(
@@ -117,7 +118,7 @@ def get_negative(action: str, max_results: int) -> List[str]:
 
 def get_synonyms(action: str, max_results: int, rest: str) -> List[str]:
     template = {
-        'pick': [
+        'grasp': [
             "grab ",
             "can you pick up ",
             "fetch ",
@@ -196,60 +197,186 @@ def random_quaternion():
         sqrt_u1 * math.sin(2 * math.pi * u3),
         sqrt_u1 * math.cos(2 * math.pi * u3)
     ]
-def add_to_task(task_data, selected_model: str):
+def add_to_task(task_data, selected_model: str, task_type:str, prompt:str):
     new_task_data = copy.deepcopy(task_data)
+    if task_type=='grasp':
+        # Ensure distractor_model_ids exists
+        if 'distractor_model_ids' not in new_task_data:
+            new_task_data['distractor_model_ids'] = []
 
-    # Ensure distractor_model_ids exists
-    if 'distractor_model_ids' not in new_task_data:
-        new_task_data['distractor_model_ids'] = []
+        # Ensure distractor_obj_init_options exists
+        if 'distractor_obj_init_options' not in new_task_data:
+            new_task_data['distractor_obj_init_options'] = {}
 
-    # Ensure distractor_obj_init_options exists
-    if 'distractor_obj_init_options' not in new_task_data:
-        new_task_data['distractor_obj_init_options'] = {}
+        main_object_position = new_task_data['obj_init_options']['init_xy']
+        position_range = [(-0.5, -0.05), (0, 0.4)]
 
-    main_object_position = new_task_data['obj_init_options']['init_xy']
-    position_range = [(-0.5, -0.05), (0, 0.4)]
+        # Add selected model safely
+        if selected_model not in new_task_data['distractor_model_ids']:
+            new_task_data['distractor_model_ids'].append(selected_model)
 
-    # Add selected model safely
-    if selected_model not in new_task_data['distractor_model_ids']:
-        new_task_data['distractor_model_ids'].append(selected_model)
+        # Add object initialization data
+        new_task_data['distractor_obj_init_options'][selected_model] = {
+            "init_xy": generate_valid_position(main_object_position, position_range, min_dist=0.1),
+            "init_rot_quat": random_quaternion()
+        }
+    else:
+        if 'model_ids' not in new_task_data:
+            new_task_data['model_ids'] = []
+        if 'obj_init_options' not in new_task_data:
+            new_task_data['obj_init_options'] = {}
+        if selected_model not in new_task_data['obj_init_options']:
+            new_task_data['obj_init_options'][selected_model]={}
+        main_object=find_first_referenced_object(prompt,new_task_data['model_ids'])
+        main_object_position = new_task_data['obj_init_options'][main_object]['init_xy']
 
-    # Add object initialization data
-    new_task_data['distractor_obj_init_options'][selected_model] = {
-        "init_xy": generate_valid_position(main_object_position, position_range, min_dist=0.15),
-        "init_rot_quat": random_quaternion()
-    }
+        if task_type=="move":
+            position_range = [(-0.5, -0.05), (0, 0.4)]
+        elif task_type=="put-on":
+            position_range = [(-0.3, 0), (-0.16, 0.12)]
+        elif task_type=="put-in":
+            position_range = [(-0.2, -0.1), (0.1, 0.2)]
+        
+        if selected_model not in new_task_data['model_ids']:
+            new_task_data['model_ids'].append(selected_model)
+
+        # Add object initialization data
+        new_task_data['obj_init_options'][selected_model] = {
+            "init_xy": generate_valid_position(main_object_position, position_range, min_dist=0.1),
+            "init_rot_quat": random_quaternion()
+        }
+
 
     return new_task_data
 
 
-def add_confunding_object(task_data, available_objects: List[str], task_type: str):
+def add_confunding_object(task_data, available_objects: List[str], task_type: str, prompt:str):
     candidates = []
 
     # Make a copy to avoid modifying the original list
     available_objects_c = available_objects.copy()
 
     # Remove main object and existing distractors safely
-    if 'model_id' in task_data and task_data['model_id'] in available_objects_c:
-        available_objects_c.remove(task_data['model_id'])
+    if task_type == "grasp":
+        if 'model_id' in task_data and task_data['model_id'] in available_objects_c:
+            available_objects_c.remove(task_data['model_id'])
 
-    if 'distractor_model_ids' in task_data:
-        for model in task_data['distractor_model_ids']:
-            if model in available_objects_c:
-                available_objects_c.remove(model)
+        if 'distractor_model_ids' in task_data:
+            for model in task_data['distractor_model_ids']:
+                if model in available_objects_c:
+                    available_objects_c.remove(model)
+    else:
+        if 'model_ids' in task_data:
+            for model in task_data['model_ids']:
+                if model in available_objects_c:
+                    available_objects_c.remove(model)
 
     print(f"Available objects for distractors: {len(available_objects_c)}")
 
     for i in range(MAX_CONFUNDING_OBJECTS):
-        new_task_data = task_data
+        new_task_data = copy.deepcopy(task_data)
         for j in range(i + 1):
             if not available_objects_c:
                 break  # No objects left to choose from
             selected_model = random.choice(available_objects_c)
-            new_task_data = add_to_task(new_task_data, selected_model)
+            new_task_data = add_to_task(new_task_data, selected_model, task_type, prompt)
         candidates.append(new_task_data)
 
     return candidates
+def compute_new_position(curr_pos, off, position_range):
+    (xmin, xmax), (ymin, ymax) = position_range
+    new_x = curr_pos[0] + off[0]
+    new_y = curr_pos[1] + off[1]
+    if new_x < xmin:
+        new_x = xmin
+    elif new_x > xmax:
+        new_x = xmax
+
+    # Clamp Y
+    if new_y < ymin:
+        new_y = ymin
+    elif new_y > ymax:
+        new_y = ymax
+    return new_x, new_y
+
+def find_first_referenced_object(prompt: str, model_ids: list[str]) -> str | None:
+    prompt_norm = prompt.lower()
+
+    # Build mapping: model_id → list of readable variants
+    variants = {}
+    for mid in model_ids:
+        words = mid.lower().split("_")
+        var_list = set()
+
+        # full phrase ("7up can")
+        var_list.add(" ".join(words))
+
+        # partial phrase ("7up", "can", "7up can")
+        for i in range(len(words)):
+            for j in range(i+1, len(words)+1):
+                piece = " ".join(words[i:j])
+                if len(piece) > 2:
+                    var_list.add(piece)
+
+        variants[mid] = sorted(list(var_list), key=len, reverse=True)
+
+    # Track the earliest match (smallest index)
+    best_mid = None
+    best_index = len(prompt_norm) + 1
+
+    for mid, var_list in variants.items():
+        for v in var_list:
+            idx = prompt_norm.find(v)
+            if idx != -1 and idx < best_index:
+                best_index = idx
+                best_mid = mid
+
+    return best_mid
+
+def move_main_object(task_data, task_type:str, mode:str, prompt:str):
+    candidates=[]
+    directions=[]
+    dirs = {
+        "right": (0.0, OFFSET_DISTANCE),
+        "left": (0.0, -OFFSET_DISTANCE),
+        "up": (-OFFSET_DISTANCE, 0.0),
+        "down": (OFFSET_DISTANCE, 0.0),
+    }
+    if mode == "all8":
+        dirs.update({
+            "up_right": (-OFFSET_DISTANCE, OFFSET_DISTANCE),
+            "up_left": (-OFFSET_DISTANCE, -OFFSET_DISTANCE),
+            "down_right": (OFFSET_DISTANCE, OFFSET_DISTANCE),
+            "down_left": (OFFSET_DISTANCE, -OFFSET_DISTANCE),
+        })
+    
+    if task_type=="grasp":
+        position_range = [(-0.5, -0.05), (0, 0.4)]
+
+        for direction, off in dirs.items():
+            candidate=copy.deepcopy(task_data)
+            new_x, new_y=compute_new_position(candidate['obj_init_options']['init_xy'], off,position_range)            
+            candidate['obj_init_options']['init_xy'] = [new_x, new_y]
+            candidates.append(candidate)
+            directions.append(direction)
+            
+    else:
+        if task_type=="move":
+            position_range = [(-0.5, -0.05), (0, 0.4)]
+        elif task_type=="put-on":
+            position_range = [(-0.3, 0), (-0.16, 0.12)]
+        elif task_type=="put-in":
+            position_range = [(-0.2, -0.1), (0.1, 0.2)]
+        object=find_first_referenced_object(prompt, task_data['model_ids'])
+        for direction, off in dirs.items():
+            candidate=copy.deepcopy(task_data)
+            new_x, new_y=compute_new_position(candidate['obj_init_options'][object]['init_xy'], off,position_range)            
+            candidate['obj_init_options'][object]['init_xy'] = [new_x, new_y]
+            candidates.append(candidate)
+            directions.append(direction)
+        
+
+    return candidates, directions
 # ---------------------------
 # Placeholder MR functions
 # ---------------------------
@@ -257,7 +384,7 @@ def add_confunding_object(task_data, available_objects: List[str], task_type: st
 # and create the JSON file for that task. Replace the bodies with
 # your real generation logic later.
 
-def create_for_C_MR1(task_id: int, out_path: Path, task_data, prompt, task_type="pick"):
+def create_for_C_MR1(task_id: int, out_path: Path, task_data, prompt, task_type):
     """C_MR1: Consistency pattern Synonym replace."""
     num_variants=5
     parts = prompt.strip().split(maxsplit=1)
@@ -282,20 +409,19 @@ def create_for_C_MR1(task_id: int, out_path: Path, task_data, prompt, task_type=
     # Write all payloads into the same file as a JSON list
     out_path.write_text(json.dumps(payloads, indent=2))
 
-def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt):
+def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt, task_type):
     """C_MR2: Consistency pattern Add more confunding objects."""
 
-    task_type="grasp"
     folder_path="ManiSkill2_real2sim/data/custom/models"
     available_objects=[f for f in os.listdir(folder_path)
               if os.path.isdir(os.path.join(folder_path, f))]
     
-    new_tasks_data=add_confunding_object(task_data, available_objects, task_type)
+    new_tasks_data=add_confunding_object(task_data, available_objects, task_type, prompt)
     payloads=[]
     for i, task in enumerate(new_tasks_data):
         task
         payload = {
-            "mr": "C_MR1",
+            "mr": "C_MR2",
             "task_id": task_id,
             "follow-up": i,
             "task_data": task,
@@ -306,7 +432,7 @@ def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt):
     # Write all payloads into the same file as a JSON list
     out_path.write_text(json.dumps(payloads, indent=2))
 
-def create_for_V_MR1(task_id: int, out_path: Path, task_data, prompt):
+def create_for_V_MR1(task_id: int, out_path: Path, task_data, prompt, task_type):
     """V_MR1: Variation pattern add a negative statement in the prompt."""
     num_variants=15
     
@@ -326,16 +452,24 @@ def create_for_V_MR1(task_id: int, out_path: Path, task_data, prompt):
     # Write all payloads into the same file as a JSON list
     out_path.write_text(json.dumps(payloads, indent=2))
 
-def create_for_V_MR2(task_id: int, out_path: Path, task_data, prompt):
+def create_for_V_MR2(task_id: int, out_path: Path, task_data, prompt, task_type):
     """V_MR2: Variation pattern move further the target object."""
-    payload = {
-        "mr": "V_MR2",
-        "task_id": task_id,
-        "created_at": datetime.utcnow().isoformat() + "Z",
-        "note": "PLACEHOLDER: implement real generator for V_MR2",
-        "data": {"example": f"result for task {task_id}"}
-    }
-    out_path.write_text(json.dumps(payload, indent=2))
+
+    mode="all8"
+    new_tasks_data, directions=move_main_object(task_data, task_type, mode, prompt)
+    payloads=[]
+    for i, task in enumerate(new_tasks_data):
+        task
+        payload = {
+            "mr": "V_MR2",
+            "task_id": task_id,
+            "follow-up": i,
+            "mvoement_type": directions[i],
+            "task_data": task,
+            "prompt": prompt
+        }
+        payloads.append(payload)
+    out_path.write_text(json.dumps(payloads, indent=2))
 
 # Map MR code -> function
 MR_FUNCTIONS = {
@@ -354,17 +488,24 @@ def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, overwrite: bool)
     if fn is None:
         raise KeyError(f"No function defined for MR '{mr_code}'")
 
-    mr_outdir = outdir / mr_code
-    mr_outdir.mkdir(parents=True, exist_ok=True)
+    
 
     # Read task data and prompts
-    task_data="data/t-grasp_n-1000_o-m3_s-2498586606.json"
+    task_data="data/t-put-in_n-1000_o-m3_s-2905191776.json"
     with open(task_data, 'r') as f:
         tasks = json.load(f)
     
-    prompt_data="data/prompts/t-grasp_n-1000_o-m3_s-2498586606.json"
+    prompt_data="data/prompts/t-put-in_n-1000_o-m3_s-2905191776.json"
     with open(prompt_data, 'r') as f:
         prompts = json.load(f)
+
+    dataset_name = task_data.split('/')[-1]
+    match = re.search(r't-(.*?)_n', dataset_name)
+
+    if match:
+        task_type = match.group(1)
+    mr_outdir = outdir / mr_code / task_type
+    mr_outdir.mkdir(parents=True, exist_ok=True)
 
     for task_id in tqdm(task_ids, desc=f"Processing {mr_code}", unit="task"):
         out_path = mr_outdir / f"task_{task_id}.json"
@@ -373,7 +514,7 @@ def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, overwrite: bool)
             continue
 
         try:
-            fn(task_id, out_path, tasks[str(task_id)], prompts[task_id])
+            fn(task_id, out_path, tasks[str(task_id)], prompts[task_id], task_type)
             logging.info("Wrote: %s", out_path)
         except Exception as e:
             logging.exception("Failed to create output for MR=%s task=%s: %s", mr_code, task_id, e)
@@ -383,7 +524,7 @@ def main():
     #args = parse_args()
 
     #mr = args.mr.strip()
-    mr="C_MR2"
+    mr="V_MR2"
     if mr not in KNOWN_MRS:
         logging.error("Unknown MR '%s'. Known MRs: %s", mr, ", ".join(KNOWN_MRS))
         raise SystemExit(2)
