@@ -524,7 +524,7 @@ def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, dataset, overwri
             logging.exception("Failed to create output for MR=%s task=%s: %s", mr_code, task_id, e)
 
 def get_from_human_eval(model, dataset):
-    result_folder="results_original/human_eval/"
+    result_folder="../results_original/human_eval/"
     dataset_name = dataset.split('/')[-1]
     match = re.search(r't-(.*?)_n', dataset_name)
     if match:
