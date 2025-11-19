@@ -20,12 +20,15 @@ import random
 import copy
 import math
 import re
-
-random.seed(42)
+import pandas as pd
+import numpy as np
+RANDOM_SEED=42
+random.seed()
 # Known MR codes
 KNOWN_MRS = ["C_MR1", "C_MR2", "V_MR1", "V_MR2"]
 MAX_CONFUNDING_OBJECTS=4
 OFFSET_DISTANCE=0.1
+NUM_OF_TASKS=20
 
 def setup_logger():
     logging.basicConfig(
@@ -409,10 +412,15 @@ def create_for_C_MR1(task_id: int, out_path: Path, task_data, prompt, task_type)
 
 def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt, task_type):
     """C_MR2: Consistency pattern Add more confunding objects."""
-
-    folder_path="../ManiSkill2_real2sim/data/custom/models"
-    available_objects=[f for f in os.listdir(folder_path)
-              if os.path.isdir(os.path.join(folder_path, f))]
+    if task_type== "grasp" or task_type=="move":
+        folder_path="../ManiSkill2_real2sim/data/custom/info_pick_custom_v0.json"
+    elif task_type=="put-in" or task_type=="put-on":
+        folder_path="../ManiSkill2_real2sim/data/custom/info_bridge_custom_v0.json"
+    with open(folder_path, 'r') as f:
+        objects = json.load(f)
+    available_objects=list(objects.keys())
+   # available_objects=[f for f in os.listdir(folder_path)
+   #           if os.path.isdir(os.path.join(folder_path, f))]
     
     new_tasks_data=add_confunding_object(task_data, available_objects, task_type, prompt)
     payloads=[]
@@ -432,7 +440,7 @@ def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
 
 def create_for_V_MR1(task_id: int, out_path: Path, task_data, prompt, task_type):
     """V_MR1: Variation pattern add a negative statement in the prompt."""
-    num_variants=15
+    num_variants=4
     
     candidates = get_negative(prompt, num_variants)
 
@@ -515,6 +523,36 @@ def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, dataset, overwri
         except Exception as e:
             logging.exception("Failed to create output for MR=%s task=%s: %s", mr_code, task_id, e)
 
+def get_from_human_eval(model, dataset):
+    result_folder="results_original/human_eval/"
+    dataset_name = dataset.split('/')[-1]
+    match = re.search(r't-(.*?)_n', dataset_name)
+    if match:
+        task_type = match.group(1)
+
+    file=result_folder+f"final_evaluations_{model}_{task_type}.xlsx"
+    data= pd.read_excel(file)
+
+    high_samples = data[data['final_evaluation'] == 'High Quality'].sample(n=np.min([20,len(data[data['final_evaluation'] == 'High Quality'])]), random_state=RANDOM_SEED)
+    low_samples = data[data['final_evaluation'] == 'Low Quality'].sample(n=np.min([20,len(data[data['final_evaluation'] == 'Low Quality'])]), random_state=RANDOM_SEED)
+
+    sampled_df = pd.concat([high_samples, low_samples]).reset_index(drop=True)
+
+    selected_indexes=list(sampled_df['simulation'].str.extract(r'/(\d+)_simulation\.mp4')[0].astype(int))
+    selected_qualities=list(sampled_df['final_evaluation'])
+
+    existing_indices = data['simulation'].str.extract(r'/(\d+)_simulation\.mp4')[0].astype(int)
+    all_indices = set(range(500))
+    missing_indices = list(all_indices - set(existing_indices))
+    sampled_missing = random.sample(missing_indices, k=20)
+
+    [selected_indexes.append(i)  for i in sampled_missing]
+    [selected_qualities.append('Failure')  for i in sampled_missing]
+
+    return selected_indexes, selected_qualities
+
+
+
 def main():
     setup_logger()
     args = parse_args()
@@ -532,7 +570,8 @@ def main():
 
     try:
         #task_ids=[0]
-        task_ids = expand_task_spec(args.tasks)
+        #task_ids = expand_task_spec(args.tasks)
+        task_ids, quality_of_tasks = get_from_human_eval(model,dataset)
     except Exception as e:
         logging.error("Invalid --tasks spec: %s", e)
         raise SystemExit(3)

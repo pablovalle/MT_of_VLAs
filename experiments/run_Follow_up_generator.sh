@@ -1,7 +1,7 @@
 #!/usr/bin/zsh
 
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-# ┃                  UQ4VLAs v1.0                    ┃
+# ┃                  MT4VLAs v1.0                    ┃
 # ┃  Run uncertainty and quality experiments across  ┃
 # ┃          models and datasets in style!           ┃
 # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
@@ -66,7 +66,7 @@ for data in "${datasets[@]}"; do
   for model in "${models[@]}"; do
     for mr in "${mrs[@]}"; do
       echo -e "\n${YELLOW}▶ Running: MR: ${mr} | Model: ${model} | Dataset: ${data}${NC}"
-      python3.10 Follow_up_test_case_generator.py --mr "${mr}" --model "${model}" --dataset "../data/${data}" --tasks "${task_ids}"
+      python3.10 Follow_up_test_case_generator.py --mr "${mr}" --model "${model}" --dataset "../data/${data}" #--tasks "${task_ids}"
 
       if [[ $? -ne 0 ]]; then
         echo -e "${RED}✘ Failed: ${model} on ${data}${NC}"
