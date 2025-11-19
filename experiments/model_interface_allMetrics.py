@@ -76,23 +76,23 @@ class VLAInterface:
             from simpler_env.policies.openvla.openvla_model import OpenVLAInference
             self.model = OpenVLAInference(model_type='../checkpoints/openvla-7b', policy_setup=self.policy_setup)
             #self.followUpModel = OpenVLAInference(model_type=model_name, policy_setup=self.policy_setup)
-            self.variability_models=[OpenVLAInference(model_type='../checkpoints/openvla-7b' , policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
+           # self.variability_models=[OpenVLAInference(model_type='../checkpoints/openvla-7b' , policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             
         elif "pi0" in model_name:
             from simpler_env.policies.lerobotpi.pi0_or_fast import LerobotPiFastInference
             if self.policy_setup == "widowx_bridge":
-                model_path = "../checkpoints/lerobot-pi0-bridge"
+                model_path = "checkpoints/lerobot-pi0-bridge"
             else:
-                model_path = "../checkpoints/lerobot-pi0-fractal"
+                model_path = "checkpoints/lerobot-pi0-fractal"
 
             self.model = LerobotPiFastInference(saved_model_path=model_path, policy_setup=self.policy_setup)
-            self.variability_models=[LerobotPiFastInference(saved_model_path=model_path, policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
+           # self.variability_models=[LerobotPiFastInference(saved_model_path=model_path, policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             #self.followUpModel = LerobotPiFastInference(saved_model_path=model_path, policy_setup=self.policy_setup)
         elif "spatialvla" in model_name:
             from simpler_env.policies.spatialvla.spatialvla_model import SpatialVLAInference
 
             self.model = SpatialVLAInference(saved_model_path="../checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup)
-            self.variability_models=[SpatialVLAInference(saved_model_path="../checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
+           # self.variability_models=[SpatialVLAInference(saved_model_path="../checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             
             #self.followUpModel = SpatialVLAInference(model_type=model_name, policy_setup=self.policy_setup)
         elif "gr00t" in model_name:
@@ -102,20 +102,20 @@ class VLAInterface:
                 else:
                     model_path = "../checkpoints/gr00t-n1.5-fractal-posttrain"
                 self.model = Gr00tInference(saved_model_path=model_path, policy_setup=self.policy_setup)
-                self.variability_models=[Gr00tInference(saved_model_path=model_path, policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
+               # self.variability_models=[Gr00tInference(saved_model_path=model_path, policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             
         else:
             raise ValueError(model_name)
 
-    def run_interface(self, seed=None, options=None, task_type=None):
+    def run_interface(self, seed=None, options=None, task_type=None, prompt=None):
 
 
         env = simpler_env.make(self.task)
         obs, reset_info = env.reset(seed=seed, options=options)
         instruction = env.unwrapped.get_language_instruction()
-        self.model.reset(instruction)
+        self.model.reset(prompt)
 
-        [self.variability_models[i].reset(instruction) for i in range(0, len(self.variability_models))]
+       # [self.variability_models[i].reset(instruction) for i in range(0, len(self.variability_models))]
         image = get_image_from_maniskill2_obs_dict(env, obs)  # np.ndarray of shape (H, W, 3), uint8
         images = [image]
         predicted_terminated, success, truncated = False, False, False
@@ -173,9 +173,10 @@ class VLAInterface:
             episode_stats[timestep] = info
             action_norm = uncerUtils.normalize_action(action, env.action_space)
             actions.append(action_norm)
-
+            time_execution = time.time()
+            print(f"Time to execute: {time_execution - init_time}")
             # ----------------------------- UNCERTAINTY METRICS ------------------------------------------------------------------------
-
+            """
             if len(gradients) < TIME_RANGE:
                 gradients.append(tcp_pose.tolist())
                 traj_uncerActions = np.append(traj_uncerActions, action_norm)
@@ -284,7 +285,7 @@ class VLAInterface:
             exec_times_dict['instability'].append(time_execution8 - time_execution7)
 
             # ---------------------------------------------------------------------------------------------------------------------------
-
+            """
             # update image observation
             image = get_image_from_maniskill2_obs_dict(env, obs)
             images.append(image)
