@@ -51,13 +51,15 @@ if __name__ == '__main__':
         elif task_type=="put-on":
             base_env="widowx_put_in_customizable"
         vla = VLAInterface(model_name="pi0", task=base_env,  instability_methods=['position_instability','velocity_instability', 'acceleration_instability'])
-        for mr in mrs:       
-            for i in range(n_scenarios):
-                
-                file=f"{task_data}pi0/{mr}/{task_type}/task_{i}.json"
+        for mr in mrs:
+            n_scenarios=[f.path for f in os.scandir(f"{task_data}pi0/{mr}/{task_type}")if f.is_file()]     
+            for scenario in n_scenarios:
+                file=scenario
+               # file=f"{task_data}pi0/{mr}/{task_type}/task_{i}.json"
                 with open(file, 'r') as f:
                     task = json.load(f)
                 for j in range(len(task)):
+                    i=scenario.split("_")[-1].split(".")[0]
                     print(f"\n\n Evaluating MR {mr} in task {task_type} for environment {i} the {j}-th time")
                     options=task[j]['task_data']
                     prompt=task[j]['prompt']
