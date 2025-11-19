@@ -42,7 +42,7 @@ def parse_args():
     p.add_argument("--mr", required=True, help=f"MR code (one of: {', '.join(KNOWN_MRS)})")
     p.add_argument(
         "--tasks",
-        required=True,
+        required=False,
         help=(
             "Tasks spec: single id (e.g. 5), range (e.g. 0-9), "
             "list (e.g. 1,3,7), or any combination (e.g. 0-2,5,8-9)."
