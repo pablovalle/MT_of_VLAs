@@ -91,7 +91,7 @@ class VLAInterface:
         elif "spatialvla" in model_name:
             from simpler_env.policies.spatialvla.spatialvla_model import SpatialVLAInference
 
-            self.model = SpatialVLAInference(saved_model_path="../checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup)
+            self.model = SpatialVLAInference(saved_model_path="checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup)
            # self.variability_models=[SpatialVLAInference(saved_model_path="../checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             
             #self.followUpModel = SpatialVLAInference(model_type=model_name, policy_setup=self.policy_setup)

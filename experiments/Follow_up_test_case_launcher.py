@@ -37,8 +37,7 @@ if __name__ == '__main__':
     
     task_data="data/FollowUp/"
     mrs=["C_MR1", "C_MR2", "V_MR1", "V_MR2"]
-    tasks=["grasp", "move", "put-in", "put-on"]
-    n_scenarios=11
+    tasks=["grasp","move", "put-in", "put-on"]#, "grasp","move", "put-in", "put-on"]
 
     
     for task_type in tasks:
@@ -46,13 +45,14 @@ if __name__ == '__main__':
             base_env="google_robot_pick_customizable"
         elif task_type=="move":
             base_env="google_robot_move_near_customizable"
-        elif task_type=="put-in":
-            base_env="widowx_put_on_customizable"
         elif task_type=="put-on":
+            base_env="widowx_put_on_customizable"
+        elif task_type=="put-in":
             base_env="widowx_put_in_customizable"
-        vla = VLAInterface(model_name="pi0", task=base_env,  instability_methods=['position_instability','velocity_instability', 'acceleration_instability'])
+        vla=None
+        vla = VLAInterface(model_name="spatialvla-4b", task=base_env,  instability_methods=['position_instability','velocity_instability', 'acceleration_instability'])
         for mr in mrs:
-            n_scenarios=[f.path for f in os.scandir(f"{task_data}pi0/{mr}/{task_type}")if f.is_file()]     
+            n_scenarios=[f.path for f in os.scandir(f"{task_data}spatialvla-4b/{mr}/{task_type}")if f.is_file()]     
             for scenario in n_scenarios:
                 file=scenario
                # file=f"{task_data}pi0/{mr}/{task_type}/task_{i}.json"
@@ -63,7 +63,7 @@ if __name__ == '__main__':
                     print(f"\n\n Evaluating MR {mr} in task {task_type} for environment {i} the {j}-th time")
                     options=task[j]['task_data']
                     prompt=task[j]['prompt']
-                    result_dir=f"FollowUp_Results/pi0/{mr}/{task_type}/task_{i}/follow_up_{j}"
+                    result_dir=f"FollowUp_Results/spatialvla-4b/{mr}/{task_type}/task_{i}/follow_up_{j}"
                     if os.path.exists(result_dir):
                         continue
                     os.makedirs(result_dir, exist_ok=True)

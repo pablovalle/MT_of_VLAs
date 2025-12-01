@@ -26,7 +26,6 @@ RANDOM_SEED=42
 random.seed()
 # Known MR codes
 KNOWN_MRS = ["C_MR1", "C_MR2", "V_MR1", "V_MR2"]
-MAX_CONFUNDING_OBJECTS=4
 OFFSET_DISTANCE=0.1
 NUM_OF_TASKS=20
 
@@ -92,7 +91,7 @@ def get_negative(action: str, max_results: int) -> List[str]:
     candidates=[]
     for i in range(min(len(gerund_prefixes)+len(infinitive_prefixes)+len(bare_prefixes), max_results)):
         if i<len(gerund_prefixes):
-            prefix=gerund_prefixes[i]
+            prefix=gerund_prefixes[random.randint(0,len(gerund_prefixes)-1)]
         elif i<len(gerund_prefixes)+len(infinitive_prefixes):
             prefix=infinitive_prefixes[i-len(gerund_prefixes)]
         else:
@@ -173,7 +172,7 @@ def get_synonyms(action: str, max_results: int, rest: str) -> List[str]:
     combinations=template[action]
     candidates=[]
     for i in range(0, min(len(combinations),max_results)):
-        candidates.append(combinations[i]+' '+rest)
+        candidates.append(combinations[random.randint(0, len(combinations)-1)]+' '+rest)
 
     
     return candidates
@@ -274,7 +273,7 @@ def add_confunding_object(task_data, available_objects: List[str], task_type: st
                 if model in available_objects_c:
                     available_objects_c.remove(model)
 
-    for i in range(MAX_CONFUNDING_OBJECTS):
+    for i in range(1,4):
         new_task_data = copy.deepcopy(task_data)
         for j in range(i + 1):
             if not available_objects_c:
@@ -387,7 +386,7 @@ def move_main_object(task_data, task_type:str, mode:str, prompt:str):
 
 def create_for_C_MR1(task_id: int, out_path: Path, task_data, prompt, task_type):
     """C_MR1: Consistency pattern Synonym replace."""
-    num_variants=5
+    num_variants=1
     parts = prompt.strip().split(maxsplit=1)
     if not parts:
         raise ValueError("Prompt cannot be empty")
@@ -423,24 +422,25 @@ def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
    #           if os.path.isdir(os.path.join(folder_path, f))]
     
     new_tasks_data=add_confunding_object(task_data, available_objects, task_type, prompt)
+    selected=random.randint(0, len(new_tasks_data)-1)
     payloads=[]
-    for i, task in enumerate(new_tasks_data):
-        task
-        payload = {
-            "mr": "C_MR2",
-            "task_id": task_id,
-            "follow-up": i,
-            "task_data": task,
-            "prompt": prompt
-        }
-        payloads.append(payload)
+    #for i, task in enumerate(new_tasks_data):
+    #    task
+    payload = {
+        "mr": "C_MR2",
+        "task_id": task_id,
+        "follow-up": selected,
+        "task_data": new_tasks_data[selected],
+        "prompt": prompt
+    }
+    payloads.append(payload)
 
     # Write all payloads into the same file as a JSON list
     out_path.write_text(json.dumps(payloads, indent=2))
 
 def create_for_V_MR1(task_id: int, out_path: Path, task_data, prompt, task_type):
     """V_MR1: Variation pattern add a negative statement in the prompt."""
-    num_variants=4
+    num_variants=1
     
     candidates = get_negative(prompt, num_variants)
 
@@ -464,17 +464,19 @@ def create_for_V_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
     mode="all8"
     new_tasks_data, directions=move_main_object(task_data, task_type, mode, prompt)
     payloads=[]
-    for i, task in enumerate(new_tasks_data):
-        task
-        payload = {
-            "mr": "V_MR2",
-            "task_id": task_id,
-            "follow-up": i,
-            "mvoement_type": directions[i],
-            "task_data": task,
-            "prompt": prompt
-        }
-        payloads.append(payload)
+    selected=random.randint(0,7)
+    
+    #for i, task in enumerate(new_tasks_data):
+        #task
+    payload = {
+        "mr": "V_MR2",
+        "task_id": task_id,
+        "follow-up": selected,
+        "mvoement_type": directions[selected],
+        "task_data": new_tasks_data[selected],
+        "prompt": prompt
+    }
+    payloads.append(payload)
     out_path.write_text(json.dumps(payloads, indent=2))
 
 # Map MR code -> function
@@ -533,21 +535,21 @@ def get_from_human_eval(model, dataset):
     file=result_folder+f"final_evaluations_{model}_{task_type}.xlsx"
     data= pd.read_excel(file)
 
-    high_samples = data[data['final_evaluation'] == 'High Quality'].sample(n=np.min([20,len(data[data['final_evaluation'] == 'High Quality'])]), random_state=RANDOM_SEED)
-    low_samples = data[data['final_evaluation'] == 'Low Quality'].sample(n=np.min([20,len(data[data['final_evaluation'] == 'Low Quality'])]), random_state=RANDOM_SEED)
-
-    sampled_df = pd.concat([high_samples, low_samples]).reset_index(drop=True)
+    high_samples = data[data['final_evaluation'] == 'High Quality']#.sample(n=np.min([20,len(data[data['final_evaluation'] == 'High Quality'])]), random_state=RANDOM_SEED)
+    low_samples = data[data['final_evaluation'] == 'Low Quality']#.sample(n=np.min([20,len(data[data['final_evaluation'] == 'Low Quality'])]), random_state=RANDOM_SEED)
+    meidum_samples = data[data['final_evaluation'] == 'Medium Quality']
+    sampled_df = pd.concat([high_samples, low_samples, meidum_samples]).reset_index(drop=True)
 
     selected_indexes=list(sampled_df['simulation'].str.extract(r'/(\d+)_simulation\.mp4')[0].astype(int))
     selected_qualities=list(sampled_df['final_evaluation'])
 
-    existing_indices = data['simulation'].str.extract(r'/(\d+)_simulation\.mp4')[0].astype(int)
-    all_indices = set(range(500))
-    missing_indices = list(all_indices - set(existing_indices))
-    sampled_missing = random.sample(missing_indices, k=20)
+    #existing_indices = data['simulation'].str.extract(r'/(\d+)_simulation\.mp4')[0].astype(int)
+    #all_indices = set(range(500))
+    #missing_indices = list(all_indices - set(existing_indices))
+    #sampled_missing = random.sample(missing_indices, k=20)
 
-    [selected_indexes.append(i)  for i in sampled_missing]
-    [selected_qualities.append('Failure')  for i in sampled_missing]
+    #[selected_indexes.append(i)  for i in sampled_missing]
+    #[selected_qualities.append('Failure')  for i in sampled_missing]
 
     return selected_indexes, selected_qualities
 
