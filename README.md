@@ -248,7 +248,7 @@ To generate the Follow-up test cases execute the following command:
 cd {this_repo}/experiments
 ./run_Follow_up_generator.sh <conda_env> <mode_name>
 ```
-To execute the Follow-up test cases on the model run the '''Follow_up_test_cases_launcher.py''' inside the file you can select the model, mrs and tasks to execute.
+To execute the Follow-up test cases on the model run the ```Follow_up_test_cases_launcher.py``` inside the file you can select the model, mrs and tasks to execute.
 
 ## Analyzing the results
 The result_analysis folder is composed as follows:
