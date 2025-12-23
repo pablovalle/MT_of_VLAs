@@ -201,3 +201,59 @@ cd {this_repo}/checkpoints
 python download_model.py youliangtan/gr00t-n1.5-bridge-posttrain
 python download_model.py youliangtan/gr00t-n1.5-fractal-posttrain
 ```
+
+### EO-1
+Create and activate the conda environment:
+```
+conda create -n <env_name> python=3.10 (any version above 3.10 should be fine)
+conda activate <env_name>
+```
+
+Install the lerobot environment and its packages:
+```
+cd {this_repo}
+git clone https://github.com/EO-Robotics/EO1.git
+pip install --upgrade setuptools
+pip install -e .
+pip install flash-attn==2.8.3 --no-build-isolation
+```
+
+Install numpy<2.0 (otherwise errors in IK might occur in pinocchio):
+```
+pip install numpy==1.24.4
+```
+
+Install ManiSkill2 real-to-sim environments and their dependencies:
+```
+cd {this_repo}/ManiSkill2_real2sim
+pip install -e .
+```
+
+Install this package:
+```
+cd {this_repo}
+pip install -e .
+```
+
+Download the model:
+```
+cd {this_repo}/checkpoints
+python download_model.py IPEC-COMMUNITY/eo1-qwen25_vl-fractal
+python download_model.py IPEC-COMMUNITY/eo1-qwen25_vl-bridge
+```
+
+## Running the code
+To generate the Follow-up test cases execute the following command:
+```
+cd {this_repo}/experiments
+./run_Follow_up_generator.sh <conda_env> <mode_name>
+```
+To execute the Follow-up test cases on the model run the '''Follow_up_test_cases_launcher.py''' inside the file you can select the model, mrs and tasks to execute.
+
+## Analyzing the results
+The result_analysis folder is composed as follows:
+- RQ1_result_analyzer.py: Generates an xlsx file with the results for RQ1 and RQ2
+- RQ1_Venn.py: Generates the Venn diagram of the paper
+- RQ1_heatmap_distances.py: Generates the heatmap of MR violations
+- MT_threshold_estimation.py: Makes the preliminary evaluation by showing the distribution of data along with the defined thresholds
+- RQ3.py: Selects the videos to be shown on the human evaluation.

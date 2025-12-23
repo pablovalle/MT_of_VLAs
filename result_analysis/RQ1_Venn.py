@@ -119,7 +119,7 @@ for threshold in thresholds:
     # Load and concat data
     array_of_dfs = []
     for model_res in os.listdir(mt_results_dir): 
-        data=pd.read_excel(f"result_analysis/RQ2_results_{model_res}.xlsx") 
+        data=pd.read_excel(f"result_analysis/RQ1_results_{model_res}.xlsx") 
         array_of_dfs.append(data) 
     df=pd.concat(array_of_dfs) 
     print(len(df))

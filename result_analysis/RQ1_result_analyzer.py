@@ -101,7 +101,7 @@ df = pd.DataFrame(results)
 
 
 # ---- Save to Excel ----
-output_path = f"result_analysis/RQ2_results_{model}.xlsx"
+output_path = f"result_analysis/RQ1_results_{model}.xlsx"
 df.to_excel(output_path, index=False)
 
 
