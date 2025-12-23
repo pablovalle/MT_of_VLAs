@@ -14,17 +14,6 @@ LOW  = np.array([-1.0, -1.0, -1.0, -1.5707964, -1.5707964, -1.5707964, -1.0])
 HIGH = np.array([ 1.0,  1.0,  1.0,  1.5707964,  1.5707964,  1.5707964,  1.0])
 
 def getTrajectory(path):
-    """
-    Loads a trajectory json file containing normalized 7D vectors and
-    returns a list of *unnormalized* 7D vectors, each as a tuple.
-
-    Format of each entry in the JSON:
-    [
-      x, y, z,
-      rx, ry, rz,
-      gripper
-    ]
-    """
 
     with open(path, "r") as f:
         data = json.load(f)
@@ -53,7 +42,7 @@ def getVerdict(path):
 
 def calcualteOracleMR(verdict_orig, verdict_mt, mr):
     verdict=0
-    if mr =="V_MR1":
+    if mr =="MR4":
         if verdict_orig!=verdict_mt:
             verdict=1
     else:
@@ -63,8 +52,8 @@ def calcualteOracleMR(verdict_orig, verdict_mt, mr):
     return verdict
 results = []
 
-base_dir = "results_original"
-model="gr00t"
+base_dir = "results"
+model="eo1"
 mt_results_dir="FollowUp_Results"
 task_mapping={"grasp":"t-grasp_n-1000_o-m3_s-2498586606","move":"t-move_n-1000_o-m3_s-2263834374",
               "put-in":"t-put-in_n-1000_o-m3_s-2905191776","put-on":"t-put-on_n-1000_o-m3_s-2593734741"}
@@ -76,7 +65,8 @@ for model_res in os.listdir(mt_results_dir):
             for task in os.listdir(os.path.join(task_path, mr)):
                 for task_id in os.listdir(os.path.join(task_path, mr, task)):
                     for follow_up_num in os.listdir(os.path.join(task_path, mr, task,task_id)):
-                        
+                        if task_id != "task_412" or mr != "MR3" or task != "put-in":
+                            continue
                         mt_curr_folder=os.path.join(task_path, mr, task,task_id,follow_up_num)
                         orig_folder=os.path.join(base_dir,task_mapping[task],model_res,"allMetrics", task_id.split("_")[-1])
                         print(f"Evaluating {mt_curr_folder}")
@@ -109,12 +99,14 @@ for model_res in os.listdir(mt_results_dir):
 
 df = pd.DataFrame(results)
 
+
 # ---- Save to Excel ----
 output_path = f"result_analysis/RQ2_results_{model}.xlsx"
 df.to_excel(output_path, index=False)
 
 
 df["task_mr"] = df["task"] + " | " + df["mr"]
+
 
 # Palette for relation_verdict: 0=blue, 1=orange
 verdict_palette = {0: "#4C72B0", 1: "#DD8452"}
