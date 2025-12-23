@@ -74,7 +74,7 @@ class VLAInterface:
             self.policy_setup = "widowx_bridge"
         if "openvla" in model_name:
             from simpler_env.policies.openvla.openvla_model import OpenVLAInference
-            self.model = OpenVLAInference(model_type='../checkpoints/openvla-7b', policy_setup=self.policy_setup)
+            self.model = OpenVLAInference(model_type='checkpoints/openvla-7b', policy_setup=self.policy_setup)
             #self.followUpModel = OpenVLAInference(model_type=model_name, policy_setup=self.policy_setup)
            # self.variability_models=[OpenVLAInference(model_type='../checkpoints/openvla-7b' , policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             
@@ -103,7 +103,15 @@ class VLAInterface:
                     model_path = "../checkpoints/gr00t-n1.5-fractal-posttrain"
                 self.model = Gr00tInference(saved_model_path=model_path, policy_setup=self.policy_setup)
                # self.variability_models=[Gr00tInference(saved_model_path=model_path, policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
-            
+        elif "eo1" in model_name:
+                from simpler_env.policies.eo1.eo1_model import EOInference
+                if self.policy_setup == "widowx_bridge":
+                    model_path = "../checkpoints/eo1-qwen25_vl-bridge"
+                else:
+                    model_path = "../checkpoints/eo1-qwen25_vl-fractal"
+                self.model = EOInference(saved_model_path=model_path, policy_setup=self.policy_setup)
+               # self.variability_models=[Gr00tInference(saved_model_path=model_path, policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
+                
         else:
             raise ValueError(model_name)
 
@@ -113,7 +121,8 @@ class VLAInterface:
         env = simpler_env.make(self.task)
         obs, reset_info = env.reset(seed=seed, options=options)
         instruction = env.unwrapped.get_language_instruction()
-        self.model.reset(prompt)
+        if prompt is not None:
+            self.model.reset(prompt)
 
        # [self.variability_models[i].reset(instruction) for i in range(0, len(self.variability_models))]
         image = get_image_from_maniskill2_obs_dict(env, obs)  # np.ndarray of shape (H, W, 3), uint8
@@ -157,7 +166,7 @@ class VLAInterface:
         while not (predicted_terminated or truncated):
             init_time = time.time()
             # step the model; "raw_action" is raw model action output; "action" is the processed action to be sent into maniskill env
-            if "pi0" in self.model_name or "gr00t" in self.model_name:
+            if "pi0" in self.model_name or "gr00t" in self.model_name or "eo1" in self.model_name:
                 raw_action, action = self.model.step(image, instruction, eef_pos=obs["agent"]["eef_pos"])
             elif "spatialvla" in self.model_name:
                 raw_action, action = self.model.step(image, instruction)
@@ -167,6 +176,7 @@ class VLAInterface:
             obs, reward, success, truncated, info = env.step(
                 np.concatenate([action["world_vector"], action["rot_axangle"], action["gripper"]])
             )
+
             print(timestep, info)
             tcp_pose = obs['extra']['tcp_pose']
             tcp_poses.append(tcp_pose.tolist())

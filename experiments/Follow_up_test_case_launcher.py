@@ -14,8 +14,8 @@ import subprocess
 import simpler_env
 from simpler_env.utils.env.observation_utils import get_image_from_maniskill2_obs_dict
 from PIL import Image
-#torch.backends.cuda.enable_mem_efficient_sdp(False)
-#torch.backends.cuda.enable_flash_sdp(False)
+torch.backends.cuda.enable_mem_efficient_sdp(False)
+torch.backends.cuda.enable_flash_sdp(False)
 
 #os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 #os.environ.setdefault("VK_ICD_FILENAMES", "/usr/share/vulkan/icd.d/nvidia_icd.json")
@@ -25,7 +25,7 @@ from PIL import Image
 
 # Setup paths
 PACKAGE_DIR = Path(__file__).parent.resolve()
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:32"
+#os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:32"
 class StableJSONizer(json.JSONEncoder):
     def default(self, obj):
         return super().encode(bool(obj)) \
@@ -38,7 +38,7 @@ if __name__ == '__main__':
     task_data="data/FollowUp/"
     mrs=["C_MR1", "C_MR2", "V_MR1", "V_MR2"]
     tasks=["grasp","move", "put-in", "put-on"]#, "grasp","move", "put-in", "put-on"]
-
+    model="spatialvla-4b"
     
     for task_type in tasks:
         if task_type=='grasp':
@@ -50,9 +50,9 @@ if __name__ == '__main__':
         elif task_type=="put-in":
             base_env="widowx_put_in_customizable"
         vla=None
-        vla = VLAInterface(model_name="spatialvla-4b", task=base_env,  instability_methods=['position_instability','velocity_instability', 'acceleration_instability'])
+        vla = VLAInterface(model_name=model, task=base_env,  instability_methods=['position_instability','velocity_instability', 'acceleration_instability'])
         for mr in mrs:
-            n_scenarios=[f.path for f in os.scandir(f"{task_data}spatialvla-4b/{mr}/{task_type}")if f.is_file()]     
+            n_scenarios=[f.path for f in os.scandir(f"{task_data}{model}/{mr}/{task_type}")if f.is_file()]     
             for scenario in n_scenarios:
                 file=scenario
                # file=f"{task_data}pi0/{mr}/{task_type}/task_{i}.json"
@@ -63,7 +63,7 @@ if __name__ == '__main__':
                     print(f"\n\n Evaluating MR {mr} in task {task_type} for environment {i} the {j}-th time")
                     options=task[j]['task_data']
                     prompt=task[j]['prompt']
-                    result_dir=f"FollowUp_Results/spatialvla-4b/{mr}/{task_type}/task_{i}/follow_up_{j}"
+                    result_dir=f"FollowUp_Results/{model}/{mr}/{task_type}/task_{i}/follow_up_{j}"
                     if os.path.exists(result_dir):
                         continue
                     os.makedirs(result_dir, exist_ok=True)

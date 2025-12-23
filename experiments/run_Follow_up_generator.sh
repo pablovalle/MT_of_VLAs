@@ -35,7 +35,7 @@ conda activate "$conda_env" || {
 }
 
 # Define model list
-models=(openvla-7b spatialvla-4b pi0 gr00t)
+models=(openvla-7b spatialvla-4b pi0 gr00t eo1)
 if [[ -n "$specific_model" ]]; then
   echo -e "${BLUE}➤ Running only for model: ${YELLOW}${specific_model}${NC}"
   models=("$specific_model")
