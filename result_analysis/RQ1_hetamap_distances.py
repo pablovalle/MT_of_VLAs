@@ -7,7 +7,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as pe
 import numpy as np
-
+import math
+OFFSET=math.sqrt(0.1**2+0.1**2)
 
 
 def getVerdict(path):
@@ -86,9 +87,9 @@ def detect_dist(row, threshold):
         else:
             return 1
     if row["mr"] == "MR5":
-        if threshold==0.3: threshold=0.1 
-        elif threshold==0.1: threshold=0.3
-        if row["relation_distance"]< threshold: #or row["relation_verdict"]> 2*threshold:
+        #if threshold==0.3: threshold=0.1 
+        #elif threshold==0.1: threshold=0.3
+        if row["relation_distance"]< OFFSET-threshold*0.5 or row["relation_distance"] > OFFSET+threshold*0.85:
             return 0
         else:
             return 1
@@ -110,7 +111,7 @@ for threshold in thresholds:
     # Load and concat data
     array_of_dfs = []
     for model_res in os.listdir(mt_results_dir): 
-        data=pd.read_excel(f"result_analysis/RQ2_results_{model_res}.xlsx") 
+        data=pd.read_excel(f"result_analysis/RQ1_results_{model_res}.xlsx") 
         array_of_dfs.append(data) 
     df=pd.concat(array_of_dfs) 
     print(len(df))
@@ -175,7 +176,7 @@ sns.heatmap(
     vmin=0,
     vmax=100,
     cbar_kws={"label": "MR Violation Rate (%)", "aspect": 40, "pad": 0.02},
-    annot_kws={"fontweight": "bold"}
+    #annot_kws={"fontweight": "bold"}
 )
 
 # Vertical separators between models

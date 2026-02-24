@@ -10,7 +10,8 @@ import matplotlib
 import numpy as np
 from matplotlib_venn import venn2
 from matplotlib.lines import Line2D
-
+import math
+OFFSET=math.sqrt(0.1**2+0.1**2) # 0.1 is the distance used in the follow-up generation code
 
 
 def getVerdict(path):
@@ -89,9 +90,8 @@ def detect_dist(row, threshold):
         else:
             return 1
     if row["mr"] == "MR5":
-        if threshold==0.3: threshold=0.1 
-        elif threshold==0.1: threshold=0.3
-        if row["relation_distance"]< threshold: #or row["relation_verdict"]> 2*threshold:
+        
+        if row["relation_distance"]< OFFSET-threshold*0.5 or row["relation_distance"] > OFFSET+threshold*0.85:
             return 0
         else:
             return 1
@@ -146,6 +146,7 @@ for threshold in thresholds:
     # Add threshold column
     summary["Threshold"] = threshname
 
+    print(f"\n\nEvaluating for threshold: {threshname}")
     all_rows.append(summary)
     output_cols = ["model", "task", "scene_id", "mr", "follow_up_num"]
 
@@ -162,8 +163,8 @@ for threshold in thresholds:
 
     # Save Case A
     result_a.to_excel(f"case_oracle_only_{threshname}.xlsx", index=False)
-    print(f"Saved Case A with {len(result_a)} rows.")
-    print(len(result_a))
+    print(f"Detected only by the oracle:  {len(result_a)}")
+    #print(len(result_a))
     # 4. Filter for Case B: Oracle=1, Precision=0, Zero=0
     group_b = df[
         (df["dist_mr"] == 0) & 
@@ -176,8 +177,12 @@ for threshold in thresholds:
 
     # Save Case B
     result_b.to_excel(f"case_mr_only_{threshname}.xlsx", index=False)
-    print(f"Saved Case B with {len(result_b)} rows.")
-    print(len(result_b))
+    print(f"Detected only by MT {len(result_b)}")
+    
+    print(f"Detected by both: {summary['precision_counts'].sum()}")
+    
+    print(f"TOTAL:{summary['precision_counts'].sum()+len(result_b)+len(result_a)} ")
+    #print(len(result_b))
 
 # Concatenate all thresholds
 full_summary = pd.concat(all_rows, ignore_index=True)

@@ -7,11 +7,11 @@ import shutil
 import matplotlib.pyplot as plt
 import numpy as np
 
-data_eo1=pd.read_excel("result_analysis/RQ2_results_eo1.xlsx")
-data_gr00t=pd.read_excel("result_analysis/RQ2_results_gr00t.xlsx")
-data_openvla=pd.read_excel("result_analysis/RQ2_results_openvla-7b.xlsx")
-data_pi0=pd.read_excel("result_analysis/RQ2_results_pi0.xlsx")
-data_spatialvla=pd.read_excel("result_analysis/RQ2_results_spatialvla-4b.xlsx")
+data_eo1=pd.read_excel("result_analysis/RQ1_results_eo1.xlsx")
+data_gr00t=pd.read_excel("result_analysis/RQ1_results_gr00t.xlsx")
+data_openvla=pd.read_excel("result_analysis/RQ1_results_openvla-7b.xlsx")
+data_pi0=pd.read_excel("result_analysis/RQ1_results_pi0.xlsx")
+data_spatialvla=pd.read_excel("result_analysis/RQ1_results_spatialvla-4b.xlsx")
 
 
 all_data = pd.concat([data_eo1, data_gr00t, data_openvla, data_pi0, data_spatialvla], ignore_index=True)

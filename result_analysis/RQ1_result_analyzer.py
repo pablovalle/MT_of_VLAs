@@ -62,17 +62,19 @@ for model_res in os.listdir(mt_results_dir):
     if model_res==model:
         task_path = os.path.join(mt_results_dir, model_res)
         for mr in os.listdir(task_path):
+            if mr!='MR5':
+                continue
             for task in os.listdir(os.path.join(task_path, mr)):
                 for task_id in os.listdir(os.path.join(task_path, mr, task)):
                     for follow_up_num in os.listdir(os.path.join(task_path, mr, task,task_id)):
-                        if task_id != "task_412" or mr != "MR3" or task != "put-in":
-                            continue
+                        #if task_id != "task_412" or mr != "MR3" or task != "put-in":
+                        #    continue
+                        
                         mt_curr_folder=os.path.join(task_path, mr, task,task_id,follow_up_num)
                         orig_folder=os.path.join(base_dir,task_mapping[task],model_res,"allMetrics", task_id.split("_")[-1])
                         print(f"Evaluating {mt_curr_folder}")
                         mt_tcp_path=os.path.join(mt_curr_folder,'tcp_poses.json')
                         orig_tcp_path=os.path.join(orig_folder,'tcp_poses.json')
-
                         traj_mt=getTrajectory(mt_tcp_path)
                         traj_orig=getTrajectory(orig_tcp_path)
 
