@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 189,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.19070828430299158,
+            0.10407540943434186
+          ],
+          "init_rot_quat": [
+            0.6169522926500368,
+            0.0,
+            0.0,
+            -0.7870005518383474
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "place  the 7up can into the yellow basket"
+  }
+]

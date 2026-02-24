@@ -1,0 +1,120 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 225,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "bridge_plate_objaverse",
+        "bridge_spoon_generated_modified",
+        "opened_redbull_can",
+        "yellow_cube_3cm",
+        "orange",
+        "blue_plastic_bottle",
+        "bridge_plate_objaverse_larger"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.04201694840239528,
+            0.03470676523447333
+          ],
+          "init_rot_quat": [
+            0.7175576738726065,
+            0.0,
+            0.0,
+            -0.6964990916480324
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.2805113981526439,
+            -0.08359506506197491
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.13543772454996358,
+            -0.0697805399874386
+          ],
+          "init_rot_quat": [
+            0.7725386431156978,
+            0.0,
+            0.0,
+            0.634967751065325
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.2294868148805127,
+            0.05871294030848337
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.28849432146197546,
+            0.06335771007927218
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.1001584420246735,
+            0.08337797240495379
+          ],
+          "init_rot_quat": [
+            0.48425116430780996,
+            0.010045066973220254,
+            -0.08253756223368776,
+            0.8709692631296204
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.08112323953597483,
+            -0.07845395238212492
+          ],
+          "init_rot_quat": [
+            0.47106772029516863,
+            0.4255315217474711,
+            -0.7186966169106977,
+            -0.2837134112732636
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.2645650649092796,
+            0.10683556125369212
+          ],
+          "init_rot_quat": [
+            -0.3988873156569539,
+            -0.30224751785475784,
+            0.7417928765816943,
+            0.4464064018484531
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the plate"
+  }
+]

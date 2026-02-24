@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 498,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "dummy_sink_target_plane",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.1,
+            0.15059352076568044
+          ],
+          "init_rot_quat": [
+            0.2519918567562946,
+            0.0,
+            0.0,
+            0.9677293547932269
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.10973938006536785,
+            0.11078002451278185
+          ],
+          "init_rot_quat": [
+            0.8852213847032067,
+            0.0,
+            0.0,
+            0.4651699690050266
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube into the yellow basket"
+  }
+]

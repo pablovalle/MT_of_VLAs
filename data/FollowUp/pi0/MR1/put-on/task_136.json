@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 136,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "table_cloth_generated"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.024567575074898373,
+            -0.03897833681372885
+          ],
+          "init_rot_quat": [
+            0.686632161090433,
+            0.0,
+            0.0,
+            0.7270050036666059
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.19057771554715935,
+            -0.0908984889482967
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "place  the redbull can on the table cloth"
+  }
+]

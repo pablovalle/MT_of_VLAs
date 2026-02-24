@@ -1,0 +1,67 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 363,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_id": "bridge_spoon_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.22119264623922805,
+          0.1712169288792284
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "sprite_can",
+        "bridge_carrot_generated_modified",
+        "yellow_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.21050175468726806,
+            0.20290017844817065
+          ],
+          "init_rot_quat": [
+            0.15930931414884777,
+            0.0,
+            0.0,
+            -0.9872287183958051
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.19934958879544112,
+            0.31749028907233257
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.1694854167277614,
+            0.2579336356454949
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "pick spoon"
+  }
+]

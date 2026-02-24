@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 256,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "dummy_sink_target_plane",
+        "sink",
+        "table_cloth_generated_shorter",
+        "bridge_plate_objaverse_larger",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.14431675420639717,
+            0.15113533905080223
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.16805527552540728,
+            0.19545522432632512
+          ],
+          "init_rot_quat": [
+            0.3575472319954794,
+            -0.10494437925333053,
+            0.331470948231871,
+            0.866760442471718
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.11404860433670012,
+            0.19453054530897404
+          ],
+          "init_rot_quat": [
+            0.8508164272285011,
+            0.5054173504670388,
+            0.1415670978244377,
+            -0.02496929751861558
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.18896378724305005,
+            0.1790156498325865
+          ],
+          "init_rot_quat": [
+            0.4935787994692464,
+            0.5712502106185052,
+            0.5388042671059267,
+            -0.37382232053644954
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.19464939475589824,
+            0.1216269073973046
+          ],
+          "init_rot_quat": [
+            -0.21018317310358195,
+            -0.8285899704566496,
+            -0.4572871391108055,
+            0.2452553098438705
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot into the yellow basket"
+  }
+]

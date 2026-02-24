@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 179,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "green_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.22376382035140607,
+          0.2705765536049873
+        ],
+        "orientation": [
+          0.8191162526205865,
+          0.0,
+          0.0,
+          -0.5736275487568632
+        ]
+      },
+      "distractor_model_ids": [
+        "apple"
+      ],
+      "distractor_obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.18414054841952582,
+            0.25276545840060005
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "cease picking green cube"
+  }
+]

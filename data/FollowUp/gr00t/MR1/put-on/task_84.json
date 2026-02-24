@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 84,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "table_cloth_generated",
+        "coke_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.15449144609576423,
+            0.07742087491667007
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.24471053842000995,
+            -0.11218315181000571
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.1576899487319644,
+            0.007490945880503391
+          ],
+          "init_rot_quat": [
+            0.9612392791745263,
+            0.0,
+            0.0,
+            0.2757155203684352
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.06486437055710614,
+            0.06907343552144787
+          ],
+          "init_rot_quat": [
+            0.558237603484495,
+            0.0,
+            0.0,
+            -0.8296811303482126
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "position the redbull can on the table cloth"
+  }
+]

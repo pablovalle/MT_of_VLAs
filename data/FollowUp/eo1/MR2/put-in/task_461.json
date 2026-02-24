@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 461,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "dummy_sink_target_plane",
+        "yellow_cube_3cm",
+        "opened_pepsi_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.10784420617237235,
+            0.16764808423964578
+          ],
+          "init_rot_quat": [
+            0.4285960378037548,
+            0.0,
+            0.0,
+            0.903496229310849
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.17229704272106894,
+            0.15590241810623023
+          ],
+          "init_rot_quat": [
+            0.047628018894645234,
+            0.17658175610477547,
+            -0.5299849852519065,
+            -0.8280497392274581
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.17830812793943826,
+            0.18020078789488558
+          ],
+          "init_rot_quat": [
+            0.3925561587196333,
+            -0.1935531683572473,
+            -0.44102988141155613,
+            -0.7835365192333194
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1813855853819835,
+            0.1765352839534289
+          ],
+          "init_rot_quat": [
+            -0.800392209956953,
+            0.1068090394055768,
+            -0.4859097829910373,
+            0.33444853435930305
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

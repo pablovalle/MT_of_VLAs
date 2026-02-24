@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 134,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "bridge_plate_objaverse",
+        "bridge_carrot_generated_modified",
+        "opened_pepsi_can",
+        "opened_fanta_can",
+        "sprite_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.20179803944030852,
+            -0.0879241840194948
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.04526578394343156,
+            -0.03376071276689885
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.0959504732144528,
+            -0.15816693447690353
+          ],
+          "init_rot_quat": [
+            0.7423325801177906,
+            0.0,
+            0.0,
+            -0.6700315966397884
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.04136022307680143,
+            -0.09729265573356931
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.21727557252420313,
+            0.10954337332766115
+          ],
+          "init_rot_quat": [
+            -0.25647252386919117,
+            -0.06982714744403896,
+            -0.865083249808109,
+            0.42541389831719945
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.24386398944516544,
+            -0.1220949862558446
+          ],
+          "init_rot_quat": [
+            0.4898655239319747,
+            -0.37704818374191607,
+            0.1347596428428826,
+            -0.7744070468820857
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.06256421205258778,
+            0.02477189746837896
+          ],
+          "init_rot_quat": [
+            0.11525183258089844,
+            0.16305425204028384,
+            -0.9573851892798027,
+            0.20867181248555025
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube on the plate"
+  }
+]

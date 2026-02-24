@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 496,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "sponge",
+        "opened_redbull_can",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.32548115559623975,
+            0.10408815662148325
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.06135315316720355,
+            0.4
+          ],
+          "init_rot_quat": [
+            0.37718541703422637,
+            0.0,
+            0.0,
+            0.9261377657652865
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.3971147176466384,
+            0.3077558696185062
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.12036688336961376,
+            0.14613102588178153
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 3
+    },
+    "prompt": "move sponge near fanta can"
+  }
+]

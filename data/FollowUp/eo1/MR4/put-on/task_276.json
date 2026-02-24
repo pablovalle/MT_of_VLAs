@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 276,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "bridge_plate_objaverse_larger",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.08424050986105408,
+            -0.10158666554742524
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.24684671818512396,
+            -0.0008502904504373576
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12609394384896933,
+            -0.15573235647126557
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop from puting the coke can on the plate larger"
+  }
+]

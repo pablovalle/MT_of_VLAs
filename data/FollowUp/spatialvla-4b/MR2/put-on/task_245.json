@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 245,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "table_cloth_generated",
+        "opened_pepsi_can",
+        "sponge",
+        "table_cloth_generated_shorter",
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.15562955385799493,
+            0.05421740287787041
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.10195708595726913,
+            0.007561840397362324
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.2308295338350265,
+            0.017183732453199624
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.28198765331407494,
+            -0.05509205224331086
+          ],
+          "init_rot_quat": [
+            0.9256751456152642,
+            0.0,
+            0.0,
+            0.37831934234210046
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.04076665683201458,
+            0.10692017709983562
+          ],
+          "init_rot_quat": [
+            0.3986029279837556,
+            -0.017983449542855374,
+            0.7105783827646242,
+            -0.57954349560057
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.21780112788078104,
+            -0.06769446515173629
+          ],
+          "init_rot_quat": [
+            0.051009913328569245,
+            -0.9843062703036449,
+            -0.03736862146763727,
+            0.16475054207118195
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.08753755205733502,
+            0.03752013104448654
+          ],
+          "init_rot_quat": [
+            0.6306884896970029,
+            -0.3647015818355686,
+            0.18213187873868084,
+            -0.6603429138844954
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the table cloth"
+  }
+]

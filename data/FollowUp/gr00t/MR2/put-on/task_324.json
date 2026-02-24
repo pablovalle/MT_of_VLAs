@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 324,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "table_cloth_generated",
+        "pepsi_can",
+        "bridge_spoon_generated_modified",
+        "green_cube_3cm",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.14817794839105028,
+            -0.05489882100553345
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.29561833237755436,
+            0.06472438793211491
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.07418506244755088,
+            0.0551897309865568
+          ],
+          "init_rot_quat": [
+            0.8589179104708272,
+            0.0,
+            0.0,
+            -0.5121132912475793
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.23482083966008208,
+            -0.04880306345562427
+          ],
+          "init_rot_quat": [
+            -0.30159553903890207,
+            -0.5924113813781914,
+            -0.4194055239488153,
+            0.6182134684125192
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.04578027193207729,
+            -0.043050468645766296
+          ],
+          "init_rot_quat": [
+            -0.1870761998410225,
+            0.5697119137229094,
+            -0.3553703142590869,
+            0.717037495922368
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.09544992911486663,
+            -0.0513806645152987
+          ],
+          "init_rot_quat": [
+            0.09927813269342439,
+            -0.9019927001922216,
+            0.4129439904313598,
+            0.07765488996500482
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube on the table cloth"
+  }
+]

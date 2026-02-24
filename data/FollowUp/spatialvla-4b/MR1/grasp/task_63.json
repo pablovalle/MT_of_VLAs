@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 63,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.10590629479193825,
+          0.23746630337289992
+        ],
+        "orientation": [
+          0.1226219257949866,
+          0.0,
+          0.0,
+          0.9924534564977487
+        ]
+      },
+      "distractor_model_ids": [
+        "sprite_can",
+        "sponge"
+      ],
+      "distractor_obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.3154058178144812,
+            0.3840012776254346
+          ],
+          "init_rot_quat": [
+            0.03930055133768119,
+            0.0,
+            0.0,
+            -0.9992274349038632
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.24720509043882938,
+            0.1378826149951285
+          ],
+          "init_rot_quat": [
+            0.9305766110122841,
+            0.0,
+            0.0,
+            -0.36609721528153155
+          ]
+        }
+      }
+    },
+    "prompt": "lift  coke can"
+  }
+]

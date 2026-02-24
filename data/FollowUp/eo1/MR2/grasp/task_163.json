@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 163,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "orange",
+      "obj_init_options": {
+        "init_xy": [
+          -0.24182676445471357,
+          0.21207888272391104
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_coke_can",
+        "bridge_spoon_generated_modified",
+        "blue_plastic_bottle"
+      ],
+      "distractor_obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.23354990420745986,
+            0.09034141370989315
+          ],
+          "init_rot_quat": [
+            0.9999955646665202,
+            0.0,
+            0.0,
+            0.002978363189327974
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.0617012441894359,
+            0.27985652061682614
+          ],
+          "init_rot_quat": [
+            -0.5595132270013645,
+            -0.7960555731782338,
+            0.10925175218304703,
+            0.20323515411298088
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.20186270637592424,
+            0.3635020877295962
+          ],
+          "init_rot_quat": [
+            -0.8218179209832882,
+            -0.10256885712461954,
+            -0.5534542431098872,
+            0.08822321169917456
+          ]
+        }
+      }
+    },
+    "prompt": "pick orange"
+  }
+]

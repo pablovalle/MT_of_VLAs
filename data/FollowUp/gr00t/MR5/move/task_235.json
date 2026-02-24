@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 235,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "sprite_can",
+        "opened_pepsi_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.2798603394202194,
+            0.13983465412262738
+          ],
+          "init_rot_quat": [
+            0.9674500718187428,
+            0.0,
+            0.0,
+            -0.2530619658066171
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.11144130454682682,
+            0.19077567884096866
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.4561097176953546,
+            0.27331499983248275
+          ],
+          "init_rot_quat": [
+            0.7469309429792771,
+            0.0,
+            0.0,
+            0.6649016216103611
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.123995708012754,
+            0.28785753024040217
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 1
+    },
+    "prompt": "move blue plastic bottle near sprite can"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 253,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.12501485331818835,
+            0.18840755819367727
+          ],
+          "init_rot_quat": [
+            0.9917888970142903,
+            0.0,
+            0.0,
+            0.12788582313602062
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "bring  the redbull can into the yellow basket"
+  }
+]

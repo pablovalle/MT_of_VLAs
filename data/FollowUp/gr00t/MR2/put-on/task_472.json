@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 472,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "bridge_plate_objaverse_larger",
+        "redbull_can",
+        "apple"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.010970027255112369,
+            0.02122371509992385
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.26820372668104037,
+            0.03660106462934712
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.0966040307832815,
+            0.04212959496489069
+          ],
+          "init_rot_quat": [
+            0.6341068978694588,
+            0.5718273332196919,
+            0.34466623934358026,
+            -0.3900347760315495
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.15571731350274037,
+            -0.03208290350043641
+          ],
+          "init_rot_quat": [
+            0.14093330821222394,
+            0.7550499505651249,
+            0.5068578428939939,
+            0.3913214815018568
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the plate larger"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 169,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "table_cloth_generated",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.01925664638162322,
+            -0.04541772446222392
+          ],
+          "init_rot_quat": [
+            0.6172154593881183,
+            0.0,
+            0.0,
+            0.7867941768291845
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.28789051452787434,
+            0.07037833066891042
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.033769790828115154,
+            0.01719495586323555
+          ],
+          "init_rot_quat": [
+            0.6036678229545697,
+            0.0,
+            0.0,
+            -0.7972359497220948
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move  the pepsi can on the table cloth"
+  }
+]

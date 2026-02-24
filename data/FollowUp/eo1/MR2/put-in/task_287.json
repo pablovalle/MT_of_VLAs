@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 287,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "dummy_sink_target_plane",
+        "blue_plastic_bottle",
+        "yellow_cube_3cm",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.1560149177962233,
+            0.16065756511568138
+          ],
+          "init_rot_quat": [
+            0.28541112665984225,
+            0.0,
+            0.0,
+            -0.9584051798580595
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.11362945454587292,
+            0.1117822185354055
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.1898737189635753,
+            0.12255133851123647
+          ],
+          "init_rot_quat": [
+            -0.23657627086784067,
+            -0.1377457225058087,
+            0.6836034919175528,
+            -0.6765678456974934
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.18310856578227044,
+            0.11370359425354859
+          ],
+          "init_rot_quat": [
+            -0.5294261026868011,
+            -0.4425284929574575,
+            -0.6208274053343941,
+            -0.3720885210543725
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant into the yellow basket"
+  }
+]

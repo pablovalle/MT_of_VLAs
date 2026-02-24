@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 306,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane",
+        "orange",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.2,
+            0.2
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.18659201127617736,
+            0.13587797333970097
+          ],
+          "init_rot_quat": [
+            0.27980645102251345,
+            0.0,
+            0.0,
+            -0.9600564306155059
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.15159726491107997,
+            0.19991972320853046
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle into the yellow basket"
+  }
+]

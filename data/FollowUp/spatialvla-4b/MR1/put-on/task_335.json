@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 335,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "bridge_plate_objaverse",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.04023306196011428,
+            -0.10782014906293153
+          ],
+          "init_rot_quat": [
+            0.911027658136296,
+            0.0,
+            0.0,
+            -0.4123452511072439
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.20950951722035693,
+            -0.08663292572583561
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.21247984444457774,
+            -0.13990994501530415
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "could you put  the blue plastic bottle on the plate"
+  }
+]

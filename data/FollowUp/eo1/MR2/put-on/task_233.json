@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 233,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "dummy_sink_target_plane",
+        "table_cloth_generated",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.1900641594595959,
+            -0.0034463178240203007
+          ],
+          "init_rot_quat": [
+            0.99476190641401,
+            0.0,
+            0.0,
+            -0.10221912515554268
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12366973949345847,
+            -0.13747316259010425
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.17610804763309054,
+            0.10315285941910493
+          ],
+          "init_rot_quat": [
+            0.29123416447261746,
+            0.510249039075085,
+            0.22583965097826675,
+            -0.7770617939474977
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.09653054990764545,
+            0.017535477713509717
+          ],
+          "init_rot_quat": [
+            -0.595887249288656,
+            -0.7575635479363719,
+            0.2396411707274925,
+            0.11656743226824683
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.27486672990976074,
+            0.0581804600775174
+          ],
+          "init_rot_quat": [
+            -0.2877509131002463,
+            0.7340433431331231,
+            0.5919004449482614,
+            0.16743251082741614
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the plate larger"
+  }
+]

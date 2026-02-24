@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 482,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "bridge_plate_objaverse",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.16763352686509536,
+            -0.008321345135065661
+          ],
+          "init_rot_quat": [
+            0.9888746879829002,
+            0.0,
+            0.0,
+            -0.14875097131354004
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.19700993941528605,
+            -0.020332436083779187
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.2906971538205708,
+            0.009869551634252904
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can on the plate"
+  }
+]

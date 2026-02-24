@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 209,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "dummy_sink_target_plane",
+        "opened_fanta_can",
+        "eggplant",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.13928563971112468,
+            0.14076162731857828
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1457402842477725,
+            0.12936226542051937
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.15031017770713187,
+            0.17152733665691056
+          ],
+          "init_rot_quat": [
+            0.7732503731721686,
+            0.0,
+            0.0,
+            -0.6341008282513926
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.15901072922478687,
+            0.13303078000972263
+          ],
+          "init_rot_quat": [
+            0.7540343888083096,
+            0.0,
+            0.0,
+            -0.6568349415907158
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "let's put  the apple into the yellow basket"
+  }
+]

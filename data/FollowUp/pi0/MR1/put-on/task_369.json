@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 369,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "table_cloth_generated_shorter",
+        "7up_can",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.19561154606626385,
+            -0.019645487934938116
+          ],
+          "init_rot_quat": [
+            0.5513108499802543,
+            0.0,
+            0.0,
+            0.8342999141160508
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.01985648121870559,
+            0.006826667822734833
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.15602127780590233,
+            0.04112987691537587
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.22612646745076054,
+            0.09375747252527525
+          ],
+          "init_rot_quat": [
+            0.9608969969752945,
+            0.0,
+            0.0,
+            -0.2769060512229027
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "set  the redbull can on the table cloth shorter"
+  }
+]

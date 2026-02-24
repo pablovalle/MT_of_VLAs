@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 147,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "green_cube_3cm",
+        "blue_plastic_bottle",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.49473615964569395,
+            0.16954415019191504
+          ],
+          "init_rot_quat": [
+            0.5656713806691549,
+            0.0,
+            0.0,
+            -0.824630759244313
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.2392087805228486,
+            0.3783246464775046
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1489319512523673,
+            0.16735923146626283
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.3571727742825672,
+            0.04287409765878252
+          ],
+          "init_rot_quat": [
+            0.6668247373339024,
+            0.0,
+            0.0,
+            0.7452145796209118
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 3
+    },
+    "prompt": "can you move  blue plastic bottle near carrot"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 428,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.46649066351075946,
+          0.2074811615735575
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "apple",
+        "orange"
+      ],
+      "distractor_obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.19389438685219784,
+            0.10528448874912405
+          ],
+          "init_rot_quat": [
+            0.8419050901562627,
+            0.0,
+            0.0,
+            0.5396256287177019
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.3896255595415553,
+            0.1818327763840152
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "hold back from picking yellow cube"
+  }
+]

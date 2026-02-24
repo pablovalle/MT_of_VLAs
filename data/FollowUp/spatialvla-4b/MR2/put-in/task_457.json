@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 457,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "dummy_sink_target_plane",
+        "pepsi_can",
+        "bridge_plate_objaverse",
+        "table_cloth_generated"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.14191790868069537,
+            0.17982609800053612
+          ],
+          "init_rot_quat": [
+            0.23784534149836606,
+            0.0,
+            0.0,
+            -0.9713030389778082
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1291604733400169,
+            0.120790098653896
+          ],
+          "init_rot_quat": [
+            0.24482471620373467,
+            -0.49421032059295095,
+            -0.1536865431237059,
+            0.8198764930267599
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.10408625450507775,
+            0.12366171028464906
+          ],
+          "init_rot_quat": [
+            -0.5331093118927381,
+            -0.6202695484189046,
+            -0.2217030287810578,
+            0.5309500126252612
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.16711580940710347,
+            0.12649299662615834
+          ],
+          "init_rot_quat": [
+            -0.8468901234970191,
+            -0.13181728568120055,
+            0.029684088923993636,
+            -0.5143152503898721
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant into the yellow basket"
+  }
+]

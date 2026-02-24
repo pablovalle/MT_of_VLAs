@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 70,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "dummy_sink_target_plane",
+        "sprite_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.17437096484877887,
+            0.11821526557719769
+          ],
+          "init_rot_quat": [
+            0.9930336500712915,
+            0.0,
+            0.0,
+            0.11783110720895294
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.12817434667046002,
+            0.191678534405904
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.12553109794259007,
+            0.18147475625324458
+          ],
+          "init_rot_quat": [
+            0.8634768478768352,
+            0.0,
+            0.0,
+            -0.5043884744724891
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you avoid puting the pepsi can into the yellow basket"
+  }
+]

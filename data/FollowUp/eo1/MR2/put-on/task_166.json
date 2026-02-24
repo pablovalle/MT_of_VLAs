@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 166,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "bridge_plate_objaverse_larger",
+        "sprite_can",
+        "coke_can",
+        "bridge_carrot_generated"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.23209171341671486,
+            -0.13047653713885593
+          ],
+          "init_rot_quat": [
+            0.953603580698048,
+            0.0,
+            0.0,
+            -0.3010651273061388
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12222827788427026,
+            -0.06388273533680087
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.08412804086872355,
+            -0.11980652394693664
+          ],
+          "init_rot_quat": [
+            0.9032406121676151,
+            0.0,
+            0.0,
+            -0.42913447371549157
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.14938614087025057,
+            -0.07330578377742088
+          ],
+          "init_rot_quat": [
+            0.32973694698199524,
+            0.3780384802778716,
+            0.03703293588155205,
+            -0.8642852624476383
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.0060805449272893775,
+            -0.08771314956014706
+          ],
+          "init_rot_quat": [
+            0.04284244554241296,
+            -0.4410439242925454,
+            -0.8306776030759893,
+            0.3370749196432542
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sponge on the plate larger"
+  }
+]

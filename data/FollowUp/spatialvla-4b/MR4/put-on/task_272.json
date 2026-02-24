@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 272,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "table_cloth_generated_shorter",
+        "pepsi_can",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.06064872058252438,
+            -0.11729761035619823
+          ],
+          "init_rot_quat": [
+            0.18572917360677219,
+            0.0,
+            0.0,
+            -0.9826009739824938
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.20008120772875834,
+            0.041361622223207634
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.2107795664008753,
+            -0.07708362206702965
+          ],
+          "init_rot_quat": [
+            0.8792787836515696,
+            0.0,
+            0.0,
+            -0.47630748537075934
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.21648832851720276,
+            0.0964667906344934
+          ],
+          "init_rot_quat": [
+            0.706914939529781,
+            0.0,
+            0.0,
+            0.7072985708098144
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop from puting the sponge on the table cloth shorter"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 391,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "coke_can",
+        "bridge_carrot_generated_modified",
+        "pepsi_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.2874684522148824,
+            0.2826989983157377
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.15263378448748977,
+            0.21446402449958263
+          ],
+          "init_rot_quat": [
+            0.34608539354593304,
+            0.0,
+            0.0,
+            -0.9382030166089622
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2492581329562707,
+            0.007664692265022266
+          ],
+          "init_rot_quat": [
+            0.9656793158028099,
+            0.0,
+            0.0,
+            0.2597372884870733
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.4482254980891516,
+            0.03832229290216427
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.44090443205758534,
+            0.19634374501774823
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 2
+    },
+    "prompt": "abstain from moving coke can near carrot"
+  }
+]

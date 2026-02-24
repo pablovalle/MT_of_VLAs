@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 243,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "dummy_sink_target_plane",
+        "bridge_spoon_generated_modified",
+        "pepsi_can",
+        "bridge_plate_objaverse",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.1050528673939357,
+            0.18269440387960845
+          ],
+          "init_rot_quat": [
+            0.6941440503333882,
+            0.0,
+            0.0,
+            -0.7198361184233246
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.16865940938146368,
+            0.12785460553831696
+          ],
+          "init_rot_quat": [
+            0.37105073376130016,
+            -0.15667034853915698,
+            0.6785214463879905,
+            0.6143162065706627
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.16620785303661345,
+            0.11386346013169758
+          ],
+          "init_rot_quat": [
+            0.5368737875504549,
+            -0.31603001997377705,
+            -0.3106743846498764,
+            -0.7178948317400146
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.17163478749354372,
+            0.16035540061863499
+          ],
+          "init_rot_quat": [
+            0.48981393927617556,
+            0.09093455593584551,
+            0.2606349625544091,
+            0.8269719630808334
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.1998746194378943,
+            0.10074830147706404
+          ],
+          "init_rot_quat": [
+            0.8952842820101886,
+            -0.4230900864170926,
+            0.04932205801632884,
+            0.1304920218025299
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 448,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "dummy_sink_target_plane",
+        "opened_fanta_can",
+        "apple",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.11765030385186598,
+            0.1316600565040844
+          ],
+          "init_rot_quat": [
+            0.5959623955883607,
+            0.0,
+            0.0,
+            0.8030123430213151
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.10823308553337434,
+            0.162201253811832
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.15117149388013354,
+            0.1449989997096513
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.11737220942364901,
+            0.1455311871866218
+          ],
+          "init_rot_quat": [
+            0.9518058191431669,
+            0.0,
+            0.0,
+            0.3067012922131321
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "place  the spoon into the yellow basket"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 330,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "opened_redbull_can",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.4063197432116938,
+            0.296604710382954
+          ],
+          "init_rot_quat": [
+            0.8805979399796,
+            0.0,
+            0.0,
+            0.47386418740361125
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.2188264371870089,
+            0.03281547422496583
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.23743330198560636,
+            0.19306594572617164
+          ],
+          "init_rot_quat": [
+            0.16767161708464878,
+            0.0,
+            0.0,
+            0.9858429027102741
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "avoid moving green cube near 7up can"
+  }
+]

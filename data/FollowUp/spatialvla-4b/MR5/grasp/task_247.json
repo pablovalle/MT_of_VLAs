@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 247,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_id": "opened_coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2113202961158072,
+          0.061486648920673216
+        ],
+        "orientation": [
+          0.9999828285672218,
+          0.0,
+          0.0,
+          -0.005860253467079179
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant",
+        "opened_pepsi_can"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.23076130491813013,
+            0.2537865688537954
+          ],
+          "init_rot_quat": [
+            0.48356672142512025,
+            0.0,
+            0.0,
+            0.8753075036409548
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.4679957208587711,
+            0.14821167114940575
+          ],
+          "init_rot_quat": [
+            0.9274939183948718,
+            0.0,
+            0.0,
+            -0.3738382422124933
+          ]
+        }
+      }
+    },
+    "prompt": "pick coke can"
+  }
+]

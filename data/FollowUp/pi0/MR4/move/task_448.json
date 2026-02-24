@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 448,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.19420769273727406,
+            0.015126485898341225
+          ],
+          "init_rot_quat": [
+            0.6879624468429221,
+            0.0,
+            0.0,
+            0.725746286062767
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.21015184094334916,
+            0.2375526772067612
+          ],
+          "init_rot_quat": [
+            0.8739305085418849,
+            0.0,
+            0.0,
+            0.4860508885288889
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "hold back from moving eggplant near pepsi can"
+  }
+]

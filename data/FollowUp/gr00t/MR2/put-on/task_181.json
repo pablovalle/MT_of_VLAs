@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 181,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "bridge_plate_objaverse",
+        "yellow_cube_3cm",
+        "opened_sprite_can",
+        "table_cloth_generated_shorter",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.023276777272482507,
+            0.029431083070861702
+          ],
+          "init_rot_quat": [
+            0.35720470287783934,
+            0.0,
+            0.0,
+            0.9340261239611848
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.02574441108026959,
+            -0.15705548026905225
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.16965332397757496,
+            -0.0974141553506752
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2004115692377728,
+            -0.019211336194717904
+          ],
+          "init_rot_quat": [
+            0.6092946734079451,
+            0.0,
+            0.0,
+            -0.7929438826024863
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.2760180802503148,
+            0.047396366779455856
+          ],
+          "init_rot_quat": [
+            0.7634399163793991,
+            0.12419679627190411,
+            -0.44322283722187905,
+            -0.45308737175008423
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.2794655446711208,
+            0.10326118600960885
+          ],
+          "init_rot_quat": [
+            -0.3075630024041033,
+            -0.6850340220973763,
+            0.6591452817887626,
+            0.04075396443142209
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can on the plate"
+  }
+]

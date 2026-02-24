@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 41,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_id": "coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2649949479788417,
+          0.060710418025402696
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "prompt": "pick coke can"
+  }
+]

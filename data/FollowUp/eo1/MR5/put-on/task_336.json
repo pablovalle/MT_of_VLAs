@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 336,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "bridge_plate_objaverse",
+        "redbull_can",
+        "sponge",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.263443648227484,
+            0.011337614583194322
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.29827900847185884,
+            -0.15745333586120952
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.11615367907122962,
+            0.036777176779013876
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.15578106327034827,
+            -0.011231054517147954
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.09201463346297578,
+            -0.14608332097652815
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the plate"
+  }
+]

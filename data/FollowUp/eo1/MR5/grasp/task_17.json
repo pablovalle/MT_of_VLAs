@@ -1,0 +1,67 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 17,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_id": "opened_sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.11722773801503764,
+          0.36066565863426026
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_7up_can",
+        "fanta_can",
+        "pepsi_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.39678578261157016,
+            0.00428953323733765
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.28124966142389685,
+            0.06403342909849288
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.4959455098155298,
+            0.135726030722317
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "pick sprite can"
+  }
+]

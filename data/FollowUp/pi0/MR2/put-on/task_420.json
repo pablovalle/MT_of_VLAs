@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 420,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "bridge_carrot_generated_modified",
+        "coke_can",
+        "redbull_can",
+        "opened_coke_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.14455552075856803,
+            0.04819119743932884
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.21389656704208893,
+            -0.04012168490911944
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.020009695634914282,
+            -0.0016973866540297144
+          ],
+          "init_rot_quat": [
+            0.5889713995271478,
+            0.0,
+            0.0,
+            -0.8081538780077917
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.019088677296959178,
+            -0.05497093567414002
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.284404943936104,
+            0.02702479524411397
+          ],
+          "init_rot_quat": [
+            -0.8985808724222291,
+            0.19794292009625794,
+            0.2566144602004783,
+            -0.2958378524068369
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.18049687163533157,
+            -0.12484729934633662
+          ],
+          "init_rot_quat": [
+            0.38613331697383946,
+            -0.769777937123586,
+            -0.12746280886705047,
+            -0.4920327442317824
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.2873360189832757,
+            -0.08908680789433232
+          ],
+          "init_rot_quat": [
+            0.9131952243889957,
+            -0.009388298146194612,
+            0.34101058504466253,
+            -0.22293075808094961
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the plate larger"
+  }
+]

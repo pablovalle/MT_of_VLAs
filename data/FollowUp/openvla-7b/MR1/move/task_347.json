@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 347,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.19137030120973653,
+            0.30453438778775355
+          ],
+          "init_rot_quat": [
+            0.47748078195598703,
+            0.0,
+            0.0,
+            0.8786421927398542
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.21227837906243863,
+            0.10422178644208509
+          ],
+          "init_rot_quat": [
+            0.6764986649223892,
+            0.0,
+            0.0,
+            0.7364438582527693
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move  redbull can near carrot"
+  }
+]

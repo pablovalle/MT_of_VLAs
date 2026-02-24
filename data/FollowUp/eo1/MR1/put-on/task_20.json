@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 20,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse_larger",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.27785245979841594,
+            0.05629524389578122
+          ],
+          "init_rot_quat": [
+            0.9898031219011592,
+            0.0,
+            0.0,
+            0.14244219836382407
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.10131396432647907,
+            0.06231509266598892
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.21600034230729692,
+            -0.15825009145870902
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you move  the carrot on the plate larger"
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 396,
+    "follow-up": 1,
+    "task_data": {
+      "model_id": "opened_sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3467971881735673,
+          0.3435246191905372
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "bridge_carrot_generated_modified",
+        "opened_coke_can",
+        "blue_plastic_bottle",
+        "bridge_spoon_generated_modified",
+        "apple"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.49857823206662305,
+            0.340552555297017
+          ],
+          "init_rot_quat": [
+            0.9948662698425075,
+            0.0,
+            0.0,
+            -0.10119834548872346
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.45018851114112346,
+            0.3281348375997237
+          ],
+          "init_rot_quat": [
+            0.7738493604898872,
+            0.0,
+            0.0,
+            -0.6333696924146217
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.44253087961627846,
+            0.013484020736104352
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.12615059367681525,
+            0.25990869867154087
+          ],
+          "init_rot_quat": [
+            0.4326413295150469,
+            0.12076057199403385,
+            0.8205555002939673,
+            -0.35345018769897907
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.4294272278233189,
+            0.04545910054710252
+          ],
+          "init_rot_quat": [
+            -0.16026572158171806,
+            -0.39946118263002356,
+            -0.6996031160380111,
+            -0.5703517704782018
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.3818303531616095,
+            0.06273994343007776
+          ],
+          "init_rot_quat": [
+            -0.24677270625845238,
+            0.14236000231065107,
+            0.8508989943953184,
+            -0.4413703235663076
+          ]
+        }
+      }
+    },
+    "prompt": "pick sprite can"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 65,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_id": "orange",
+      "obj_init_options": {
+        "init_xy": [
+          -0.25025576346385825,
+          0.15975662058721476
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "prompt": "pick orange"
+  }
+]

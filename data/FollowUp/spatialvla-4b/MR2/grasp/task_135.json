@@ -1,0 +1,79 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 135,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2822656153434312,
+          0.10511189866045881
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified",
+        "opened_fanta_can",
+        "opened_redbull_can",
+        "opened_7up_can"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.12537704686777057,
+            0.3878771778676052
+          ],
+          "init_rot_quat": [
+            0.9969011270538017,
+            0.0,
+            0.0,
+            -0.07866474991290477
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.3060312365919106,
+            0.2544731707672285
+          ],
+          "init_rot_quat": [
+            0.926544025765489,
+            0.0,
+            0.0,
+            -0.376186347862706
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.39122306615638963,
+            0.1882714013508248
+          ],
+          "init_rot_quat": [
+            0.8481543661387879,
+            0.31007741320627963,
+            -0.1520974216436079,
+            -0.4016871212129904
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.10879673648794075,
+            0.07535483600459508
+          ],
+          "init_rot_quat": [
+            0.3257531323312612,
+            -0.9277362936769686,
+            -0.17878048183929013,
+            0.035040055425245895
+          ]
+        }
+      }
+    },
+    "prompt": "pick coke can"
+  }
+]

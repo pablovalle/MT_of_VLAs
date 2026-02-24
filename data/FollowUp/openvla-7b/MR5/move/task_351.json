@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 351,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "opened_redbull_can",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.4262986379689661,
+            0.2656048968974433
+          ],
+          "init_rot_quat": [
+            0.943991797758366,
+            0.0,
+            0.0,
+            0.3299689163617207
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.3024970918311089,
+            0.002500422258439894
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.329675817417472,
+            0.17647516146231193
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 1
+    },
+    "prompt": "move pepsi can near redbull can"
+  }
+]

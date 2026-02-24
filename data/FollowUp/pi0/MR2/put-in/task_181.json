@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 181,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane",
+        "opened_coke_can",
+        "bridge_carrot_generated",
+        "bridge_plate_objaverse_larger",
+        "eggplant",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.10206306234491147,
+            0.1178496023566074
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.1880022483643889,
+            0.15167207505745156
+          ],
+          "init_rot_quat": [
+            0.6726755483946752,
+            0.0,
+            0.0,
+            -0.7399375693880686
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.15792729959711646,
+            0.1385820783905139
+          ],
+          "init_rot_quat": [
+            0.43340023342821055,
+            0.5474805985931123,
+            -0.15625961504318928,
+            0.6985786745492982
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.10237626787255386,
+            0.1957867545686507
+          ],
+          "init_rot_quat": [
+            -0.7079306622873224,
+            0.27923644332734704,
+            -0.5405318984525129,
+            -0.35872894065944644
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.13928329789099186,
+            0.194858607261409
+          ],
+          "init_rot_quat": [
+            0.5255423867961122,
+            0.22616307821777604,
+            -0.6429063928753584,
+            0.5092414277449362
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.11327745284547873,
+            0.17182818795757993
+          ],
+          "init_rot_quat": [
+            0.21565872187947127,
+            -0.8060545053191961,
+            -0.47138822062743707,
+            0.2855881572923459
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle into the yellow basket"
+  }
+]

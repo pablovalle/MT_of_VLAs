@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 433,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.2,
+            0.14454363736537595
+          ],
+          "init_rot_quat": [
+            0.9901266404918814,
+            0.0,
+            0.0,
+            0.1401757318092566
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the apple into the yellow basket"
+  }
+]

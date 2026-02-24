@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 60,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "blue_plastic_bottle",
+        "7up_can",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.39962668204915924,
+            0.25433016455230956
+          ],
+          "init_rot_quat": [
+            0.5200835532999322,
+            0.0,
+            0.0,
+            0.8541153889182167
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.2621412504045978,
+            0.14650877178046598
+          ],
+          "init_rot_quat": [
+            0.2451259984405506,
+            0.0,
+            0.0,
+            0.9694912299183129
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.1123831669914942,
+            0.3567104436280143
+          ],
+          "init_rot_quat": [
+            0.23188198996020515,
+            0.0,
+            0.0,
+            -0.9727439245413437
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.46393681906594925,
+            0.11515927210315927
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "desist from moving blue plastic bottle near redbull can"
+  }
+]

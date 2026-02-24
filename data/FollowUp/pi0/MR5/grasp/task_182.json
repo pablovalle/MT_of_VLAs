@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 182,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.21175769154736665,
+          0.18706813567315264
+        ],
+        "orientation": [
+          0.785961574705128,
+          0.0,
+          0.0,
+          -0.6182753456891481
+        ]
+      }
+    },
+    "prompt": "pick yellow cube"
+  }
+]

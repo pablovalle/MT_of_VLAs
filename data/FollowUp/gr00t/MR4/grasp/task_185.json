@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 185,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4533049272889288,
+          0.3239541410296388
+        ],
+        "orientation": [
+          0.8578282337391272,
+          0.0,
+          0.0,
+          0.5139364954933726
+        ]
+      },
+      "distractor_model_ids": [
+        "coke_can",
+        "opened_redbull_can",
+        "opened_fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.4395458246424224,
+            0.05522204151631236
+          ],
+          "init_rot_quat": [
+            0.9459545752971461,
+            0.0,
+            0.0,
+            -0.3242991542918296
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.10868117676908834,
+            0.0871892104302292
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.37253810939566717,
+            0.03242541112487736
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "would you avoid picking blue plastic bottle"
+  }
+]

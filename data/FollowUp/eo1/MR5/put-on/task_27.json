@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 27,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "table_cloth_generated_shorter",
+        "apple"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.019146247384444537,
+            -0.16
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.1687904935244208,
+            -0.03866603936577803
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.041604099291050134,
+            0.0777568243746822
+          ],
+          "init_rot_quat": [
+            0.8857092014904634,
+            0.0,
+            0.0,
+            0.4642404661327206
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the table cloth shorter"
+  }
+]

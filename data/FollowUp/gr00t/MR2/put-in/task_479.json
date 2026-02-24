@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 479,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "dummy_sink_target_plane",
+        "fanta_can",
+        "eggplant",
+        "table_cloth_generated"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.16527696579808387,
+            0.10262750583482835
+          ],
+          "init_rot_quat": [
+            0.7164389582564027,
+            0.0,
+            0.0,
+            -0.6976497825502997
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.18458223356773074,
+            0.15967658348937336
+          ],
+          "init_rot_quat": [
+            0.9669452040401798,
+            0.0,
+            0.0,
+            -0.25498425909003686
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.10956261290872503,
+            0.14158504674488814
+          ],
+          "init_rot_quat": [
+            0.14111705870683922,
+            -0.37458809809120724,
+            0.23008414269554478,
+            -0.8870349597340562
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.18208649893327103,
+            0.17961332217868545
+          ],
+          "init_rot_quat": [
+            0.8399435254353879,
+            0.24690330311033928,
+            -0.10631012743520941,
+            0.4714146686274042
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

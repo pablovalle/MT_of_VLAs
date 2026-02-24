@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 457,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "table_cloth_generated",
+        "eggplant",
+        "coke_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.3,
+            -0.10686920046649884
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.2149876048595346,
+            0.06859188203488484
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.04749605323910755,
+            0.012967211872047218
+          ],
+          "init_rot_quat": [
+            0.48910815545685926,
+            0.0,
+            0.0,
+            0.8722231436195607
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.10185107199992444,
+            -0.10122785016867628
+          ],
+          "init_rot_quat": [
+            0.7994100580829091,
+            0.0,
+            0.0,
+            -0.6007857846486383
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the table cloth"
+  }
+]

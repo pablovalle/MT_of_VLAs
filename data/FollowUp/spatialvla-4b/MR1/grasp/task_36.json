@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 36,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3714639873108702,
+          0.3488926541926015
+        ],
+        "orientation": [
+          0.5015257559566625,
+          0.0,
+          0.0,
+          -0.8651427143033097
+        ]
+      }
+    },
+    "prompt": "grab  7up can"
+  }
+]

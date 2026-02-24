@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 98,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "table_cloth_generated",
+        "opened_coke_can",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.11382791904347658,
+            0.09036311122937143
+          ],
+          "init_rot_quat": [
+            0.5506122359466395,
+            0.0,
+            0.0,
+            0.8347611428581485
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.24166744717474706,
+            0.11181965700620064
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.04687688754069713,
+            0.0008047562695124855
+          ],
+          "init_rot_quat": [
+            -0.28992818190638237,
+            0.2200992356543763,
+            0.09127622712627108,
+            0.9269124155832699
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.13968918771724315,
+            -0.1519424295315503
+          ],
+          "init_rot_quat": [
+            -0.08490554501862525,
+            0.6607926848457317,
+            0.7456439606375566,
+            -0.012615864782003652
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the table cloth"
+  }
+]

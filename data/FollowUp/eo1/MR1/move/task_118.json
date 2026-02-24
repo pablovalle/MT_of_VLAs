@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 118,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "blue_plastic_bottle",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.21556650717529952,
+            0.3673672936593886
+          ],
+          "init_rot_quat": [
+            0.8450537051874653,
+            0.0,
+            0.0,
+            -0.5346814335180683
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.2388705096896891,
+            0.0002942185958896282
+          ],
+          "init_rot_quat": [
+            0.9996557838028026,
+            0.0,
+            0.0,
+            0.026235737260545792
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.40425770128521366,
+            0.39458237263281865
+          ],
+          "init_rot_quat": [
+            0.7286403122122225,
+            0.0,
+            0.0,
+            0.6848965581890998
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "let's move  redbull can near fanta can"
+  }
+]

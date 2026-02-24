@@ -1,0 +1,41 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 163,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_id": "orange",
+      "obj_init_options": {
+        "init_xy": [
+          -0.24182676445471357,
+          0.11207888272391103
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.23354990420745986,
+            0.09034141370989315
+          ],
+          "init_rot_quat": [
+            0.9999955646665202,
+            0.0,
+            0.0,
+            0.002978363189327974
+          ]
+        }
+      }
+    },
+    "prompt": "pick orange"
+  }
+]

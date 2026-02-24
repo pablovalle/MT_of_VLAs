@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 217,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "dummy_sink_target_plane",
+        "blue_plastic_bottle",
+        "opened_sprite_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.13532395518782758,
+            0.2
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1929567346360305,
+            0.12911231926726274
+          ],
+          "init_rot_quat": [
+            0.9802844627498558,
+            0.0,
+            0.0,
+            -0.19759142717037725
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.11887807663688532,
+            0.16911456495829746
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.19261598107579922,
+            0.1825849041318487
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube into the yellow basket"
+  }
+]

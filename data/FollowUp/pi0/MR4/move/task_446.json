@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 446,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "yellow_cube_3cm",
+        "bridge_spoon_generated_modified",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.1125575127824735,
+            0.07423770440801492
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.3464213799643405,
+            0.11683494563716641
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2626655327110502,
+            0.3920575383147907
+          ],
+          "init_rot_quat": [
+            0.9991322244128725,
+            0.0,
+            0.0,
+            0.04165090803074315
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.4727932634012991,
+            0.24420076433966906
+          ],
+          "init_rot_quat": [
+            0.9867109447255603,
+            0.0,
+            0.0,
+            -0.16248541952677528
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "please refrain from moving pepsi can near yellow cube"
+  }
+]

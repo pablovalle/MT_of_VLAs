@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 22,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2622423688592821,
+          0.3701185432265092
+        ],
+        "orientation": [
+          0.09864073152775435,
+          0.0,
+          0.0,
+          0.9951231110187672
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.47976573274850104,
+            0.18582234819531462
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "please refrain from picking yellow cube"
+  }
+]

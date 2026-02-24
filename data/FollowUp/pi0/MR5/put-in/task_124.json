@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 124,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.1,
+            0.1
+          ],
+          "init_rot_quat": [
+            0.9726492643912336,
+            0.0,
+            0.0,
+            -0.23227873014805323
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

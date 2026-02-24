@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 360,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "bridge_plate_objaverse_larger",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.3,
+            -0.0062938957793404054
+          ],
+          "init_rot_quat": [
+            0.9362942012499361,
+            0.0,
+            0.0,
+            -0.35121669764654423
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.09659442399071219,
+            0.042298022968307925
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.15979793378984197,
+            0.07572414576580691
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle on the plate larger"
+  }
+]

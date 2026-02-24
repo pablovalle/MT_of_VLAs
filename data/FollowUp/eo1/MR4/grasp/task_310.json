@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 310,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.39885568757067896,
+          0.1894437177635255
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "yellow_cube_3cm",
+        "opened_pepsi_can",
+        "apple"
+      ],
+      "distractor_obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.11042176023751055,
+            0.07014181688029342
+          ],
+          "init_rot_quat": [
+            0.5513197159504288,
+            0.0,
+            0.0,
+            -0.8342940553571855
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.1243535967046751,
+            0.26780982085306504
+          ],
+          "init_rot_quat": [
+            0.7514924690797508,
+            0.0,
+            0.0,
+            -0.6597416683190624
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.3561721417458954,
+            0.07941167753664513
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "would you avoid picking 7up can"
+  }
+]

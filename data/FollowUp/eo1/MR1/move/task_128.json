@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 128,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "orange"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.3825748597304658,
+            0.22142031355142083
+          ],
+          "init_rot_quat": [
+            0.9629201295297386,
+            0.0,
+            0.0,
+            0.26978662707115664
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.1054490426651089,
+            0.18052723563291473
+          ],
+          "init_rot_quat": [
+            0.3423085244542871,
+            0.0,
+            0.0,
+            0.9395876085208493
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "set  orange near 7up can"
+  }
+]

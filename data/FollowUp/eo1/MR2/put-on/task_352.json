@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 352,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "table_cloth_generated",
+        "green_cube_3cm",
+        "table_cloth_generated_shorter",
+        "sprite_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.031147326547851684,
+            0.05350472160641248
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.28879212650648184,
+            0.05976830846128289
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.22743678315725896,
+            -0.0886880392866862
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.03654204084531898,
+            0.11743573578319513
+          ],
+          "init_rot_quat": [
+            -0.5258229230684035,
+            -0.24950806785417698,
+            -0.14482974175506907,
+            -0.8001751830409609
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.23748945407471989,
+            0.0620612569058325
+          ],
+          "init_rot_quat": [
+            -0.4241692341471446,
+            0.07427218526361895,
+            0.584348369697726,
+            -0.6878234411030212
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.24841209902763325,
+            -0.14153262618719448
+          ],
+          "init_rot_quat": [
+            -0.48909191141037445,
+            -0.7954717219866542,
+            0.18959577310433962,
+            -0.30342591275878444
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle on the table cloth"
+  }
+]

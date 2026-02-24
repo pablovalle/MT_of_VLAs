@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 102,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "dummy_sink_target_plane",
+        "opened_7up_can",
+        "blue_plastic_bottle",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.1556192368394722,
+            0.15799228355844544
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.1799314959258857,
+            0.14169338783766344
+          ],
+          "init_rot_quat": [
+            0.3367725247963178,
+            0.0,
+            0.0,
+            -0.9415860377800392
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.11761482466307106,
+            0.19847589057181145
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.12300645544477637,
+            0.13751116404467523
+          ],
+          "init_rot_quat": [
+            0.028006814119697465,
+            0.0,
+            0.0,
+            -0.9996077322444363
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "can you put  the redbull can into the yellow basket"
+  }
+]

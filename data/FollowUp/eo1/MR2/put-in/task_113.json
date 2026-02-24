@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 113,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "dummy_sink_target_plane",
+        "sponge",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.11182643966373629,
+            0.1053268374035068
+          ],
+          "init_rot_quat": [
+            0.6379080308217938,
+            0.0,
+            0.0,
+            0.7701125529512302
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.10070626412510493,
+            0.16453726922566347
+          ],
+          "init_rot_quat": [
+            0.5033908947154137,
+            0.5373868389934948,
+            -0.4690198249842013,
+            -0.4876816545308877
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.1843658107215092,
+            0.1466475304052204
+          ],
+          "init_rot_quat": [
+            -0.10098737053055655,
+            -0.7976963603901689,
+            -0.5728701879786602,
+            0.15906544357243818
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

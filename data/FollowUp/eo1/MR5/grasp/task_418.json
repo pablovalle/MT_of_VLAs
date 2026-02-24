@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 418,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_id": "opened_pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.05,
+          0.18990565072207796
+        ],
+        "orientation": [
+          0.10891188271149325,
+          0.0,
+          0.0,
+          -0.9940514080288997
+        ]
+      },
+      "distractor_model_ids": [
+        "sponge",
+        "fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.13460633223701035,
+            0.15225846582016353
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.10152798067901547,
+            0.2743433263799278
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "pick pepsi can"
+  }
+]

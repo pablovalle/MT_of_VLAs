@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 397,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "orange",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.3452664899571106,
+            0.2005779678977742
+          ],
+          "init_rot_quat": [
+            0.7520140948268945,
+            0.0,
+            0.0,
+            -0.6591470254667668
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.1873487548162387,
+            0.14703533106113725
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.4212523846033355,
+            0.04912539351322587
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "would you avoid moving green cube near fanta can"
+  }
+]

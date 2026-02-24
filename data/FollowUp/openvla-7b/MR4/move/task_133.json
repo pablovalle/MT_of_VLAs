@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 133,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.29578799007310097,
+            0.003601480688201031
+          ],
+          "init_rot_quat": [
+            0.9174187362139242,
+            0.0,
+            0.0,
+            -0.3979231866122482
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.1587857457794048,
+            0.25666953016992794
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "refrain from moving sprite can near coke can"
+  }
+]

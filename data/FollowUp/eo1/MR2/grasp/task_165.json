@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 165,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.1018698055271442,
+          0.19426991012493802
+        ],
+        "orientation": [
+          0.6679390657951402,
+          0.0,
+          0.0,
+          0.7442159662253393
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.41307936726602396,
+            0.2647083955647344
+          ],
+          "init_rot_quat": [
+            -0.6931934990411515,
+            -0.6766109196707485,
+            -0.09726950113135806,
+            0.22851494572356915
+          ]
+        }
+      }
+    },
+    "prompt": "pick apple"
+  }
+]

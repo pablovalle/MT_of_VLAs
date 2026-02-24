@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 356,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "dummy_sink_target_plane",
+        "opened_fanta_can",
+        "bridge_plate_objaverse_larger",
+        "opened_redbull_can",
+        "bridge_spoon_generated_modified",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.15401151728872198,
+            0.19339093794777013
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.10060302060567466,
+            0.15126522703347456
+          ],
+          "init_rot_quat": [
+            0.8329558865553801,
+            0.0,
+            0.0,
+            0.5533393995123975
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.18024704096447566,
+            0.13124964486128254
+          ],
+          "init_rot_quat": [
+            -0.9365389733176195,
+            -0.0631928776743531,
+            0.33574557384084114,
+            -0.07858957510190459
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.1580378721218396,
+            0.13854011224704843
+          ],
+          "init_rot_quat": [
+            -0.5636480053747781,
+            -0.04597984234667817,
+            -0.8231646436940487,
+            -0.05086009739332469
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.15671149906086024,
+            0.1154523604942966
+          ],
+          "init_rot_quat": [
+            0.23573560966524434,
+            -0.2853216837966927,
+            -0.6270798773477473,
+            -0.6854130772874921
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.14051206885664413,
+            0.13018515273994558
+          ],
+          "init_rot_quat": [
+            0.49750095057849186,
+            -0.4868959640699841,
+            0.6932464696621999,
+            -0.18663991171974545
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube into the yellow basket"
+  }
+]

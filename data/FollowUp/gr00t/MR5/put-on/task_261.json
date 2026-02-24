@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 261,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "bridge_plate_objaverse",
+        "green_cube_3cm",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.3,
+            0.045888590039394966
+          ],
+          "init_rot_quat": [
+            0.7807787756310661,
+            0.0,
+            0.0,
+            0.624807573196783
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.18788779000781983,
+            -0.15787410226267382
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.10599763018297306,
+            0.016804005795647503
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.241992328697855,
+            -0.0955751583304928
+          ],
+          "init_rot_quat": [
+            0.5573715918862658,
+            0.0,
+            0.0,
+            0.8302631562090239
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant on the plate"
+  }
+]

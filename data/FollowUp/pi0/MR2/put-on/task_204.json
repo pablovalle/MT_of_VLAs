@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 204,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "table_cloth_generated",
+        "blue_plastic_bottle",
+        "table_cloth_generated_shorter",
+        "apple"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.2841365646247546,
+            -0.09668592011193589
+          ],
+          "init_rot_quat": [
+            0.9946266439151237,
+            0.0,
+            0.0,
+            -0.10352699751339191
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.16330955576801526,
+            -0.12204481030401113
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.27786443066177924,
+            -0.0166243892895504
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.10795161508659279,
+            -0.016357155047896227
+          ],
+          "init_rot_quat": [
+            -0.2997863256993157,
+            0.8722146633194745,
+            -0.2707247548500582,
+            -0.27582212950663615
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.2788892497531867,
+            0.058796621821207234
+          ],
+          "init_rot_quat": [
+            0.6291881906235409,
+            0.4671916116020314,
+            0.49333733671354046,
+            -0.3774552834879416
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the table cloth"
+  }
+]

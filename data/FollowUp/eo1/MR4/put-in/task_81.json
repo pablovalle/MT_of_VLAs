@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 81,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "dummy_sink_target_plane",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.10317676691444706,
+            0.1673824519781919
+          ],
+          "init_rot_quat": [
+            0.6199854922752762,
+            0.0,
+            0.0,
+            0.7846132737649698
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.17013426005859866,
+            0.1943471419631828
+          ],
+          "init_rot_quat": [
+            0.9992026200466234,
+            0.0,
+            0.0,
+            -0.03992648359125943
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "cease the act of puting the sprite can into the yellow basket"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 477,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "apple"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.43680937140365883,
+            0.3627718772026046
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.3245458312099576,
+            0.07444061082662641
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move apple near orange"
+  }
+]

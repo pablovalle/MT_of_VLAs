@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 228,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "bridge_plate_objaverse",
+        "eggplant",
+        "fanta_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.1323282816462054,
+            -0.012831484974412
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.2237363027256148,
+            0.03608738472733525
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.25850263136270524,
+            -0.026290591657113838
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.12033304575238199,
+            -0.11642344450303392
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.2512668705343974,
+            0.08540581812927245
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "position the sponge on the plate"
+  }
+]

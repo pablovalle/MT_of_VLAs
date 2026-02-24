@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 114,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.12550780403596334,
+            0.18199815608746964
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "abstain from puting the apple into the yellow basket"
+  }
+]

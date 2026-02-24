@@ -1,0 +1,92 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 325,
+    "follow-up": 1,
+    "task_data": {
+      "model_id": "opened_pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.24553906965633965,
+          0.315716006921419
+        ],
+        "orientation": [
+          0.3233485189539245,
+          0.0,
+          0.0,
+          -0.9462799455183987
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_7up_can",
+        "eggplant",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated_modified",
+        "blue_plastic_bottle"
+      ],
+      "distractor_obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.47053664521445504,
+            0.00986076265240925
+          ],
+          "init_rot_quat": [
+            0.816485278074589,
+            0.0,
+            0.0,
+            0.5773662535059189
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.3152619835302187,
+            0.24194038710516597
+          ],
+          "init_rot_quat": [
+            0.9960414127817299,
+            0.0,
+            0.0,
+            0.08889040456526055
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.43521062297511337,
+            0.09861170862058169
+          ],
+          "init_rot_quat": [
+            0.7662202879722468,
+            0.6414141766885197,
+            -0.034671145846559295,
+            -0.01709490825953604
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.35984907430171675,
+            0.3870815384325458
+          ],
+          "init_rot_quat": [
+            -0.003107542340106408,
+            -0.24273756696433108,
+            0.8985152561886391,
+            -0.36570363843022585
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.4416756085302343,
+            0.29881549241456523
+          ],
+          "init_rot_quat": [
+            0.3665994693342301,
+            0.9108751420884958,
+            0.12575685931944722,
+            0.1417621844612744
+          ]
+        }
+      }
+    },
+    "prompt": "pick pepsi can"
+  }
+]

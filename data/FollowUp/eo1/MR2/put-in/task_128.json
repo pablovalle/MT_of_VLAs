@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 128,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane",
+        "pepsi_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.17975296794134452,
+            0.17711391552468253
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.12476503863625565,
+            0.1383563871425171
+          ],
+          "init_rot_quat": [
+            -0.523887305031049,
+            0.48751869855769453,
+            -0.6828097612265296,
+            -0.14710010250739528
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.10266272259773926,
+            0.10636221183653664
+          ],
+          "init_rot_quat": [
+            0.20357375055626192,
+            0.6171542239529177,
+            -0.09704579243165531,
+            0.753830555305926
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle into the yellow basket"
+  }
+]

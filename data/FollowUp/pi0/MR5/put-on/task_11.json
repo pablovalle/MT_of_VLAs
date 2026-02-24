@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 11,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "table_cloth_generated",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.3,
+            0.0574773850769324
+          ],
+          "init_rot_quat": [
+            0.2452072486150514,
+            0.0,
+            0.0,
+            0.9694706830155496
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.14527728040000965,
+            -0.07392220685133008
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.16782436865672368,
+            0.0606494651366222
+          ],
+          "init_rot_quat": [
+            0.5096584871427393,
+            0.0,
+            0.0,
+            -0.8603767933198653
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle on the table cloth"
+  }
+]

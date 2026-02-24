@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 76,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "bridge_plate_objaverse_larger",
+        "fanta_can",
+        "bridge_carrot_generated_modified",
+        "coke_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.17145898806673904,
+            0.054825481375931906
+          ],
+          "init_rot_quat": [
+            0.49577401778414304,
+            0.0,
+            0.0,
+            -0.8684515664619232
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.02330321554631959,
+            -0.03994922078225241
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.020036236729917112,
+            -0.12550320097757972
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.1617424450479706,
+            -0.03859297690121938
+          ],
+          "init_rot_quat": [
+            0.9003361129277071,
+            0.0,
+            0.0,
+            0.43519522487985435
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.2537123234966164,
+            -0.15036043150067138
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "desist from puting the sprite can on the plate larger"
+  }
+]

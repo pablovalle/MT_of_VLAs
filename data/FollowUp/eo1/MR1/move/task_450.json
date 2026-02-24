@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 450,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "opened_coke_can",
+        "blue_plastic_bottle",
+        "bridge_spoon_generated_modified",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.10981667968449754,
+            0.125728281955326
+          ],
+          "init_rot_quat": [
+            0.9949531313007639,
+            0.0,
+            0.0,
+            -0.10034075201434779
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.2693084194775618,
+            0.1733163646898786
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.454954979999448,
+            0.11082122467904593
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.393941055945601,
+            0.3710664905403372
+          ],
+          "init_rot_quat": [
+            0.5579768180915076,
+            0.0,
+            0.0,
+            0.8298565360786626
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.1339468487288516,
+            0.3330586482860509
+          ],
+          "init_rot_quat": [
+            0.5918657235659074,
+            0.0,
+            0.0,
+            -0.8060365781202519
+          ]
+        }
+      },
+      "source_obj_id": 4,
+      "target_obj_id": 1
+    },
+    "prompt": "place  7up can near coke can"
+  }
+]

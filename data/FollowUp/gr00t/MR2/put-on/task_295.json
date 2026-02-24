@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 295,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "table_cloth_generated_shorter",
+        "blue_plastic_bottle",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2333028883886754,
+            0.09152853627042715
+          ],
+          "init_rot_quat": [
+            0.8678221347108616,
+            0.0,
+            0.0,
+            -0.4968749767354795
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.1517547996910282,
+            -0.024426964574643134
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.012140745678895726,
+            0.06909141262368534
+          ],
+          "init_rot_quat": [
+            -0.43961301035598593,
+            0.10557086526465817,
+            0.6097538086310492,
+            0.6509957652649894
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.06711084058353262,
+            -0.05066990352180843
+          ],
+          "init_rot_quat": [
+            -0.36328494624290625,
+            0.3379448174790236,
+            0.29502206288044247,
+            -0.8165655702918941
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the table cloth shorter"
+  }
+]

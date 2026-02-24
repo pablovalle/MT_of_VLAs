@@ -1,0 +1,79 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 373,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.41118222300913854,
+          0.3852196902799831
+        ],
+        "orientation": [
+          0.11159355369890002,
+          0.0,
+          0.0,
+          -0.993753932708118
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated_modified",
+        "sprite_can",
+        "opened_coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.23404833457773316,
+            0.022451198353369773
+          ],
+          "init_rot_quat": [
+            0.31484273612419844,
+            0.0,
+            0.0,
+            0.9491438518527254
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.27715521763648765,
+            0.12192540466708116
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.383945566889638,
+            0.17179778566539816
+          ],
+          "init_rot_quat": [
+            -0.25601787957468936,
+            0.9527780007225967,
+            -0.16205681251566537,
+            -0.020162246759574707
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.0835968919066894,
+            0.07770812064593541
+          ],
+          "init_rot_quat": [
+            -0.6867352641965954,
+            -0.5506110194313854,
+            0.08759047920807493,
+            0.4664226518316438
+          ]
+        }
+      }
+    },
+    "prompt": "pick pepsi can"
+  }
+]

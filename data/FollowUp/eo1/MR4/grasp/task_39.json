@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 39,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.1988293913494561,
+          0.24703659138330458
+        ],
+        "orientation": [
+          0.4199240569306381,
+          0.0,
+          0.0,
+          0.9075592467772636
+        ]
+      },
+      "distractor_model_ids": [
+        "orange"
+      ],
+      "distractor_obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.18197204737577594,
+            0.252906863114598
+          ],
+          "init_rot_quat": [
+            0.651801671681891,
+            0.0,
+            0.0,
+            -0.7583894651118859
+          ]
+        }
+      }
+    },
+    "prompt": "hold back from picking blue plastic bottle"
+  }
+]

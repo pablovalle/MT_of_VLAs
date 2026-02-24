@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 89,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "dummy_sink_target_plane",
+        "bridge_plate_objaverse_larger",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.14531725584137856,
+            0.10004643206804809
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.19187912857016967,
+            0.16457525818723998
+          ],
+          "init_rot_quat": [
+            -0.3643568945373293,
+            0.2085166465051303,
+            0.8170441189589094,
+            0.39522622535457785
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.18122133741603816,
+            0.13541339246715234
+          ],
+          "init_rot_quat": [
+            -0.3462382320888648,
+            0.4188590710838781,
+            0.028690831535207236,
+            0.8389594754197288
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can into the yellow basket"
+  }
+]

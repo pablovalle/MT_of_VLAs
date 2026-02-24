@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 125,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "yellow_cube_3cm",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.10687468556412322,
+            0.3994720179090191
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.3800943901119266,
+            0.370774006515981
+          ],
+          "init_rot_quat": [
+            0.9997205539777398,
+            0.0,
+            0.0,
+            0.023639246063294157
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.44599274483118223,
+            0.1286777777760749
+          ],
+          "init_rot_quat": [
+            0.7648104813478324,
+            0.0,
+            0.0,
+            0.6442553279721456
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "resist moving orange near yellow cube"
+  }
+]

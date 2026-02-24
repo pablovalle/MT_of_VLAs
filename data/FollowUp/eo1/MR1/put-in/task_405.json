@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 405,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "dummy_sink_target_plane",
+        "opened_fanta_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.17021371264083324,
+            0.19364114031267962
+          ],
+          "init_rot_quat": [
+            0.7920478146370523,
+            0.0,
+            0.0,
+            -0.6104590562262712
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1496290260965247,
+            0.1604059247048141
+          ],
+          "init_rot_quat": [
+            0.998789824657594,
+            0.0,
+            0.0,
+            0.049182173197740923
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1811766111437744,
+            0.1283995936728815
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "drop the 7up can into the yellow basket"
+  }
+]

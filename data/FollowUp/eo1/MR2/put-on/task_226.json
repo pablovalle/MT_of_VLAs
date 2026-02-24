@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 226,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "table_cloth_generated",
+        "blue_plastic_bottle",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.04587077976479487,
+            0.11352888302504269
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.1614229508086176,
+            0.06715470540239282
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.21527170085180458,
+            0.1046582252449331
+          ],
+          "init_rot_quat": [
+            -0.5657688638719494,
+            0.7353021496508452,
+            0.33719752841297396,
+            0.1597941432721221
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.24669605744127932,
+            -0.016248087246148513
+          ],
+          "init_rot_quat": [
+            0.33588111506489055,
+            0.5587380122367687,
+            0.6026929970298562,
+            -0.46017047010389545
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the table cloth"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 491,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "table_cloth_generated_shorter",
+        "sprite_can",
+        "bridge_carrot_generated_modified",
+        "opened_coke_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.08596711283921377,
+            0.022827740449505113
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.13106598675832853,
+            -0.15200793751327446
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.18310810585745652,
+            0.10604341837387807
+          ],
+          "init_rot_quat": [
+            0.6245918179339381,
+            0.0,
+            0.0,
+            -0.7809513819502327
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.19528376898436306,
+            -0.044936494720492076
+          ],
+          "init_rot_quat": [
+            0.708656670094107,
+            0.0,
+            0.0,
+            0.7055534876472032
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.25248652375403724,
+            0.01212406497247065
+          ],
+          "init_rot_quat": [
+            0.46340948455018727,
+            0.13115101981573907,
+            0.7590381115295608,
+            -0.43807785252835973
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.15298049389044524,
+            -0.12209511180017404
+          ],
+          "init_rot_quat": [
+            -0.84315312678758,
+            -0.4066708196500558,
+            -0.31954553451042245,
+            0.14697721118570478
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can on the table cloth shorter"
+  }
+]

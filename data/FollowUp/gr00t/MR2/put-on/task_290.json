@@ -1,0 +1,120 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 290,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse_larger",
+        "blue_plastic_bottle",
+        "bridge_carrot_generated_modified",
+        "coke_can",
+        "opened_coke_can",
+        "table_cloth_generated",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.20319027474490714,
+            -0.04425634182283787
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.23047073008389746,
+            0.11062946254265152
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.04430428448192503,
+            -0.13821516753795635
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.08159025360861405,
+            0.053284777371842174
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.024112001411148054,
+            -0.03677412976045284
+          ],
+          "init_rot_quat": [
+            0.8165816856925434,
+            0.0,
+            0.0,
+            0.5772298940556737
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.04755979334612542,
+            -0.12049078228414767
+          ],
+          "init_rot_quat": [
+            -0.5853446480313826,
+            -0.4346736627006972,
+            0.05027150698859966,
+            0.6825710406693742
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.05659395311680837,
+            -0.06441045378822842
+          ],
+          "init_rot_quat": [
+            -0.6090252872083967,
+            0.5960933367021598,
+            -0.0012216021235344986,
+            -0.5232202606630092
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.27334592620413556,
+            -0.13581677501907993
+          ],
+          "init_rot_quat": [
+            0.14826979858433934,
+            0.9567700464659259,
+            0.06682340431719025,
+            -0.2411260617370315
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate larger"
+  }
+]

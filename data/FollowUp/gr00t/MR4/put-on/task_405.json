@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 405,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse",
+        "opened_7up_can",
+        "coke_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.027513402581361368,
+            0.04251628801743837
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.24340189627657435,
+            0.06887285416054476
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.07397944709457438,
+            -0.1293880901488779
+          ],
+          "init_rot_quat": [
+            0.3563247012521425,
+            0.0,
+            0.0,
+            0.9343621927697906
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.14808227813443953,
+            -0.09239055598631968
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.14005540503284866,
+            0.04535009945502627
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you avoid puting the carrot on the plate"
+  }
+]

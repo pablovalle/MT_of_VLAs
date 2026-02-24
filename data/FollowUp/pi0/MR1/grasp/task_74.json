@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 74,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.30861686646558834,
+          0.3011870959442478
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "apple",
+        "opened_coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.43067726149908403,
+            0.1641611206898618
+          ],
+          "init_rot_quat": [
+            0.851883488333401,
+            0.0,
+            0.0,
+            -0.5237313455436062
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.3567072109723265,
+            0.024177309168291264
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "let's pick up  sprite can"
+  }
+]

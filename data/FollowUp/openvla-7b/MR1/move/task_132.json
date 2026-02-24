@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 132,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "blue_plastic_bottle",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.481274548523032,
+            0.17612323652175524
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.30094526406407673,
+            0.2639289329798036
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.15757056068795805,
+            0.12118051876565775
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "let's move  blue plastic bottle near redbull can"
+  }
+]

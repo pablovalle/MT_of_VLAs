@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 403,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "eggplant",
+        "opened_7up_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.12847451306199936,
+            0.3663530734411315
+          ],
+          "init_rot_quat": [
+            0.7940762645424075,
+            0.0,
+            0.0,
+            0.6078181357037452
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.4751900469051485,
+            0.04818467270133358
+          ],
+          "init_rot_quat": [
+            0.6289038275525902,
+            0.0,
+            0.0,
+            0.7774831031538254
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.12233464035435987,
+            0.09093771636973846
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.4246701244070829,
+            0.20599695145225866
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 3
+    },
+    "prompt": "let's move  7up can near redbull can"
+  }
+]

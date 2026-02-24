@@ -1,0 +1,41 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 433,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4687017838662363,
+          0.4
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "apple"
+      ],
+      "distractor_obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.48468355152879405,
+            0.14445578322580088
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "pick carrot"
+  }
+]

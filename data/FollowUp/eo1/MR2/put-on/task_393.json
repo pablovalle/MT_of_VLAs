@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 393,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "bridge_plate_objaverse_larger",
+        "blue_plastic_bottle",
+        "bridge_plate_objaverse",
+        "bridge_carrot_generated",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.0939971611739562,
+            0.0026145852399323266
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.1113400188470226,
+            -0.10983968901622063
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.016339184033306142,
+            0.0740731018043847
+          ],
+          "init_rot_quat": [
+            -0.481408137120939,
+            0.22237232691132647,
+            -0.4583561604468291,
+            0.7132365553715191
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.14604685529537484,
+            -0.003346929457095804
+          ],
+          "init_rot_quat": [
+            0.7212757504988557,
+            -0.6105553235517659,
+            0.051512173845368915,
+            -0.3230015240995552
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.21190587765926014,
+            0.09320593855060702
+          ],
+          "init_rot_quat": [
+            -0.18579441383871714,
+            -0.19892199062478616,
+            -0.7314385952132844,
+            0.6252264060839219
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.15303549095493105,
+            -0.1532807375226264
+          ],
+          "init_rot_quat": [
+            0.30811092116086986,
+            0.18369500183777102,
+            -0.656110695836143,
+            0.6639597588488583
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the plate larger"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 329,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "table_cloth_generated_shorter",
+        "pepsi_can",
+        "green_cube_3cm",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.07516097450694298,
+            -0.11380307461439917
+          ],
+          "init_rot_quat": [
+            0.5288566289613013,
+            0.0,
+            0.0,
+            -0.8487111793794686
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.2583383601172687,
+            0.07416612391832494
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.10629584000860179,
+            0.09077116398876553
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.16697683119389614,
+            0.02581053119391047
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.1903504570162911,
+            0.11629042796593961
+          ],
+          "init_rot_quat": [
+            0.30272804666377845,
+            0.0,
+            0.0,
+            0.9530769799775531
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "place  the redbull can on the table cloth shorter"
+  }
+]

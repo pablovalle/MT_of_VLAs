@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 441,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "dummy_sink_target_plane",
+        "coke_can",
+        "green_cube_3cm",
+        "apple",
+        "bridge_plate_objaverse",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.1366173854494707,
+            0.14828614620748679
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.11414694015341682,
+            0.16438288635588655
+          ],
+          "init_rot_quat": [
+            0.3025385961215089,
+            0.0,
+            0.0,
+            -0.9531371348640375
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.1892078522137662,
+            0.11366948510128916
+          ],
+          "init_rot_quat": [
+            0.28962759513128206,
+            0.0,
+            0.0,
+            0.9571394131151795
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.16459974362572455,
+            0.19720934915647415
+          ],
+          "init_rot_quat": [
+            0.7152267477118174,
+            -0.07721850839640403,
+            -0.38460073362858094,
+            0.5784205018937071
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.18599561615528915,
+            0.11063372990468193
+          ],
+          "init_rot_quat": [
+            0.08896002179689347,
+            0.4610949328203068,
+            -0.12434026943106989,
+            -0.8740807027083608
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.19593453379624073,
+            0.10984343074896676
+          ],
+          "init_rot_quat": [
+            0.26804455184803794,
+            -0.91115901446692,
+            0.15761711331493877,
+            -0.2703668141072816
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

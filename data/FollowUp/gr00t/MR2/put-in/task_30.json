@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 30,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "dummy_sink_target_plane",
+        "bridge_spoon_generated_modified",
+        "table_cloth_generated",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.1187022846804412,
+            0.13126217823349948
+          ],
+          "init_rot_quat": [
+            0.4825242482888255,
+            0.0,
+            0.0,
+            0.8758826118911734
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.12906205307350035,
+            0.17780735244702908
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.1667476839329144,
+            0.1861208463245479
+          ],
+          "init_rot_quat": [
+            -0.09723941821479923,
+            -0.5642415920937747,
+            -0.8083855892538356,
+            -0.1367064752799181
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.18430060030238804,
+            0.18557637360706028
+          ],
+          "init_rot_quat": [
+            -0.487644184851088,
+            0.8535853625452742,
+            0.09535072158601755,
+            -0.15653567555799092
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can into the yellow basket"
+  }
+]

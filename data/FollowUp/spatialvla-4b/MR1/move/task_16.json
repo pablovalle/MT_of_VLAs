@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 16,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "yellow_cube_3cm",
+        "bridge_carrot_generated_modified",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.20788267182649522,
+            0.2952173801829723
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.42748346118376956,
+            0.015316553063636596
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.28352429713752925,
+            0.06958204753949566
+          ],
+          "init_rot_quat": [
+            0.7968749067514187,
+            0.0,
+            0.0,
+            0.6041443395331266
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.4437221684469631,
+            0.38318570866665597
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 3
+    },
+    "prompt": "put carrot near sprite can"
+  }
+]

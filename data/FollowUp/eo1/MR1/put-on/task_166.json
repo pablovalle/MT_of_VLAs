@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 166,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "bridge_plate_objaverse_larger",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.23209171341671486,
+            -0.13047653713885593
+          ],
+          "init_rot_quat": [
+            0.953603580698048,
+            0.0,
+            0.0,
+            -0.3010651273061388
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12222827788427026,
+            -0.06388273533680087
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.08412804086872355,
+            -0.11980652394693664
+          ],
+          "init_rot_quat": [
+            0.9032406121676151,
+            0.0,
+            0.0,
+            -0.42913447371549157
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "place  the sponge on the plate larger"
+  }
+]

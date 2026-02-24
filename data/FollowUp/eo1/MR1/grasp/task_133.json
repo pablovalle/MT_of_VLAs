@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 133,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.28616053905225713,
+          0.20809627520396826
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "coke_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.42500559266355065,
+            0.04517928043938953
+          ],
+          "init_rot_quat": [
+            0.1690888474193054,
+            0.0,
+            0.0,
+            -0.9856008125394433
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.4142041984994619,
+            0.1731009933576794
+          ],
+          "init_rot_quat": [
+            0.8962505459956575,
+            0.0,
+            0.0,
+            -0.44354814710748797
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.48625638697122414,
+            0.08306370846392541
+          ],
+          "init_rot_quat": [
+            0.9997596918706075,
+            0.0,
+            0.0,
+            -0.02192164480115131
+          ]
+        }
+      }
+    },
+    "prompt": "grab  carrot"
+  }
+]

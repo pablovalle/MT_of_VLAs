@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 188,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "table_cloth_generated_shorter",
+        "coke_can",
+        "pepsi_can",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            0,
+            -0.15319795255991114
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.24906739046414855,
+            0.02067126586544571
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.0860709684330398,
+            -0.041046382543277096
+          ],
+          "init_rot_quat": [
+            0.9126442991582001,
+            0.0,
+            0.0,
+            0.40875467362959617
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.17006700544445544,
+            0.08100140279204956
+          ],
+          "init_rot_quat": [
+            0.9148216803742082,
+            0.0,
+            0.0,
+            0.40385801108472535
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.28242098781357367,
+            -0.07309324152873743
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the table cloth shorter"
+  }
+]

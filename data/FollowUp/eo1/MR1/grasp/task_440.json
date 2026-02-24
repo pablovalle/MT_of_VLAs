@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 440,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "green_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3686585169890676,
+          0.32961010266269647
+        ],
+        "orientation": [
+          0.9951300505036328,
+          0.0,
+          0.0,
+          -0.0985706984079811
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_coke_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.4168877166180287,
+            0.12435653929703633
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.371346077890799,
+            0.13788999123297918
+          ],
+          "init_rot_quat": [
+            0.7942888420363834,
+            0.0,
+            0.0,
+            -0.6075403158774743
+          ]
+        }
+      }
+    },
+    "prompt": "lift  green cube"
+  }
+]

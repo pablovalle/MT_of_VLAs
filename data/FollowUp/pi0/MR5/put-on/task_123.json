@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 123,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "bridge_plate_objaverse_larger"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.024819389323208374,
+            -0.10034668233620325
+          ],
+          "init_rot_quat": [
+            0.6373426027262954,
+            0.0,
+            0.0,
+            -0.7705805647367909
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12144659599046742,
+            -0.06251032591888733
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can on the plate larger"
+  }
+]

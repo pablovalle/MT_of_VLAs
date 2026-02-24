@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 306,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "bridge_plate_objaverse_larger",
+        "apple",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.27853101735006935,
+            -0.12943804514980717
+          ],
+          "init_rot_quat": [
+            0.6150670456970414,
+            0.0,
+            0.0,
+            -0.7884748120881945
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.23144789426632723,
+            -0.07946496015698769
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.22800321496041265,
+            -0.0025980616687798497
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.07656741075280357,
+            -0.1040530211421054
+          ],
+          "init_rot_quat": [
+            0.9489540311059829,
+            0.0,
+            0.0,
+            0.3154144049464218
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "place  the orange on the plate larger"
+  }
+]

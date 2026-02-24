@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 116,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.12276796708944462,
+            0.21463262501285568
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.4583189814544708,
+            0.24058078272849004
+          ],
+          "init_rot_quat": [
+            0.990793455997713,
+            0.0,
+            0.0,
+            -0.13538215374305426
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move pepsi can near sponge"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 406,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "green_cube_3cm",
+        "orange",
+        "bridge_spoon_generated_modified",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.17688159657265096,
+            0.35720354549673283
+          ],
+          "init_rot_quat": [
+            0.16178275454591812,
+            0.0,
+            0.0,
+            -0.9868263982745573
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.39650584099658326,
+            0.30347904914996415
+          ],
+          "init_rot_quat": [
+            0.9928670213304712,
+            0.0,
+            0.0,
+            -0.11922700178381453
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.34470635547844486,
+            0.06647332239979452
+          ],
+          "init_rot_quat": [
+            0.8668461141531344,
+            0.0,
+            0.0,
+            0.49857578599207075
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.45364591168541707,
+            0.09760015446987698
+          ],
+          "init_rot_quat": [
+            0.23101683550550975,
+            0.0,
+            0.0,
+            0.9729497529230481
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.14292706389608223,
+            0.20091393649896988
+          ],
+          "init_rot_quat": [
+            0.997215862434455,
+            0.0,
+            0.0,
+            -0.07456891918960636
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 1
+    },
+    "prompt": "move orange near green cube"
+  }
+]

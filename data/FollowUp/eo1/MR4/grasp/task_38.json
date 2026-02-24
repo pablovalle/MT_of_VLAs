@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 38,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3382320466660791,
+          0.02129442467986116
+        ],
+        "orientation": [
+          0.7778365104365251,
+          0.0,
+          0.0,
+          0.6284666761507165
+        ]
+      },
+      "distractor_model_ids": [
+        "yellow_cube_3cm",
+        "opened_pepsi_can"
+      ],
+      "distractor_obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.2970456029554304,
+            0.1213319940273454
+          ],
+          "init_rot_quat": [
+            0.6699777866301849,
+            0.0,
+            0.0,
+            0.7423811456537123
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.324995826838404,
+            0.11159191459897194
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "do not engage in picking fanta can"
+  }
+]

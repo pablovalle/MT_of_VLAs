@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 206,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "opened_fanta_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.10654886964271346,
+            -0.0234935862414484
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.1930035632319823,
+            0.07347888291197868
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.22576938285230824,
+            -0.1462579060394397
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.032167572355055074,
+            0.013995740470021278
+          ],
+          "init_rot_quat": [
+            0.5108245003105856,
+            0.0,
+            0.0,
+            0.8596850178306241
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "set  the carrot on the table cloth"
+  }
+]

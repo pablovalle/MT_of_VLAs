@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 226,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "sponge",
+      "obj_init_options": {
+        "init_xy": [
+          -0.22595957802091365,
+          0.09644439479987904
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "prompt": "fetch  sponge"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 155,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_spoon_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3077922404280554,
+          0.02912428113824124
+        ],
+        "orientation": [
+          0.9174050453921605,
+          0.0,
+          0.0,
+          -0.3979547495495035
+        ]
+      },
+      "distractor_model_ids": [
+        "blue_plastic_bottle",
+        "sponge"
+      ],
+      "distractor_obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.43010035060732593,
+            0.21985485717640244
+          ],
+          "init_rot_quat": [
+            0.34486891057630015,
+            0.0,
+            0.0,
+            -0.9386508586891699
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.12210943382272083,
+            0.06479330574704455
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "please refrain from picking spoon"
+  }
+]

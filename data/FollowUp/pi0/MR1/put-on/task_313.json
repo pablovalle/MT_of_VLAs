@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 313,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_plate_objaverse",
+        "coke_can",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.0003997782599622912,
+            0.02128119093442299
+          ],
+          "init_rot_quat": [
+            0.04029816347763924,
+            0.0,
+            0.0,
+            0.9991876990937836
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.05010786484753449,
+            0.119879569648178
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.022924721428028205,
+            -0.13980139599770827
+          ],
+          "init_rot_quat": [
+            0.7549147047304474,
+            0.0,
+            0.0,
+            -0.6558229857070743
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.17801990854965416,
+            0.0506703045630906
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "could you put  the apple on the plate"
+  }
+]

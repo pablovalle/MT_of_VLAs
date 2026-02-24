@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 451,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "opened_7up_can",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.3707016163977645,
+            0.3392776945631424
+          ],
+          "init_rot_quat": [
+            0.9160987848270549,
+            0.0,
+            0.0,
+            0.4009526361534408
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.20914920970470682,
+            0.08326105497241856
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.10403892595818842,
+            0.27640449646667337
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move 7up can near redbull can"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 297,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.11119694121101742,
+          0.11534054287940908
+        ],
+        "orientation": [
+          0.704317097959991,
+          0.0,
+          0.0,
+          -0.7098855016981376
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant",
+        "7up_can",
+        "opened_sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.29129556430350634,
+            0.2572578643799121
+          ],
+          "init_rot_quat": [
+            0.07135323295645403,
+            0.0,
+            0.0,
+            0.9974511096523287
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.35769594380441316,
+            0.20834753460542182
+          ],
+          "init_rot_quat": [
+            0.9109012281460066,
+            0.0,
+            0.0,
+            -0.4126244691751774
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.46162848064899575,
+            0.10175803952429488
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "can you pick up  blue plastic bottle"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 496,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "dummy_sink_target_plane",
+        "blue_plastic_bottle",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.11112040622130204,
+            0.13082711112248502
+          ],
+          "init_rot_quat": [
+            0.5723119964909176,
+            0.0,
+            0.0,
+            0.8200359618166633
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.17144960306934706,
+            0.16431767972161987
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.14943216261835335,
+            0.10418416320092967
+          ],
+          "init_rot_quat": [
+            0.9981515790538723,
+            0.0,
+            0.0,
+            -0.06077355701504787
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "insert  the eggplant into the yellow basket"
+  }
+]

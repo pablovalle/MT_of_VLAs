@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 354,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane",
+        "pepsi_can",
+        "bridge_carrot_generated_modified",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.2,
+            0.1
+          ],
+          "init_rot_quat": [
+            0.4985273054552462,
+            0.0,
+            0.0,
+            -0.8668739964467337
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1029384089680338,
+            0.17408151212411413
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.19257490818554918,
+            0.157215944199995
+          ],
+          "init_rot_quat": [
+            0.6707905063505081,
+            0.0,
+            0.0,
+            -0.741646881332369
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.14235144006092557,
+            0.14263964224965286
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle into the yellow basket"
+  }
+]

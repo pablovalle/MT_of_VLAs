@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 424,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_id": "fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.17282282128109364,
+          0.36120008491514144
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "orange"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.14422402722648553,
+            0.3859913479058062
+          ],
+          "init_rot_quat": [
+            0.9995362691985658,
+            0.0,
+            0.0,
+            0.030450723416895455
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.3517815734155303,
+            0.36284296443861036
+          ],
+          "init_rot_quat": [
+            0.6632143754359926,
+            0.0,
+            0.0,
+            -0.7484294837959327
+          ]
+        }
+      }
+    },
+    "prompt": "pick fanta can"
+  }
+]

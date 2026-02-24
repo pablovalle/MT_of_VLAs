@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 474,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "dummy_sink_target_plane",
+        "bridge_plate_objaverse_larger",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.12298249570348002,
+            0.14804372170581168
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.17984088130014866,
+            0.1514823264043814
+          ],
+          "init_rot_quat": [
+            0.21588512801436907,
+            -0.025342533873723934,
+            0.9516124178245954,
+            -0.21722148540396824
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.19817186890206479,
+            0.18689493302686394
+          ],
+          "init_rot_quat": [
+            -0.12440719925038303,
+            0.701956056753973,
+            -0.6525759278664002,
+            0.25675903398010225
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can into the yellow basket"
+  }
+]

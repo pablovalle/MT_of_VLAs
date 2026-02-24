@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 295,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2333028883886754,
+            0.09152853627042715
+          ],
+          "init_rot_quat": [
+            0.8678221347108616,
+            0.0,
+            0.0,
+            -0.4968749767354795
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.1517547996910282,
+            -0.024426964574643134
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "could you put  the sprite can on the table cloth shorter"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 481,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "dummy_sink_target_plane",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.19775576400422684,
+            0.12134860400965032
+          ],
+          "init_rot_quat": [
+            0.920314422409883,
+            0.0,
+            0.0,
+            0.3911794523033685
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.10739014962336971,
+            0.14861370402234275
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "hold back from puting the fanta can into the yellow basket"
+  }
+]

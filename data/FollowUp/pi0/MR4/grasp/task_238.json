@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 238,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2217059819961374,
+          0.14928102210413532
+        ],
+        "orientation": [
+          0.7558785211244335,
+          0.0,
+          0.0,
+          -0.6547118918293292
+        ]
+      }
+    },
+    "prompt": "cease the act of picking apple"
+  }
+]

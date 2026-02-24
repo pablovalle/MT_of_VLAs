@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 169,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.44658486149259513,
+          0.36075599898926985
+        ],
+        "orientation": [
+          0.9432594898945061,
+          0.0,
+          0.0,
+          0.33205652338714275
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.3157980146813022,
+            0.1508657892848989
+          ],
+          "init_rot_quat": [
+            0.573127406497402,
+            0.0,
+            0.0,
+            0.8194662750361126
+          ]
+        }
+      }
+    },
+    "prompt": "retrieve  sprite can"
+  }
+]

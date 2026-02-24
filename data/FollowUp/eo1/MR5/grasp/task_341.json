@@ -1,0 +1,67 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 341,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_id": "7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.5,
+          0.09153613610835806
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant",
+        "sponge",
+        "opened_fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.4759086307297475,
+            0.2061243158621363
+          ],
+          "init_rot_quat": [
+            0.24821353715695957,
+            0.0,
+            0.0,
+            -0.9687053421820438
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.42077235410189995,
+            0.198088207835717
+          ],
+          "init_rot_quat": [
+            0.3117060332403284,
+            0.0,
+            0.0,
+            -0.9501785878673437
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.36165557780292723,
+            0.3965658425898535
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "pick 7up can"
+  }
+]

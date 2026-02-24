@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 334,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "bridge_plate_objaverse_larger",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.2770443569911724,
+            0.08373918125854496
+          ],
+          "init_rot_quat": [
+            0.8410612167892871,
+            0.0,
+            0.0,
+            0.5409399500988291
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.19020434557338056,
+            -0.019662688333292017
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.21984787228712288,
+            0.09463080726849918
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "cease puting the coke can on the plate larger"
+  }
+]

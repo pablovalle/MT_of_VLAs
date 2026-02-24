@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 431,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "table_cloth_generated_shorter",
+        "opened_pepsi_can",
+        "green_cube_3cm",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.10403752217616191,
+            0.024653940941619934
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.11062963615786667,
+            -0.11305805673116726
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.06187798527722549,
+            -0.1354638190835924
+          ],
+          "init_rot_quat": [
+            0.7627717899852141,
+            0.0,
+            0.0,
+            -0.6466677635407168
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.26357271348340316,
+            0.09089325748457053
+          ],
+          "init_rot_quat": [
+            0.07876682107867142,
+            0.0,
+            0.0,
+            0.9968930674335942
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.14618845409411865,
+            0.06602621638010497
+          ],
+          "init_rot_quat": [
+            0.7632533662570892,
+            0.0,
+            0.0,
+            -0.6460992949208517
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "abstain from puting the sponge on the table cloth shorter"
+  }
+]

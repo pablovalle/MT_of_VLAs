@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 69,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "sponge",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2743530067905767,
+          0.347355739661372
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "fanta_can",
+        "opened_redbull_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.2579215142762453,
+            0.29361503593772825
+          ],
+          "init_rot_quat": [
+            0.04670333317845281,
+            0.0,
+            0.0,
+            -0.9989088039806349
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.4681061362824481,
+            0.23286587932983394
+          ],
+          "init_rot_quat": [
+            -0.898394975429414,
+            -0.4253901761430503,
+            -0.10851617797648187,
+            0.012405856743636886
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.42660292800311594,
+            0.21989021272149722
+          ],
+          "init_rot_quat": [
+            0.30476691344384366,
+            0.9373087763703505,
+            0.16879231238530007,
+            0.008862363604158518
+          ]
+        }
+      }
+    },
+    "prompt": "pick sponge"
+  }
+]

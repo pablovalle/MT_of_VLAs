@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 486,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.43209064839145006,
+            0.051523077681195066
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.16774746274214636,
+            0.03477871845711977
+          ],
+          "init_rot_quat": [
+            0.7978433772623563,
+            0.0,
+            0.0,
+            0.6028647819856434
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "avoid moving coke can near redbull can"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 273,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "opened_coke_can",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.4633530254363349,
+            0.2311328698321467
+          ],
+          "init_rot_quat": [
+            0.8481385540428645,
+            0.0,
+            0.0,
+            -0.529774473852864
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.34115059320098506,
+            0.023388175312837146
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.20481593130686077,
+            0.37384941959401524
+          ],
+          "init_rot_quat": [
+            0.7183224689930535,
+            0.0,
+            0.0,
+            0.6957103064780078
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "hold back from moving coke can near apple"
+  }
+]

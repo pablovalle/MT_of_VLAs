@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 308,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "dummy_sink_target_plane",
+        "7up_can",
+        "opened_fanta_can",
+        "bridge_spoon_generated_modified",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.13037749774254664,
+            0.18148741224390186
+          ],
+          "init_rot_quat": [
+            0.9771227331792718,
+            0.0,
+            0.0,
+            -0.2126761959041715
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.10393352153559246,
+            0.1523474897452983
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.19635420111070678,
+            0.12253890007015172
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.17484356641679494,
+            0.14939156727533678
+          ],
+          "init_rot_quat": [
+            -0.5213968697378728,
+            -0.4171881889541316,
+            -0.6995390624464654,
+            -0.2544492470734384
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.1526022162372841,
+            0.1211802908362625
+          ],
+          "init_rot_quat": [
+            -0.20213634241725262,
+            -0.12540160492177607,
+            -0.7077886267680046,
+            0.6651695997075333
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can into the yellow basket"
+  }
+]

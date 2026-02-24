@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 426,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "bridge_plate_objaverse",
+        "fanta_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.07865324119098469,
+            -0.057407931013591845
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.22934025744381895,
+            0.0627428807925812
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.261664918732084,
+            0.10693314346809138
+          ],
+          "init_rot_quat": [
+            0.3800137398976036,
+            -0.4499222911485054,
+            -0.8081658100919502,
+            -0.005245265973990077
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.21428938100363026,
+            -0.09353696274760162
+          ],
+          "init_rot_quat": [
+            0.9636344494899549,
+            -0.1818187058028953,
+            0.15697393541755075,
+            0.11708881063482691
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can on the plate"
+  }
+]

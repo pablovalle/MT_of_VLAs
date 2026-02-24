@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 280,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "bridge_plate_objaverse",
+        "opened_coke_can",
+        "orange",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.09871392340297572,
+            0.12
+          ],
+          "init_rot_quat": [
+            0.732906871508997,
+            0.0,
+            0.0,
+            -0.6803289775504895
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.21466702763420348,
+            -0.02685128864596864
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.2980183604561083,
+            -0.005346482134636371
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.19409579837690855,
+            0.08690689005887337
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.00814609227237817,
+            -0.07909234711734058
+          ],
+          "init_rot_quat": [
+            0.33430876214216526,
+            0.0,
+            0.0,
+            -0.9424636075493702
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can on the plate"
+  }
+]

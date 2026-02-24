@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 297,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "dummy_sink_target_plane",
+        "apple",
+        "pepsi_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.13515014826781807,
+            0.106853199559171
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.19172012414928344,
+            0.16745714540912526
+          ],
+          "init_rot_quat": [
+            0.051001036274896556,
+            0.0,
+            0.0,
+            0.9986986003288914
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1984451225598578,
+            0.16036682118275652
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.13711415385710368,
+            0.1849885449704661
+          ],
+          "init_rot_quat": [
+            0.9999964148952653,
+            0.0,
+            0.0,
+            -0.002677722281436342
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "cease the act of puting the fanta can into the yellow basket"
+  }
+]

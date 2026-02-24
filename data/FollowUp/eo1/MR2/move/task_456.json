@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 456,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "blue_plastic_bottle",
+        "yellow_cube_3cm",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.27274808287810764,
+            0.14767958659965347
+          ],
+          "init_rot_quat": [
+            0.8920267193949482,
+            0.0,
+            0.0,
+            -0.4519826676826075
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.404388063803891,
+            0.022948798928322845
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.48315079017023677,
+            0.24550853765036085
+          ],
+          "init_rot_quat": [
+            -0.4934193431210461,
+            0.5471641957209833,
+            0.21470934493038882,
+            0.6411307136259877
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.46505735150824956,
+            0.1593764205138434
+          ],
+          "init_rot_quat": [
+            0.6771712673439239,
+            -0.518294974954663,
+            0.10236882004779571,
+            -0.5121816262836764
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move pepsi can near blue plastic bottle"
+  }
+]

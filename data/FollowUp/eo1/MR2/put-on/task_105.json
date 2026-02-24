@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 105,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse",
+        "bridge_carrot_generated_modified",
+        "fanta_can",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.21020867516967073,
+            0.033067309317134
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.11407518020796306,
+            0.06619436845506521
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2473338685677668,
+            -0.13916228979016573
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.14184346987626167,
+            -0.09941797040554798
+          ],
+          "init_rot_quat": [
+            0.23509780741997913,
+            0.5219692547707477,
+            0.5839933855099481,
+            0.5755248419495179
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.11903231737045841,
+            -0.07711404833558115
+          ],
+          "init_rot_quat": [
+            0.3032527114117777,
+            0.24935661018673366,
+            -0.8954149850815096,
+            0.20997875718525974
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate"
+  }
+]

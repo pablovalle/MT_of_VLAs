@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 151,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "bridge_plate_objaverse_larger",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.2510010317469324,
+            -0.03998817810104541
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.03742637169594365,
+            -0.12988699713346497
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.026005676001547906,
+            0.11535461328977473
+          ],
+          "init_rot_quat": [
+            0.960567228498872,
+            0.0,
+            0.0,
+            -0.27804783677273215
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "refrain from puting the sprite can on the plate larger"
+  }
+]

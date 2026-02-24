@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 148,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "opened_sprite_can",
+        "eggplant",
+        "opened_pepsi_can",
+        "coke_can"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.4693006509514158,
+            0.06713850214040402
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.4639273662919156,
+            0.22328600812286817
+          ],
+          "init_rot_quat": [
+            0.5290873236609112,
+            0.0,
+            0.0,
+            0.8485673832650735
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.13333221644191684,
+            0.023237594229506442
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.20909684655906946,
+            0.16088418000913937
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.3796044535394557,
+            0.38705535755078263
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 2
+    },
+    "prompt": "move pepsi can near eggplant"
+  }
+]

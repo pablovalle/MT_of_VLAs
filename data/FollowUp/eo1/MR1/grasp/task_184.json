@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 184,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.37989570853907967,
+          0.06760569678799677
+        ],
+        "orientation": [
+          0.3005479368562776,
+          0.0,
+          0.0,
+          0.9537667102868683
+        ]
+      },
+      "distractor_model_ids": [
+        "green_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.10512507550476419,
+            0.32507228621796463
+          ],
+          "init_rot_quat": [
+            0.6662345599008498,
+            0.0,
+            0.0,
+            -0.7457422552019706
+          ]
+        }
+      }
+    },
+    "prompt": "take  fanta can"
+  }
+]

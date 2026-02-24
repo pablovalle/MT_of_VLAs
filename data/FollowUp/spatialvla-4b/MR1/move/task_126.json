@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 126,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "orange"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.3728074924850728,
+            0.09162652755753214
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.27655829525574926,
+            0.2790331084359469
+          ],
+          "init_rot_quat": [
+            0.7406170742632854,
+            0.0,
+            0.0,
+            0.6719273393081213
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "set  orange near carrot"
+  }
+]

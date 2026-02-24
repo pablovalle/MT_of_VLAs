@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 106,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "bridge_plate_objaverse_larger",
+        "apple",
+        "sponge",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.21445564431635128,
+            0.051192586435140075
+          ],
+          "init_rot_quat": [
+            0.9959564124983584,
+            0.0,
+            0.0,
+            0.08983776713275841
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.09123450559550525,
+            -0.13773392148824373
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.048441637843675445,
+            -0.0058666290848043146
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.009251742363220072,
+            -0.0726125555448002
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.2264521782018442,
+            -0.1591775567802132
+          ],
+          "init_rot_quat": [
+            0.3673912109441538,
+            0.0,
+            0.0,
+            -0.9300665019884268
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you move  the sprite can on the plate larger"
+  }
+]

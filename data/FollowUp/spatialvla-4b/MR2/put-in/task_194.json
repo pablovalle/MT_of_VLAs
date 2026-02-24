@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 194,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane",
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse",
+        "coke_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.13359183680864062,
+            0.14382423789921625
+          ],
+          "init_rot_quat": [
+            0.9665938228665725,
+            0.0,
+            0.0,
+            0.25631305389344705
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.17382034435693525,
+            0.19136614614194686
+          ],
+          "init_rot_quat": [
+            0.4894392958763261,
+            0.6344023855959007,
+            -0.5154682095471116,
+            -0.3037685200092517
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.18852762193832356,
+            0.1492918196981549
+          ],
+          "init_rot_quat": [
+            -0.47346921953548105,
+            0.8643392383651431,
+            0.14786417316141526,
+            -0.08295037956584363
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.1756120918758035,
+            0.10360925043544304
+          ],
+          "init_rot_quat": [
+            -0.18665410409912106,
+            0.10982227025072437,
+            0.0676883210978989,
+            -0.9739186852950708
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.11951853755524894,
+            0.19765869597683322
+          ],
+          "init_rot_quat": [
+            0.024901640292689074,
+            -0.2150696374969892,
+            0.015805456738020165,
+            0.9761532394429421
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange into the yellow basket"
+  }
+]

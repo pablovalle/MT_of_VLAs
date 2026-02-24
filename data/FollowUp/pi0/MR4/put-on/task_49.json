@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 49,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "table_cloth_generated_shorter",
+        "coke_can",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.2672024732442156,
+            0.06553675012040372
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.054222494826890705,
+            0.00032212086302876863
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.2020299410171157,
+            -0.06512581896437793
+          ],
+          "init_rot_quat": [
+            0.552005288605107,
+            0.0,
+            0.0,
+            0.8338406090806519
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.07052007484008319,
+            0.09315816086543269
+          ],
+          "init_rot_quat": [
+            0.9886626549125213,
+            0.0,
+            0.0,
+            -0.1501537704532419
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop yourself from puting the pepsi can on the table cloth shorter"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 327,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "green_cube_3cm",
+        "blue_plastic_bottle",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.3119514360413188,
+            0.09398925832723606
+          ],
+          "init_rot_quat": [
+            0.28058071702377263,
+            0.0,
+            0.0,
+            0.959830433584196
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.47275447879621146,
+            0.3291533019128597
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.303141166630286,
+            0.19887410250497914
+          ],
+          "init_rot_quat": [
+            0.9890025134580798,
+            0.0,
+            0.0,
+            -0.14789870984427364
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1561775793067785,
+            0.06524086320808667
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 1
+    },
+    "prompt": "move blue plastic bottle near green cube"
+  }
+]

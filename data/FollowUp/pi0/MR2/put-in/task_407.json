@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 407,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "dummy_sink_target_plane",
+        "orange",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.10162222247119618,
+            0.17215831754892796
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.17732383241340785,
+            0.12079119235662794
+          ],
+          "init_rot_quat": [
+            -0.6062830997015461,
+            -0.7224709235575468,
+            -0.22738300521366425,
+            0.2423912881483015
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.18795501223250022,
+            0.17505251212355344
+          ],
+          "init_rot_quat": [
+            0.1443409128782589,
+            0.838488705636539,
+            0.444924598134142,
+            0.27954336580324085
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube into the yellow basket"
+  }
+]

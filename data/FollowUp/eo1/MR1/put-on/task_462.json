@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 462,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "table_cloth_generated_shorter",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.25367987648258955,
+            0.06807562935030856
+          ],
+          "init_rot_quat": [
+            0.5514916677503582,
+            0.0,
+            0.0,
+            -0.8341804003942603
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.20444577000812053,
+            -0.14932365376641296
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.020499279150466954,
+            -0.15669294429071737
+          ],
+          "init_rot_quat": [
+            0.9591109803216773,
+            0.0,
+            0.0,
+            0.28303025885299105
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move  the fanta can on the table cloth shorter"
+  }
+]

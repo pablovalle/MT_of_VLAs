@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 305,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "dummy_sink_target_plane",
+        "opened_7up_can",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.10963438882556714,
+            0.162148276529413
+          ],
+          "init_rot_quat": [
+            0.9877590374653582,
+            0.0,
+            0.0,
+            -0.15598744791010935
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.1197517660414074,
+            0.15237579140720842
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.12656146070954946,
+            0.1744560771594887
+          ],
+          "init_rot_quat": [
+            0.9539364331069579,
+            0.0,
+            0.0,
+            0.300008802522817
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move  the eggplant into the yellow basket"
+  }
+]

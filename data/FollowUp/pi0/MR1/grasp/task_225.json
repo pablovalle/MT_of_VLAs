@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 225,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.26523929906329247,
+          0.13686075172500187
+        ],
+        "orientation": [
+          0.43551724045423057,
+          0.0,
+          0.0,
+          0.9001803892926861
+        ]
+      }
+    },
+    "prompt": "fetch  sprite can"
+  }
+]

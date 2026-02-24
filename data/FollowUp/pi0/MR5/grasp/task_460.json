@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 460,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.377044634793791,
+          0
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "coke_can",
+        "redbull_can"
+      ],
+      "distractor_obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.15021886741448415,
+            0.10010375143088766
+          ],
+          "init_rot_quat": [
+            0.9253929393757969,
+            0.0,
+            0.0,
+            -0.37900911302160345
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.2949124815660127,
+            0.02705619259899472
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "pick yellow cube"
+  }
+]

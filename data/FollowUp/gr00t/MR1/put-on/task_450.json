@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 450,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "table_cloth_generated",
+        "fanta_can",
+        "bridge_carrot_generated_modified",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.12002222548778477,
+            -0.08236147305645454
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.052188992815010105,
+            0.1056605125377307
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.005830197854121366,
+            0.07618751823061035
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.29331477968982067,
+            -0.07746263693435898
+          ],
+          "init_rot_quat": [
+            0.26770458397930535,
+            0.0,
+            0.0,
+            -0.9635010408486683
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.1587612179192147,
+            -0.029472412591898367
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "can you place  the green cube on the table cloth"
+  }
+]

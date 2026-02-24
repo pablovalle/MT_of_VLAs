@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 414,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.10817519733056571,
+          0.4
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_coke_can",
+        "pepsi_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.3054559580695071,
+            0.01766747791554222
+          ],
+          "init_rot_quat": [
+            0.937627832669409,
+            0.0,
+            0.0,
+            0.34764068720974955
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.17746443540527146,
+            0.10960073376343744
+          ],
+          "init_rot_quat": [
+            0.9724875015028114,
+            0.0,
+            0.0,
+            0.23295505880066122
+          ]
+        }
+      }
+    },
+    "prompt": "pick apple"
+  }
+]

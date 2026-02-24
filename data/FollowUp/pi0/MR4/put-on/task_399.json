@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 399,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "table_cloth_generated_shorter",
+        "opened_sprite_can",
+        "eggplant",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.2572404009154297,
+            -0.051136237154557715
+          ],
+          "init_rot_quat": [
+            0.9984133891972098,
+            0.0,
+            0.0,
+            0.05630900702144235
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.24298056155427894,
+            0.05074591863966979
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.23096061684580382,
+            -0.09713054876525305
+          ],
+          "init_rot_quat": [
+            0.735444199444871,
+            0.0,
+            0.0,
+            -0.6775852931571734
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.08157223918483958,
+            -0.06360315351740435
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.14405367345460895,
+            0.012321556677662548
+          ],
+          "init_rot_quat": [
+            0.7565593011686145,
+            0.0,
+            0.0,
+            0.6539250903698816
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "abstain from puting the fanta can on the table cloth shorter"
+  }
+]

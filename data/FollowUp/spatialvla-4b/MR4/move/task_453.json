@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 453,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2667891252234956,
+            0.27186364254134937
+          ],
+          "init_rot_quat": [
+            0.9433801494787296,
+            0.0,
+            0.0,
+            0.33171357157868847
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.4762371138870389,
+            0.1719096563646755
+          ],
+          "init_rot_quat": [
+            0.9616211827486622,
+            0.0,
+            0.0,
+            -0.2743805767343311
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop from moving carrot near yellow cube"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 309,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.29136713410796067,
+            0.034081929609742406
+          ],
+          "init_rot_quat": [
+            0.8219145478919154,
+            0.0,
+            0.0,
+            0.5696108109609825
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.21186112011220365,
+            -0.02314219222270117
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop from puting the apple on the table cloth shorter"
+  }
+]

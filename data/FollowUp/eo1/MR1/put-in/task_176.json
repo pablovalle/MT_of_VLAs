@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 176,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "dummy_sink_target_plane",
+        "fanta_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.14459565599264473,
+            0.12714812277343812
+          ],
+          "init_rot_quat": [
+            0.9998000635224278,
+            0.0,
+            0.0,
+            0.01999582407777642
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.17441983072242975,
+            0.12921949457816037
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.1998004238791859,
+            0.13827938620110372
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can into the yellow basket"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 60,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.25491848010474344,
+            -0.11977661632070019
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.22980266558323825,
+            0.09973780163907828
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "abstain from puting the spoon on the plate"
+  }
+]

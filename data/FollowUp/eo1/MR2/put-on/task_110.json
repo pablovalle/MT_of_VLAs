@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 110,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated_shorter",
+        "yellow_cube_3cm",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2660677865188782,
+            -0.09105193597207677
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.24576584382698016,
+            -0.026414596313456135
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.1456906937397462,
+            -0.0364812786088026
+          ],
+          "init_rot_quat": [
+            0.6711389408021812,
+            -0.4120681059613128,
+            -0.5171858814672234,
+            -0.33509873500112425
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.12346786429127107,
+            -0.013801601756918164
+          ],
+          "init_rot_quat": [
+            0.7119415101551764,
+            0.1548660654418571,
+            0.33234960951166037,
+            0.5989152902956913
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the table cloth shorter"
+  }
+]

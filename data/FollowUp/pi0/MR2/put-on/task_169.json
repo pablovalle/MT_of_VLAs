@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 169,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "table_cloth_generated",
+        "opened_coke_can",
+        "sprite_can",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.01925664638162322,
+            -0.04541772446222392
+          ],
+          "init_rot_quat": [
+            0.6172154593881183,
+            0.0,
+            0.0,
+            0.7867941768291845
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.28789051452787434,
+            0.07037833066891042
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.033769790828115154,
+            0.01719495586323555
+          ],
+          "init_rot_quat": [
+            0.6036678229545697,
+            0.0,
+            0.0,
+            -0.7972359497220948
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.15936736202945398,
+            0.07608277404502456
+          ],
+          "init_rot_quat": [
+            -0.4938097358196536,
+            0.08659206013637247,
+            0.8619986919202655,
+            0.07491338370954781
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.1053070569771263,
+            -0.08897394893872458
+          ],
+          "init_rot_quat": [
+            0.4254732633430296,
+            -0.6641347746075495,
+            0.5043628073976293,
+            -0.3514479504154123
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can on the table cloth"
+  }
+]

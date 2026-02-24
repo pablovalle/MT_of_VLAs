@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 173,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "dummy_sink_target_plane",
+        "bridge_spoon_generated_modified",
+        "opened_7up_can",
+        "yellow_cube_3cm",
+        "apple"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.12807577102851264,
+            0.11314222205535074
+          ],
+          "init_rot_quat": [
+            0.38425281651102505,
+            0.0,
+            0.0,
+            -0.9232279095669413
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1814369523928465,
+            0.1320530730104101
+          ],
+          "init_rot_quat": [
+            0.009817829884998863,
+            0.0,
+            0.0,
+            -0.9999518039467449
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.15309832798429795,
+            0.1377681158792653
+          ],
+          "init_rot_quat": [
+            0.22404058353773038,
+            0.0,
+            0.0,
+            0.9745798155759605
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.19319977728596976,
+            0.14337312709059893
+          ],
+          "init_rot_quat": [
+            0.0690764192646448,
+            0.09962493932594262,
+            0.9050867627960772,
+            0.4075797732680003
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.11171439874664751,
+            0.16978505978232178
+          ],
+          "init_rot_quat": [
+            -0.14774199458579135,
+            0.9545656477760385,
+            0.22854869680336176,
+            0.12141754531866061
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can into the yellow basket"
+  }
+]

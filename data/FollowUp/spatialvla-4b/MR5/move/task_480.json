@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 480,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.29128994332377545,
+            0.3338817095531331
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.2604360851037487,
+            0.13692809725138175
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move blue plastic bottle near 7up can"
+  }
+]

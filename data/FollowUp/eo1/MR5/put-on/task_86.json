@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 86,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "table_cloth_generated",
+        "opened_coke_can",
+        "fanta_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.1626330599734544,
+            -0.00681651784732569
+          ],
+          "init_rot_quat": [
+            0.5228608335586918,
+            0.0,
+            0.0,
+            -0.8524180598335009
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.10551854854299755,
+            0.021472868984418303
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.015645730349423403,
+            0.06067642479908314
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.22687561593490718,
+            0.07223927979381009
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.09358903714944808,
+            -0.10916692063518274
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange on the table cloth"
+  }
+]

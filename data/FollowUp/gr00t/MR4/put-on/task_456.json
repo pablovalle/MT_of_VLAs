@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 456,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "bridge_plate_objaverse",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.19370255178838536,
+            0.013961517285647679
+          ],
+          "init_rot_quat": [
+            0.997603103355887,
+            0.0,
+            0.0,
+            -0.0691957236735301
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.027802956946640367,
+            0.07063703395160964
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.22118569620366568,
+            0.060906885757900125
+          ],
+          "init_rot_quat": [
+            0.7818576098328626,
+            0.0,
+            0.0,
+            0.623457037771203
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you avoid puting the 7up can on the plate"
+  }
+]

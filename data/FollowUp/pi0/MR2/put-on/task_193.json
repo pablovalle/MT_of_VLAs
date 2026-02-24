@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 193,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "bridge_plate_objaverse",
+        "opened_fanta_can",
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2558854086245974,
+            0.11342131708060102
+          ],
+          "init_rot_quat": [
+            0.9484022806529512,
+            0.0,
+            0.0,
+            0.3170695728894226
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.11822253340113403,
+            0.06833106985975804
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.2868085554882737,
+            -0.14118080366943925
+          ],
+          "init_rot_quat": [
+            -0.5078631293399818,
+            -0.33750668458574556,
+            -0.7193428896385197,
+            -0.33273125318106717
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12225674280918994,
+            -0.03739681937211667
+          ],
+          "init_rot_quat": [
+            -0.10005020488008473,
+            0.9829057236314203,
+            0.03019737372334647,
+            0.15157312946647086
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.13542850316778768,
+            0.09090551958126711
+          ],
+          "init_rot_quat": [
+            0.06268880885239762,
+            0.10000071869679748,
+            0.9708087276459204,
+            0.20880704928546018
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.2936660100744862,
+            -0.033193166973838006
+          ],
+          "init_rot_quat": [
+            0.6174147910864344,
+            0.7576800694816378,
+            0.17082879634112647,
+            0.12464914920943918
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the plate"
+  }
+]

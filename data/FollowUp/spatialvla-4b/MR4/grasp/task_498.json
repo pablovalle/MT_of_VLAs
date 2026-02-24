@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 498,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "sponge",
+      "obj_init_options": {
+        "init_xy": [
+          -0.24438837476005099,
+          0.32641924267776923
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.3097737062599025,
+            0.13076746078912824
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "resist picking sponge"
+  }
+]

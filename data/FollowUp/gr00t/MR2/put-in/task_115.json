@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 115,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "dummy_sink_target_plane",
+        "eggplant",
+        "table_cloth_generated",
+        "opened_coke_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1418517879104514,
+            0.17836178569472605
+          ],
+          "init_rot_quat": [
+            0.06376499897221688,
+            0.0,
+            0.0,
+            0.9979649417219391
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.15219201054900697,
+            0.1567851522914588
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.18589099235872025,
+            0.1544420892845227
+          ],
+          "init_rot_quat": [
+            0.5075084461591012,
+            0.8341753198035429,
+            -0.12459808915293369,
+            0.17624423135884298
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.10291563041588524,
+            0.13036972467048805
+          ],
+          "init_rot_quat": [
+            -0.8574724046527118,
+            0.05687540266407078,
+            -0.10112403796962272,
+            0.501278558064889
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.19967172975037573,
+            0.17550293181331456
+          ],
+          "init_rot_quat": [
+            0.050921165644140606,
+            0.5003805767459981,
+            0.8428507946371414,
+            0.19138665388245735
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon into the yellow basket"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 372,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse",
+        "fanta_can",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.05776758448071151,
+            -0.11552913972807852
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.20020882319489317,
+            -0.12934995790933185
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.22244669590837585,
+            -0.07396818420408308
+          ],
+          "init_rot_quat": [
+            0.27055868343115186,
+            0.0,
+            0.0,
+            0.9627034843709675
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.008836783892893774,
+            -0.04674696419169787
+          ],
+          "init_rot_quat": [
+            0.8116424284337096,
+            0.0,
+            0.0,
+            -0.5841545757470625
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate"
+  }
+]

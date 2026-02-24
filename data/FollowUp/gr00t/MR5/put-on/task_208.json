@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 208,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse_larger",
+        "coke_can",
+        "green_cube_3cm",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            0,
+            0.038923093860772195
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.2898777158677993,
+            0.11403457038937312
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.23676109282503588,
+            -0.1341800143528156
+          ],
+          "init_rot_quat": [
+            0.8697179005362086,
+            0.0,
+            0.0,
+            -0.49354916015214706
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.25680472249979186,
+            -0.08697028051837163
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.030613251667137797,
+            -0.1265850026139767
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the plate larger"
+  }
+]

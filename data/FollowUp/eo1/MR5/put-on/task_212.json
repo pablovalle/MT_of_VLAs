@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 212,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "table_cloth_generated",
+        "green_cube_3cm",
+        "apple",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.3,
+            -0.13422729552986024
+          ],
+          "init_rot_quat": [
+            0.700066715785736,
+            0.0,
+            0.0,
+            0.7140774421930535
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.14583916331057817,
+            -0.09572827655234907
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.07961926007407188,
+            0.11968529116370272
+          ],
+          "init_rot_quat": [
+            0.7349914251171598,
+            0.0,
+            0.0,
+            -0.6780764005657818
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.06108832208755019,
+            -0.10502123425590773
+          ],
+          "init_rot_quat": [
+            0.8233823870259109,
+            0.0,
+            0.0,
+            0.56748695556419
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.07586846067592914,
+            0.04823592481913816
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the table cloth"
+  }
+]

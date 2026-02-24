@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 486,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse_larger",
+        "pepsi_can",
+        "opened_coke_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12154343289673378,
+            0.11560473373053307
+          ],
+          "init_rot_quat": [
+            0.9964972150090364,
+            0.0,
+            0.0,
+            -0.0836259557747126
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.0670309036360768,
+            0.05153783060246278
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.0264969672955796,
+            0.09637993904633665
+          ],
+          "init_rot_quat": [
+            -0.4308974703882902,
+            -0.003975852291183899,
+            -0.18161409332667064,
+            0.8839275330685556
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.03992644069324702,
+            -0.13228916727294907
+          ],
+          "init_rot_quat": [
+            0.1727151467164178,
+            0.21471388011835282,
+            0.7298336215962246,
+            -0.6256279346120877
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2641684434541804,
+            -0.10827918061897836
+          ],
+          "init_rot_quat": [
+            0.5666921432738046,
+            -0.4770988046601619,
+            0.5676411813859156,
+            0.35919386762358363
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the plate larger"
+  }
+]

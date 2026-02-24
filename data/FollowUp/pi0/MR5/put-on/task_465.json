@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 465,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_plate_objaverse_larger",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.13909669568824604,
+            0.12
+          ],
+          "init_rot_quat": [
+            0.42734764895542626,
+            0.0,
+            0.0,
+            -0.9040873779299597
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.002282385055327074,
+            -0.09676673528201611
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.055853033830527754,
+            -0.012913859653149978
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the apple on the plate larger"
+  }
+]

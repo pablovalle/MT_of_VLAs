@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 51,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.36025007656853314,
+          0.330888825974523
+        ],
+        "orientation": [
+          0.7157092011281577,
+          0.0,
+          0.0,
+          -0.6983984102362306
+        ]
+      }
+    },
+    "prompt": "cease picking carrot"
+  }
+]

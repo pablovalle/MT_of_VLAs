@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 18,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "bridge_plate_objaverse",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.09496632085675633,
+            0.07300989144213149
+          ],
+          "init_rot_quat": [
+            0.9961647244821925,
+            0.0,
+            0.0,
+            0.08749766681070743
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.11681224583101052,
+            -0.05400843928598256
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.14866650836098,
+            -0.14389037406842276
+          ],
+          "init_rot_quat": [
+            0.9431978189984879,
+            0.0,
+            0.0,
+            0.3322316574869044
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop yourself from puting the redbull can on the plate"
+  }
+]

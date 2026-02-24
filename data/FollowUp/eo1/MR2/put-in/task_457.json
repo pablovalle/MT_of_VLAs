@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 457,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "dummy_sink_target_plane",
+        "pepsi_can",
+        "blue_plastic_bottle",
+        "table_cloth_generated_shorter",
+        "bridge_carrot_generated"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.14191790868069537,
+            0.17982609800053612
+          ],
+          "init_rot_quat": [
+            0.23784534149836606,
+            0.0,
+            0.0,
+            -0.9713030389778082
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1961480596332883,
+            0.1156211570268965
+          ],
+          "init_rot_quat": [
+            -0.0730403496359993,
+            -0.027822935979872284,
+            -0.9613720321574593,
+            -0.2639219720749829
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1948246436476749,
+            0.13748594877197237
+          ],
+          "init_rot_quat": [
+            0.8128621880659234,
+            0.5790171492807894,
+            -0.0507103606792502,
+            -0.037718210074285614
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.18647263590674362,
+            0.1331506216424901
+          ],
+          "init_rot_quat": [
+            0.11351638465594713,
+            0.3785585483595467,
+            -0.7394997217228454,
+            -0.5449290022107375
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.11284534650191677,
+            0.12259200929587472
+          ],
+          "init_rot_quat": [
+            0.3943743335319677,
+            0.15838255017613945,
+            0.7052272895502759,
+            -0.5674842050000073
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant into the yellow basket"
+  }
+]

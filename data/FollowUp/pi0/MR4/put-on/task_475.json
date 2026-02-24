@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 475,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "table_cloth_generated",
+        "sprite_can",
+        "apple"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.14105431825327816,
+            0.03575191853262827
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.2267582681491938,
+            -0.15236383429496309
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.019539837366481405,
+            -0.13230770657065544
+          ],
+          "init_rot_quat": [
+            0.514511920145965,
+            0.0,
+            0.0,
+            0.8574832266742668
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.17471718743554623,
+            -0.14287754859688037
+          ],
+          "init_rot_quat": [
+            0.010867867352530048,
+            0.0,
+            0.0,
+            0.9999409429857384
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "resist puting the orange on the table cloth"
+  }
+]

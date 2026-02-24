@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 291,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "bridge_plate_objaverse",
+        "green_cube_3cm",
+        "bridge_carrot_generated_modified",
+        "opened_sprite_can",
+        "bridge_carrot_generated",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.2508237771585192,
+            0.06667359143420123
+          ],
+          "init_rot_quat": [
+            0.9857914818368192,
+            0.0,
+            0.0,
+            0.16797367156184953
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.21253512139104072,
+            -0.09605513645943585
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.01684547665705516,
+            0.11902961804401554
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.06572581032781549,
+            0.07728126743247643
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.14712385110607945,
+            -0.07812356873792087
+          ],
+          "init_rot_quat": [
+            0.21914242302465511,
+            -0.5243131886207005,
+            -0.3687302095516848,
+            -0.7356020060013754
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.1081307292497585,
+            0.0984082242301497
+          ],
+          "init_rot_quat": [
+            -0.36821167521833187,
+            -0.46790135957158774,
+            -0.7460312717852906,
+            0.29820432837635225
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.16877763840970147,
+            -0.010624152708359202
+          ],
+          "init_rot_quat": [
+            -0.5229015442430032,
+            -0.09655882040830283,
+            0.6538621225688637,
+            0.5382515154640811
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the plate"
+  }
+]

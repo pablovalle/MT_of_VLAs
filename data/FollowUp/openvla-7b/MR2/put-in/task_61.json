@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 61,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "dummy_sink_target_plane",
+        "opened_sprite_can",
+        "apple"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.179453003891185,
+            0.15013142447363106
+          ],
+          "init_rot_quat": [
+            0.9864778670784801,
+            0.0,
+            0.0,
+            0.1638945324417281
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.12269905021377892,
+            0.14814182580849228
+          ],
+          "init_rot_quat": [
+            -0.29405315166409585,
+            -0.4113857996220865,
+            0.11079944018901447,
+            0.8555804765885613
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.13207319327888417,
+            0.17231863425425087
+          ],
+          "init_rot_quat": [
+            -0.7504216843226473,
+            -0.33886685789053717,
+            0.5580881891897027,
+            0.10283054706026835
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can into the yellow basket"
+  }
+]

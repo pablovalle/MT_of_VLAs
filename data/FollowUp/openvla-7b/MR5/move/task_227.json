@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 227,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.3045264951852509,
+            0
+          ],
+          "init_rot_quat": [
+            0.9998877103459539,
+            0.0,
+            0.0,
+            0.014985549677128387
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.4319798811916583,
+            0.04685239944373736
+          ],
+          "init_rot_quat": [
+            0.07074957323702726,
+            0.0,
+            0.0,
+            0.997494109199036
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move apple near sprite can"
+  }
+]

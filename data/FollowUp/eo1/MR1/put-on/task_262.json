@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 262,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.20736367824439061,
+            -0.1084154031628683
+          ],
+          "init_rot_quat": [
+            0.8628959962174026,
+            0.0,
+            0.0,
+            -0.5053815387526303
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.06959605606820629,
+            -0.07335368000433955
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "can you place  the pepsi can on the table cloth shorter"
+  }
+]

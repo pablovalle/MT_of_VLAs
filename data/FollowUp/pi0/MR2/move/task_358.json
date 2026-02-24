@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 358,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "bridge_carrot_generated_modified",
+        "opened_sprite_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.2474668717917861,
+            0.10746300263800808
+          ],
+          "init_rot_quat": [
+            0.7423186635121692,
+            0.0,
+            0.0,
+            -0.6700470146202481
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.3424839602135584,
+            0.3980965627908785
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.42981615239321164,
+            0.004716716286607792
+          ],
+          "init_rot_quat": [
+            0.41037508711545406,
+            0.7092414328619775,
+            -0.4502712781395634,
+            -0.35471771011529224
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.051850374809785105,
+            0.2145651967027519
+          ],
+          "init_rot_quat": [
+            0.4507209222025133,
+            0.7175261682575151,
+            -0.3185862803582769,
+            0.42486424905148396
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move fanta can near carrot"
+  }
+]

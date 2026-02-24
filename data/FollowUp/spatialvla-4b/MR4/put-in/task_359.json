@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 359,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "dummy_sink_target_plane",
+        "orange"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.15897601314348592,
+            0.12176976153830461
+          ],
+          "init_rot_quat": [
+            0.4913246228766989,
+            0.0,
+            0.0,
+            -0.8709765295087288
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.10811589869674271,
+            0.14889457991130048
+          ],
+          "init_rot_quat": [
+            0.9367030683817512,
+            0.0,
+            0.0,
+            0.3501247801630331
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "avoid puting the sponge into the yellow basket"
+  }
+]

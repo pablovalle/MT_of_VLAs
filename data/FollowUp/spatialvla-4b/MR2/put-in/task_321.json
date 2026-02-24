@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 321,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "dummy_sink_target_plane",
+        "opened_sprite_can",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated",
+        "7up_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.10252091874579357,
+            0.14935283342982392
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.19816448413699297,
+            0.19410860637155164
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.14840080862819482,
+            0.1198708343077415
+          ],
+          "init_rot_quat": [
+            -0.11033238526382878,
+            -0.26536834499708367,
+            0.9452903626558674,
+            0.15437790160978793
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.14499372020353254,
+            0.18617737108924406
+          ],
+          "init_rot_quat": [
+            -0.1291815215337587,
+            -0.7027374897175784,
+            -0.016570450147735487,
+            -0.6994266045994825
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.1809336431769416,
+            0.14486810618619797
+          ],
+          "init_rot_quat": [
+            -0.3771375464444142,
+            -0.7950619961383796,
+            -0.470047441870605,
+            0.0685499507603225
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.16973538128081317,
+            0.15691693307379648
+          ],
+          "init_rot_quat": [
+            0.027549634382800482,
+            0.0860177037520438,
+            -0.5491437424032111,
+            -0.8308327885116206
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can into the yellow basket"
+  }
+]

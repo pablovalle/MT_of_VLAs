@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 55,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "bridge_plate_objaverse",
+        "dummy_sink_target_plane",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.11595110388066307,
+            -0.023183895151256517
+          ],
+          "init_rot_quat": [
+            0.9458718606644756,
+            0.0,
+            0.0,
+            0.32454032600452415
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.12723003285609508,
+            0.10397993893375854
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.23351645892499845,
+            0.019576271397680894
+          ],
+          "init_rot_quat": [
+            -0.09964590177226039,
+            -0.40808149598903204,
+            0.6941756006922117,
+            -0.5845172557717639
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.06982344053243517,
+            0.030599604088977383
+          ],
+          "init_rot_quat": [
+            0.9751490919838012,
+            0.05996697419543806,
+            -0.006803756444006535,
+            0.21317110335892686
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the plate"
+  }
+]

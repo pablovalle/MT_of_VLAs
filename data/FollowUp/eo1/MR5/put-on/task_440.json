@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 440,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.10358140724502954,
+            -0.025428712660493763
+          ],
+          "init_rot_quat": [
+            0.993568934828999,
+            0.0,
+            0.0,
+            -0.11322884677840885
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.27324261568574104,
+            -0.1123186533620012
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can on the plate"
+  }
+]

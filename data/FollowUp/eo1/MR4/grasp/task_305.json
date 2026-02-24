@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 305,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.20870682774287658,
+          0.22339748647149005
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified",
+        "blue_plastic_bottle"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.13130419245027836,
+            0.31135016028791074
+          ],
+          "init_rot_quat": [
+            0.5685707865167681,
+            0.0,
+            0.0,
+            0.8226343420497978
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.15060425339238354,
+            0.1228324922280796
+          ],
+          "init_rot_quat": [
+            0.1203491919746691,
+            0.0,
+            0.0,
+            0.9927316213312862
+          ]
+        }
+      }
+    },
+    "prompt": "resist picking sprite can"
+  }
+]

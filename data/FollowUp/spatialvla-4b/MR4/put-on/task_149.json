@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 149,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.014377451234911964,
+            -0.14630483658977206
+          ],
+          "init_rot_quat": [
+            0.6231103932065256,
+            0.0,
+            0.0,
+            0.7821339002229791
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.20294638860076514,
+            -0.09607908252108599
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop from puting the spoon on the table cloth shorter"
+  }
+]

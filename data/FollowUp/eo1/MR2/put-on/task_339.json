@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 339,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "table_cloth_generated_shorter",
+        "bridge_plate_objaverse_larger",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.0771296845059424,
+            0.06036733477680084
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.2449208839054809,
+            -0.016297525281918912
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.13520728111936434,
+            -0.03217958791568218
+          ],
+          "init_rot_quat": [
+            -0.24302168312845754,
+            0.5710001535110442,
+            0.709184346795772,
+            0.3345995344880648
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.26250244235250825,
+            -0.11539291466407745
+          ],
+          "init_rot_quat": [
+            0.5089412480388233,
+            0.24983262344846943,
+            -0.4021725350819548,
+            -0.7189017445599183
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can on the table cloth shorter"
+  }
+]

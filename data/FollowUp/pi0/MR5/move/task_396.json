@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 396,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "opened_sprite_can",
+        "eggplant",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.3262056397106234,
+            0.25924301314736153
+          ],
+          "init_rot_quat": [
+            0.895557278118505,
+            0.0,
+            0.0,
+            -0.44494624575219716
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.497037794183833,
+            0.12648416353033648
+          ],
+          "init_rot_quat": [
+            0.8784484845453687,
+            0.0,
+            0.0,
+            -0.47783706428022615
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.14605945543937354,
+            0.22435204600964484
+          ],
+          "init_rot_quat": [
+            0.7438658770438419,
+            0.0,
+            0.0,
+            0.668328928724319
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.21252627740255176,
+            0.026132845573878828
+          ],
+          "init_rot_quat": [
+            0.7397034351556558,
+            0.0,
+            0.0,
+            0.672933004108821
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 0
+    },
+    "prompt": "move eggplant near apple"
+  }
+]

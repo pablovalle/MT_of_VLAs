@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 318,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.1305284069181833,
+          0.0392769349408566
+        ],
+        "orientation": [
+          0.9967481379439291,
+          0.0,
+          0.0,
+          0.08058008131858611
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified",
+        "apple"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.34962225021269344,
+            0.05437594466904421
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.21277048464747933,
+            0.23637824316757639
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "lift  fanta can"
+  }
+]

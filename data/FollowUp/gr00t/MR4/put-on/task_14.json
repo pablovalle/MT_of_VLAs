@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 14,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "bridge_plate_objaverse",
+        "opened_fanta_can",
+        "eggplant",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.17633948911284236,
+            -0.15191892381931815
+          ],
+          "init_rot_quat": [
+            0.8063296014421686,
+            0.0,
+            0.0,
+            -0.5914664604507289
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.013692554376370347,
+            -0.15662964820348793
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.21297180166391716,
+            0.01927075774841991
+          ],
+          "init_rot_quat": [
+            0.30606693459077144,
+            0.0,
+            0.0,
+            -0.9520099955096104
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.23305589553458078,
+            -0.07034714709780159
+          ],
+          "init_rot_quat": [
+            0.8136215499166047,
+            0.0,
+            0.0,
+            0.5813948516381117
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.11627014906655175,
+            0.08208322979368429
+          ],
+          "init_rot_quat": [
+            0.19149540977787716,
+            0.0,
+            0.0,
+            0.9814935089107838
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop from puting the pepsi can on the plate"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 131,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.15077650976855017,
+          0.15596898273008986
+        ],
+        "orientation": [
+          0.6761692614886193,
+          0.0,
+          0.0,
+          -0.7367463130670795
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_carrot_generated_modified",
+        "redbull_can",
+        "opened_7up_can"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2688958203033005,
+            0.03889685097003359
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.17403929066179225,
+            0.1538061364160111
+          ],
+          "init_rot_quat": [
+            0.9696695613095788,
+            0.0,
+            0.0,
+            -0.24441960205697263
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.1770270965945271,
+            0.17650656939359313
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "would you avoid picking coke can"
+  }
+]

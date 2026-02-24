@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 374,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "table_cloth_generated",
+        "apple",
+        "yellow_cube_3cm",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.07787194417134466,
+            0.056036913687683404
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.051504087991499664,
+            -0.10171172522753641
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.17433143845472313,
+            -0.11191693252638167
+          ],
+          "init_rot_quat": [
+            0.5176799564119892,
+            0.0,
+            0.0,
+            0.8555743466989184
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.008154074482680296,
+            0.06270779636407628
+          ],
+          "init_rot_quat": [
+            0.9695469305435865,
+            0.0,
+            0.0,
+            0.24490559298127457
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.19656368923831377,
+            0.09394238270809915
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "hold back from puting the redbull can on the table cloth"
+  }
+]

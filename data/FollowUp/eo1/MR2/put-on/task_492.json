@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 492,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "sink",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.2594317458429313,
+            0.09400401689472873
+          ],
+          "init_rot_quat": [
+            0.86201529496334,
+            0.0,
+            0.0,
+            0.5068822656685338
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.2838465094914801,
+            -0.1258860166158075
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.2014060776702739,
+            -0.03585607040233825
+          ],
+          "init_rot_quat": [
+            -0.7965765508271903,
+            -0.2568764741163479,
+            -0.3646334488047898,
+            0.40807195901033766
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.16047521175844262,
+            0.0848366429311975
+          ],
+          "init_rot_quat": [
+            -0.2689382656406083,
+            0.22748845320152705,
+            -0.6719367365459759,
+            0.6514769643004592
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube on the plate larger"
+  }
+]

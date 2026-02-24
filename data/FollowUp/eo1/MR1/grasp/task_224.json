@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 224,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "redbull_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2756956516413233,
+          0.1747417230119103
+        ],
+        "orientation": [
+          0.8583999968973837,
+          0.0,
+          0.0,
+          0.5129809405100463
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant",
+        "orange"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.41127578072534116,
+            0.21101021555687344
+          ],
+          "init_rot_quat": [
+            0.9602123659785333,
+            0.0,
+            0.0,
+            -0.2792708581680285
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.41903892575834933,
+            0.0017354838238999193
+          ],
+          "init_rot_quat": [
+            0.8119746192256044,
+            0.0,
+            0.0,
+            -0.5836927425738946
+          ]
+        }
+      }
+    },
+    "prompt": "would you grab  redbull can"
+  }
+]

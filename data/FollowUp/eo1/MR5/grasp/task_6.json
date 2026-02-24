@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 6,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_id": "eggplant",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3127401823981827,
+          0.1688981532643226
+        ],
+        "orientation": [
+          0.5001687073117027,
+          0.0,
+          0.0,
+          -0.8659279786599693
+        ]
+      }
+    },
+    "prompt": "pick eggplant"
+  }
+]

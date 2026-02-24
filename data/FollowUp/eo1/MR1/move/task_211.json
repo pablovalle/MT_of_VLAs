@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 211,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.4617452688808347,
+            0.26264002282192933
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.1520582740795145,
+            0.27911456166541776
+          ],
+          "init_rot_quat": [
+            0.004887462709187921,
+            0.0,
+            0.0,
+            -0.999988056282807
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move  sprite can near fanta can"
+  }
+]

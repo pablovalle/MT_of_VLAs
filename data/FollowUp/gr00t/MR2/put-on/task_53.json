@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 53,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "bridge_plate_objaverse_larger",
+        "bridge_spoon_generated_modified",
+        "opened_redbull_can",
+        "bridge_plate_objaverse",
+        "opened_7up_can",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.231110345777102,
+            -0.1320595803156474
+          ],
+          "init_rot_quat": [
+            0.9809280211550363,
+            0.0,
+            0.0,
+            0.19437133871243611
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.22851046281013912,
+            0.09367510652005337
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.09263838220607973,
+            -0.08138776773162783
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.20344789951706083,
+            -0.06828370820707261
+          ],
+          "init_rot_quat": [
+            -0.0653597985901853,
+            -0.7227891192232245,
+            -0.1924982738927599,
+            0.6604910297718463
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.07053611769884358,
+            0.11447075297456763
+          ],
+          "init_rot_quat": [
+            0.26223004116097365,
+            -0.4235316937098703,
+            0.8578019868158336,
+            0.12661777659859158
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.14531721218855914,
+            -0.04469168714440813
+          ],
+          "init_rot_quat": [
+            -0.03624495105998141,
+            -0.06801949701152495,
+            -0.9012541133948564,
+            0.4263809032283339
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.2117970972356541,
+            0.06622097286787779
+          ],
+          "init_rot_quat": [
+            0.9572392570058541,
+            0.024800483744793045,
+            -0.20319190965206557,
+            -0.204428443972094
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant on the plate larger"
+  }
+]

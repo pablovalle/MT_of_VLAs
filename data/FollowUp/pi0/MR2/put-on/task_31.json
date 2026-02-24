@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 31,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "bridge_plate_objaverse_larger",
+        "bridge_carrot_generated_modified",
+        "sprite_can",
+        "table_cloth_generated_shorter",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.1488941660663924,
+            0.049562391141549755
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.1590067597540112,
+            -0.08977216340746542
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.22685427051021195,
+            -0.13799814705554322
+          ],
+          "init_rot_quat": [
+            0.18184908051461815,
+            0.41850406949778424,
+            -0.8654405319565359,
+            0.2068766332299759
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.17966014375641132,
+            -0.007833861900994998
+          ],
+          "init_rot_quat": [
+            -0.8198354554292978,
+            0.12231272719185986,
+            0.21507370321034033,
+            0.5163842803332767
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.24733288622049274,
+            -0.1313273916148054
+          ],
+          "init_rot_quat": [
+            -0.7555335656340052,
+            0.40778343026360725,
+            0.46101663421709765,
+            -0.2243777354773662
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.119049669150849,
+            -0.07909175968444607
+          ],
+          "init_rot_quat": [
+            -0.10803434560974443,
+            0.8041086883978934,
+            -0.16711173431794485,
+            0.5601887768109447
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sponge on the plate larger"
+  }
+]

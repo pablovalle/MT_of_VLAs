@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 186,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "dummy_sink_target_plane",
+        "opened_fanta_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.126469245575895,
+            0.1748497719628993
+          ],
+          "init_rot_quat": [
+            0.6644777087609761,
+            0.0,
+            0.0,
+            0.7473080854371665
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.13852454800547814,
+            0.11220663404047466
+          ],
+          "init_rot_quat": [
+            0.9964384351743535,
+            0.0,
+            0.0,
+            -0.084323454075872
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.12662699678443567,
+            0.18048457214951097
+          ],
+          "init_rot_quat": [
+            0.9935016343430393,
+            0.0,
+            0.0,
+            -0.11381784815093789
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you avoid puting the 7up can into the yellow basket"
+  }
+]

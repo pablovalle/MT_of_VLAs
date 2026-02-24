@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 215,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.3,
+            0.12
+          ],
+          "init_rot_quat": [
+            0.5879051577114898,
+            0.0,
+            0.0,
+            0.8089298644111419
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.26143988401696744,
+            0.015070137176945747
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the table cloth shorter"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 272,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "eggplant",
+      "obj_init_options": {
+        "init_xy": [
+          -0.12999487268259302,
+          0.06482237115319163
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified",
+        "coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.063894300910949,
+            0.30253521996899324
+          ],
+          "init_rot_quat": [
+            0.8066074830791352,
+            -0.056325819009023594,
+            -0.41030549104476544,
+            0.4217359059556336
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.24853725791387293,
+            0.3838149059006482
+          ],
+          "init_rot_quat": [
+            -0.7380630604387912,
+            -0.20296010642282192,
+            -0.5915438569755915,
+            0.2532705653861158
+          ]
+        }
+      }
+    },
+    "prompt": "pick eggplant"
+  }
+]

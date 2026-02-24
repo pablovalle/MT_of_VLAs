@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 32,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "opened_pepsi_can",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.5,
+            0.2783325135607265
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.20186392711921725,
+            0.19827674894026437
+          ],
+          "init_rot_quat": [
+            0.8773258046587933,
+            0.0,
+            0.0,
+            -0.47989523073250157
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.463846629884492,
+            0.06520377198717774
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "move green cube near 7up can"
+  }
+]

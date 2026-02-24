@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 263,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3367763790937155,
+          0.3690912701123302
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "orange",
+        "sponge",
+        "apple"
+      ],
+      "distractor_obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.26311593195602867,
+            0.3769944359946089
+          ],
+          "init_rot_quat": [
+            0.330953336441689,
+            0.0,
+            0.0,
+            -0.9436471210670407
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.172632682966531,
+            0.0661650706177244
+          ],
+          "init_rot_quat": [
+            0.7035657007287138,
+            0.0,
+            0.0,
+            -0.710630216609253
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.44605996048544616,
+            0.3392915692120615
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "would you grab  carrot"
+  }
+]

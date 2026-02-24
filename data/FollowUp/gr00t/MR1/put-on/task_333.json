@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 333,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "bridge_plate_objaverse",
+        "opened_coke_can",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.19194318598054383,
+            -0.11633240452231673
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.03502271101885973,
+            0.10561165312758111
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.016649073829828165,
+            0.04605227716557986
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.2640659454066454,
+            -0.01340223121315523
+          ],
+          "init_rot_quat": [
+            0.932204711394537,
+            0.0,
+            0.0,
+            0.3619314521478175
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "could you put  the 7up can on the plate"
+  }
+]

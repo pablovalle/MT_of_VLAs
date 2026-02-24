@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 239,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.19791804403618837,
+          0.1824721393470685
+        ],
+        "orientation": [
+          0.5959400662102514,
+          0.0,
+          0.0,
+          0.8030289144765095
+        ]
+      }
+    },
+    "prompt": "pick blue plastic bottle"
+  }
+]

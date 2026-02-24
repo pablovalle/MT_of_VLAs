@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 414,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "bridge_plate_objaverse_larger",
+        "redbull_can",
+        "opened_7up_can",
+        "green_cube_3cm",
+        "bridge_carrot_generated_modified",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.22883226701872517,
+            0.07627228471371017
+          ],
+          "init_rot_quat": [
+            0.8003272341032566,
+            0.0,
+            0.0,
+            0.5995634398065239
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.26312690610011136,
+            -0.084269826598909
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.07559483470172162,
+            0.09882767266039413
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.08802490870759297,
+            0.03004263208460689
+          ],
+          "init_rot_quat": [
+            0.5230318881751617,
+            0.0,
+            0.0,
+            -0.8523131137979312
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.23618924044896117,
+            0.005018138075502637
+          ],
+          "init_rot_quat": [
+            -0.8115896507995182,
+            0.5352522972709596,
+            -0.10049651373705218,
+            -0.21148916688089472
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.019452310303326392,
+            -0.11162422488566887
+          ],
+          "init_rot_quat": [
+            0.3948831842359313,
+            0.23609393756043995,
+            -0.735247833477375,
+            -0.49773240483388753
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.15441952201974504,
+            -0.05850469954720615
+          ],
+          "init_rot_quat": [
+            0.12475845676005524,
+            0.28731012333067846,
+            -0.4011135630826586,
+            -0.8608113207955004
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the plate larger"
+  }
+]

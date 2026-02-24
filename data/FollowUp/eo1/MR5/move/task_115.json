@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 115,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.44008462712310437,
+            0.06837668189316717
+          ],
+          "init_rot_quat": [
+            0.8923331557861746,
+            0.0,
+            0.0,
+            -0.4513773798992221
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.44614275415493665,
+            0.3322827727740031
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move coke can near sponge"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 317,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "yellow_cube_3cm",
+        "blue_plastic_bottle",
+        "eggplant",
+        "coke_can"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.37447511408707657,
+            0.12771351064989855
+          ],
+          "init_rot_quat": [
+            0.6664298187860729,
+            0.0,
+            0.0,
+            -0.7455677679679843
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.19785991435657013,
+            0.13994240501891117
+          ],
+          "init_rot_quat": [
+            0.9926549085594992,
+            0.0,
+            0.0,
+            -0.12098029803539144
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.5,
+            0.20091241787381162
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.3416818025411017,
+            0.3125587651139855
+          ],
+          "init_rot_quat": [
+            0.616701980572487,
+            0.0,
+            0.0,
+            0.7871967143973428
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.27679219911755143,
+            0.003969264369003645
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 4
+    },
+    "prompt": "move blue plastic bottle near coke can"
+  }
+]

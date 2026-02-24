@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 240,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "opened_pepsi_can",
+        "table_cloth_generated_shorter",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.0813905058961292,
+            -0.15651949290009426
+          ],
+          "init_rot_quat": [
+            0.9897259247420839,
+            0.0,
+            0.0,
+            -0.1429775992714487
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.2061935125422035,
+            0.11417145616867322
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.14830079825244527,
+            0.11826295772559439
+          ],
+          "init_rot_quat": [
+            0.39968320087241443,
+            0.8859156522790227,
+            -0.21290965219971736,
+            -0.10038065544521227
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.12454478843405123,
+            -0.07383930594077658
+          ],
+          "init_rot_quat": [
+            0.4169809243899397,
+            0.6443089531462715,
+            0.5449524062878535,
+            -0.33766811586459494
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.13930974049275008,
+            -0.006135509881323886
+          ],
+          "init_rot_quat": [
+            -0.8027574876729674,
+            0.4529170448344455,
+            -0.387589588008373,
+            -0.014861956496985955
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the table cloth"
+  }
+]

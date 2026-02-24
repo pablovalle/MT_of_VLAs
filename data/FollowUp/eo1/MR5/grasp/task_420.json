@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 420,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_id": "pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4895851344858576,
+          0.26319481537763206
+        ],
+        "orientation": [
+          0.6086686642916113,
+          0.0,
+          0.0,
+          0.7934245125463832
+        ]
+      }
+    },
+    "prompt": "pick pepsi can"
+  }
+]

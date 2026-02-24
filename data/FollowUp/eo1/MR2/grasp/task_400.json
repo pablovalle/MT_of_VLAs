@@ -1,0 +1,92 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 400,
+    "follow-up": 1,
+    "task_data": {
+      "model_id": "opened_pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.29377259606431994,
+          0.12695548432458437
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_sprite_can",
+        "apple",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated_modified",
+        "yellow_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2887157639032669,
+            0.21218787944066775
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.3845763137918205,
+            0.3067066980187314
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.37088211578454144,
+            0.28513313217627384
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.08156930787613426,
+            0.09600637505407135
+          ],
+          "init_rot_quat": [
+            0.6079190880363993,
+            0.45474629805890365,
+            -0.4862396047504245,
+            0.4326791346654775
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.18806291507389433,
+            0.06173191862422161
+          ],
+          "init_rot_quat": [
+            0.7484486544549281,
+            -0.5669840163976962,
+            0.22333282689348818,
+            -0.2616795468237972
+          ]
+        }
+      }
+    },
+    "prompt": "pick pepsi can"
+  }
+]

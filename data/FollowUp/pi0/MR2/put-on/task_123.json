@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 123,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "bridge_plate_objaverse_larger",
+        "bridge_carrot_generated_modified",
+        "bridge_spoon_generated_modified",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.024819389323208374,
+            -0.00034668233620324673
+          ],
+          "init_rot_quat": [
+            0.6373426027262954,
+            0.0,
+            0.0,
+            -0.7705805647367909
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12144659599046742,
+            -0.06251032591888733
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2448730398619562,
+            0.03351996926236703
+          ],
+          "init_rot_quat": [
+            -0.015162621460190127,
+            0.4957506959922973,
+            -0.8636784916179392,
+            -0.08978198845074178
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.029286913935829884,
+            -0.05874069234441859
+          ],
+          "init_rot_quat": [
+            0.3827625441661357,
+            -0.30396902993648417,
+            -0.34709699411314604,
+            0.8003869940850854
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.007880976561681241,
+            0.10441802816087695
+          ],
+          "init_rot_quat": [
+            0.9036444501102134,
+            0.09831403250038584,
+            -0.3234940791394065,
+            0.2628928290392692
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can on the plate larger"
+  }
+]

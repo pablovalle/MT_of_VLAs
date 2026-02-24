@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 329,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "bridge_carrot_generated_modified",
+        "eggplant",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.2051239189182738,
+            0.1830501894610498
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.46019760461304693,
+            0.3311308074639284
+          ],
+          "init_rot_quat": [
+            0.7266763516698683,
+            0.0,
+            0.0,
+            -0.686979970540459
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.34822451735484217,
+            0.09178533963579977
+          ],
+          "init_rot_quat": [
+            0.9441082608959227,
+            0.0,
+            0.0,
+            -0.3296355437571568
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.12924817979816083,
+            0.02839881712405781
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "place  coke can near eggplant"
+  }
+]

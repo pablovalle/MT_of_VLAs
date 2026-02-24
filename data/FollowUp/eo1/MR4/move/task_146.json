@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 146,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "opened_7up_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.23269328230947328,
+            0.10876420224468993
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.48887360726545426,
+            0.3210504528976006
+          ],
+          "init_rot_quat": [
+            0.7104883467804132,
+            0.0,
+            0.0,
+            0.7037089661850525
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.4898390031134812,
+            0.15962689040204345
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 1
+    },
+    "prompt": "resist moving sponge near 7up can"
+  }
+]

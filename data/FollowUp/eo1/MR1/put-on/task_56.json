@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 56,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "table_cloth_generated",
+        "opened_redbull_can",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.18943571358464956,
+            0.03697029287290701
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.2411614422053174,
+            0.016042402837432496
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.14228334901829734,
+            0.07226624985843036
+          ],
+          "init_rot_quat": [
+            0.8893044401636029,
+            0.0,
+            0.0,
+            -0.45731565980764405
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.15459144363376423,
+            -0.052712805179973315
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "let's put  the coke can on the table cloth"
+  }
+]

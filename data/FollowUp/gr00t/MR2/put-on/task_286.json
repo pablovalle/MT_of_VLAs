@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 286,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "table_cloth_generated_shorter",
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "7up_can",
+        "sink"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.24318922574691407,
+            -0.14765663774518425
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.05544024891228283,
+            0.06874333285103115
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12381097279058748,
+            0.027785022164867168
+          ],
+          "init_rot_quat": [
+            0.23485491212921758,
+            -0.23088835032008473,
+            0.8696479156501642,
+            -0.3677584026784055
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.15893074120059492,
+            -0.11399643615034524
+          ],
+          "init_rot_quat": [
+            -0.5980955530372166,
+            0.1255723444588846,
+            0.4025203028823631,
+            0.6815355467704498
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.12366126195511948,
+            0.026595910413079293
+          ],
+          "init_rot_quat": [
+            -0.9809667067940451,
+            -0.1571693935806222,
+            0.07906141893122193,
+            0.08216686631317618
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.20673729121462203,
+            0.019765997060691015
+          ],
+          "init_rot_quat": [
+            0.7348504954738285,
+            0.04581659855060088,
+            0.26200377911459066,
+            0.6238987164025862
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle on the table cloth shorter"
+  }
+]

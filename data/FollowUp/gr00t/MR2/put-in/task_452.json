@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 452,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "dummy_sink_target_plane",
+        "bridge_carrot_generated_modified",
+        "apple",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.12397310715931317,
+            0.1690342940588755
+          ],
+          "init_rot_quat": [
+            0.9976061288134408,
+            0.0,
+            0.0,
+            -0.069152091464109
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.13221912974127786,
+            0.15657619246152962
+          ],
+          "init_rot_quat": [
+            0.5850366821166751,
+            0.0,
+            0.0,
+            0.811006831400274
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.19689216653575542,
+            0.1600513605834924
+          ],
+          "init_rot_quat": [
+            0.2723043727681108,
+            0.13439191300637557,
+            0.7326885557198781,
+            -0.6090620843616613
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1210972110301197,
+            0.11827616994811047
+          ],
+          "init_rot_quat": [
+            -0.6571314890122807,
+            0.04599137325953836,
+            -0.7504854301321535,
+            0.0532411391084108
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can into the yellow basket"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 39,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "dummy_sink_target_plane",
+        "blue_plastic_bottle",
+        "opened_fanta_can",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.1820230371624299,
+            0.10170036375387494
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.15296310981255062,
+            0.16447235223729562
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.17900812603395827,
+            0.16068465470963175
+          ],
+          "init_rot_quat": [
+            0.09814691858028395,
+            0.0,
+            0.0,
+            0.9951719360860188
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.14715234787425904,
+            0.12902024511895072
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "refrain from puting the green cube into the yellow basket"
+  }
+]

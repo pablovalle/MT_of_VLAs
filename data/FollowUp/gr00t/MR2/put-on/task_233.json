@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 233,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "bridge_carrot_generated_modified",
+        "orange",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.1900641594595959,
+            -0.0034463178240203007
+          ],
+          "init_rot_quat": [
+            0.99476190641401,
+            0.0,
+            0.0,
+            -0.10221912515554268
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12366973949345847,
+            -0.13747316259010425
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.22355588785073693,
+            -0.14175095505531293
+          ],
+          "init_rot_quat": [
+            -0.6062818044167387,
+            -0.6599946044614062,
+            -0.24038488693592763,
+            0.37288684858521975
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.02268150370828309,
+            -0.0828838602966044
+          ],
+          "init_rot_quat": [
+            -0.9002158410829751,
+            0.0860358179910954,
+            -0.4092946592917976,
+            0.1211905910584072
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.19338408411496655,
+            -0.07372870527158372
+          ],
+          "init_rot_quat": [
+            0.7560586073006407,
+            -0.34016998599801457,
+            0.2681770750637003,
+            0.4906534615826172
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the plate larger"
+  }
+]

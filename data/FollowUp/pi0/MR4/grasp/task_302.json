@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 302,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.19403238442317267,
+          0.29118166130785333
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "pepsi_can",
+        "yellow_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.2587958111810704,
+            0.24097686196419976
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.19578209407926034,
+            0.04612607359450554
+          ],
+          "init_rot_quat": [
+            0.7099156658977829,
+            0.0,
+            0.0,
+            0.7042866939768971
+          ]
+        }
+      }
+    },
+    "prompt": "would you avoid picking apple"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 291,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_id": "sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.05,
+          0.4
+        ],
+        "orientation": [
+          0.35414238705511303,
+          0.0,
+          0.0,
+          -0.9351915149801705
+        ]
+      }
+    },
+    "prompt": "pick sprite can"
+  }
+]

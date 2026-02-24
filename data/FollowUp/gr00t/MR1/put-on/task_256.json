@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 256,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "table_cloth_generated",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.23895831195378187,
+            0.04700395444810168
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.1640039321549081,
+            -0.14557126774437784
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.2771740383734295,
+            0.0938958020301767
+          ],
+          "init_rot_quat": [
+            0.997064639676915,
+            0.0,
+            0.0,
+            0.07656438013817826
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "let's put  the eggplant on the table cloth"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 469,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "dummy_sink_target_plane",
+        "redbull_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.18440092242920675,
+            0.17314730970838485
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.1947113149671493,
+            0.11993340317380369
+          ],
+          "init_rot_quat": [
+            0.3628535814433512,
+            0.0,
+            0.0,
+            0.9318461667215964
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.10944607015212945,
+            0.17568831857031925
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "please refrain from puting the 7up can into the yellow basket"
+  }
+]

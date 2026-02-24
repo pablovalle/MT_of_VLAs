@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 290,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_id": "fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.38060325337137924,
+          0.2818813133740167
+        ],
+        "orientation": [
+          0.6146595971535953,
+          0.0,
+          0.0,
+          0.7887924819792465
+        ]
+      }
+    },
+    "prompt": "pick fanta can"
+  }
+]

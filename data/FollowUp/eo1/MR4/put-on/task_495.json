@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 495,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "table_cloth_generated_shorter",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.2975145749101662,
+            -0.05224087323328343
+          ],
+          "init_rot_quat": [
+            0.8651108918630208,
+            0.0,
+            0.0,
+            0.5015806463371257
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.09325320774534773,
+            -0.1556938146787765
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.07309711821309162,
+            0.09305242052359727
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop from puting the pepsi can on the table cloth shorter"
+  }
+]

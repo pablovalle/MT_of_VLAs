@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 443,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "bridge_plate_objaverse_larger",
+        "opened_coke_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1611673959317232,
+            -0.16
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.21740250779116188,
+            0.08585194791034725
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.09355414041362989,
+            -0.12274159894770126
+          ],
+          "init_rot_quat": [
+            0.9977558619695658,
+            0.0,
+            0.0,
+            0.0669570004209332
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.10532384443589446,
+            -0.012285054162529563
+          ],
+          "init_rot_quat": [
+            0.6732130399999273,
+            0.0,
+            0.0,
+            -0.7394485802096427
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the plate larger"
+  }
+]

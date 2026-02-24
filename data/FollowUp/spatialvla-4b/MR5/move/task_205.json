@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 205,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.31938220605157164,
+            0.037578611896811775
+          ],
+          "init_rot_quat": [
+            0.41589296940330467,
+            0.0,
+            0.0,
+            0.9094135681860601
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.27526895756713365,
+            0.23062846480918806
+          ],
+          "init_rot_quat": [
+            0.22140182180500112,
+            0.0,
+            0.0,
+            -0.9751826666329886
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move apple near 7up can"
+  }
+]

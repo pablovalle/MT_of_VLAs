@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 105,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "dummy_sink_target_plane",
+        "opened_pepsi_can",
+        "table_cloth_generated_shorter",
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.17614813983607608,
+            0.13452064208986989
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.14937001069693995,
+            0.1634586473686745
+          ],
+          "init_rot_quat": [
+            0.8586893287201599,
+            0.0,
+            0.0,
+            -0.5124964748582386
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.11749387475701004,
+            0.10154298458424636
+          ],
+          "init_rot_quat": [
+            -0.8197201021416304,
+            -0.12870479225694367,
+            0.07257208656732525,
+            0.5533781011625565
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.10076498966885578,
+            0.1952556184525262
+          ],
+          "init_rot_quat": [
+            0.981626457189158,
+            -0.11990708153870239,
+            -0.08246682390867997,
+            0.12341399149832312
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.10538326979749915,
+            0.15455132651863457
+          ],
+          "init_rot_quat": [
+            -0.3445247145023569,
+            -0.5234951478277758,
+            0.7132331739530224,
+            -0.3139330993551686
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can into the yellow basket"
+  }
+]

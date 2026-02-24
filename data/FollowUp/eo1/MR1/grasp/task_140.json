@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 140,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.17585711939813803,
+          0.3530342450607293
+        ],
+        "orientation": [
+          0.31709789662474197,
+          0.0,
+          0.0,
+          0.9483928109998327
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.4770269227232309,
+            0.04135983556362435
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "let's pick up  fanta can"
+  }
+]

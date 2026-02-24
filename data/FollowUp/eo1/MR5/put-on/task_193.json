@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 193,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2558854086245974,
+            0.12
+          ],
+          "init_rot_quat": [
+            0.9484022806529512,
+            0.0,
+            0.0,
+            0.3170695728894226
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.11822253340113403,
+            0.06833106985975804
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the plate"
+  }
+]

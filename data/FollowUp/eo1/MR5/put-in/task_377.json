@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 377,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.2,
+            0.1
+          ],
+          "init_rot_quat": [
+            0.4232711106204157,
+            0.0,
+            0.0,
+            -0.9060030722432235
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant into the yellow basket"
+  }
+]

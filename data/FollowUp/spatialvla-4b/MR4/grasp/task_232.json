@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 232,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.16155668583033778,
+          0.2939971979605014
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "apple",
+        "coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.37824928781376393,
+            0.2578797358822047
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.378010649066169,
+            0.15124502275189422
+          ],
+          "init_rot_quat": [
+            0.9674974103870122,
+            0.0,
+            0.0,
+            0.2528809223615443
+          ]
+        }
+      }
+    },
+    "prompt": "would you avoid picking 7up can"
+  }
+]

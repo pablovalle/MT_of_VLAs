@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 220,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "table_cloth_generated",
+        "7up_can",
+        "bridge_carrot_generated",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.2744492833533275,
+            0.1126292978674596
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.07911740993084423,
+            -0.005121059084189611
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.1937541253091557,
+            -0.1409158971177878
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.2593550609447207,
+            -0.10988727647756491
+          ],
+          "init_rot_quat": [
+            0.9270176775804517,
+            -0.2754526951843475,
+            0.06770046097237296,
+            -0.24531752027352832
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.010023369281506878,
+            -0.14013960243251705
+          ],
+          "init_rot_quat": [
+            0.5119433425985294,
+            -0.13547237576550583,
+            0.7807245930464114,
+            0.3317082440730255
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can on the table cloth"
+  }
+]

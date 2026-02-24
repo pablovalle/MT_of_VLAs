@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 58,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "opened_sprite_can",
+        "coke_can",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.15135731105633454,
+            0.32819642727190435
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.251308356816457,
+            0.17520012062107965
+          ],
+          "init_rot_quat": [
+            0.5635916514328707,
+            0.0,
+            0.0,
+            -0.8260535396904789
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.33207531762490305,
+            0.39378523891570144
+          ],
+          "init_rot_quat": [
+            0.43643524385647997,
+            0.20957862131761734,
+            -0.6033694409647951,
+            -0.6336768869987073
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.06752452261837616,
+            0.2405278714060422
+          ],
+          "init_rot_quat": [
+            0.8254578267878419,
+            0.10177582993519133,
+            -0.05317342602282049,
+            0.5526605136977781
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move sprite can near carrot"
+  }
+]

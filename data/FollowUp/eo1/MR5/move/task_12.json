@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 12,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.21530518264016912,
+            0.3500222454039408
+          ],
+          "init_rot_quat": [
+            0.25365655165322215,
+            0.0,
+            0.0,
+            -0.9672943470337229
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.10192767493276583,
+            0.3311186701822849
+          ],
+          "init_rot_quat": [
+            0.7097765821929193,
+            0.0,
+            0.0,
+            -0.7044268616191025
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move redbull can near sprite can"
+  }
+]

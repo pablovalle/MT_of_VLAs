@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 324,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane",
+        "sponge",
+        "opened_redbull_can",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.17598606050312499,
+            0.18827770518384546
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.11606557656709354,
+            0.1342493012633959
+          ],
+          "init_rot_quat": [
+            0.08184211593933309,
+            0.0,
+            0.0,
+            0.9966453070468815
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.192902952613268,
+            0.1989966621681552
+          ],
+          "init_rot_quat": [
+            0.9971749361438957,
+            0.0,
+            0.0,
+            -0.07511422452783141
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.15640147419652264,
+            0.10890862761918017
+          ],
+          "init_rot_quat": [
+            0.5235207031979907,
+            0.0,
+            0.0,
+            -0.8520129537296257
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "resist puting the orange into the yellow basket"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 120,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "opened_redbull_can",
+        "bridge_carrot_generated_modified",
+        "sponge",
+        "blue_plastic_bottle",
+        "apple"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2925187853099087,
+            0.19893382181308816
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.27203639260769685,
+            0.025739021359352778
+          ],
+          "init_rot_quat": [
+            0.6537744879646591,
+            0.0,
+            0.0,
+            0.7566894467921089
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12442369504175521,
+            0.18584624682617729
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.10917973266465059,
+            0.020059180240887244
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.07807832511758506,
+            0.32660173068693776
+          ],
+          "init_rot_quat": [
+            -0.6418570639878934,
+            -0.7126078160622459,
+            -0.2763291594461438,
+            -0.06206291594523454
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.1427142800368294,
+            0.0016013516136512253
+          ],
+          "init_rot_quat": [
+            -0.3145831754256659,
+            0.6846006150297194,
+            -0.5760700980818199,
+            0.31702155405593035
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "move spoon near carrot"
+  }
+]

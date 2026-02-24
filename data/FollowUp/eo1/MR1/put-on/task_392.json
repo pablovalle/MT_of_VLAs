@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 392,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "table_cloth_generated",
+        "opened_7up_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.28480608164615706,
+            0.05023850137986241
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.18939097675638852,
+            0.09249646203932213
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.09409711065796397,
+            -0.06541945928990896
+          ],
+          "init_rot_quat": [
+            0.4153447008801204,
+            0.0,
+            0.0,
+            0.9096641025404946
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.2595486549538516,
+            -0.014981759616871843
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "set  the green cube on the table cloth"
+  }
+]

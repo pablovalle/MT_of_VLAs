@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 10,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "coke_can",
+        "green_cube_3cm",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.056636792579839196,
+            0.040378881926079274
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.25534506680844415,
+            0.04733142276653257
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.11336922982485415,
+            -0.05691859743407478
+          ],
+          "init_rot_quat": [
+            -0.7770973076287983,
+            -0.49723905851394584,
+            -0.02318030230055317,
+            -0.3851438260565691
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.1728288952611702,
+            -0.130834701418643
+          ],
+          "init_rot_quat": [
+            -0.6346233513976168,
+            -0.7495562589026807,
+            -0.1790642292825826,
+            0.05791906760393568
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.25455404817998,
+            -0.054102166996787354
+          ],
+          "init_rot_quat": [
+            0.8514898458587202,
+            -0.23684079307906308,
+            0.03366602710909302,
+            -0.4666241311289669
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the table cloth"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 141,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "bridge_plate_objaverse",
+        "sprite_can",
+        "apple",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.2739860196993936,
+            0.04062563733745128
+          ],
+          "init_rot_quat": [
+            0.9496953513887045,
+            0.0,
+            0.0,
+            0.31317525373292987
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.23424404834020895,
+            -0.040980162940142714
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.29362581623667905,
+            0.1134903427395629
+          ],
+          "init_rot_quat": [
+            0.2855168908910538,
+            0.0,
+            0.0,
+            -0.9583736771301192
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.07900788859201466,
+            0.03683914416213063
+          ],
+          "init_rot_quat": [
+            0.886250504879352,
+            0.0,
+            0.0,
+            -0.46320626355986777
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.013402530421318393,
+            -0.05948444823687711
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "refrain from puting the pepsi can on the plate"
+  }
+]

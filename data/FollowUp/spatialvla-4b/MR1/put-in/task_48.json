@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 48,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "dummy_sink_target_plane",
+        "blue_plastic_bottle",
+        "7up_can",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.1218425785399455,
+            0.16764301725074518
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.12828484007433777,
+            0.14373265253076747
+          ],
+          "init_rot_quat": [
+            0.08569123409022744,
+            0.0,
+            0.0,
+            0.9963217414069081
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.15260937590586324,
+            0.14295782117535677
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.1944290498809321,
+            0.14014048420753925
+          ],
+          "init_rot_quat": [
+            0.9973003491301722,
+            0.0,
+            0.0,
+            0.07343033177670318
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "take the coke can into the yellow basket"
+  }
+]

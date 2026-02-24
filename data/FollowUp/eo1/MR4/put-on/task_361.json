@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 361,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "table_cloth_generated_shorter",
+        "opened_fanta_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.2191170298478462,
+            -0.05557323992462629
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.24047087976450388,
+            -0.007612633819494452
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.09657563209619405,
+            -0.14832942344242642
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.2846076212303256,
+            -0.08503663120500962
+          ],
+          "init_rot_quat": [
+            0.6685803020018816,
+            0.0,
+            0.0,
+            -0.7436399530519274
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "do not engage in puting the sprite can on the table cloth shorter"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 355,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse",
+        "opened_sprite_can",
+        "bridge_carrot_generated_modified",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.28673777917862603,
+            -0.1372396502817279
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.19014192066559407,
+            -0.10227161904879342
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.25108976486840484,
+            -0.004434726712228582
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.03134864582682789,
+            0.11290324843790475
+          ],
+          "init_rot_quat": [
+            0.5025049714626714,
+            -0.16433583947064892,
+            -0.4928443270452579,
+            0.6910766634897202
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.22785656813940694,
+            0.01971278215158831
+          ],
+          "init_rot_quat": [
+            -0.03190258369865151,
+            0.06383100107168703,
+            0.05283350740013068,
+            0.9960504249039489
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the plate"
+  }
+]

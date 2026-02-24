@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 416,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "sponge",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.4197334898748427,
+            0.23093255100048787
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.44785284976395423,
+            0.39029321728551447
+          ],
+          "init_rot_quat": [
+            0.24471601236918303,
+            0.0,
+            0.0,
+            0.9695947985061213
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.146793451983677,
+            0.1320302912070228
+          ],
+          "init_rot_quat": [
+            0.9022917475332582,
+            0.0,
+            0.0,
+            -0.4311259703768481
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 0
+    },
+    "prompt": "please refrain from moving green cube near coke can"
+  }
+]

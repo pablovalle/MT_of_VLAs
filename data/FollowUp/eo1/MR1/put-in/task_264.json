@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 264,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.16411625233245167,
+            0.12085016094090559
+          ],
+          "init_rot_quat": [
+            0.231248898900504,
+            0.0,
+            0.0,
+            -0.9728946226376752
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "bring  the orange into the yellow basket"
+  }
+]

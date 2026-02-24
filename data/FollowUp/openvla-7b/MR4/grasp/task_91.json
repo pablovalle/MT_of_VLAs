@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 91,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.22394221610841175,
+          0.0970190280853513
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_carrot_generated_modified",
+        "apple"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.45929636675887286,
+            0.33824227219504854
+          ],
+          "init_rot_quat": [
+            0.9740731839107797,
+            0.0,
+            0.0,
+            0.22623313724102465
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.40118460082013924,
+            0.09203658007021875
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "cease picking sprite can"
+  }
+]

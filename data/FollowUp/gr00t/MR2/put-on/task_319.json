@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 319,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "table_cloth_generated",
+        "blue_plastic_bottle",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated_modified",
+        "opened_7up_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.08883879930641594,
+            -0.15987444922115415
+          ],
+          "init_rot_quat": [
+            0.9399680224130349,
+            0.0,
+            0.0,
+            -0.3412625336026919
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.29842521974933783,
+            -0.09621578759104644
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.17091128053504578,
+            -0.014891563082410686
+          ],
+          "init_rot_quat": [
+            0.7807126502942159,
+            0.0,
+            0.0,
+            0.6248901964910167
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1867005055896115,
+            0.04571816544863447
+          ],
+          "init_rot_quat": [
+            0.9241648371578385,
+            0.0,
+            0.0,
+            0.3819939184869649
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2365494545607516,
+            0.08832376212769869
+          ],
+          "init_rot_quat": [
+            -0.3629440080673077,
+            0.39333702730957765,
+            0.10815140352277411,
+            0.837771391175037
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.10638575537677802,
+            0.1054008054168746
+          ],
+          "init_rot_quat": [
+            0.6063375364234225,
+            -0.6110277418546429,
+            0.41720749117393957,
+            0.2914409029569076
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.2777391957376805,
+            -0.1131001412895275
+          ],
+          "init_rot_quat": [
+            0.6060261552380449,
+            0.08386829917183607,
+            -0.6390773280087328,
+            0.4661315011739015
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sponge on the table cloth"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 388,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "bridge_plate_objaverse",
+        "opened_sprite_can",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.22361919191136492,
+            0.03310841285391719
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.26197182338793307,
+            0.11212617967113289
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.10528518249672028,
+            0.06075905241747698
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.0493554907385948,
+            -0.0949814818735873
+          ],
+          "init_rot_quat": [
+            0.9992092646576847,
+            0.0,
+            0.0,
+            0.03975984685897432
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "position the fanta can on the plate"
+  }
+]

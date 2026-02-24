@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 406,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse",
+        "opened_sprite_can",
+        "table_cloth_generated_shorter",
+        "eggplant",
+        "bridge_plate_objaverse_larger"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.058118062736790876,
+            -0.04606214480036
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.26724749000021647,
+            0.05971812622414488
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.037898751731796076,
+            0.051252081048667686
+          ],
+          "init_rot_quat": [
+            0.3251260294812304,
+            0.008771107368145035,
+            0.025679874664203125,
+            -0.9452812685473766
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.1954169052349069,
+            -0.11304967528061895
+          ],
+          "init_rot_quat": [
+            -0.3820835381950564,
+            0.6915357603636356,
+            0.06349468956680407,
+            -0.6097203345595835
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.11879667455634488,
+            -0.10924963984413519
+          ],
+          "init_rot_quat": [
+            0.4325699457648832,
+            -0.37470069308664333,
+            -0.658400974013482,
+            0.48886684285135695
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.08296311092619676,
+            0.09362306087616976
+          ],
+          "init_rot_quat": [
+            0.9244269850523612,
+            -0.20082866579951925,
+            0.2904869105033684,
+            -0.14394426395794488
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the plate"
+  }
+]

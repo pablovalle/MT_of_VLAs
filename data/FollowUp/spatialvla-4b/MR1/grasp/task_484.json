@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 484,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "sponge",
+      "obj_init_options": {
+        "init_xy": [
+          -0.20343862804728302,
+          0.36567971656780585
+        ],
+        "orientation": [
+          0.11995685805869598,
+          0.0,
+          0.0,
+          -0.992779105443243
+        ]
+      },
+      "distractor_model_ids": [
+        "coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.13513896694608996,
+            0.34459244906035164
+          ],
+          "init_rot_quat": [
+            0.8573488773942343,
+            0.0,
+            0.0,
+            0.5147357598135632
+          ]
+        }
+      }
+    },
+    "prompt": "would you grab  sponge"
+  }
+]

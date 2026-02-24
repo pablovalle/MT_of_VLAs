@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 79,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "table_cloth_generated_shorter",
+        "opened_7up_can",
+        "orange",
+        "bridge_carrot_generated_modified",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.2246684905636837,
+            0.0421859117139424
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.2694625091120901,
+            -0.02564258241188974
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.2969660732807894,
+            -0.14869848362715635
+          ],
+          "init_rot_quat": [
+            0.9975538319302455,
+            0.0,
+            0.0,
+            -0.06990244917943567
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.21441678598950353,
+            -0.04320314545754313
+          ],
+          "init_rot_quat": [
+            0.999264455416256,
+            0.0,
+            0.0,
+            -0.038347726681686796
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.07371317478875783,
+            -0.1263253162690948
+          ],
+          "init_rot_quat": [
+            -0.2616762370604944,
+            0.8359333177521066,
+            -0.466934790481085,
+            0.12129689471788127
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.07751964456337648,
+            -0.04790776632766788
+          ],
+          "init_rot_quat": [
+            0.4215908478251001,
+            -0.14829235759752923,
+            -0.5934181547919928,
+            -0.6694217110846842
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the table cloth shorter"
+  }
+]

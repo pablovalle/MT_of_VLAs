@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 231,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "green_cube_3cm",
+        "blue_plastic_bottle",
+        "coke_can",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.2433885969857002,
+            0.3169613446105548
+          ],
+          "init_rot_quat": [
+            0.9091020069665763,
+            0.0,
+            0.0,
+            0.4165735720486155
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.4604308565884059,
+            0.35205530328717694
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.10599466750676362,
+            0.1650181717796333
+          ],
+          "init_rot_quat": [
+            0.12511521618544055,
+            0.0,
+            0.0,
+            -0.9921422189781415
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.4369248180534003,
+            0.11708120945732699
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.3120929492527586,
+            0.009479618937768608
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 3
+    },
+    "prompt": "refrain from moving blue plastic bottle near coke can"
+  }
+]

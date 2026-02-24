@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 144,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.2068515471914032,
+            0.10030552779113178
+          ],
+          "init_rot_quat": [
+            0.9949469632716194,
+            0.0,
+            0.0,
+            0.10040189378982303
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.3673193288226353,
+            0.13570391853098843
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "shift  green cube near carrot"
+  }
+]

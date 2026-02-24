@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 483,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "orange",
+      "obj_init_options": {
+        "init_xy": [
+          -0.18552136375931855,
+          0.3734743417491577
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.3121245751934285,
+            0.10222087776998504
+          ],
+          "init_rot_quat": [
+            0.5964564935356568,
+            0.0,
+            0.0,
+            0.8026454082090977
+          ]
+        }
+      }
+    },
+    "prompt": "let's pick up  orange"
+  }
+]

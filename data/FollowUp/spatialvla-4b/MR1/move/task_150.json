@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 150,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "opened_redbull_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.4272405248550364,
+            0.23767523065040863
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.2483480143926901,
+            0.13834326918420944
+          ],
+          "init_rot_quat": [
+            0.15283373462261837,
+            0.0,
+            0.0,
+            -0.9882519160423131
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.23802112596256592,
+            0.3854698967058108
+          ],
+          "init_rot_quat": [
+            0.9128168730035956,
+            0.0,
+            0.0,
+            -0.4083691422719616
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 1
+    },
+    "prompt": "let's move  eggplant near redbull can"
+  }
+]

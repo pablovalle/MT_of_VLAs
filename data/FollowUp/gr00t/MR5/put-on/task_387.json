@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 387,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "table_cloth_generated",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.00380196676128447,
+            -0.14646803013649728
+          ],
+          "init_rot_quat": [
+            0.9225451874710698,
+            0.0,
+            0.0,
+            0.3858890735353473
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.23328072870726363,
+            0.09357474693022302
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.06918552725318852,
+            0.03107139424227573
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the table cloth"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 220,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.44371953770724826,
+            0.3275083360184875
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.3395801098536042,
+            0.025365544719404554
+          ],
+          "init_rot_quat": [
+            0.3909704924759884,
+            0.0,
+            0.0,
+            -0.9204032127350942
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move apple near fanta can"
+  }
+]

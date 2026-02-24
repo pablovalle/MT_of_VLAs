@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 99,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "dummy_sink_target_plane",
+        "yellow_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "opened_sprite_can",
+        "table_cloth_generated"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.18853573084152364,
+            0.19453050622568174
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.13093927635519337,
+            0.14999319195403374
+          ],
+          "init_rot_quat": [
+            -0.04241379045938018,
+            0.8638017653841218,
+            -0.5020077433346172,
+            -0.0059838223760033775
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.19063166617922594,
+            0.1259795192624501
+          ],
+          "init_rot_quat": [
+            -0.10642719180126005,
+            0.15470433214604562,
+            -0.8390000672567955,
+            0.510704131179332
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.1851589418143727,
+            0.1353445981052859
+          ],
+          "init_rot_quat": [
+            0.07885657262785642,
+            -0.6312892312867615,
+            0.358797069820859,
+            -0.6830228474236589
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.14623107103621064,
+            0.1513834263931159
+          ],
+          "init_rot_quat": [
+            0.03756702243352214,
+            0.021226696479858018,
+            -0.1451096861259419,
+            0.9884742410272823
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube into the yellow basket"
+  }
+]

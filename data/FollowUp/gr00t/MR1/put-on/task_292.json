@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 292,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "opened_coke_can",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.29665804272452784,
+            0.06251493421405083
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.12054327343399435,
+            -0.06623374304484805
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.13400951738271666,
+            -0.1278928394798358
+          ],
+          "init_rot_quat": [
+            0.28817300776918503,
+            0.0,
+            0.0,
+            -0.9575783610719601
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.1493175430139784,
+            -0.02247765412764785
+          ],
+          "init_rot_quat": [
+            0.2210715217258407,
+            0.0,
+            0.0,
+            -0.9752575979103271
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "could you put  the carrot on the table cloth"
+  }
+]

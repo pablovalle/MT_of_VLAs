@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 53,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "bridge_plate_objaverse_larger",
+        "bridge_spoon_generated_modified",
+        "redbull_can",
+        "opened_7up_can",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.231110345777102,
+            -0.1320595803156474
+          ],
+          "init_rot_quat": [
+            0.9809280211550363,
+            0.0,
+            0.0,
+            0.19437133871243611
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.22851046281013912,
+            0.09367510652005337
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.09263838220607973,
+            -0.08138776773162783
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.1930991092759366,
+            0.05977765541516844
+          ],
+          "init_rot_quat": [
+            -0.4354525573281129,
+            -0.028810142718503556,
+            -0.8205264306433623,
+            0.36917126460304256
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.15850493150175174,
+            -0.10656523774031079
+          ],
+          "init_rot_quat": [
+            -0.39975593387480723,
+            0.44843257399311304,
+            0.4043079134626474,
+            0.6896655211225746
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.03804969673631908,
+            -0.14565466148258474
+          ],
+          "init_rot_quat": [
+            -0.6277038584841625,
+            0.632374001416923,
+            -0.2195645123669819,
+            0.3973442000144124
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant on the plate larger"
+  }
+]

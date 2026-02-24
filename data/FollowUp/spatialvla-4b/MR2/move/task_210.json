@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 210,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "orange",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated_modified",
+        "yellow_cube_3cm",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.33758792447386465,
+            0.2903622088164921
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.21440122791622446,
+            0.0590324374211753
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2446112394821776,
+            0.20672461724065405
+          ],
+          "init_rot_quat": [
+            0.3365059633434099,
+            0.25766825852247927,
+            -0.6933529202913639,
+            -0.5827800040390492
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.30982261716373716,
+            0.3516316889128632
+          ],
+          "init_rot_quat": [
+            -0.3339423901069142,
+            0.47579676305939367,
+            -0.11380022489999589,
+            0.8056981005094868
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.4097232000666571,
+            0.31698136990760223
+          ],
+          "init_rot_quat": [
+            -0.4483941725875859,
+            -0.8183944803759012,
+            -0.3338842046230472,
+            -0.13302059383038428
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.1047488332090099,
+            0.05953432469492492
+          ],
+          "init_rot_quat": [
+            0.43024657830599466,
+            0.15643783531678324,
+            -0.19865061025704597,
+            0.8665754557924462
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move blue plastic bottle near orange"
+  }
+]

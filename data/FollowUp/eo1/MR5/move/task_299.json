@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 299,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "eggplant",
+        "pepsi_can",
+        "sprite_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.12433463133100253,
+            0.3003549189425929
+          ],
+          "init_rot_quat": [
+            0.5113075258480575,
+            0.0,
+            0.0,
+            -0.8593978205762091
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.3064640075891637,
+            0.26468243430254124
+          ],
+          "init_rot_quat": [
+            0.6015491413879359,
+            0.0,
+            0.0,
+            -0.7988357969541907
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.4812187192348241,
+            0.285531599122805
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.3402391450957287,
+            0.012303676266508301
+          ],
+          "init_rot_quat": [
+            0.9412043676331998,
+            0.0,
+            0.0,
+            0.3378377396742237
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.49683195878361125,
+            0.0774289157374109
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 4
+    },
+    "prompt": "move sprite can near carrot"
+  }
+]

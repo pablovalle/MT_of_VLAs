@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 156,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "table_cloth_generated",
+        "7up_can",
+        "fanta_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.215347940088217,
+            0.007966941225007768
+          ],
+          "init_rot_quat": [
+            0.85247392673825,
+            0.0,
+            0.0,
+            0.5227697430336504
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.02367608731113091,
+            -0.13116433613921738
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.12934539680953877,
+            -0.15186523189444714
+          ],
+          "init_rot_quat": [
+            0.9642532104448361,
+            0.0,
+            0.0,
+            -0.2649825393244367
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.24366875090480974,
+            -0.14473974304968767
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.2627716837076776,
+            -0.06771324823450993
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "cease the act of puting the spoon on the table cloth"
+  }
+]

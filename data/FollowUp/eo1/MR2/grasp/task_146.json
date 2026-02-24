@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 146,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.29101228732398393,
+          0.17324411507931142
+        ],
+        "orientation": [
+          0.9276567480581325,
+          0.0,
+          0.0,
+          0.3734340072652872
+        ]
+      },
+      "distractor_model_ids": [
+        "sprite_can",
+        "fanta_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.3601639445993562,
+            0.3783679730300726
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.2577789407983389,
+            0.005319727874811742
+          ],
+          "init_rot_quat": [
+            -0.9503564418693502,
+            0.10114809343852131,
+            0.2908893866112677,
+            0.04444166230128194
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.1660799455666867,
+            0.3884847052924377
+          ],
+          "init_rot_quat": [
+            0.43812180741746587,
+            -0.46310162836674523,
+            -0.7273128146472133,
+            -0.2541696939433776
+          ]
+        }
+      }
+    },
+    "prompt": "pick fanta can"
+  }
+]

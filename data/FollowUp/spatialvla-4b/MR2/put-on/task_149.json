@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 149,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "table_cloth_generated_shorter",
+        "opened_redbull_can",
+        "table_cloth_generated",
+        "orange"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.014377451234911964,
+            -0.14630483658977206
+          ],
+          "init_rot_quat": [
+            0.6231103932065256,
+            0.0,
+            0.0,
+            0.7821339002229791
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.20294638860076514,
+            -0.09607908252108599
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.02297343548752029,
+            0.010202851610575353
+          ],
+          "init_rot_quat": [
+            -0.3728888746793881,
+            0.4481635497812873,
+            -0.20169672142552147,
+            0.7870335141237448
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.28623953263582913,
+            0.004029488832852729
+          ],
+          "init_rot_quat": [
+            -0.17807132849093762,
+            0.7245135584320832,
+            -0.43655226493654187,
+            -0.5027850689870655
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.10203469679798771,
+            0.08850558091256286
+          ],
+          "init_rot_quat": [
+            0.6906104037982846,
+            0.025898781181140588,
+            -0.32410753415185645,
+            0.6460192176746019
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the table cloth shorter"
+  }
+]

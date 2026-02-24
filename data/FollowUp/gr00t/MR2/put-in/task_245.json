@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 245,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "dummy_sink_target_plane",
+        "opened_7up_can",
+        "apple"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.11841582938834386,
+            0.18243300921871078
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.15532014872872654,
+            0.1386805266758693
+          ],
+          "init_rot_quat": [
+            0.947840537157494,
+            0.0,
+            0.0,
+            -0.3187449076000953
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.1860225276707911,
+            0.19408987746018935
+          ],
+          "init_rot_quat": [
+            0.0945236490074064,
+            -0.5049153333216541,
+            0.0649189438511568,
+            0.8555181568407874
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can into the yellow basket"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 286,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "table_cloth_generated_shorter",
+        "pepsi_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.24318922574691407,
+            -0.14765663774518425
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.05544024891228283,
+            0.06874333285103115
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.2320975146791321,
+            0.017173541402452308
+          ],
+          "init_rot_quat": [
+            0.6282531028779877,
+            -0.10710734410201685,
+            0.17761305856857415,
+            -0.7498530902713604
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.29679870446479095,
+            0.0738406662608288
+          ],
+          "init_rot_quat": [
+            0.22437459812181224,
+            -0.6959363926283049,
+            -0.6564397788283061,
+            -0.18551386445498277
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle on the table cloth shorter"
+  }
+]

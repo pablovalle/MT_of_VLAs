@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 319,
+    "follow-up": 1,
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.23904579713948598,
+          0.06682159952203452
+        ],
+        "orientation": [
+          0.37450896454554905,
+          0.0,
+          0.0,
+          0.9272232932120615
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_sprite_can",
+        "green_cube_3cm",
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.4205638242097653,
+            0.09453690451081012
+          ],
+          "init_rot_quat": [
+            0.25846153029632657,
+            0.31109067604998397,
+            0.8989322105658774,
+            0.16834817919653938
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.4141762874703663,
+            0.10993639345032032
+          ],
+          "init_rot_quat": [
+            -0.338913785375734,
+            -0.22171037228749452,
+            -0.6243707266082932,
+            0.6679394827804861
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2158837939860252,
+            0.35142862915473055
+          ],
+          "init_rot_quat": [
+            0.6535154467634331,
+            0.5724063886357716,
+            0.3702355198151617,
+            0.32892878706148765
+          ]
+        }
+      }
+    },
+    "prompt": "pick yellow cube"
+  }
+]

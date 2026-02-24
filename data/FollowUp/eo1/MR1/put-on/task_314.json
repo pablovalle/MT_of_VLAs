@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 314,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "table_cloth_generated",
+        "orange",
+        "eggplant",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.08402522929407605,
+            -0.15498503636364222
+          ],
+          "init_rot_quat": [
+            0.215036564957863,
+            0.0,
+            0.0,
+            -0.9766059982055828
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.2646077012008922,
+            0.014783913484902683
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.12541287796481976,
+            -0.001050605952766015
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.010874098930817366,
+            0.10779430630182549
+          ],
+          "init_rot_quat": [
+            0.9540704533600078,
+            0.0,
+            0.0,
+            -0.29958232595637063
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.05192002017468861,
+            0.01928443377968611
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you move  the redbull can on the table cloth"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 222,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "dummy_sink_target_plane",
+        "eggplant",
+        "sponge",
+        "bridge_plate_objaverse_larger",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.11542806435097709,
+            0.14776190671083983
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.19265922007317585,
+            0.1719966375912711
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.14884737737141923,
+            0.17069278667178944
+          ],
+          "init_rot_quat": [
+            0.8124024732000226,
+            0.0,
+            0.0,
+            -0.5830970944349548
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.13832029033667048,
+            0.1928621802272726
+          ],
+          "init_rot_quat": [
+            0.3032823047232644,
+            0.4425293239920455,
+            0.08259293375058262,
+            0.8398607315164581
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1826510205297791,
+            0.1857879378223011
+          ],
+          "init_rot_quat": [
+            -0.041543764143873244,
+            0.9281709600867646,
+            0.35356412720867536,
+            -0.10846747191457728
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can into the yellow basket"
+  }
+]

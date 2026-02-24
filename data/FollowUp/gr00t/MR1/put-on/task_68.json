@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 68,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.013870499725452345,
+            -0.0503687451983313
+          ],
+          "init_rot_quat": [
+            0.9840990564983286,
+            0.0,
+            0.0,
+            0.17762051401541282
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.23192685970469004,
+            0.016828923926316297
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put  the coke can on the plate"
+  }
+]

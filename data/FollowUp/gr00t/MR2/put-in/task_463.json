@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 463,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "dummy_sink_target_plane",
+        "sponge",
+        "blue_plastic_bottle",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.15039784836943185,
+            0.16147134761157644
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.10756919790823855,
+            0.10619496190087929
+          ],
+          "init_rot_quat": [
+            0.4016439883038529,
+            -0.6656320761341892,
+            -0.6104449074288467,
+            -0.1515686671936197
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.17209039220036199,
+            0.10485214889822493
+          ],
+          "init_rot_quat": [
+            0.7759027770269947,
+            0.21368383897554616,
+            0.21833934341259065,
+            -0.5519438637041174
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.10154406867300451,
+            0.14672868428750638
+          ],
+          "init_rot_quat": [
+            -0.318346727779152,
+            -0.15910717095696986,
+            0.41808380979315524,
+            -0.8357907615254053
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

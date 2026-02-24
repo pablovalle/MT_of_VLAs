@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 23,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.08204335942205829,
+            0.27284657190417505
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.4053827510224941,
+            0.3546038791293026
+          ],
+          "init_rot_quat": [
+            0.16983046792362602,
+            0.0,
+            0.0,
+            0.9854732934812807
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move fanta can near green cube"
+  }
+]

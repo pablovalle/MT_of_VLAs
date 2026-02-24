@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 466,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "pepsi_can",
+        "orange",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.20795644935681173,
+            0.02993892349211512
+          ],
+          "init_rot_quat": [
+            0.6934930912100336,
+            0.0,
+            0.0,
+            -0.7204632762632334
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.27464888705390533,
+            0.013028714792798768
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1279980270481597,
+            -0.018774047241855413
+          ],
+          "init_rot_quat": [
+            0.9866666581089992,
+            0.0,
+            0.0,
+            -0.16275412675572726
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.20333261432076227,
+            0.04416703309913414
+          ],
+          "init_rot_quat": [
+            0.14862164144609763,
+            0.0,
+            0.0,
+            -0.988894133713952
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.0439789719686442,
+            -0.051169010078230895
+          ],
+          "init_rot_quat": [
+            0.4700030470505244,
+            0.0,
+            0.0,
+            -0.8826647924117187
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube on the plate larger"
+  }
+]

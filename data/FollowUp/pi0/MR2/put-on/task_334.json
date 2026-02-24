@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 334,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "bridge_plate_objaverse_larger",
+        "yellow_cube_3cm",
+        "sponge",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.2770443569911724,
+            0.08373918125854496
+          ],
+          "init_rot_quat": [
+            0.8410612167892871,
+            0.0,
+            0.0,
+            0.5409399500988291
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.19020434557338056,
+            -0.019662688333292017
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.21984787228712288,
+            0.09463080726849918
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.18508452770120187,
+            0.036518819331397556
+          ],
+          "init_rot_quat": [
+            0.43032711595539663,
+            0.36844765024002535,
+            -0.692690316418508,
+            -0.4463687128889544
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.16289632949734573,
+            0.047853483332485264
+          ],
+          "init_rot_quat": [
+            -0.4030932302001854,
+            0.8233813375095411,
+            0.2276619879930063,
+            0.32822102313966983
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the plate larger"
+  }
+]

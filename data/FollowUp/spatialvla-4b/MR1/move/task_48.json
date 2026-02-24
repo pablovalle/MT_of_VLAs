@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 48,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "opened_fanta_can",
+        "opened_sprite_can",
+        "bridge_carrot_generated_modified",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.2133977474429818,
+            0.11458154691987757
+          ],
+          "init_rot_quat": [
+            0.8860541889288364,
+            0.0,
+            0.0,
+            0.4635816802696824
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.37967342562094225,
+            0.3248536944585825
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.3941554403190048,
+            0.17374985679717625
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.11168767886539777,
+            0.3908001709295148
+          ],
+          "init_rot_quat": [
+            0.8203707623206453,
+            0.0,
+            0.0,
+            -0.571831979107013
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.3494159675578573,
+            0.015128388905900403
+          ],
+          "init_rot_quat": [
+            0.9404164067804185,
+            0.0,
+            0.0,
+            -0.3400249724038022
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 0
+    },
+    "prompt": "place  carrot near pepsi can"
+  }
+]

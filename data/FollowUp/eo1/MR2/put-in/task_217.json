@@ -1,0 +1,120 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 217,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "dummy_sink_target_plane",
+        "blue_plastic_bottle",
+        "opened_sprite_can",
+        "opened_redbull_can",
+        "orange",
+        "opened_fanta_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.13532395518782758,
+            0.17954396888846447
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1929567346360305,
+            0.12911231926726274
+          ],
+          "init_rot_quat": [
+            0.9802844627498558,
+            0.0,
+            0.0,
+            -0.19759142717037725
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.11887807663688532,
+            0.16911456495829746
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.19261598107579922,
+            0.1825849041318487
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.18339238140849834,
+            0.10456164809523907
+          ],
+          "init_rot_quat": [
+            0.04134924956814155,
+            0.537831843316285,
+            -0.309847198319755,
+            0.7829571262646232
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1490409218474484,
+            0.12928531340985058
+          ],
+          "init_rot_quat": [
+            -0.14681821289005706,
+            0.7053507932599747,
+            0.6928120384061706,
+            0.03059657253322811
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.15170095736544673,
+            0.11962873253318321
+          ],
+          "init_rot_quat": [
+            0.4012854254511053,
+            0.05797257405232973,
+            -0.6735258061904013,
+            0.618038976419645
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube into the yellow basket"
+  }
+]

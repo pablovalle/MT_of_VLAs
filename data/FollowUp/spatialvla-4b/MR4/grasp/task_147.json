@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 147,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.12377710021043564,
+          0.1326687025293942
+        ],
+        "orientation": [
+          0.13050554956815905,
+          0.0,
+          0.0,
+          0.9914475788118667
+        ]
+      }
+    },
+    "prompt": "refrain from picking apple"
+  }
+]

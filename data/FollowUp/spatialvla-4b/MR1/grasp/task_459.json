@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 459,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "orange",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4480246330214662,
+          0.28926329885235175
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.41138290518731047,
+            0.2509652256797496
+          ],
+          "init_rot_quat": [
+            0.9924730061870192,
+            0.0,
+            0.0,
+            -0.12246359454997659
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.22448472011153975,
+            0.040918412220384684
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "retrieve  orange"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 281,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "opened_sprite_can",
+        "opened_coke_can",
+        "redbull_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.3272201262046821,
+            0.04332921567268269
+          ],
+          "init_rot_quat": [
+            0.6221819046654006,
+            0.0,
+            0.0,
+            0.7828727083676722
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.25787470904689613,
+            0.22282329203083584
+          ],
+          "init_rot_quat": [
+            0.7490118279344912,
+            0.0,
+            0.0,
+            -0.6625566252134472
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.4285359890882418,
+            0.3915028654142143
+          ],
+          "init_rot_quat": [
+            0.45526511167046,
+            0.0,
+            0.0,
+            -0.8903559277590528
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.33026615463451114,
+            0.014651601331579167
+          ],
+          "init_rot_quat": [
+            0.3038819523969991,
+            0.0,
+            0.0,
+            -0.952709692932421
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.11458295284890152,
+            0.2957887768282747
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move sponge near sprite can"
+  }
+]

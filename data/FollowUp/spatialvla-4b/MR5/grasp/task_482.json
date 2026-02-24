@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 482,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2623761699606495,
+          0.34752498072306803
+        ],
+        "orientation": [
+          0.974450351250192,
+          0.0,
+          0.0,
+          0.22460301188625575
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_fanta_can",
+        "sponge"
+      ],
+      "distractor_obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.4892691933422235,
+            0.3824442408839155
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.3605257654449726,
+            0.07951712929735724
+          ],
+          "init_rot_quat": [
+            0.9917174628772801,
+            0.0,
+            0.0,
+            0.128438599432766
+          ]
+        }
+      }
+    },
+    "prompt": "pick yellow cube"
+  }
+]

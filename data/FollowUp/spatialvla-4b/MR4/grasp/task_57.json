@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 57,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.16824918265462696,
+          0.16422577717348702
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "green_cube_3cm",
+        "yellow_cube_3cm",
+        "opened_redbull_can"
+      ],
+      "distractor_obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.3584669725022821,
+            0.3866089430826208
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.26614460434148446,
+            0.22368705237879594
+          ],
+          "init_rot_quat": [
+            0.6093150378010973,
+            0.0,
+            0.0,
+            -0.7929282342743555
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.3288350851888694,
+            0.26332333560533255
+          ],
+          "init_rot_quat": [
+            0.6415767124828805,
+            0.0,
+            0.0,
+            0.7670588777920891
+          ]
+        }
+      }
+    },
+    "prompt": "stop yourself from picking apple"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 259,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.45788328906857906,
+          0.31914477479735553
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "yellow_cube_3cm",
+        "sprite_can",
+        "fanta_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.17891791309198507,
+            0.22126812164563275
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.3325855899945278,
+            0.04820759778951356
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.09981569729085366,
+            0.23444285368195686
+          ],
+          "init_rot_quat": [
+            -0.09389751746006195,
+            0.40363572793823727,
+            -0.8548866867830094,
+            -0.31213812344501507
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.30302163337949684,
+            0.19729894973270998
+          ],
+          "init_rot_quat": [
+            0.7787569256186119,
+            0.04227453041415006,
+            -0.5948587711584052,
+            -0.1946626755575474
+          ]
+        }
+      }
+    },
+    "prompt": "pick blue plastic bottle"
+  }
+]

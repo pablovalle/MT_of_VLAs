@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 331,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "bridge_plate_objaverse_larger",
+        "sprite_can",
+        "bridge_spoon_generated_modified",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.13042436714080227,
+            0.012033335783783294
+          ],
+          "init_rot_quat": [
+            0.9951662466041162,
+            0.0,
+            0.0,
+            -0.09820459062526242
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.0792685914937939,
+            -0.039994453185331305
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.12014098228511164,
+            -0.13666286998695754
+          ],
+          "init_rot_quat": [
+            0.8280646084069737,
+            0.0,
+            0.0,
+            -0.5606326821581179
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.03639961473453496,
+            -0.08558471909407712
+          ],
+          "init_rot_quat": [
+            -0.11215171791215946,
+            0.44132885437864555,
+            -0.5927963242930718,
+            -0.6642615090209629
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.1744598858174861,
+            -0.04067061549171694
+          ],
+          "init_rot_quat": [
+            -0.18599752894829305,
+            -0.7121629110127331,
+            0.6327853485708415,
+            0.2404404500850005
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can on the plate larger"
+  }
+]

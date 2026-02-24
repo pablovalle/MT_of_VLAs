@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 337,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "coke_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.18403170900064636,
+            -0.0751827918757889
+          ],
+          "init_rot_quat": [
+            0.5909366712102546,
+            0.0,
+            0.0,
+            0.8067179498554271
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.11430291804559103,
+            0.03676083126951274
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.18686342436285358,
+            -0.12683646064983567
+          ],
+          "init_rot_quat": [
+            0.2351980750209534,
+            0.0,
+            0.0,
+            -0.9719474602602951
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "can you place  the green cube on the plate larger"
+  }
+]

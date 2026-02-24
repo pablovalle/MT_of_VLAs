@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 110,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.48927266962505445,
+            0.3601704555362619
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.31208384586567695,
+            0.17980436904878655
+          ],
+          "init_rot_quat": [
+            0.4652030640873675,
+            0.0,
+            0.0,
+            -0.8852039929664375
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move 7up can near carrot"
+  }
+]

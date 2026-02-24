@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 124,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "fanta_can",
+        "sponge",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.26617055890197805,
+            0.2521564457027202
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.21102132276306115,
+            0.09032165798773409
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.11138333365481423,
+            0.010891432602967523
+          ],
+          "init_rot_quat": [
+            0.05951684139263069,
+            0.0,
+            0.0,
+            -0.9982273015654523
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.4693146946537633,
+            0.12393119011886311
+          ],
+          "init_rot_quat": [
+            0.5643439590402468,
+            0.0,
+            0.0,
+            0.8255397603354913
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move fanta can near carrot"
+  }
+]

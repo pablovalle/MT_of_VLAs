@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 406,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse",
+        "orange",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.058118062736790876,
+            -0.04606214480036
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.26724749000021647,
+            0.05971812622414488
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.15827247984828446,
+            -0.10973211146044859
+          ],
+          "init_rot_quat": [
+            -0.6298819793222583,
+            -0.41964293363236566,
+            -0.5991697127668535,
+            0.26104435577193064
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.11207260411353115,
+            -0.0014222366129859054
+          ],
+          "init_rot_quat": [
+            -0.6972759973464301,
+            0.6166833049056197,
+            0.09594895137967481,
+            0.3525644390808074
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the plate"
+  }
+]

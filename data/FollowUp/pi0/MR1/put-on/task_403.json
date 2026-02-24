@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 403,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "table_cloth_generated",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.017461306022939438,
+            0.018588600373107445
+          ],
+          "init_rot_quat": [
+            0.9646347448398898,
+            0.0,
+            0.0,
+            -0.2635902294237797
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.22179916135297606,
+            -0.08023128014851288
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2666461363102359,
+            0.0022915041964834404
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move  the sponge on the table cloth"
+  }
+]

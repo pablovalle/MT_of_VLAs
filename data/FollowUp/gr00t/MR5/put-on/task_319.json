@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 319,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "table_cloth_generated",
+        "blue_plastic_bottle",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.18883879930641595,
+            -0.15987444922115415
+          ],
+          "init_rot_quat": [
+            0.9399680224130349,
+            0.0,
+            0.0,
+            -0.3412625336026919
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.29842521974933783,
+            -0.09621578759104644
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.17091128053504578,
+            -0.014891563082410686
+          ],
+          "init_rot_quat": [
+            0.7807126502942159,
+            0.0,
+            0.0,
+            0.6248901964910167
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1867005055896115,
+            0.04571816544863447
+          ],
+          "init_rot_quat": [
+            0.9241648371578385,
+            0.0,
+            0.0,
+            0.3819939184869649
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sponge on the table cloth"
+  }
+]

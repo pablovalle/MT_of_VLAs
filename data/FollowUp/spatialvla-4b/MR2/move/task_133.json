@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 133,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "opened_sprite_can",
+        "opened_redbull_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.29578799007310097,
+            0.003601480688201031
+          ],
+          "init_rot_quat": [
+            0.9174187362139242,
+            0.0,
+            0.0,
+            -0.3979231866122482
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.1587857457794048,
+            0.25666953016992794
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.05191871790700092,
+            0.3505419099504268
+          ],
+          "init_rot_quat": [
+            0.23401134999208453,
+            0.6448610095276465,
+            -0.5453063951539646,
+            -0.48169897432946124
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.3080033314262566,
+            0.265318164529082
+          ],
+          "init_rot_quat": [
+            -0.24516461859320862,
+            -0.23607975939546677,
+            -0.40337244467807504,
+            0.8493829100401411
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move sprite can near coke can"
+  }
+]

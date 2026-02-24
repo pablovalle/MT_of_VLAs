@@ -1,0 +1,41 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 69,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_id": "sponge",
+      "obj_init_options": {
+        "init_xy": [
+          -0.17435300679057672,
+          0.4
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.2579215142762453,
+            0.29361503593772825
+          ],
+          "init_rot_quat": [
+            0.04670333317845281,
+            0.0,
+            0.0,
+            -0.9989088039806349
+          ]
+        }
+      }
+    },
+    "prompt": "pick sponge"
+  }
+]

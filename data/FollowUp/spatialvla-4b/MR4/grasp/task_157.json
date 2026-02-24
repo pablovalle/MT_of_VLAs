@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 157,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.17091391501635406,
+          0.007839560527415924
+        ],
+        "orientation": [
+          0.8909320408165594,
+          0.0,
+          0.0,
+          0.45413665195229563
+        ]
+      }
+    },
+    "prompt": "hold back from picking coke can"
+  }
+]

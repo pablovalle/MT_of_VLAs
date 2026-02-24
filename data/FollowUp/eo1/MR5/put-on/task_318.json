@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 318,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "bridge_plate_objaverse",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.044390542984794557,
+            -0.10019593390304221
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.16411318929880003,
+            0.08188087570047661
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.02661287437668869,
+            -0.07964560066826211
+          ],
+          "init_rot_quat": [
+            0.18394866402383028,
+            0.0,
+            0.0,
+            -0.9829358519271988
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange on the plate"
+  }
+]

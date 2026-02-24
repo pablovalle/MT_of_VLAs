@@ -1,0 +1,120 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 476,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "bridge_plate_objaverse_larger",
+        "redbull_can",
+        "opened_sprite_can",
+        "bridge_carrot_generated",
+        "table_cloth_generated",
+        "table_cloth_generated_shorter",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.11376728475449038,
+            0.04634354808468166
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.08478701250729342,
+            -0.10443508815224464
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.2634260278763232,
+            -0.0555672887012328
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.07218747086919874,
+            0.0755579794042949
+          ],
+          "init_rot_quat": [
+            0.9203039676721871,
+            0.0,
+            0.0,
+            -0.3912040478916725
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.02753563035398693,
+            0.0505570859462586
+          ],
+          "init_rot_quat": [
+            -0.02151134205960556,
+            0.756532100190734,
+            0.09920103762095485,
+            0.6460306476311458
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.29152833088801644,
+            0.08252894847990161
+          ],
+          "init_rot_quat": [
+            -0.4830172660592472,
+            0.6983050817621568,
+            0.5017259188074454,
+            -0.16533431546603586
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.031593323640112414,
+            0.06786746140914757
+          ],
+          "init_rot_quat": [
+            0.6024032311653201,
+            -0.43588597446689736,
+            0.5488110875473495,
+            0.38199496662877735
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.07132069496623547,
+            -0.1590361980986534
+          ],
+          "init_rot_quat": [
+            0.8749599512021806,
+            -0.20830000640514273,
+            0.2640579943210936,
+            0.3483239393998302
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can on the plate larger"
+  }
+]

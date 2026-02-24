@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 219,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "bridge_plate_objaverse_larger",
+        "redbull_can",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated_modified",
+        "opened_coke_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.2172244974882075,
+            0.031908059675770706
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.009978737722012576,
+            0.09516314363527298
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.27894339047164657,
+            0.08016486998890565
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.15935112525948944,
+            -0.09042811387624036
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.23753696158313256,
+            -0.08025721971161069
+          ],
+          "init_rot_quat": [
+            0.5633340649731188,
+            -0.6989480891237003,
+            0.35558426486128475,
+            0.2601655829164371
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.16502254193899388,
+            -0.14390866137061784
+          ],
+          "init_rot_quat": [
+            0.2244616628303246,
+            -0.11124084325583383,
+            -0.33250408513799057,
+            0.9092213537295111
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.11444970559541898,
+            0.11097459595193507
+          ],
+          "init_rot_quat": [
+            -0.18033354914488248,
+            -0.7654626791848823,
+            0.1428036148480305,
+            0.6009607519749086
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the plate larger"
+  }
+]

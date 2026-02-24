@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 458,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "apple"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.19953921566896365,
+            0.3489434504593284
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.39683349012999625,
+            0.29670975758050766
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "refrain from moving coke can near apple"
+  }
+]

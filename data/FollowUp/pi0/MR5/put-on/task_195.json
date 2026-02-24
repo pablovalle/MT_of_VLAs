@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 195,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "bridge_plate_objaverse_larger",
+        "apple",
+        "bridge_spoon_generated_modified",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.08876864073009089,
+            -0.035648966758007716
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.01574265167063671,
+            0.043478379630766256
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.16557728451800632,
+            0.03146739647842711
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.12716066793336456,
+            0.10072733214713495
+          ],
+          "init_rot_quat": [
+            0.5602619521096949,
+            0.0,
+            0.0,
+            0.8283154864049289
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.07379624573909171,
+            0.11277153580720836
+          ],
+          "init_rot_quat": [
+            0.5733127380898763,
+            0.0,
+            0.0,
+            -0.8193366245590935
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can on the plate larger"
+  }
+]

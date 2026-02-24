@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 146,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "table_cloth_generated",
+        "bridge_spoon_generated_modified",
+        "blue_plastic_bottle",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.15167991572577647,
+            0.12
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.04592292056611863,
+            -0.060313628522961835
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.17229250461181841,
+            0.08986855455603313
+          ],
+          "init_rot_quat": [
+            0.32177172903606294,
+            0.0,
+            0.0,
+            -0.9468172761378737
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.04594417700928527,
+            0.04197006311163193
+          ],
+          "init_rot_quat": [
+            0.8071228301943234,
+            0.0,
+            0.0,
+            0.5903835507355413
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.1323398029404154,
+            0.025705930140989985
+          ],
+          "init_rot_quat": [
+            0.9948975141740255,
+            0.0,
+            0.0,
+            -0.1008907145893259
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the table cloth"
+  }
+]

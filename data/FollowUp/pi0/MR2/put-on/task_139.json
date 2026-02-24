@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 139,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "bridge_plate_objaverse",
+        "bridge_spoon_generated_modified",
+        "table_cloth_generated_shorter",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.1320410106416898,
+            0.026645303732475534
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.19111167491307202,
+            0.11984972314129186
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.11506847756375824,
+            -0.06844400185946621
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.07731847262768257,
+            0.1182073319747565
+          ],
+          "init_rot_quat": [
+            0.29071895661679,
+            -0.14826755883343876,
+            -0.5915173313010124,
+            -0.7372967286186384
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.17459835587092984,
+            -0.08547872086488122
+          ],
+          "init_rot_quat": [
+            -0.4370421362292213,
+            -0.34959657470676375,
+            -0.41140559652192166,
+            0.7193899090645759
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the plate"
+  }
+]

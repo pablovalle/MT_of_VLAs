@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 161,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "table_cloth_generated",
+        "orange",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.14866673943856754,
+            -0.026721980907767062
+          ],
+          "init_rot_quat": [
+            0.35739071454103494,
+            0.0,
+            0.0,
+            0.9339549652739411
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.24612609079305633,
+            0.08859889174366081
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.08083562859367094,
+            -0.14047329752023643
+          ],
+          "init_rot_quat": [
+            0.9988778980630546,
+            0.0,
+            0.0,
+            0.047359737764623294
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.0021547254306752417,
+            -0.020296150764820803
+          ],
+          "init_rot_quat": [
+            0.824299306038734,
+            0.0,
+            0.0,
+            0.5661542670192122
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "can you place  the yellow cube on the table cloth"
+  }
+]

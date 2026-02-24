@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 447,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3296525050764604,
+          0.2476654613897653
+        ],
+        "orientation": [
+          0.24265450563745197,
+          0.0,
+          0.0,
+          0.9701127722558052
+        ]
+      }
+    },
+    "prompt": "would you avoid picking yellow cube"
+  }
+]

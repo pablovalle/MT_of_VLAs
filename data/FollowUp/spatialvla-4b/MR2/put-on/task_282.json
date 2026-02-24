@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 282,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "table_cloth_generated_shorter",
+        "sink",
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.18954979192316268,
+            -0.07340893451587636
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.10951747937657777,
+            -0.03105216695589419
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.05409774311930818,
+            0.053063505251236404
+          ],
+          "init_rot_quat": [
+            0.16149047474294817,
+            0.6085107406337843,
+            -0.5983587091884991,
+            -0.49558284901607896
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12839962917359726,
+            0.10525865060347381
+          ],
+          "init_rot_quat": [
+            -0.4978632905832684,
+            0.7210087170679353,
+            -0.39830964099616223,
+            0.2713448059041457
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.21327852437137534,
+            0.06889207795988414
+          ],
+          "init_rot_quat": [
+            0.8855781396321658,
+            -0.4375719828042266,
+            0.14858337697268573,
+            0.04695847695360888
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.22019443301407218,
+            0.09528571378678466
+          ],
+          "init_rot_quat": [
+            0.8471490308712712,
+            0.2515434029361302,
+            0.464264260773074,
+            0.05935597781191481
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the table cloth shorter"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 352,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "opened_fanta_can",
+        "opened_sprite_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.15031060817959319,
+            0.14087587245118618
+          ],
+          "init_rot_quat": [
+            0.00625075094902349,
+            0.0,
+            0.0,
+            -0.9999804638654564
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1179938856844216,
+            0.37851343517213054
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.2283850535065023,
+            0.1971793846095146
+          ],
+          "init_rot_quat": [
+            0.745548711727883,
+            0.42298900904648684,
+            0.15368073537951368,
+            0.49154821558009637
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.41003054726722216,
+            0.035955116510099576
+          ],
+          "init_rot_quat": [
+            -0.35103127666804074,
+            -0.46930040686371355,
+            0.3742042736348935,
+            0.7186830542817467
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move fanta can near pepsi can"
+  }
+]

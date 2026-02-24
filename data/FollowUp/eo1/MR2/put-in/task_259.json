@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 259,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "dummy_sink_target_plane",
+        "blue_plastic_bottle",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.17896550597014618,
+            0.16410381728109963
+          ],
+          "init_rot_quat": [
+            0.9998234190548747,
+            0.0,
+            0.0,
+            0.018791772386347976
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.11775022484785116,
+            0.1363176931261642
+          ],
+          "init_rot_quat": [
+            -0.3937142277073571,
+            0.40784557929240733,
+            0.20525908087720676,
+            -0.7978219099961371
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.10012689011177865,
+            0.1994776826434447
+          ],
+          "init_rot_quat": [
+            0.2631374596820045,
+            -0.9213896630606818,
+            0.26208716896883577,
+            0.11449926628116698
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sponge into the yellow basket"
+  }
+]

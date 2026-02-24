@@ -1,0 +1,41 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 190,
+    "follow-up": 4,
+    "mvoement_type": "up_right",
+    "task_data": {
+      "model_id": "opened_fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3812630776736806,
+          0.2907963502823967
+        ],
+        "orientation": [
+          0.14310543401318906,
+          0.0,
+          0.0,
+          0.9897074490756835
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.32163073778430795,
+            0.024287691801827684
+          ],
+          "init_rot_quat": [
+            0.790418654923539,
+            0.0,
+            0.0,
+            -0.6125670167001022
+          ]
+        }
+      }
+    },
+    "prompt": "pick fanta can"
+  }
+]

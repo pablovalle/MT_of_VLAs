@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 322,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "bridge_plate_objaverse_larger",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.25070973690998916,
+            0.030092193778616716
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.17656049963972603,
+            0.10752041502444984
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.16272631794185324,
+            -0.08628176596048777
+          ],
+          "init_rot_quat": [
+            0.7145788247473552,
+            0.0,
+            0.0,
+            0.6995549322409845
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "cease the act of puting the fanta can on the plate larger"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 368,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "blue_plastic_bottle",
+        "bridge_carrot_generated_modified",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.2100952894318957,
+            0.17872974430191393
+          ],
+          "init_rot_quat": [
+            0.18584321953355346,
+            0.0,
+            0.0,
+            -0.9825794104057969
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.23520695353337204,
+            0
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.4703033624796487,
+            0.16461469184686794
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.14617693257703257,
+            0.3256547776070263
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 2
+    },
+    "prompt": "move blue plastic bottle near carrot"
+  }
+]

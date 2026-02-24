@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 107,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "table_cloth_generated_shorter"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.23515390123700275,
+            0.02052533564360723
+          ],
+          "init_rot_quat": [
+            0.34519913386315154,
+            0.0,
+            0.0,
+            -0.938529465696272
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.04022743885560892,
+            0.10949351256324583
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "set  the sponge on the table cloth shorter"
+  }
+]

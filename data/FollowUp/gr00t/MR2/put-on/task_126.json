@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 126,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse_larger",
+        "orange",
+        "opened_7up_can",
+        "apple"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.11537824358914814,
+            0.01962112137694874
+          ],
+          "init_rot_quat": [
+            0.7133544429524591,
+            0.0,
+            0.0,
+            0.7008034237359195
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.27128761846308524,
+            -0.1425379424381688
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.26427032334974265,
+            0.10533608888527066
+          ],
+          "init_rot_quat": [
+            0.1049748627812506,
+            0.811914424053199,
+            -0.19287448976029697,
+            -0.540901726192591
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.0628950542108136,
+            0.05904793572171324
+          ],
+          "init_rot_quat": [
+            -0.45454537243943033,
+            0.36454182830229626,
+            -0.7438292107014131,
+            -0.3274383378885736
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.099500776544175,
+            0.09275200170729628
+          ],
+          "init_rot_quat": [
+            0.02990303856144667,
+            -0.5267576870395186,
+            -0.5237177777749872,
+            0.6688436563741922
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate larger"
+  }
+]

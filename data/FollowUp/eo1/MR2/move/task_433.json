@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 433,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "opened_sprite_can",
+        "coke_can",
+        "opened_pepsi_can",
+        "bridge_spoon_generated_modified",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.20640593143540037,
+            0.3562983555189352
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.22027761248264388,
+            0.03990183912366803
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.32916655244222104,
+            0.2052114384353948
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.44267975067137433,
+            0.31965572109687934
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.26192922169833965,
+            0.34245974094467113
+          ],
+          "init_rot_quat": [
+            0.24311089079698495,
+            0.8461353996357189,
+            0.2758592452412976,
+            0.3858155739133663
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.4083876319090023,
+            0.35078204075411334
+          ],
+          "init_rot_quat": [
+            -0.4435105351028045,
+            0.061460587219613026,
+            0.8898715676895532,
+            0.08746196024090132
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 0
+    },
+    "prompt": "move coke can near carrot"
+  }
+]

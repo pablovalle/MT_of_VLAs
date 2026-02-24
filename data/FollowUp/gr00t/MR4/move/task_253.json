@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 253,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "apple",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.3572161109139649,
+            0.07810833894386948
+          ],
+          "init_rot_quat": [
+            0.9099945252272799,
+            0.0,
+            0.0,
+            -0.41462026488870213
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.299961340694349,
+            0.35549180227550414
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.445320147059447,
+            0.3154533155805557
+          ],
+          "init_rot_quat": [
+            0.9502452578673292,
+            0.0,
+            0.0,
+            0.3115027285605267
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "do not engage in moving fanta can near blue plastic bottle"
+  }
+]

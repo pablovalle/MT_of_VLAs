@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 156,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "dummy_sink_target_plane",
+        "bridge_plate_objaverse",
+        "sink",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.14393364595205016,
+            0.17282229276989225
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.19613065668503105,
+            0.13767773821212761
+          ],
+          "init_rot_quat": [
+            -0.01050386405385364,
+            -0.42592251212993926,
+            -0.5118367227379134,
+            0.7459911874531577
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.19612666142171076,
+            0.14816814659360544
+          ],
+          "init_rot_quat": [
+            -0.626365197631509,
+            -0.43258686549474,
+            0.5484122922913975,
+            0.34609131838457197
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.19287891029536197,
+            0.15300917396909922
+          ],
+          "init_rot_quat": [
+            0.17208171475724207,
+            0.09357404505317636,
+            -0.21465513828573185,
+            0.9568463581715335
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the yellow cube into the yellow basket"
+  }
+]

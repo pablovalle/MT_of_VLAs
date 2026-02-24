@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 78,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "opened_sprite_can",
+        "bridge_spoon_generated_modified",
+        "opened_pepsi_can",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.4898696949692862,
+            0.19233825462323934
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.1630362663900764,
+            0.05664486069407291
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.3288988574549555,
+            0.31150931228524525
+          ],
+          "init_rot_quat": [
+            0.2582047429140307,
+            0.0,
+            0.0,
+            -0.9660902187356517
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.16805980782918406,
+            0.32136576974032277
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.4263137427282837,
+            0.03132240456494402
+          ],
+          "init_rot_quat": [
+            0.007252080538247899,
+            0.0,
+            0.0,
+            -0.9999737033181757
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "let's move  orange near spoon"
+  }
+]

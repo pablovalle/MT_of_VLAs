@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 97,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.31025006238455677,
+          0.1957606111443777
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant",
+        "opened_pepsi_can",
+        "opened_coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.3801991018537674,
+            0.234169588799955
+          ],
+          "init_rot_quat": [
+            0.9954749777789348,
+            0.0,
+            0.0,
+            -0.0950240423052464
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.37613292319482766,
+            0.18039552396796188
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.17323404281857252,
+            0.38032492731457884
+          ],
+          "init_rot_quat": [
+            0.8669171551236322,
+            0.0,
+            0.0,
+            0.49845225062421794
+          ]
+        }
+      }
+    },
+    "prompt": "cease the act of picking fanta can"
+  }
+]

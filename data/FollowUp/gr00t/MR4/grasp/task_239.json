@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 239,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2979180440361884,
+          0.2824721393470685
+        ],
+        "orientation": [
+          0.5959400662102514,
+          0.0,
+          0.0,
+          0.8030289144765095
+        ]
+      }
+    },
+    "prompt": "abstain from picking blue plastic bottle"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 185,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "opened_7up_can",
+        "redbull_can",
+        "sponge",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.16301888256449854,
+            0.27231789230204323
+          ],
+          "init_rot_quat": [
+            0.7400620012741721,
+            0.0,
+            0.0,
+            0.6725386489043342
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.425314265942761,
+            0.007884457209422635
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.24119414021963156,
+            0.4
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.1006581329262492,
+            0.07191809335801712
+          ],
+          "init_rot_quat": [
+            0.8634410563730359,
+            0.0,
+            0.0,
+            0.5044497419658532
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.4598412373666197,
+            0.247582438915709
+          ],
+          "init_rot_quat": [
+            0.9352428526795963,
+            0.0,
+            0.0,
+            0.35400678879328146
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 4
+    },
+    "prompt": "move redbull can near fanta can"
+  }
+]

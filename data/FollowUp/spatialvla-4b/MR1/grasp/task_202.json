@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 202,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2822011541090961,
+          0.0240078187646942
+        ],
+        "orientation": [
+          0.9896079472392089,
+          0.0,
+          0.0,
+          0.1437919008880515
+        ]
+      },
+      "distractor_model_ids": [
+        "eggplant",
+        "opened_redbull_can"
+      ],
+      "distractor_obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.23290386661886148,
+            0.272469447548498
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.28758618697810967,
+            0.22635923075950326
+          ],
+          "init_rot_quat": [
+            0.3218702717637051,
+            0.0,
+            0.0,
+            0.946783781100394
+          ]
+        }
+      }
+    },
+    "prompt": "lift  pepsi can"
+  }
+]

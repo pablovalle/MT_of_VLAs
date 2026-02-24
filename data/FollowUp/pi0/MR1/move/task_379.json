@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 379,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "orange"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.21145116401281167,
+            0.20226763451486662
+          ],
+          "init_rot_quat": [
+            0.8881822681545475,
+            0.0,
+            0.0,
+            -0.45949130409164823
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.3613938513982409,
+            0.06797971912023541
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "shift  eggplant near orange"
+  }
+]

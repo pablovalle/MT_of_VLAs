@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 214,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "opened_7up_can",
+        "opened_redbull_can",
+        "bridge_spoon_generated_modified",
+        "apple"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.21549798677807536,
+            0.07825925774269678
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.49623505961672765,
+            0.007035420844499374
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.4433023331742805,
+            0.2261095574665697
+          ],
+          "init_rot_quat": [
+            0.7571358158519169,
+            0.0,
+            0.0,
+            0.6532574962097658
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.10937394484394813,
+            0.2367390022698785
+          ],
+          "init_rot_quat": [
+            0.5381352954622135,
+            0.0,
+            0.0,
+            -0.8428584719736737
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.2940687270910784,
+            0.3375266286066204
+          ],
+          "init_rot_quat": [
+            0.2024389764441162,
+            0.0,
+            0.0,
+            -0.9792948793985694
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 2
+    },
+    "prompt": "set  spoon near redbull can"
+  }
+]

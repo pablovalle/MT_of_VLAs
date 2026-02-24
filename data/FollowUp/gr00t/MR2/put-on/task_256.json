@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 256,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "table_cloth_generated",
+        "opened_coke_can",
+        "blue_plastic_bottle",
+        "coke_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.23895831195378187,
+            0.04700395444810168
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.1640039321549081,
+            -0.14557126774437784
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.2771740383734295,
+            0.0938958020301767
+          ],
+          "init_rot_quat": [
+            0.997064639676915,
+            0.0,
+            0.0,
+            0.07656438013817826
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.20823181601135032,
+            -0.10210731339410198
+          ],
+          "init_rot_quat": [
+            -0.6208453280378609,
+            0.29822383824331,
+            -0.3103977593665693,
+            -0.6551845937880426
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.05657713288753752,
+            -0.07640192724667472
+          ],
+          "init_rot_quat": [
+            -0.6100860815544743,
+            0.3136697360232669,
+            0.5544925875122643,
+            -0.47110958405720776
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the eggplant on the table cloth"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 127,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "bridge_plate_objaverse_larger",
+        "eggplant",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.09785856212128924,
+            -0.007277632450503835
+          ],
+          "init_rot_quat": [
+            0.9596955957846253,
+            0.0,
+            0.0,
+            -0.28104156886765536
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.2854196502903516,
+            0.0972927570652882
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.18256870772317546,
+            -0.08569960657396601
+          ],
+          "init_rot_quat": [
+            0.3828402345787371,
+            0.0,
+            0.0,
+            -0.9238145673173256
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.07558810026034171,
+            -0.10289588027652403
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "place  the sponge on the plate larger"
+  }
+]

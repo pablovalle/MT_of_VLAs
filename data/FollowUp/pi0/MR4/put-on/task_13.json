@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 13,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_plate_objaverse_larger",
+        "pepsi_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.18442371830231752,
+            0.09456654362913255
+          ],
+          "init_rot_quat": [
+            0.9970182834874601,
+            0.0,
+            0.0,
+            0.0771656814375321
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.08025198794658933,
+            -0.04123116246645668
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.12425599147042313,
+            0.03816205570401229
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.13965006376925385,
+            -0.12403558344735516
+          ],
+          "init_rot_quat": [
+            0.2074621629177477,
+            0.0,
+            0.0,
+            -0.978243042887344
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "please refrain from puting the apple on the plate larger"
+  }
+]

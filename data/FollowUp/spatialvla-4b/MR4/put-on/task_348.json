@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 348,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "table_cloth_generated_shorter",
+        "7up_can",
+        "opened_sprite_can",
+        "coke_can"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.15754658176734823,
+            0.09713643132570612
+          ],
+          "init_rot_quat": [
+            0.7077584958872944,
+            0.0,
+            0.0,
+            -0.7064544652695987
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.005979795515649644,
+            -0.09865741790382868
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.2820334618756639,
+            0.09851470737825255
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.0661588700974372,
+            -0.015090334419651075
+          ],
+          "init_rot_quat": [
+            0.9950876965702752,
+            0.0,
+            0.0,
+            0.09899735417910871
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.2784913216696183,
+            -0.10013573122284017
+          ],
+          "init_rot_quat": [
+            0.5252322930085002,
+            0.0,
+            0.0,
+            0.8509588934731414
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "desist from puting the yellow cube on the table cloth shorter"
+  }
+]

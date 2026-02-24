@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 479,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "dummy_sink_target_plane",
+        "fanta_can",
+        "bridge_carrot_generated",
+        "blue_plastic_bottle",
+        "bridge_plate_objaverse_larger",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.16527696579808387,
+            0.10262750583482835
+          ],
+          "init_rot_quat": [
+            0.7164389582564027,
+            0.0,
+            0.0,
+            -0.6976497825502997
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.18458223356773074,
+            0.15967658348937336
+          ],
+          "init_rot_quat": [
+            0.9669452040401798,
+            0.0,
+            0.0,
+            -0.25498425909003686
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.10528421396875592,
+            0.1506963858680419
+          ],
+          "init_rot_quat": [
+            0.3818472066274478,
+            -0.650549555936283,
+            0.2454827044443539,
+            -0.6088647040850752
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.10433228161651911,
+            0.13992721241336287
+          ],
+          "init_rot_quat": [
+            0.4007915165115376,
+            0.4061858246039983,
+            -0.06341551554832361,
+            -0.8187537533171326
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12741074617091908,
+            0.181670955403223
+          ],
+          "init_rot_quat": [
+            -0.08107018420316,
+            0.016472140748237076,
+            0.029667591272413026,
+            -0.9961305777058191
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.10683465897417327,
+            0.15296277950108045
+          ],
+          "init_rot_quat": [
+            -0.5054987555442565,
+            0.7077220210565431,
+            -0.00767626615954456,
+            -0.4934993657470064
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can into the yellow basket"
+  }
+]

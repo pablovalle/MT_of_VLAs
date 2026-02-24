@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 162,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "opened_coke_can",
+        "blue_plastic_bottle",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.39064013726911934,
+            0.014654959266915091
+          ],
+          "init_rot_quat": [
+            0.8651983707648819,
+            0.0,
+            0.0,
+            -0.5014297350833853
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.33188259079214455,
+            0.17756353321895949
+          ],
+          "init_rot_quat": [
+            0.2532414034498687,
+            0.0,
+            0.0,
+            0.9674031174121472
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.49315991163571077,
+            0.22194801792185756
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.4445922109987428,
+            0.29143718213968095
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 2
+    },
+    "prompt": "move 7up can near blue plastic bottle"
+  }
+]

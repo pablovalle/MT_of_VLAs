@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 439,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_plate_objaverse_larger",
+        "sprite_can",
+        "yellow_cube_3cm",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.0795647377398486,
+            -0.15696044443317578
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.2379503913506615,
+            -0.0613551157348433
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.2555487731040062,
+            -0.11503419715109572
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.2700767656679418,
+            -0.011319223637134473
+          ],
+          "init_rot_quat": [
+            0.29688667181188116,
+            0.47132656125453093,
+            0.6879522456446647,
+            0.465221758378632
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.11763010870930835,
+            0.005542550508815469
+          ],
+          "init_rot_quat": [
+            0.0883582019731348,
+            -0.1464274309008926,
+            -0.8199920032619938,
+            -0.5462279288083147
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the apple on the plate larger"
+  }
+]

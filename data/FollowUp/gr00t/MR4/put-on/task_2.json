@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 2,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "bridge_plate_objaverse",
+        "green_cube_3cm",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.014406269626077217,
+            0.029480919594933486
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.29638733993662286,
+            -0.10823532072852926
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.13217816783753145,
+            0.002726852856422185
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.038475018878067424,
+            0.07860217740467645
+          ],
+          "init_rot_quat": [
+            0.9275748753033008,
+            0.0,
+            0.0,
+            0.37363732509756825
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "cease the act of puting the orange on the plate"
+  }
+]

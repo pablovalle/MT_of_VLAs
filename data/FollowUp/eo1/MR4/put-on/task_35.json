@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 35,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.14600041104085956,
+            0.036467303151144326
+          ],
+          "init_rot_quat": [
+            0.9951841327108943,
+            0.0,
+            0.0,
+            0.09802317073256171
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.13792700049863463,
+            0.11540790549277954
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "please refrain from puting the fanta can on the plate"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 26,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "table_cloth_generated",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.2705750107268623,
+            0.026723686819054848
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.19177696119866044,
+            0.07060651657928149
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.2099633760915353,
+            -0.08202918211070465
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "please refrain from puting the apple on the table cloth"
+  }
+]

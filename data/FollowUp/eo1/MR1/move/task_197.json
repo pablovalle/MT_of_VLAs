@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 197,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "eggplant",
+        "bridge_spoon_generated_modified",
+        "sponge",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.3844850913246424,
+            0.36131403976574383
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.48819478084856704,
+            0.03023020707346369
+          ],
+          "init_rot_quat": [
+            0.8232157875161411,
+            0.0,
+            0.0,
+            0.5677286034578315
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2531991606813724,
+            0.24957765967137405
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.15501539414806476,
+            0.12288856008439515
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.46736466425481726,
+            0.19457954241142336
+          ],
+          "init_rot_quat": [
+            0.28510685211741793,
+            0.0,
+            0.0,
+            -0.9584957396231331
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 4
+    },
+    "prompt": "let's move  redbull can near sprite can"
+  }
+]

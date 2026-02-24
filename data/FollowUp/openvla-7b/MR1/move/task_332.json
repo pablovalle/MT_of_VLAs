@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 332,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "sponge",
+        "eggplant",
+        "opened_sprite_can",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.20929953826249542,
+            0.09757313351633456
+          ],
+          "init_rot_quat": [
+            0.3484139251802474,
+            0.0,
+            0.0,
+            0.9373407794076245
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.4694422697163486,
+            0.1838884154135021
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.16490212441097907,
+            0.3825771043739532
+          ],
+          "init_rot_quat": [
+            0.4071626251058508,
+            0.0,
+            0.0,
+            -0.9133556791945361
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.36098479132457134,
+            0.2951329314351144
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.3308091160838622,
+            0.005709524695960245
+          ],
+          "init_rot_quat": [
+            0.5085795914175656,
+            0.0,
+            0.0,
+            0.8610149819797226
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 4
+    },
+    "prompt": "let's move  sprite can near pepsi can"
+  }
+]

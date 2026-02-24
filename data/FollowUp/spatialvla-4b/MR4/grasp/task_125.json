@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 125,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_spoon_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.15174204550080872,
+          0.1196807650864431
+        ],
+        "orientation": [
+          0.22764627574694657,
+          0.0,
+          0.0,
+          0.9737438950455839
+        ]
+      }
+    },
+    "prompt": "do not engage in picking spoon"
+  }
+]

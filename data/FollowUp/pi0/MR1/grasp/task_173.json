@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 173,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_redbull_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4090990712996034,
+          0.3485901235059964
+        ],
+        "orientation": [
+          0.8410362539534705,
+          0.0,
+          0.0,
+          0.5409787607068446
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.39475164425711934,
+            0.2761623603552971
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "take  redbull can"
+  }
+]

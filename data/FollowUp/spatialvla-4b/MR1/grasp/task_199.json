@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 199,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "sponge",
+      "obj_init_options": {
+        "init_xy": [
+          -0.15821532719089393,
+          0.08173300135319837
+        ],
+        "orientation": [
+          0.9626912325776869,
+          0.0,
+          0.0,
+          -0.27060227404449877
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.24556686114243043,
+            0.3271473713182197
+          ],
+          "init_rot_quat": [
+            0.9514161246812042,
+            0.0,
+            0.0,
+            0.3079080344788024
+          ]
+        }
+      }
+    },
+    "prompt": "retrieve  sponge"
+  }
+]

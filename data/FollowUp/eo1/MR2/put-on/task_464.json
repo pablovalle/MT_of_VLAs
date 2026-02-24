@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 464,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "table_cloth_generated_shorter",
+        "dummy_sink_target_plane",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.24510271586030297,
+            -0.06163017292299565
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.20546939166044648,
+            0.029334302704129928
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.1293378267353496,
+            -0.027905342904402636
+          ],
+          "init_rot_quat": [
+            0.0678284023132285,
+            -0.6940004512612248,
+            -0.6611813865639682,
+            -0.2767704022293565
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.008685104256480392,
+            -0.11676367456380951
+          ],
+          "init_rot_quat": [
+            0.04278880748227285,
+            0.24609571815170228,
+            -0.4789770895203892,
+            0.8415384502066557
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can on the table cloth shorter"
+  }
+]

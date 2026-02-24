@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 377,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "table_cloth_generated_shorter",
+        "bridge_spoon_generated_modified",
+        "opened_redbull_can",
+        "coke_can",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.2254689036688275,
+            -0.10975392076156634
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.08223417092856336,
+            -0.10058129696822067
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.15987584837591207,
+            0.02453233626918977
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.056530652683009386,
+            0.04508825958756199
+          ],
+          "init_rot_quat": [
+            -0.44884213139582263,
+            0.5549712033006782,
+            0.5860263965309104,
+            -0.38356325053379214
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.12112858746445118,
+            -0.12442318386134973
+          ],
+          "init_rot_quat": [
+            -0.5448363006835433,
+            0.3412704319405084,
+            0.5114786214815569,
+            0.5701556958480173
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.12394851098011875,
+            -0.07932657690669814
+          ],
+          "init_rot_quat": [
+            0.2030129853580313,
+            -0.21126243314888332,
+            0.9484819151485571,
+            0.12056520539591419
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the table cloth shorter"
+  }
+]

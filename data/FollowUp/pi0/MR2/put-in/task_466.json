@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 466,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "dummy_sink_target_plane",
+        "opened_7up_can",
+        "opened_fanta_can",
+        "apple",
+        "table_cloth_generated"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.11220750638996835,
+            0.17781262476381954
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.1509693754207535,
+            0.10574957883560392
+          ],
+          "init_rot_quat": [
+            0.12317139211855146,
+            0.0,
+            0.0,
+            0.992385413115075
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.19944659266874454,
+            0.1573216505054329
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.17808798661390668,
+            0.17047740653905424
+          ],
+          "init_rot_quat": [
+            0.5586283369946865,
+            -0.3983748970660325,
+            -0.3165241551321091,
+            -0.6550147186988119
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.18135251903557653,
+            0.17379147488238544
+          ],
+          "init_rot_quat": [
+            0.7594505212100386,
+            -0.5787564740803941,
+            0.29613870877855375,
+            0.02403569651168357
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sponge into the yellow basket"
+  }
+]

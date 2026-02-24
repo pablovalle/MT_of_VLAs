@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 210,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_plate_objaverse",
+        "blue_plastic_bottle",
+        "opened_redbull_can",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.13335327301816138,
+            -0.059156637437142834
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.2970594186170174,
+            0.06959120638058378
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.15644683001644544,
+            0.07291418595183552
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.15703168680161061,
+            0.014624374644322202
+          ],
+          "init_rot_quat": [
+            0.7089357468658471,
+            0.0,
+            0.0,
+            -0.7052730725157196
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.023062607213150565,
+            -0.13130149098243973
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "please refrain from puting the apple on the plate"
+  }
+]

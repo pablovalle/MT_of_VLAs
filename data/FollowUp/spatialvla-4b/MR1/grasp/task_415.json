@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 415,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "green_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2857086357792663,
+          0.12449697823830617
+        ],
+        "orientation": [
+          0.039500689035131646,
+          0.0,
+          0.0,
+          0.9992195432264872
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified",
+        "yellow_cube_3cm",
+        "blue_plastic_bottle"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.12354564883218255,
+            0.0964208382486123
+          ],
+          "init_rot_quat": [
+            0.5294249008772463,
+            0.0,
+            0.0,
+            0.8483568083837826
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.22326515089976434,
+            0.09452798161720484
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.4984091901068018,
+            0.2603255135478663
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "take  green cube"
+  }
+]

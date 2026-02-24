@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 264,
+    "follow-up": 1,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.19338191896037593,
+          0.19158478834575388
+        ],
+        "orientation": [
+          0.449758825638634,
+          0.0,
+          0.0,
+          -0.893150042691684
+        ]
+      },
+      "distractor_model_ids": [
+        "green_cube_3cm",
+        "bridge_spoon_generated_modified",
+        "eggplant"
+      ],
+      "distractor_obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.28903064162476166,
+            0.12855468576300488
+          ],
+          "init_rot_quat": [
+            -0.014257333367911601,
+            0.7614726440750761,
+            -0.2952612479279464,
+            -0.5768682139298198
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.056012363198282844,
+            0.09005052783903947
+          ],
+          "init_rot_quat": [
+            0.4187407718000877,
+            -0.29915940933276464,
+            -0.31724743712470715,
+            -0.796563793727623
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.3659597508193452,
+            0.3397726542579188
+          ],
+          "init_rot_quat": [
+            0.6628114183572765,
+            -0.17056389286108856,
+            -0.2975060247443858,
+            -0.6656419062739961
+          ]
+        }
+      }
+    },
+    "prompt": "pick blue plastic bottle"
+  }
+]

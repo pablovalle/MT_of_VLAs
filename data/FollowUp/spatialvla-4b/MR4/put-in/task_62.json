@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 62,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "dummy_sink_target_plane",
+        "opened_7up_can",
+        "sponge",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.14563359376813673,
+            0.1388682366470645
+          ],
+          "init_rot_quat": [
+            0.18503159228225907,
+            0.0,
+            0.0,
+            0.9827325729095845
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.16974834512137021,
+            0.1672953465639021
+          ],
+          "init_rot_quat": [
+            0.7656398776771406,
+            0.0,
+            0.0,
+            -0.6432694440982979
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.13537679019428905,
+            0.188247937193906
+          ],
+          "init_rot_quat": [
+            0.8083180677184939,
+            0.0,
+            0.0,
+            0.5887460415152194
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.1710408477887306,
+            0.19557527939856997
+          ],
+          "init_rot_quat": [
+            0.9693490130118899,
+            0.0,
+            0.0,
+            0.2456877916642887
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "resist puting the fanta can into the yellow basket"
+  }
+]

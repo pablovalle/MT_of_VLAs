@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 455,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane",
+        "bridge_plate_objaverse",
+        "sponge",
+        "opened_coke_can",
+        "bridge_plate_objaverse_larger"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1901750192427556,
+            0.12573378743017954
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.12725546422665496,
+            0.13830157932683862
+          ],
+          "init_rot_quat": [
+            -0.16157130629436087,
+            -0.32436890050518896,
+            0.8309548017303308,
+            -0.42212989333698625
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.10672350235851827,
+            0.12267432576849244
+          ],
+          "init_rot_quat": [
+            0.5530790575921297,
+            -0.18735444224519215,
+            -0.6843661644559897,
+            -0.43662892938030556
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.12925088880046787,
+            0.16145282204932798
+          ],
+          "init_rot_quat": [
+            -0.19421826962392488,
+            -0.8038468216613313,
+            0.09194163462531943,
+            0.5546677265459823
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.1497671150379994,
+            0.197859737407029
+          ],
+          "init_rot_quat": [
+            0.2811176282908651,
+            -0.4651074157966782,
+            0.41122975095664777,
+            -0.7318046616161914
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle into the yellow basket"
+  }
+]

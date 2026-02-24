@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 420,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3895851344858576,
+          0.26319481537763206
+        ],
+        "orientation": [
+          0.6086686642916113,
+          0.0,
+          0.0,
+          0.7934245125463832
+        ]
+      }
+    },
+    "prompt": "lift  pepsi can"
+  }
+]

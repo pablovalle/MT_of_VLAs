@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 489,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "bridge_plate_objaverse_larger",
+        "sprite_can",
+        "bridge_spoon_generated_modified",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.029533979996076043,
+            -0.06995102417126166
+          ],
+          "init_rot_quat": [
+            0.9998055865850186,
+            0.0,
+            0.0,
+            -0.019717733982046983
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.11532542177251792,
+            0.06888919930747514
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.21474106184088176,
+            -0.07361364755130775
+          ],
+          "init_rot_quat": [
+            0.6102976239153596,
+            -0.14082151809827792,
+            -0.7286448950912056,
+            0.27709696342848783
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.08352183675230859,
+            -0.12582138108768906
+          ],
+          "init_rot_quat": [
+            -0.45332884990152295,
+            -0.5195529464235623,
+            0.6549523775615033,
+            0.30918452877867525
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.1426256722725794,
+            -0.0014914539042746866
+          ],
+          "init_rot_quat": [
+            -0.4362138640952497,
+            -0.7459731256185481,
+            -0.30753906606927234,
+            -0.3983230892971491
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange on the plate larger"
+  }
+]

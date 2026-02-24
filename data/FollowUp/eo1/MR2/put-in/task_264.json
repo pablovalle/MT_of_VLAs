@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 264,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane",
+        "bridge_carrot_generated",
+        "green_cube_3cm",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.16411625233245167,
+            0.12085016094090559
+          ],
+          "init_rot_quat": [
+            0.231248898900504,
+            0.0,
+            0.0,
+            -0.9728946226376752
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.19194538920687748,
+            0.17170949445163441
+          ],
+          "init_rot_quat": [
+            0.4315186941571425,
+            0.6111167835528957,
+            -0.338037073221946,
+            0.5710156132545051
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.11445920635812479,
+            0.14845626782138138
+          ],
+          "init_rot_quat": [
+            0.12056996466297637,
+            -0.4661305916038312,
+            0.041476440958423025,
+            -0.8754797884803814
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.10138927849134836,
+            0.1428453645379682
+          ],
+          "init_rot_quat": [
+            0.6134255232569943,
+            0.19638397403460534,
+            -0.5864750075211511,
+            -0.49111050458356525
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange into the yellow basket"
+  }
+]

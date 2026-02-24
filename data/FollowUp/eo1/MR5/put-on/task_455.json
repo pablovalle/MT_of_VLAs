@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 455,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse",
+        "opened_pepsi_can",
+        "orange"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.10855738681670027,
+            0.12
+          ],
+          "init_rot_quat": [
+            0.9838872462951007,
+            0.0,
+            0.0,
+            -0.17879006286100974
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.014251392699335008,
+            -0.0675914741016017
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.2177499697293428,
+            -0.05067460145565192
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.2153229844463498,
+            0.040301805375614314
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 239,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "bridge_plate_objaverse_larger",
+        "opened_redbull_can",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.10804229479656885,
+            -0.06728201646423693
+          ],
+          "init_rot_quat": [
+            0.09835308323495383,
+            0.0,
+            0.0,
+            -0.9951515819301994
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.03453898952943396,
+            0.004314064699604131
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.14204619986509626,
+            0.035613827184730246
+          ],
+          "init_rot_quat": [
+            0.9276898593969123,
+            -0.16276414193777877,
+            0.30439220330449324,
+            0.14228403086373273
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.17798283837843115,
+            0.11171381038756192
+          ],
+          "init_rot_quat": [
+            0.3789477808152403,
+            -0.209008399316516,
+            0.21088249580840607,
+            -0.8764945187461072
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange on the plate larger"
+  }
+]

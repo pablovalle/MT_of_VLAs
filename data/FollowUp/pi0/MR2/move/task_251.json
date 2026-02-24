@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 251,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "sprite_can",
+        "opened_redbull_can",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.13741740557921434,
+            0.12331091817166616
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.40021160763750957,
+            0.2829498733743969
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.13547098385020956,
+            0.2524440591855724
+          ],
+          "init_rot_quat": [
+            0.7263500397273418,
+            0.5865071380400093,
+            -0.3276477784557819,
+            0.1451617376900579
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.05201680053406249,
+            0.029394700873354787
+          ],
+          "init_rot_quat": [
+            -0.5541759282872069,
+            -0.44353172052445594,
+            -0.4679733627431288,
+            0.5264689783439442
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "move blue plastic bottle near sprite can"
+  }
+]

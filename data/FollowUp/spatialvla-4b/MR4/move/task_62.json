@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 62,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "opened_fanta_can",
+        "apple",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.36525875036264177,
+            0.04985478087634809
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.3882377928001646,
+            0.20590763948533228
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.1010807641874385,
+            0.04739507021943239
+          ],
+          "init_rot_quat": [
+            0.04882262630124393,
+            0.0,
+            0.0,
+            -0.9988074645100772
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.29892864219866716,
+            0.3410954603826667
+          ],
+          "init_rot_quat": [
+            0.9753553321551136,
+            0.0,
+            0.0,
+            0.22063992394076812
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 2
+    },
+    "prompt": "would you avoid moving sprite can near apple"
+  }
+]

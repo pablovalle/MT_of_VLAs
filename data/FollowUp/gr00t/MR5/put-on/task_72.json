@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 72,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "table_cloth_generated",
+        "yellow_cube_3cm",
+        "opened_coke_can",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.08673353682911114,
+            0.028994096143459325
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.01901376809479749,
+            -0.012782496174918806
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.15051023957981316,
+            -0.03818770392731245
+          ],
+          "init_rot_quat": [
+            0.6196877460086377,
+            0.0,
+            0.0,
+            0.7848484550833581
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.24447295932194207,
+            0.11650807442555919
+          ],
+          "init_rot_quat": [
+            0.8103265683005041,
+            0.0,
+            0.0,
+            -0.5859785428719454
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.2764933674454369,
+            -0.14740923888032992
+          ],
+          "init_rot_quat": [
+            0.10824681060016904,
+            0.0,
+            0.0,
+            -0.9941240506068099
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the table cloth"
+  }
+]

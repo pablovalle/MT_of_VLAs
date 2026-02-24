@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 173,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "bridge_plate_objaverse_larger",
+        "yellow_cube_3cm",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.20557375401659658,
+            0.07993418721245515
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.2562201651475127,
+            -0.04621618851325729
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.06476291570249515,
+            -0.017295674361287094
+          ],
+          "init_rot_quat": [
+            -0.5033911932840343,
+            0.2867092234612095,
+            0.10147298771483743,
+            -0.808763476221924
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.002162759146195403,
+            0.11888693568127232
+          ],
+          "init_rot_quat": [
+            0.40549178587662693,
+            0.309808531939097,
+            -0.8538554738105428,
+            -0.10259588182816445
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can on the plate larger"
+  }
+]

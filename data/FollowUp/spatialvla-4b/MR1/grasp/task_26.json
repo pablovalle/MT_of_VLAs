@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 26,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2347557062782124,
+          0.17495600732712033
+        ],
+        "orientation": [
+          0.8018729542379721,
+          0.0,
+          0.0,
+          0.5974945734160831
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_7up_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.22025463585790078,
+            0.05303591599761535
+          ],
+          "init_rot_quat": [
+            0.7343868059608506,
+            0.0,
+            0.0,
+            -0.6787311833344774
+          ]
+        }
+      }
+    },
+    "prompt": "grab  coke can"
+  }
+]

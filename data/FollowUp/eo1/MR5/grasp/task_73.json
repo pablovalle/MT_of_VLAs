@@ -1,0 +1,24 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 73,
+    "follow-up": 3,
+    "mvoement_type": "down",
+    "task_data": {
+      "model_id": "redbull_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.16995340388614863,
+          0.19117852330534066
+        ],
+        "orientation": [
+          0.25174013933501654,
+          0.0,
+          0.0,
+          -0.9677948657890196
+        ]
+      }
+    },
+    "prompt": "pick redbull can"
+  }
+]

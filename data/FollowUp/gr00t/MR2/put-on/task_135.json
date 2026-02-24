@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 135,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse",
+        "redbull_can",
+        "coke_can",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2556999419565568,
+            -0.08955735023213278
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.014088061063448842,
+            0.1122447699550981
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.26782767371197075,
+            0.04703411909997421
+          ],
+          "init_rot_quat": [
+            -0.32666101515435525,
+            0.4853027394054078,
+            0.7775362908408364,
+            0.230675418563416
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.27354923411957205,
+            0.052978767880700744
+          ],
+          "init_rot_quat": [
+            -0.450835149194295,
+            0.725909626592975,
+            0.18476137078628796,
+            -0.48545454796075105
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.12355466833511944,
+            0.061896610073671116
+          ],
+          "init_rot_quat": [
+            0.7095501902074098,
+            -0.3554803819111664,
+            -0.4309043001958201,
+            -0.42952730963894514
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 432,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "dummy_sink_target_plane",
+        "bridge_spoon_generated_modified",
+        "table_cloth_generated",
+        "blue_plastic_bottle",
+        "apple"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.17701930626898355,
+            0.15323188708681973
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1501769626515281,
+            0.11883889507010675
+          ],
+          "init_rot_quat": [
+            0.9661543631951413,
+            0.0,
+            0.0,
+            -0.2579646225337711
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.11238336292675255,
+            0.1317059228821439
+          ],
+          "init_rot_quat": [
+            -0.19548091492609487,
+            0.0006392942329161359,
+            -0.22578810080802833,
+            -0.9543618479046845
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.15186150044184077,
+            0.10903484491104534
+          ],
+          "init_rot_quat": [
+            -0.25138352470928205,
+            -0.7240959951246997,
+            -0.01532590965514051,
+            0.642071981823184
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.11088169671411947,
+            0.1659571972051131
+          ],
+          "init_rot_quat": [
+            0.38728727701965765,
+            0.12844888182855105,
+            0.5755783462377657,
+            0.7086741262088609
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can into the yellow basket"
+  }
+]

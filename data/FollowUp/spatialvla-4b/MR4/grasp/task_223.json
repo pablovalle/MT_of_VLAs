@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 223,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3328375775492345,
+          0.33689561277087415
+        ],
+        "orientation": [
+          0.8299057585384866,
+          0.0,
+          0.0,
+          0.5579036045273944
+        ]
+      },
+      "distractor_model_ids": [
+        "yellow_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.46202373018510967,
+            0.3792707477892535
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "would you avoid picking coke can"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 346,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "opened_fanta_can",
+        "opened_7up_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.18118385358360506,
+            0.031971073676319815
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.3806224838378462,
+            0.2722496344890206
+          ],
+          "init_rot_quat": [
+            0.8269446492998612,
+            0.0,
+            0.0,
+            -0.5622833333776928
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.43144601951424466,
+            0.07420838277387114
+          ],
+          "init_rot_quat": [
+            0.2965006397146975,
+            0.0,
+            0.0,
+            -0.955032654231663
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.12109244601486785,
+            0.17618995026605266
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 0
+    },
+    "prompt": "cease moving blue plastic bottle near yellow cube"
+  }
+]

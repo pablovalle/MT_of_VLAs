@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 304,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_id": "opened_7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.37896970359735804,
+          0
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "opened_fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.42004964005315476,
+            0.27532783834802427
+          ],
+          "init_rot_quat": [
+            0.9597690174940959,
+            0.0,
+            0.0,
+            -0.28079072822730045
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.15373773298235327,
+            0.1983625276831402
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "pick 7up can"
+  }
+]

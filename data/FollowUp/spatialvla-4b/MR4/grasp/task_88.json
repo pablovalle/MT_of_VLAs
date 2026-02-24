@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 88,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.21045054236955546,
+          0.29340625387894653
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "fanta_can",
+        "sponge",
+        "opened_sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.27247516176438424,
+            0.03518619516672561
+          ],
+          "init_rot_quat": [
+            0.9999677802992042,
+            0.0,
+            0.0,
+            -0.008027350962958072
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.4409312805046423,
+            0.15214415545602986
+          ],
+          "init_rot_quat": [
+            0.9387422938029322,
+            0.0,
+            0.0,
+            0.34461994403343715
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.18402633286954007,
+            0.09061366436117235
+          ],
+          "init_rot_quat": [
+            0.8699295038404707,
+            0.0,
+            0.0,
+            0.49317609263616213
+          ]
+        }
+      }
+    },
+    "prompt": "do not engage in picking 7up can"
+  }
+]

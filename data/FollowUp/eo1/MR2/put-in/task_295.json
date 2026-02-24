@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 295,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_redbull_can",
+        "dummy_sink_target_plane",
+        "green_cube_3cm",
+        "yellow_cube_3cm",
+        "bridge_spoon_generated_modified",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.10257062291861864,
+            0.16493201889284548
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.17479339185605128,
+            0.16716508209226122
+          ],
+          "init_rot_quat": [
+            0.7836722885697753,
+            0.0,
+            0.0,
+            0.621174487666558
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.1238448537987124,
+            0.19670629028670078
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.19765328127729323,
+            0.1619619262080278
+          ],
+          "init_rot_quat": [
+            -0.86654182701396,
+            0.08151741510670016,
+            -0.3376311850319097,
+            -0.3584206410958757
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.1528389409624246,
+            0.19633796756258715
+          ],
+          "init_rot_quat": [
+            -0.6959659334949441,
+            0.6545068073884655,
+            0.2587078988528349,
+            0.14255694149293738
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can into the yellow basket"
+  }
+]

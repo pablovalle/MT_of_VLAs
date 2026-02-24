@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 59,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane",
+        "pepsi_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.1,
+            0.1
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1375244388642831,
+            0.18885706780735007
+          ],
+          "init_rot_quat": [
+            0.7584751656859282,
+            0.0,
+            0.0,
+            0.6517019434048849
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.10057111657337929,
+            0.10310860220980392
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange into the yellow basket"
+  }
+]

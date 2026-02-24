@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 312,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "table_cloth_generated_shorter",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.062401085159097064,
+            -0.04868869046959537
+          ],
+          "init_rot_quat": [
+            0.11315343898894308,
+            0.0,
+            0.0,
+            -0.9935775255333504
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.16630520734821916,
+            0.07606998437535986
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.0598068498083687,
+            0.0782384046802535
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "hold back from puting the 7up can on the table cloth shorter"
+  }
+]

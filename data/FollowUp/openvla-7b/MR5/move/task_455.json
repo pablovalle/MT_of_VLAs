@@ -1,0 +1,69 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 455,
+    "follow-up": 5,
+    "mvoement_type": "up_left",
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "opened_redbull_can",
+        "bridge_spoon_generated_modified",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.37190754422129346,
+            0.03181146523466545
+          ],
+          "init_rot_quat": [
+            0.43990364179210445,
+            0.0,
+            0.0,
+            -0.8980449799080467
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.27473623267522485,
+            0.2462273734539069
+          ],
+          "init_rot_quat": [
+            0.7230475761753904,
+            0.0,
+            0.0,
+            -0.69079823580181
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.38840006044500386,
+            0.19518502745829114
+          ],
+          "init_rot_quat": [
+            0.7773855580356941,
+            0.0,
+            0.0,
+            -0.6290243986981208
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.15713870548585246,
+            0.1565652553688544
+          ],
+          "init_rot_quat": [
+            0.5216941400666094,
+            0.0,
+            0.0,
+            -0.8531325947472415
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 2
+    },
+    "prompt": "move redbull can near spoon"
+  }
+]

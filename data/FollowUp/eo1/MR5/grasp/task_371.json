@@ -1,0 +1,41 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 371,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_id": "opened_coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.269801487566218,
+          0
+        ],
+        "orientation": [
+          0.49523754893805283,
+          0.0,
+          0.0,
+          -0.8687576014757107
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.42178210996730314,
+            0.02402438821713795
+          ],
+          "init_rot_quat": [
+            0.10779033791936221,
+            0.0,
+            0.0,
+            0.9941736483387748
+          ]
+        }
+      }
+    },
+    "prompt": "pick coke can"
+  }
+]

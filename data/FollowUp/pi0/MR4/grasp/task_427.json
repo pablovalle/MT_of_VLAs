@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 427,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3121325206807274,
+          0.18587841865679222
+        ],
+        "orientation": [
+          0.9966947688541095,
+          0.0,
+          0.0,
+          0.08123753897585351
+        ]
+      },
+      "distractor_model_ids": [
+        "sponge",
+        "opened_coke_can",
+        "opened_sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.36923923587777624,
+            0.26846039328464766
+          ],
+          "init_rot_quat": [
+            0.17200924465827788,
+            0.0,
+            0.0,
+            0.9850953353620596
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.12910983512132068,
+            0.37692847747601094
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.49298072039724594,
+            0.2528445326539796
+          ],
+          "init_rot_quat": [
+            0.5432305053401203,
+            0.0,
+            0.0,
+            -0.8395835980222086
+          ]
+        }
+      }
+    },
+    "prompt": "resist picking apple"
+  }
+]

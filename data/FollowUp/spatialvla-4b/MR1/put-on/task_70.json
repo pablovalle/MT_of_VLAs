@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 70,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "opened_redbull_can",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.16441285377394926,
+            -0.013903965777298521
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.03051979652504172,
+            0.015527908650310035
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.08989377175476695,
+            0.013406011782311877
+          ],
+          "init_rot_quat": [
+            0.9725695088222056,
+            0.0,
+            0.0,
+            0.23261244702150793
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.18336352062874284,
+            0.09670460665984157
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you move  the green cube on the plate larger"
+  }
+]

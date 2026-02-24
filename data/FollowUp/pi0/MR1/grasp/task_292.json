@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 292,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.40273570264958536,
+          0.2885920866312503
+        ],
+        "orientation": [
+          0.5273927751812931,
+          0.0,
+          0.0,
+          0.8496215985287651
+        ]
+      }
+    },
+    "prompt": "retrieve  blue plastic bottle"
+  }
+]

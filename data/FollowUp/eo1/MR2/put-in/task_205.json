@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 205,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "dummy_sink_target_plane",
+        "redbull_can",
+        "opened_pepsi_can",
+        "table_cloth_generated_shorter",
+        "bridge_carrot_generated",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.13511725130717117,
+            0.1889771015188312
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.18261272398247166,
+            0.15226238966796796
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.12160944138791265,
+            0.12760798018477226
+          ],
+          "init_rot_quat": [
+            0.25384598155603827,
+            0.06776945613722656,
+            0.8131683938917911,
+            -0.5193521749623863
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.19617283111666867,
+            0.10168329896403439
+          ],
+          "init_rot_quat": [
+            0.08377688929497393,
+            -0.9495489809650548,
+            -0.20401923894015453,
+            0.2229670731533331
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.18035164437378268,
+            0.1249143481146386
+          ],
+          "init_rot_quat": [
+            0.5336249606083939,
+            0.14049551946718733,
+            -0.75693660427059,
+            0.3500748313441621
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.11542039533871896,
+            0.1097230789099835
+          ],
+          "init_rot_quat": [
+            -0.09302101741645466,
+            0.1914861703257888,
+            -0.3785024018745969,
+            0.9007863612799273
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sponge into the yellow basket"
+  }
+]

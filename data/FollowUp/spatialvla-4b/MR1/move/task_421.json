@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 421,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "sponge",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.4069016561747178,
+            0.00037956327111627887
+          ],
+          "init_rot_quat": [
+            0.03814984524473251,
+            0.0,
+            0.0,
+            0.9992720296835106
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.37527460497247345,
+            0.25903365356161845
+          ],
+          "init_rot_quat": [
+            0.43039732996514,
+            0.0,
+            0.0,
+            -0.9026395395499127
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2676713308244882,
+            0.09923215157202599
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 2
+    },
+    "prompt": "set  sponge near spoon"
+  }
+]

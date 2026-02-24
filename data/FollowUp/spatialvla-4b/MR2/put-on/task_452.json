@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 452,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "opened_pepsi_can",
+        "table_cloth_generated_shorter",
+        "sponge",
+        "bridge_spoon_generated_modified",
+        "sink",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.11637240475667768,
+            0.11226824572253671
+          ],
+          "init_rot_quat": [
+            0.7895879285577319,
+            0.0,
+            0.0,
+            -0.6136374361753936
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.29276147789849916,
+            -0.055290264605453415
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.15851288955296985,
+            -0.04883005596280031
+          ],
+          "init_rot_quat": [
+            0.9757658499713808,
+            0.0,
+            0.0,
+            -0.2188172891469702
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.16649270852232625,
+            0.015549898577646382
+          ],
+          "init_rot_quat": [
+            -0.5054116259415674,
+            0.6385058997560655,
+            -0.34899786079114065,
+            0.4637561832504296
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.27031207339738383,
+            0.09399215538223729
+          ],
+          "init_rot_quat": [
+            0.3141260886315041,
+            0.34604322611850424,
+            0.002672636052037257,
+            0.8840654631389598
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.28830714288584147,
+            0.05610452913260899
+          ],
+          "init_rot_quat": [
+            0.7398470967777738,
+            0.36726595383622096,
+            -0.5306801254199528,
+            -0.1900541949722064
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can on the table cloth shorter"
+  }
+]

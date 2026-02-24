@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 59,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "opened_pepsi_can",
+        "sponge",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.24071704222524992,
+            0.16117297636149833
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.3473607149493007,
+            0.33140156462773884
+          ],
+          "init_rot_quat": [
+            0.7566762360594101,
+            0.0,
+            0.0,
+            -0.6537897779737488
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.2068696913147659,
+            0.3927612214205312
+          ],
+          "init_rot_quat": [
+            0.732111290689785,
+            0.0,
+            0.0,
+            -0.6811850395043458
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.49942349199748737,
+            0.22329172053037488
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 3
+    },
+    "prompt": "can you move  pepsi can near fanta can"
+  }
+]

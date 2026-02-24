@@ -1,0 +1,120 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 354,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane",
+        "pepsi_can",
+        "bridge_carrot_generated_modified",
+        "sprite_can",
+        "opened_pepsi_can",
+        "green_cube_3cm",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.154991131487644,
+            0.10390275646554356
+          ],
+          "init_rot_quat": [
+            0.4985273054552462,
+            0.0,
+            0.0,
+            -0.8668739964467337
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1029384089680338,
+            0.17408151212411413
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.19257490818554918,
+            0.157215944199995
+          ],
+          "init_rot_quat": [
+            0.6707905063505081,
+            0.0,
+            0.0,
+            -0.741646881332369
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.14235144006092557,
+            0.14263964224965286
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.14284786399564153,
+            0.15432689231771032
+          ],
+          "init_rot_quat": [
+            -0.8235337909856196,
+            -0.5425959422862723,
+            -0.16485554255429372,
+            0.014296454401549674
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.17224919518859522,
+            0.19956438434655444
+          ],
+          "init_rot_quat": [
+            0.35388596108531406,
+            -0.32986322400985635,
+            0.8569126825786897,
+            0.17792030358657923
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.1988479753804019,
+            0.16095113047144735
+          ],
+          "init_rot_quat": [
+            0.20412319627318365,
+            0.49095597151754483,
+            -0.8317314586577139,
+            -0.15974584643612633
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the blue plastic bottle into the yellow basket"
+  }
+]

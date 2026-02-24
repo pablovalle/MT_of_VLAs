@@ -1,0 +1,54 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 457,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_id": "opened_redbull_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.13789624289118474,
+          0.1988492211161221
+        ],
+        "orientation": [
+          0.06989828493875012,
+          0.0,
+          0.0,
+          0.9975541237259367
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "yellow_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.1452441593885928,
+            0.3980516434035837
+          ],
+          "init_rot_quat": [
+            0.5125412458872669,
+            0.0,
+            0.0,
+            -0.8586626061872779
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.19142317579986695,
+            0.02616368438719241
+          ],
+          "init_rot_quat": [
+            0.9004488457885303,
+            0.0,
+            0.0,
+            -0.4349619249061963
+          ]
+        }
+      }
+    },
+    "prompt": "pick redbull can"
+  }
+]

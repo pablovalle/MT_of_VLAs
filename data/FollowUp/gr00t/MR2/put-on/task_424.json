@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 424,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "table_cloth_generated",
+        "opened_coke_can",
+        "bridge_spoon_generated_modified",
+        "apple"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.21850889734865137,
+            -0.1330540579541188
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.11006739336607482,
+            -0.04004939630360481
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.09969840882655293,
+            -0.13970644846197883
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2696579417223154,
+            -0.004849710764852272
+          ],
+          "init_rot_quat": [
+            0.9686652833818574,
+            0.14687408444932654,
+            0.022449021464378015,
+            -0.1990266653572077
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.26895340945507906,
+            -0.07870922285238328
+          ],
+          "init_rot_quat": [
+            0.24569892341638455,
+            0.3000343997853723,
+            0.853450543097598,
+            -0.3481861118193486
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange on the table cloth"
+  }
+]

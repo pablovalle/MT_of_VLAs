@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 344,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated",
+        "sink",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.1359464741910762,
+            -0.11116725109129198
+          ],
+          "init_rot_quat": [
+            0.952587293220577,
+            0.0,
+            0.0,
+            -0.30426542490840863
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.10961395943620303,
+            0.08551748797197203
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.02367543474570305,
+            -0.04863796178369495
+          ],
+          "init_rot_quat": [
+            0.5083270781731001,
+            0.0,
+            0.0,
+            0.8611640851754089
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.032533535044880435,
+            -0.08758976878454107
+          ],
+          "init_rot_quat": [
+            -0.5477644650609043,
+            0.7700030507593649,
+            -0.3052534523836407,
+            -0.11776978579279461
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.2928246008594244,
+            -0.028167138704541073
+          ],
+          "init_rot_quat": [
+            -0.8006176039313618,
+            0.16172900347114108,
+            -0.020145507304969508,
+            -0.5765842004832096
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.03787208198607067,
+            0.03993944946404124
+          ],
+          "init_rot_quat": [
+            -0.7126492320019849,
+            0.6840872386037652,
+            0.09002924523982296,
+            -0.12669039864174453
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot on the table cloth"
+  }
+]

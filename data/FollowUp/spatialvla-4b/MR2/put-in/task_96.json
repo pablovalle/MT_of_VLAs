@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 96,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "dummy_sink_target_plane",
+        "bridge_spoon_generated_modified",
+        "opened_sprite_can",
+        "sprite_can",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.12727299169832224,
+            0.1487713444280761
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.11164323104080076,
+            0.19301369244859223
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.16848975313913298,
+            0.18043444466337238
+          ],
+          "init_rot_quat": [
+            -0.7623975297138043,
+            0.34083056893295866,
+            0.5362009438281745,
+            -0.12277246354496406
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.15872639808591124,
+            0.10877501424569833
+          ],
+          "init_rot_quat": [
+            0.2197710726021696,
+            -0.687229327563173,
+            -0.09172719668292054,
+            0.686296326941252
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.19400241437723745,
+            0.19646370782752404
+          ],
+          "init_rot_quat": [
+            -0.0002458294399934444,
+            0.7143746165959488,
+            0.6659819474200771,
+            0.21479500097031876
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the fanta can into the yellow basket"
+  }
+]

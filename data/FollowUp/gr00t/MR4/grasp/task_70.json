@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 70,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.20666922423191475,
+          0.20638058742689658
+        ],
+        "orientation": [
+          0.19689746285595486,
+          0.0,
+          0.0,
+          -0.980424086363084
+        ]
+      }
+    },
+    "prompt": "stop yourself from picking pepsi can"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 460,
+    "follow-up": 2,
+    "task_data": {
+      "model_id": "yellow_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.377044634793791,
+          0.09304858013397231
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "coke_can",
+        "redbull_can",
+        "bridge_spoon_generated_modified",
+        "bridge_carrot_generated_modified",
+        "opened_sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.15021886741448415,
+            0.10010375143088766
+          ],
+          "init_rot_quat": [
+            0.9253929393757969,
+            0.0,
+            0.0,
+            -0.37900911302160345
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.2949124815660127,
+            0.02705619259899472
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.3696272428888906,
+            0.36101943972783723
+          ],
+          "init_rot_quat": [
+            0.25981833565552437,
+            0.19166974856401534,
+            -0.6543097836188554,
+            0.683839050510606
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.0973176249210943,
+            0.22197124612543645
+          ],
+          "init_rot_quat": [
+            -0.4806717460039214,
+            0.26510516782961224,
+            0.46661317165555166,
+            -0.693502754587984
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.4093326381549922,
+            0.3495224667370556
+          ],
+          "init_rot_quat": [
+            0.43163841958613386,
+            -0.9007372819155858,
+            0.04731165220751415,
+            -0.011055825157021304
+          ]
+        }
+      }
+    },
+    "prompt": "pick yellow cube"
+  }
+]

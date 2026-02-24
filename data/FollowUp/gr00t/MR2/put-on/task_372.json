@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 372,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse",
+        "fanta_can",
+        "yellow_cube_3cm",
+        "blue_plastic_bottle",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.15776758448071151,
+            -0.015529139728078512
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.20020882319489317,
+            -0.12934995790933185
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.22244669590837585,
+            -0.07396818420408308
+          ],
+          "init_rot_quat": [
+            0.27055868343115186,
+            0.0,
+            0.0,
+            0.9627034843709675
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.008836783892893774,
+            -0.04674696419169787
+          ],
+          "init_rot_quat": [
+            0.8116424284337096,
+            0.0,
+            0.0,
+            -0.5841545757470625
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.09102834125837436,
+            -0.019856010058991902
+          ],
+          "init_rot_quat": [
+            -0.5567893138514461,
+            0.3370206761832841,
+            -0.17998449170426073,
+            0.7375691876371713
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.14350932162611715,
+            -0.15425918382449505
+          ],
+          "init_rot_quat": [
+            0.4018961472429225,
+            -0.002533733177708232,
+            0.8862470911481437,
+            0.23030232404153683
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate"
+  }
+]

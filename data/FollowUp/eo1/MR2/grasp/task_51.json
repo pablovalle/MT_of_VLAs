@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 51,
+    "follow-up": 1,
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.36025007656853314,
+          0.330888825974523
+        ],
+        "orientation": [
+          0.7157092011281577,
+          0.0,
+          0.0,
+          -0.6983984102362306
+        ]
+      },
+      "distractor_model_ids": [
+        "7up_can",
+        "opened_sprite_can",
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.48841921044719994,
+            0.08181781830286106
+          ],
+          "init_rot_quat": [
+            0.793490037782754,
+            -0.1971662179614005,
+            0.5755895150015718,
+            -0.01399116344613748
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.134162436280705,
+            0.32242276528829816
+          ],
+          "init_rot_quat": [
+            0.03905282043068858,
+            0.3940287195199893,
+            -0.803655680891785,
+            0.44424519353641584
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.3860553490739631,
+            0.21431891082262353
+          ],
+          "init_rot_quat": [
+            0.13165243270382657,
+            0.24077001259445657,
+            -0.8579395543068016,
+            -0.4343237952890403
+          ]
+        }
+      }
+    },
+    "prompt": "pick carrot"
+  }
+]

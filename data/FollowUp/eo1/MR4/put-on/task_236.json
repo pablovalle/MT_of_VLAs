@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 236,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "table_cloth_generated",
+        "coke_can",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.17922792477477847,
+            -0.01473957129347822
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.04762419699315662,
+            -0.06952912058047149
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.22025971558326232,
+            -0.10469051364771556
+          ],
+          "init_rot_quat": [
+            0.17030205926760889,
+            0.0,
+            0.0,
+            0.9853919061009238
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.06452311626310478,
+            -0.1512036246230733
+          ],
+          "init_rot_quat": [
+            0.2497315653450983,
+            0.0,
+            0.0,
+            0.9683151063937229
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "abstain from puting the sprite can on the table cloth"
+  }
+]

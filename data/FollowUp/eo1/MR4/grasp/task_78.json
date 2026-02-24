@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 78,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.27416684119047263,
+          0.29630752243364744
+        ],
+        "orientation": [
+          0.8598961103598924,
+          0.0,
+          0.0,
+          0.5104690777979873
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_7up_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.4422551359821953,
+            0.35406114150833495
+          ],
+          "init_rot_quat": [
+            0.8459419782326357,
+            0.0,
+            0.0,
+            -0.5332749473431645
+          ]
+        }
+      }
+    },
+    "prompt": "resist picking carrot"
+  }
+]

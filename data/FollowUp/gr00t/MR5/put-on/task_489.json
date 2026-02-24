@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 489,
+    "follow-up": 2,
+    "mvoement_type": "up",
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "bridge_plate_objaverse_larger"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.12953397999607605,
+            -0.06995102417126166
+          ],
+          "init_rot_quat": [
+            0.9998055865850186,
+            0.0,
+            0.0,
+            -0.019717733982046983
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.11532542177251792,
+            0.06888919930747514
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange on the plate larger"
+  }
+]

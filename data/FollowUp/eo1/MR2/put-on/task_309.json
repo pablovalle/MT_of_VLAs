@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 309,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "table_cloth_generated_shorter",
+        "bridge_spoon_generated_modified",
+        "orange",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.29136713410796067,
+            0.034081929609742406
+          ],
+          "init_rot_quat": [
+            0.8219145478919154,
+            0.0,
+            0.0,
+            0.5696108109609825
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.21186112011220365,
+            -0.02314219222270117
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1489754073675726,
+            -0.028255081409563454
+          ],
+          "init_rot_quat": [
+            0.961684212147945,
+            0.04802993180606531,
+            0.1930508851290654,
+            0.18864770739920317
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.1905811583248466,
+            -0.04855855130010321
+          ],
+          "init_rot_quat": [
+            -0.22148462968555163,
+            0.7549854542485035,
+            -0.32682135244621247,
+            -0.523573611129766
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.2765641998824275,
+            -0.03074215410858261
+          ],
+          "init_rot_quat": [
+            -0.02154248601218538,
+            0.6220800076730976,
+            -0.6591714332452759,
+            0.4219542711517711
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the apple on the table cloth shorter"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 141,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "dummy_sink_target_plane",
+        "opened_redbull_can",
+        "green_cube_3cm",
+        "sprite_can",
+        "opened_coke_can",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.10389378445406346,
+            0.11983144421413731
+          ],
+          "init_rot_quat": [
+            0.9943488947177904,
+            0.0,
+            0.0,
+            -0.10616155412157746
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.14480508389606087,
+            0.12301336302679901
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.14955803594356118,
+            0.1837805554438025
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.14734604282657981,
+            0.16077321024061939
+          ],
+          "init_rot_quat": [
+            -0.2999333191291264,
+            0.611330301202492,
+            0.2929297604099983,
+            -0.6711984969992089
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.13356818991569142,
+            0.19533220573596238
+          ],
+          "init_rot_quat": [
+            0.43852877907651544,
+            0.37903405594009637,
+            -0.814655396163911,
+            -0.01903365073446688
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.18548344773643294,
+            0.13535407962105475
+          ],
+          "init_rot_quat": [
+            -0.7094263989301524,
+            0.32296442908026657,
+            0.44274491464257054,
+            -0.4431535880572295
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the carrot into the yellow basket"
+  }
+]

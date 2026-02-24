@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 412,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "table_cloth_generated_shorter",
+        "opened_sprite_can",
+        "opened_7up_can",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.15973328924817434,
+            -0.12971045260553957
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.060111957313572384,
+            0.05622102557620501
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.09989687129670644,
+            -0.05517431852410437
+          ],
+          "init_rot_quat": [
+            -0.30556923825654503,
+            0.7985782544508395,
+            0.5141969853224139,
+            0.06709450376078605
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.2550649938625224,
+            -0.14605704126003774
+          ],
+          "init_rot_quat": [
+            0.07769752442585028,
+            0.44478122766485995,
+            0.14392579794958799,
+            -0.8805782866387343
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.11747056477443141,
+            -0.012494838415326864
+          ],
+          "init_rot_quat": [
+            -0.03732476110868217,
+            -0.2517077869887438,
+            -0.5265002619142267,
+            0.8112012859837314
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the table cloth shorter"
+  }
+]

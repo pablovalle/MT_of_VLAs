@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 278,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_plate_objaverse_larger",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.002756251735532844,
+            -0.08545872408864576
+          ],
+          "init_rot_quat": [
+            0.09946547098992714,
+            0.0,
+            0.0,
+            0.995041014270644
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.17017774250245285,
+            -0.1337143910457921
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.2428035182380189,
+            -0.002809719291937407
+          ],
+          "init_rot_quat": [
+            0.8842437420902741,
+            0.0,
+            0.0,
+            0.46702570012172656
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "cease puting the apple on the plate larger"
+  }
+]

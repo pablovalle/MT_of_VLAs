@@ -1,0 +1,120 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 173,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "pepsi_can",
+        "dummy_sink_target_plane",
+        "bridge_spoon_generated_modified",
+        "opened_7up_can",
+        "yellow_cube_3cm",
+        "bridge_carrot_generated_modified",
+        "bridge_plate_objaverse_larger",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "pepsi_can": {
+          "init_xy": [
+            -0.12807577102851264,
+            0.11314222205535074
+          ],
+          "init_rot_quat": [
+            0.38425281651102505,
+            0.0,
+            0.0,
+            -0.9232279095669413
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1814369523928465,
+            0.1320530730104101
+          ],
+          "init_rot_quat": [
+            0.009817829884998863,
+            0.0,
+            0.0,
+            -0.9999518039467449
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.15309832798429795,
+            0.1377681158792653
+          ],
+          "init_rot_quat": [
+            0.22404058353773038,
+            0.0,
+            0.0,
+            0.9745798155759605
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.14365432950100615,
+            0.177896143395855
+          ],
+          "init_rot_quat": [
+            -0.01972911908723428,
+            -0.4988423799568449,
+            0.15849957890797192,
+            -0.8518479472916679
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12406273076029986,
+            0.19626749994431875
+          ],
+          "init_rot_quat": [
+            0.4736210435520166,
+            -0.16783339958729082,
+            -0.6804126235973846,
+            -0.5334357681455146
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.1951835124620973,
+            0.1844419496622733
+          ],
+          "init_rot_quat": [
+            -0.4442150205647636,
+            0.10350064407457617,
+            -0.47385118217158834,
+            -0.7532766353308609
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.15499453873173868,
+            0.15627626754097795
+          ],
+          "init_rot_quat": [
+            0.17921800331691945,
+            0.3875723839781802,
+            -0.20103910766543934,
+            0.8816188698375566
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the pepsi can into the yellow basket"
+  }
+]

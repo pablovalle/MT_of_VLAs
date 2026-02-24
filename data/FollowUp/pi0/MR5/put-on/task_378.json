@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 378,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "bridge_plate_objaverse_larger",
+        "opened_fanta_can",
+        "opened_coke_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.04401076852858987,
+            0.09645443881110718
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.12874350066501603,
+            0.10989047746588007
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1276874314859225,
+            -0.12509344311640094
+          ],
+          "init_rot_quat": [
+            0.9159395228425953,
+            0.0,
+            0.0,
+            -0.4013163222383048
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.28982599280581706,
+            -0.12499920291383249
+          ],
+          "init_rot_quat": [
+            0.9725045026686161,
+            0.0,
+            0.0,
+            0.23288407478672218
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.1561182661325449,
+            -0.04441654450254477
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the sprite can on the plate larger"
+  }
+]

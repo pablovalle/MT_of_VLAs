@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 326,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "opened_coke_can",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.2903793530736757,
+            0.21711347712143222
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.12197424145357272,
+            0.391784603233573
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.44542046262144763,
+            0.20884441346637173
+          ],
+          "init_rot_quat": [
+            0.7514573821953623,
+            0.0,
+            0.0,
+            -0.6597816326210463
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "desist from moving sponge near coke can"
+  }
+]

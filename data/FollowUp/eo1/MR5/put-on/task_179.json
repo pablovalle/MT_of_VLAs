@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 179,
+    "follow-up": 1,
+    "mvoement_type": "left",
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.09766915076382016,
+            -0.16
+          ],
+          "init_rot_quat": [
+            0.8246781217560578,
+            0.0,
+            0.0,
+            0.5656023298191944
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.28680165285500664,
+            -0.14971302958052837
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the plate"
+  }
+]

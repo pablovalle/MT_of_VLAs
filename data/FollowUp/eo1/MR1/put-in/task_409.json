@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 409,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "dummy_sink_target_plane",
+        "green_cube_3cm",
+        "blue_plastic_bottle",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.1958942899614739,
+            0.15127583267762887
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.11831479382232762,
+            0.17716248858254457
+          ],
+          "init_rot_quat": [
+            0.6876252918010276,
+            0.0,
+            0.0,
+            -0.7260657394999104
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.13685990848312085,
+            0.14546419510469133
+          ],
+          "init_rot_quat": [
+            0.14875565848758676,
+            0.0,
+            0.0,
+            -0.9888739829057717
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1166057755470901,
+            0.1385666194289751
+          ],
+          "init_rot_quat": [
+            0.2817422006048013,
+            0.0,
+            0.0,
+            -0.9594901418974371
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "can you put  the apple into the yellow basket"
+  }
+]

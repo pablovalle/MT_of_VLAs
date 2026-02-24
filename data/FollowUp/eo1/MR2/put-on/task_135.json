@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 135,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "bridge_plate_objaverse",
+        "table_cloth_generated_shorter",
+        "bridge_carrot_generated",
+        "sink"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2556999419565568,
+            -0.08955735023213278
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.014088061063448842,
+            0.1122447699550981
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.20307642848869994,
+            -0.06999030308741701
+          ],
+          "init_rot_quat": [
+            0.33566727798730756,
+            0.27183458875131034,
+            -0.493898694798785,
+            0.7546505907524714
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.23149307759579912,
+            0.008814252732579408
+          ],
+          "init_rot_quat": [
+            0.7859365892159387,
+            -0.10540082352618808,
+            0.6027360855539975,
+            -0.08890194206350317
+          ]
+        },
+        "sink": {
+          "init_xy": [
+            -0.05169443457871653,
+            -0.009075154540053337
+          ],
+          "init_rot_quat": [
+            0.392036296875729,
+            0.402976920995493,
+            -0.23446113866078927,
+            0.7930606014264254
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon on the plate"
+  }
+]

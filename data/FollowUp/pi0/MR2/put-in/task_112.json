@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 112,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane",
+        "opened_redbull_can",
+        "opened_sprite_can",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.12060290513933536,
+            0.1381554244030836
+          ],
+          "init_rot_quat": [
+            0.5833460688993716,
+            0.0,
+            0.0,
+            -0.8122237154255283
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.19672772138373126,
+            0.18978463027535605
+          ],
+          "init_rot_quat": [
+            0.31861359874142103,
+            0.9079377129087893,
+            -0.2694920098827345,
+            0.0388399380066681
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.19395472900667549,
+            0.10700064519691244
+          ],
+          "init_rot_quat": [
+            0.2640449838998592,
+            -0.9513043021873653,
+            0.0546483103894697,
+            0.14937849004695783
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.17473185807138103,
+            0.10100258983114707
+          ],
+          "init_rot_quat": [
+            0.49570950819992726,
+            0.4579167832618151,
+            0.7343579397954217,
+            0.07281977304799676
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange into the yellow basket"
+  }
+]

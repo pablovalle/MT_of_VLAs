@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 432,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.28219397438829996,
+          0.3622521124845414
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_fanta_can",
+        "redbull_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1617189645939846,
+            0.27819676962348955
+          ],
+          "init_rot_quat": [
+            0.6364543756750363,
+            0.0,
+            0.0,
+            0.7713143507572641
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.48062278098700556,
+            0.15159436446846897
+          ],
+          "init_rot_quat": [
+            0.8064629834740857,
+            0.0,
+            0.0,
+            0.5912845814716264
+          ]
+        }
+      }
+    },
+    "prompt": "please refrain from picking blue plastic bottle"
+  }
+]

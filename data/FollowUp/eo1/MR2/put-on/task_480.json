@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 480,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "table_cloth_generated_shorter",
+        "eggplant",
+        "bridge_spoon_generated_modified",
+        "opened_sprite_can",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.2652073255623433,
+            0.03382954722409859
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.15154788405570543,
+            -0.03226346774979469
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.24432943362457524,
+            -0.03419714623078218
+          ],
+          "init_rot_quat": [
+            0.7449618671137329,
+            0.0,
+            0.0,
+            0.6671070502898473
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.17314635707623344,
+            0.08465197878441125
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.015896207232562742,
+            -0.15667788356082013
+          ],
+          "init_rot_quat": [
+            0.32865122230263616,
+            -0.07263546110422522,
+            -0.17746866930935432,
+            0.9247796144394225
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.007294147391623984,
+            0.08314988940200882
+          ],
+          "init_rot_quat": [
+            -0.4117617346200858,
+            -0.48066663277209304,
+            0.1551301985487946,
+            0.7585159744793827
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the table cloth shorter"
+  }
+]

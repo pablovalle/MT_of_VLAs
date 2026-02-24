@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 436,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "table_cloth_generated",
+        "opened_7up_can",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.14192198059259192,
+            -0.10287529916261695
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.047962607065060725,
+            0.07163077265787349
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.01653904052745797,
+            -0.11321643613844155
+          ],
+          "init_rot_quat": [
+            0.8684299293049649,
+            0.0,
+            0.0,
+            -0.49581191785532314
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.20909017393610224,
+            0.03416149232229079
+          ],
+          "init_rot_quat": [
+            0.11467275676776005,
+            0.0,
+            0.0,
+            -0.9934033213429891
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "avoid puting the coke can on the table cloth"
+  }
+]

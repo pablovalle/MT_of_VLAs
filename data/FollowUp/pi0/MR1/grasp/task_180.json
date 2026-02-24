@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 180,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_pepsi_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.41904420785697977,
+          0.2352268175467354
+        ],
+        "orientation": [
+          0.7370884115623637,
+          0.0,
+          0.0,
+          0.6757963254860679
+        ]
+      }
+    },
+    "prompt": "grab  pepsi can"
+  }
+]

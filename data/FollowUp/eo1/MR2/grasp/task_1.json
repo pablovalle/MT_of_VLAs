@@ -1,0 +1,92 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 1,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.21002842469177613,
+          0.1816437264290276
+        ],
+        "orientation": [
+          0.8700901852447047,
+          0.0,
+          0.0,
+          -0.4928925537486192
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_sprite_can",
+        "bridge_spoon_generated_modified",
+        "7up_can",
+        "fanta_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.46689604230254594,
+            0.32395146330467883
+          ],
+          "init_rot_quat": [
+            0.22626862608321574,
+            0.0,
+            0.0,
+            0.9740649407767502
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.16061883846661262,
+            0.21194083737806407
+          ],
+          "init_rot_quat": [
+            0.7852439608217924,
+            0.0,
+            0.0,
+            0.6191865001701049
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.49151729385653325,
+            0.028434387762023495
+          ],
+          "init_rot_quat": [
+            0.8308702499910721,
+            0.0,
+            0.0,
+            -0.5564661963495837
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.154287922312632,
+            0.3405566743143225
+          ],
+          "init_rot_quat": [
+            -0.4740835928737109,
+            0.7723089859007161,
+            0.40287147658224887,
+            0.12836724902170163
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.21511468643966886,
+            0.3158013060047131
+          ],
+          "init_rot_quat": [
+            -0.589201054440297,
+            0.24026323167734276,
+            0.6062742135068206,
+            0.47701915578631415
+          ]
+        }
+      }
+    },
+    "prompt": "pick coke can"
+  }
+]

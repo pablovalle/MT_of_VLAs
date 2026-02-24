@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 345,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.18670647192874854,
+            -0.12254524826746824
+          ],
+          "init_rot_quat": [
+            0.22532131612612194,
+            0.0,
+            0.0,
+            0.9742845090111986
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.07755483664372495,
+            0.07559398650920815
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "position the eggplant on the plate"
+  }
+]

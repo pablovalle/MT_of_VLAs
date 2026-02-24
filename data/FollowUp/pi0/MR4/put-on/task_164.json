@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 164,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "bridge_plate_objaverse",
+        "opened_coke_can",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.1907722279692714,
+            -0.00256749816292845
+          ],
+          "init_rot_quat": [
+            0.9849402453221859,
+            0.0,
+            0.0,
+            0.17289509288777447
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.23535652635680415,
+            0.08290826888053365
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.26036037994382866,
+            -0.12426651792798386
+          ],
+          "init_rot_quat": [
+            0.3362121507792652,
+            0.0,
+            0.0,
+            -0.941786276003415
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.12283332605078895,
+            0.012644610595385325
+          ],
+          "init_rot_quat": [
+            0.5172235723687043,
+            0.0,
+            0.0,
+            0.8558503234714325
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you avoid puting the sponge on the plate"
+  }
+]

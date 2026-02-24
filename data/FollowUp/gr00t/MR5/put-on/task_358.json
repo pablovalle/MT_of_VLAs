@@ -1,0 +1,43 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 358,
+    "follow-up": 7,
+    "mvoement_type": "down_left",
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_plate_objaverse_larger"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.011170150827619851,
+            -0.011502641689629861
+          ],
+          "init_rot_quat": [
+            0.1817437104715553,
+            0.0,
+            0.0,
+            0.9833459328761326
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.10639159928375619,
+            -0.06307309936362271
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the apple on the plate larger"
+  }
+]

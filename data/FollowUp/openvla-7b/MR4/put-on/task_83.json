@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 83,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "bridge_plate_objaverse",
+        "blue_plastic_bottle",
+        "green_cube_3cm",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.09216160733581885,
+            -0.011230563620571926
+          ],
+          "init_rot_quat": [
+            0.6542052749651646,
+            0.0,
+            0.0,
+            -0.756317035513384
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.12723730985107132,
+            0.028324312985499922
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1560254274156004,
+            0.10408524066091432
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.028122816173714038,
+            -0.12237491224709438
+          ],
+          "init_rot_quat": [
+            0.14086671062667364,
+            0.0,
+            0.0,
+            -0.990028570212608
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.25337658412214914,
+            0.08151939268102365
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "please refrain from puting the coke can on the plate"
+  }
+]

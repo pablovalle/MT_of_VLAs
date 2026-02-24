@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 465,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3310969186540395,
+          0.015202731810500136
+        ],
+        "orientation": [
+          0.3252656070740527,
+          0.0,
+          0.0,
+          0.9456226968800759
+        ]
+      }
+    },
+    "prompt": "let's pick up  fanta can"
+  }
+]

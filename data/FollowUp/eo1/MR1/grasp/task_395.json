@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 395,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.41383327991162955,
+          0.02285552560340136
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "yellow_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.11536853559446458,
+            0.24867162215354252
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.32576875696902874,
+            0.08413720181241852
+          ],
+          "init_rot_quat": [
+            0.6379937368820712,
+            0.0,
+            0.0,
+            0.7700415519303166
+          ]
+        }
+      }
+    },
+    "prompt": "can you pick up  apple"
+  }
+]

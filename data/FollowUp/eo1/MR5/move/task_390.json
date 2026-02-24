@@ -1,0 +1,82 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 390,
+    "follow-up": 0,
+    "mvoement_type": "right",
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "coke_can",
+        "7up_can",
+        "pepsi_can",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.10364588321893359,
+            0.2633831549773276
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "coke_can": {
+          "init_xy": [
+            -0.2577760083838415,
+            0.00297061968892991
+          ],
+          "init_rot_quat": [
+            0.9928434968294843,
+            0.0,
+            0.0,
+            -0.11942273989237535
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.4514436764378267,
+            0.19234037832732548
+          ],
+          "init_rot_quat": [
+            0.9969825463874941,
+            0.0,
+            0.0,
+            0.07762604072544352
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.47133944732549526,
+            0.4
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.2922389999518036,
+            0.28961003944516595
+          ],
+          "init_rot_quat": [
+            0.9989620792001732,
+            0.0,
+            0.0,
+            -0.04554958089891518
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 4
+    },
+    "prompt": "move pepsi can near sprite can"
+  }
+]

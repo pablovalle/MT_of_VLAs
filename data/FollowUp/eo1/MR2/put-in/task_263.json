@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 263,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "dummy_sink_target_plane",
+        "opened_7up_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.10252256619007614,
+            0.19044793694157225
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.145434065767226,
+            0.15464788862250076
+          ],
+          "init_rot_quat": [
+            -0.29730669540127824,
+            0.22283137690123306,
+            -0.9281383089211762,
+            0.022675666491010812
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.12629001551260105,
+            0.10625570503016354
+          ],
+          "init_rot_quat": [
+            0.6780043416549616,
+            0.713195170689792,
+            0.13855062666320114,
+            -0.11165341487395145
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the spoon into the yellow basket"
+  }
+]

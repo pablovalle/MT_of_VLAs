@@ -1,0 +1,53 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 237,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.13305669205891224,
+          0.10582436369138488
+        ],
+        "orientation": [
+          0.9333126620634057,
+          0.0,
+          0.0,
+          -0.3590647223442023
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_carrot_generated_modified",
+        "opened_7up_can"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.48626691690650165,
+            0.29747554385299063
+          ],
+          "init_rot_quat": [
+            0.1650536938349675,
+            0.0,
+            0.0,
+            0.9862845827404141
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.21599885677237485,
+            0.39114622406366917
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "retrieve  blue plastic bottle"
+  }
+]

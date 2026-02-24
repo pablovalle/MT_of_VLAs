@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 213,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane",
+        "apple",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.19644127160531516,
+            0.10426552899938385
+          ],
+          "init_rot_quat": [
+            0.9984483160604901,
+            0.0,
+            0.0,
+            -0.05568626541591453
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.13677151477314786,
+            0.13931430820235127
+          ],
+          "init_rot_quat": [
+            -0.5357937962131409,
+            -0.1381199475880678,
+            -0.7494538653439807,
+            0.36354750960328
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.1518677799123323,
+            0.12942223534517933
+          ],
+          "init_rot_quat": [
+            0.27306331633808134,
+            0.7639698379060609,
+            -0.47316944349065443,
+            0.3433616020858774
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the orange into the yellow basket"
+  }
+]

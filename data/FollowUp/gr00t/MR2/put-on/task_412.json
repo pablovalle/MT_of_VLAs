@@ -1,0 +1,81 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 412,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "table_cloth_generated_shorter",
+        "eggplant",
+        "opened_sprite_can",
+        "bridge_plate_objaverse_larger"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.15973328924817434,
+            -0.12971045260553957
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.060111957313572384,
+            0.05622102557620501
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.08775700626721508,
+            -0.15908349690277473
+          ],
+          "init_rot_quat": [
+            0.7905490364236302,
+            0.48371005568062786,
+            0.1206341256201298,
+            -0.3556743043557975
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.023052391144911755,
+            0.11784728425390525
+          ],
+          "init_rot_quat": [
+            -0.6327494916480264,
+            0.07199943503339241,
+            0.6179633227698756,
+            0.4610482554844459
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.01839878215641244,
+            0.0701441789136433
+          ],
+          "init_rot_quat": [
+            0.44991584443263166,
+            -0.04146929965192755,
+            -0.4383156603039363,
+            0.7770041261455275
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the table cloth shorter"
+  }
+]

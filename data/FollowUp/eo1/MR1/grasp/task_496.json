@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 496,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.10381225414883277,
+          0.005569066718133309
+        ],
+        "orientation": [
+          0.9855596218155481,
+          0.0,
+          0.0,
+          -0.16932876851496254
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_coke_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.45107013131573925,
+            0.39303413668173226
+          ],
+          "init_rot_quat": [
+            0.8833930497861087,
+            0.0,
+            0.0,
+            0.46863281958223724
+          ]
+        }
+      }
+    },
+    "prompt": "grab  carrot"
+  }
+]

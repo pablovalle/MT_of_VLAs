@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 127,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "dummy_sink_target_plane",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.14061515891476692,
+            0.16255796201424072
+          ],
+          "init_rot_quat": [
+            0.12454501107280037,
+            0.0,
+            0.0,
+            0.9922139588903575
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.11173768481089304,
+            0.18877888776308363
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "would you avoid puting the apple into the yellow basket"
+  }
+]

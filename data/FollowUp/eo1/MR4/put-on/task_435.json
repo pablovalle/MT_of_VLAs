@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 435,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "table_cloth_generated_shorter",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.29034945787065974,
+            0.08547639937406779
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.17425397357141173,
+            0.06784675649411129
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.07427182957886783,
+            -0.11127558170744109
+          ],
+          "init_rot_quat": [
+            0.272174309047692,
+            0.0,
+            0.0,
+            0.9622479646610906
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "stop yourself from puting the orange on the table cloth shorter"
+  }
+]

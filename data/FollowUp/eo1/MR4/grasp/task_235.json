@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 235,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "apple",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4244746592450123,
+          0.12859927294798898
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "yellow_cube_3cm",
+        "opened_coke_can",
+        "green_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.4534908810376883,
+            0.2740964327072563
+          ],
+          "init_rot_quat": [
+            0.5727395681430735,
+            0.0,
+            0.0,
+            -0.8197373890968288
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.1983388633466449,
+            0.34398528305351384
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.27253841170778415,
+            0.3567180163621513
+          ],
+          "init_rot_quat": [
+            0.46178437867162464,
+            0.0,
+            0.0,
+            0.8869922139539116
+          ]
+        }
+      }
+    },
+    "prompt": "cease picking apple"
+  }
+]

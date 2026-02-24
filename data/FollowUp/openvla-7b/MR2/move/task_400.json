@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 400,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_coke_can",
+        "sponge",
+        "bridge_spoon_generated_modified",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.41556162200116925,
+            0.1698605647766232
+          ],
+          "init_rot_quat": [
+            0.7156340539940644,
+            0.0,
+            0.0,
+            -0.6984754117104055
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.24415649366092657,
+            0.199999839857684
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.4898384566963302,
+            0.14926779843553142
+          ],
+          "init_rot_quat": [
+            -0.8270551984411147,
+            0.42027759549329025,
+            -0.14265805228165448,
+            0.3449566952200109
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.49307848183614933,
+            0.37876847442745903
+          ],
+          "init_rot_quat": [
+            0.7368131156316639,
+            0.13205555993949628,
+            0.30136449470961424,
+            -0.5906328834823247
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "move sponge near coke can"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 168,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3349517887092158,
+          0.08880994573581735
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "apple",
+        "bridge_spoon_generated_modified",
+        "eggplant"
+      ],
+      "distractor_obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.38738794173192515,
+            0.02435275341544121
+          ],
+          "init_rot_quat": [
+            0.25305535450101346,
+            0.0,
+            0.0,
+            0.9674518011551616
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.23320745021514278,
+            0.1904477367055901
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.1362601999423621,
+            0.36957313424514265
+          ],
+          "init_rot_quat": [
+            0.9524746450081806,
+            0.0,
+            0.0,
+            -0.304617876390307
+          ]
+        }
+      }
+    },
+    "prompt": "grab  7up can"
+  }
+]

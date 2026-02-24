@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 163,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "eggplant",
+        "bridge_carrot_generated_modified",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.1799383618133667,
+            0.21176941012543635
+          ],
+          "init_rot_quat": [
+            0.027174652473613947,
+            0.0,
+            0.0,
+            0.9996307009405715
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.3540448400381393,
+            0.10496564555067588
+          ],
+          "init_rot_quat": [
+            0.47696771856568987,
+            0.0,
+            0.0,
+            0.8789208129554339
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.30679705019136816,
+            0.36534160693375783
+          ],
+          "init_rot_quat": [
+            0.7857174972560855,
+            0.0,
+            0.0,
+            -0.6185854949040054
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.2076687941185456,
+            0.020616769085440235
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2
+    },
+    "prompt": "stop from moving fanta can near carrot"
+  }
+]

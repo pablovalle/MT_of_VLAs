@@ -1,0 +1,40 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 178,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2536583587609682,
+          0.2015012107251502
+        ],
+        "orientation": [
+          0.5379362087075408,
+          0.0,
+          0.0,
+          0.8429855487262858
+        ]
+      },
+      "distractor_model_ids": [
+        "fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.3495978166491427,
+            0.08385492451006363
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "prompt": "would you avoid picking 7up can"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "mr": "V_MR2",
+    "task_id": 438,
+    "follow-up": 6,
+    "mvoement_type": "down_right",
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.04827754858221023,
+            0.12
+          ],
+          "init_rot_quat": [
+            0.25754449954303466,
+            0.0,
+            0.0,
+            -0.9662664388020148
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.28573384892785453,
+            -0.10398062759161872
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.0328032016412399,
+            -0.08576956739962477
+          ],
+          "init_rot_quat": [
+            0.4582626662165097,
+            0.0,
+            0.0,
+            0.8888168139454473
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the green cube on the plate"
+  }
+]

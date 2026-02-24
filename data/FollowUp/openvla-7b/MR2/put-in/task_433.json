@@ -1,0 +1,68 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 433,
+    "follow-up": 1,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "dummy_sink_target_plane",
+        "bridge_carrot_generated",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.10700763936593854,
+            0.14454363736537595
+          ],
+          "init_rot_quat": [
+            0.9901266404918814,
+            0.0,
+            0.0,
+            0.1401757318092566
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated": {
+          "init_xy": [
+            -0.10211356457612586,
+            0.19627601107755982
+          ],
+          "init_rot_quat": [
+            -0.09075104874907422,
+            -0.23685530812774694,
+            0.6206058841978626,
+            -0.741965057574575
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.18114430056054798,
+            0.11136439696712935
+          ],
+          "init_rot_quat": [
+            -0.6277061625167112,
+            -0.16170927497411444,
+            0.7605245359643434,
+            0.03791456345667763
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the apple into the yellow basket"
+  }
+]

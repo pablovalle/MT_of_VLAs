@@ -1,0 +1,42 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 367,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "orange"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.47036641693288744,
+            0.2978837855214523
+          ],
+          "init_rot_quat": [
+            0.9875759408514283,
+            0.0,
+            0.0,
+            -0.1571424864618609
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.17443531850567912,
+            0.24962371420902396
+          ],
+          "init_rot_quat": [
+            0.750920934967311,
+            0.0,
+            0.0,
+            0.660392117932838
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0
+    },
+    "prompt": "do not engage in moving orange near 7up can"
+  }
+]

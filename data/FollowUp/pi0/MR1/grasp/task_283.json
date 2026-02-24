@@ -1,0 +1,23 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 283,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_redbull_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4631187786491159,
+          0.1407488136727119
+        ],
+        "orientation": [
+          0.432805800794776,
+          0.0,
+          0.0,
+          -0.9014871817160756
+        ]
+      }
+    },
+    "prompt": "grab  redbull can"
+  }
+]

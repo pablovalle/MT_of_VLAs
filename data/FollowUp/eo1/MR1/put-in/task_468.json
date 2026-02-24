@@ -1,0 +1,55 @@
+[
+  {
+    "mr": "C_MR1",
+    "task_id": 468,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "redbull_can",
+        "dummy_sink_target_plane",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "redbull_can": {
+          "init_xy": [
+            -0.11489691791640239,
+            0.1659693664424352
+          ],
+          "init_rot_quat": [
+            0.8616225050587633,
+            0.0,
+            0.0,
+            0.5075496613891705
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.15694268527276264,
+            0.1398196317937038
+          ],
+          "init_rot_quat": [
+            0.9309527212240164,
+            0.0,
+            0.0,
+            0.36513974153137435
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the redbull can into the yellow basket"
+  }
+]

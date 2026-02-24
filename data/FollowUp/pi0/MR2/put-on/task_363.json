@@ -1,0 +1,94 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 363,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "bridge_plate_objaverse_larger",
+        "sprite_can",
+        "bridge_carrot_generated_modified",
+        "opened_pepsi_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.23330402060497363,
+            -0.1267331750716473
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.130735990934024,
+            0.07645587583294083
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.15603555494888413,
+            -0.10038481679396208
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.04227715965549461,
+            0.0007156387936224085
+          ],
+          "init_rot_quat": [
+            0.5694346059285463,
+            0.0,
+            0.0,
+            0.8220366351757087
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.18886549292215565,
+            0.053835062368987385
+          ],
+          "init_rot_quat": [
+            0.3976172976923319,
+            -0.8362849570644589,
+            -0.3724612741925843,
+            0.061648636565460206
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.08094731327131055,
+            -0.08518101318140925
+          ],
+          "init_rot_quat": [
+            0.5816928037342975,
+            0.44467206774416557,
+            0.10275481937355019,
+            -0.6733065285197889
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the coke can on the plate larger"
+  }
+]

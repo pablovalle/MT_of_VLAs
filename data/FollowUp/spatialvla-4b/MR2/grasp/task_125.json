@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 125,
+    "follow-up": 1,
+    "task_data": {
+      "model_id": "bridge_spoon_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.15174204550080872,
+          0.1196807650864431
+        ],
+        "orientation": [
+          0.22764627574694657,
+          0.0,
+          0.0,
+          0.9737438950455839
+        ]
+      },
+      "distractor_model_ids": [
+        "green_cube_3cm",
+        "bridge_carrot_generated_modified",
+        "opened_pepsi_can"
+      ],
+      "distractor_obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.41380049306835726,
+            0.12257081509875958
+          ],
+          "init_rot_quat": [
+            -0.4259455901303417,
+            0.6727056915590696,
+            0.5261711895496413,
+            0.2986323593994198
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.24549398930988675,
+            0.20974565160647504
+          ],
+          "init_rot_quat": [
+            -0.5078711660762885,
+            -0.1193675741829069,
+            -0.8530329238526355,
+            -0.01237302410177554
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.3619370903078373,
+            0.22695689078276185
+          ],
+          "init_rot_quat": [
+            -0.8641058737507297,
+            0.3221469507931179,
+            0.38466300801655245,
+            0.03970832794064841
+          ]
+        }
+      }
+    },
+    "prompt": "pick spoon"
+  }
+]

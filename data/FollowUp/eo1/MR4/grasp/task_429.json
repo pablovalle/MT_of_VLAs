@@ -1,0 +1,66 @@
+[
+  {
+    "mr": "V_MR1",
+    "task_id": 429,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "green_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.13259381569003215,
+          0.12289725630055592
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_fanta_can",
+        "bridge_spoon_generated_modified",
+        "sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.18898285697508738,
+            0.3233982550726232
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2802246249515543,
+            0.06183449117948934
+          ],
+          "init_rot_quat": [
+            0.5648830574805738,
+            0.0,
+            0.0,
+            0.8251709709941321
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.49582305219281,
+            0.20150994886125326
+          ],
+          "init_rot_quat": [
+            0.9912837366612127,
+            0.0,
+            0.0,
+            0.1317442728583805
+          ]
+        }
+      }
+    },
+    "prompt": "please refrain from picking green cube"
+  }
+]

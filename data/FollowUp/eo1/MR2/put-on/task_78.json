@@ -1,0 +1,120 @@
+[
+  {
+    "mr": "C_MR2",
+    "task_id": 78,
+    "follow-up": 2,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "table_cloth_generated_shorter",
+        "yellow_cube_3cm",
+        "sprite_can",
+        "bridge_spoon_generated_modified",
+        "opened_fanta_can",
+        "bridge_plate_objaverse",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.039562142189342064,
+            -0.15484261350740328
+          ],
+          "init_rot_quat": [
+            0.9620560432550403,
+            0.0,
+            0.0,
+            0.27285191887992266
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.15811053765611066,
+            -0.14185237532251765
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.23457471663882695,
+            -0.03323384144505592
+          ],
+          "init_rot_quat": [
+            0.9923266717650111,
+            0.0,
+            0.0,
+            0.12364374834085175
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.01796935851220066,
+            -0.06961064842869967
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.029878940137942622,
+            0.05148010883087875
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.1849848082501931,
+            -0.09227235396839563
+          ],
+          "init_rot_quat": [
+            0.8617739576283744,
+            -0.28846723413247793,
+            -0.3507403253801207,
+            0.2260830045309333
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.15453348513128742,
+            -0.0871958118718606
+          ],
+          "init_rot_quat": [
+            -0.8854393764471057,
+            0.3176305178486086,
+            -0.061587098228770454,
+            -0.3336390176522306
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.24428329691151113,
+            -0.047634865269269994
+          ],
+          "init_rot_quat": [
+            0.5417304773259973,
+            0.726304142912262,
+            0.40409130183701486,
+            0.12538182365996373
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1
+    },
+    "prompt": "put the 7up can on the table cloth shorter"
+  }
+]
