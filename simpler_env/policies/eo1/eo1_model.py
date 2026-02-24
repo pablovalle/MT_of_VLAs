@@ -149,19 +149,20 @@ class EOInference:
         if task_description is not None:
             if task_description != self.task_description:
                 self.reset(task_description)
-
-        assert image.dtype == np.uint8
-        image = self._resize_image(image)
-
-        eef_pos = kwargs.get("eef_pos", None)
-        if self.policy_setup == "widowx_bridge":
-            state = self.preprocess_widowx_proprio(eef_pos)
-            image_key = "observation.images.image_0"
-        elif self.policy_setup == "google_robot":
-            state = self.preprocess_google_robot_proprio(eef_pos)
-            image_key = "observation.images.image"
+        state=None
+        
 
         if not self.action_plan:
+            assert image.dtype == np.uint8
+            image = self._resize_image(image)
+
+            eef_pos = kwargs.get("eef_pos", None)
+            if self.policy_setup == "widowx_bridge":
+                state = self.preprocess_widowx_proprio(eef_pos)
+                image_key = "observation.images.image_0"
+            elif self.policy_setup == "google_robot":
+                state = self.preprocess_google_robot_proprio(eef_pos)
+                image_key = "observation.images.image"
             observation = {
                 "observation.state": [state],
                 image_key: [Image.fromarray(image)],
@@ -175,7 +176,7 @@ class EOInference:
                 observation,
             )
             action_chunk = ov_out.action[0].numpy()
-            self.action_plan.extend(action_chunk[: self.exec_horizon])
+            self.action_plan.extend(action_chunk[: self.pred_action_horizon])
 
         raw_actions = self.action_plan.popleft()
 
