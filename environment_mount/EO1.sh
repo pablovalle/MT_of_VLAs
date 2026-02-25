@@ -41,6 +41,7 @@ cd "$REPO_DIR"
 pip install -e .
 pip install "numpy==1.24.4"
 pip install matplotlib
+pip install openpyxl
 echo "--- Downloading Models ---"
 cd "$REPO_DIR/checkpoints"
 python download_model.py IPEC-COMMUNITY/eo1-qwen25_vl-fractal

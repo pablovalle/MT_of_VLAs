@@ -44,6 +44,7 @@ pip install -e .
 
 pip install "numpy==1.24.4"
 pip install matplotlib
+pip install openpyxl
 echo "--- Downloading models ---"
 cd "$REPO_DIR/checkpoints"
 python download_model.py openvla/openvla-7b

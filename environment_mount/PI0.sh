@@ -46,6 +46,7 @@ pip install -e .
 
 pip install "numpy==1.24.4"
 pip install matplotlib
+pip install openpyxl
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
 pip install --no-build-isolation flash-attn==2.7.1.post4
 echo "--- Downloading models ---"
