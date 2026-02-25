@@ -1,6 +1,1 @@
-demo_data
-deployment_scripts
-examples
-getting_started
 gr00t
-media

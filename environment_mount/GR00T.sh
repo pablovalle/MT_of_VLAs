@@ -22,9 +22,8 @@ cd "$REPO_DIR"
 # Check if EO1 already exists before cloning
 cd "Isaac-GR00T"
 pip install "setuptools==80.10.2"
-pip install -e .[base]
+pip install -e .
 # Flash-attn can take a long time to compile
-pip install --no-build-isolation flash-attn==2.7.1.post4
 
 echo "--- Fixing Numpy version for Pinocchio compatibility ---"
 pip install numpy==1.24.4
@@ -40,7 +39,7 @@ pip install "numpy==1.24.4"
 pip install matplotlib
 echo "--- Downloading Models ---"
 cd "$REPO_DIR/checkpoints"
-python download_model.py youliangtan/gr00t-n1.5-bridge-posttrain
-python download_model.py youliangtan/gr00t-n1.5-fractal-posttrain
+python download_model.py nvidia/GR00T-N1.6-bridge
+python download_model.py nvidia/GR00T-N1.6-fractal
 echo "--- Setup Complete! ---"
 echo "To start using the environment, run: conda activate $ENV_NAME"
