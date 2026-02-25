@@ -35,10 +35,10 @@ class StableJSONizer(json.JSONEncoder):
 
 if __name__ == '__main__':
     
-    task_data="data/FollowUp/"
-    mrs=["C_MR1", "C_MR2", "V_MR1", "V_MR2"]
+    task_data="../data/FollowUp/"
+    mrs=["MR1","MR2","MR3","MR4","MR5",]
     tasks=["grasp","move", "put-in", "put-on"]#, "grasp","move", "put-in", "put-on"]
-    model="spatialvla-4b"
+    model="eo1"
     
     for task_type in tasks:
         if task_type=='grasp':
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         elif task_type=="put-in":
             base_env="widowx_put_in_customizable"
         vla=None
-        vla = VLAInterface(model_name=model, task=base_env,  instability_methods=['position_instability','velocity_instability', 'acceleration_instability'])
+        vla = VLAInterface(model_name=model, task=base_env)
         for mr in mrs:
             n_scenarios=[f.path for f in os.scandir(f"{task_data}{model}/{mr}/{task_type}")if f.is_file()]     
             for scenario in n_scenarios:
@@ -63,15 +63,13 @@ if __name__ == '__main__':
                     print(f"\n\n Evaluating MR {mr} in task {task_type} for environment {i} the {j}-th time")
                     options=task[j]['task_data']
                     prompt=task[j]['prompt']
-                    result_dir=f"FollowUp_Results/{model}/{mr}/{task_type}/task_{i}/follow_up_{j}"
+                    result_dir=f"../FollowUp_Results/{model}/{mr}/{task_type}/task_{i}/follow_up_{j}"
                     if os.path.exists(result_dir):
                         continue
                     os.makedirs(result_dir, exist_ok=True)
                     
-                    images, episode_stats, actions, tcp_poses, uncertainty_token, uncertainty_variability, optimal_traj, traj_inst_gradients,  traj_instability, traj_instability_tcp, exec_times_dict  = vla.run_interface(seed=1, options=options, task_type=task_type, prompt=prompt)
+                    images, episode_stats, actions, tcp_poses, = vla.run_interface(seed=1, options=options, task_type=task_type, prompt=prompt)
                     
-                    
-
                     with open(result_dir + f'/log.json', "w") as f:
                         json.dump(episode_stats, f, cls=StableJSONizer)
                     #print(actions)
@@ -128,23 +126,6 @@ if __name__ == '__main__':
                         print("Error during conversion:", e)
                     os.remove(video_path)
                     print(f"Video saved to {video_path}")
-
-    
-"""
-    for idx in tqdm(range(len(task_data))):
-        result_dir=f"results_environment/task_{idx}"
-        os.makedirs(result_dir, exist_ok=True)
-        for n in range(0,10):
-            options = tasks[idx]['task_data']
-            env = simpler_env.make("google_robot_pick_customizable")
-            obs, reset_info = env.reset(seed=1, options=options)
-            image = get_image_from_maniskill2_obs_dict(env, obs) 
-            im = Image.fromarray(image)
-            print(env.unwrapped.observation_space)
-            im.save(result_dir+"/Image_"+str(n)+".jpg")
-            env.close()
-            del env
-"""
 
    
 

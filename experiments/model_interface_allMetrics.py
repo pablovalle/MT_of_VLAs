@@ -53,19 +53,9 @@ sapien.render_config.rt_use_denoiser = True
 
 
 class VLAInterface:
-    def __init__(self, task, model_name, instability_methods):
+    def __init__(self, task, model_name):
 
         self.model_name = model_name
-        self.token_metricsFast = TokenMetricsFast()
-        self.instability_methods = instability_methods
-        self.instability_method_fns = {
-            name: getattr(uncerMetrics, f"compute_{name}")
-            for name in self.instability_methods
-        }
-        self.instability_TCP_method_fns = {
-            name: getattr(uncerMetrics, f"compute_TCP_{name}")
-            for name in self.instability_methods
-        }
         if task in TASKS:
             self.task = task
         else:
@@ -135,26 +125,7 @@ class VLAInterface:
         episode_stats = {}
         actions = []
         tcp_poses = []
-        token_based_dict = {'entropy': [],
-                            'token_prob': [],
-                            'pcs': [],
-                            'deepgini': []}
-        exec_times_dict={'inference':[],
-                         'token-based':[],
-                         'execution_variability':[],
-                         'optimal_trajectory':[],
-                         'trajectory_instability_gradients':[],
-                         'instability':[]}
-        variability = []
-        optimal_traj = []
-        traj_inst_gradients = []
-        gradients = []
-        traj_instability = {method_name: [[0, 0, 0, 0, 0, 0, 0] for i in range(0, TIME_RANGE - 1)] for method_name in
-                            self.instability_methods}
-        traj_instability_tcp = {method_name: [[0, 0, 0] for i in range(0, TIME_RANGE - 1)] for method_name in
-                                self.instability_methods}
-        traj_uncerActions = np.array([])
-        traj_uncerTcp = []
+        
         tcp_pose = obs['extra']['tcp_pose']
 
         if task_type == "grasp":
@@ -188,117 +159,6 @@ class VLAInterface:
             actions.append(action_norm)
             time_execution = time.time()
             print(f"Time to execute: {time_execution - init_time}")
-            # ----------------------------- UNCERTAINTY METRICS ------------------------------------------------------------------------
-            """
-            if len(gradients) < TIME_RANGE:
-                gradients.append(tcp_pose.tolist())
-                traj_uncerActions = np.append(traj_uncerActions, action_norm)
-                traj_uncerTcp.append(tcp_pose.tolist())
-            else:
-                gradients[-1] = tcp_pose.tolist()
-                traj_uncerActions[-1] = action_norm
-                traj_uncerTcp[-1] = tcp_pose.tolist()
-            time_execution = time.time()
-            print(f"Time to execute: {time_execution - init_time}")
-            exec_times_dict['inference'].append(time_execution - init_time)
-            # Token-based uncertainty
-
-            if "pi0" in self.model_name or "gr00t" in self.model_name:
-                expert_logits = raw_action['expert_scores']
-                token_uq_metrics = self.token_metricsFast.compute_norm_inv_token_metrics(expert_logits)
-
-
-            else:
-                logits = torch.stack(raw_action['scores'], dim=0).squeeze(1)
-                token_uq_metrics = self.token_metricsFast.compute_norm_inv_token_metrics(logits)
-
-            token_based_dict['entropy'].append(token_uq_metrics[0])
-            token_based_dict['token_prob'].append(token_uq_metrics[1])
-            token_based_dict['pcs'].append(token_uq_metrics[2])
-            token_based_dict['deepgini'].append(token_uq_metrics[3])
-            
-            time_execution2 = time.time()
-
-            print(f"Time to calculate the token-based ones: {time_execution2 - time_execution}")
-            exec_times_dict['token-based'].append(time_execution2 - time_execution)
-            
-            # Execution variability
-            result = uncerMetrics.compute_execution_variability(self.variability_models, image, env.action_space, instruction, obs, self.model_name)
-            variability.append(result)
-            
-            time_execution3 = time.time()
-            print(f"Time to calculate the execution variability: {time_execution3 - time_execution2}")
-            exec_times_dict['execution_variability'].append(time_execution3 - time_execution2)
-            # Optimal Trajectory
-            if task_type == "grasp":
-                object_pose = env.unwrapped.obj_pose
-                final_pose = None
-            else:
-                object_pose = env.unwrapped.source_obj_pose
-                final_pose = env.unwrapped.target_obj_pose
-
-            if task_type == "grasp":
-
-                optimal_traj.append(np.abs(np.linalg.norm(tcp_pose[:3] - object_pose.p))/total_dist)
-
-            elif task_type == "put-in" or task_type == "put-on":
-                if info["is_src_obj_grasped"]:
-                    optimal_traj.append(np.abs(np.linalg.norm(tcp_pose[:3] - final_pose.p))/ total_dist)
-                else:
-                    optimal_traj.append((np.abs(np.linalg.norm(tcp_pose[:3] - object_pose.p)) + np.abs(np.linalg.norm(object_pose.p - final_pose.p)))/total_dist)
-
-            else:
-                if np.abs(np.linalg.norm(tcp_pose[:3] - object_pose.p)) < 0.04:
-                    optimal_traj.append(np.abs(np.linalg.norm(tcp_pose[:3] - final_pose.p))/total_dist)
-                else:
-                    optimal_traj.append((np.abs(np.linalg.norm(tcp_pose[:3] - object_pose.p)) + np.abs(np.linalg.norm(object_pose.p - final_pose.p)))/total_dist)
-
-            time_execution4 = time.time()
-            print(f"Time to calculate the optimal trajectory: {time_execution4 - time_execution3}")
-            exec_times_dict['optimal_trajectory'].append(time_execution4 - time_execution3)
-            # Trajectory Instability Gradients
-            if len(gradients) == TIME_RANGE:
-
-                result = uncerMetrics.compute_TCP_jerk_instability_gradient(gradients)
-                traj_inst_gradients = np.append(traj_inst_gradients, result[-3])
-
-                gradients = np.roll(gradients, -1, axis=0)
-                # input("Press Enter to continue...")
-                # time.sleep(300000)
-            elif len(gradients) == TIME_RANGE - 1:
-
-                result = uncerMetrics.compute_TCP_jerk_instability_gradient(gradients)
-                traj_inst_gradients = result[:-2]
-
-            time_execution5 = time.time()
-            print(f"Time to calculate the trajectory instability gradients: {time_execution5 - time_execution4}")
-            exec_times_dict['trajectory_instability_gradients'].append(time_execution5 - time_execution4)
-
-            time_execution7 = time.time()
-            print(f"Time to calculate the metamorphic ps: {time_execution7 - time_execution5}")
-            # Trajecotry Instability
-            if len(traj_uncerActions) == TIME_RANGE:
-                i = 2
-                for name, fn in self.instability_method_fns.items():
-                    result = fn(traj_uncerActions[i:])
-                    traj_instability[name].append(result)
-                    i = i - 1
-                i = 2
-                # print(uncerTcp)
-                for name, fn in self.instability_TCP_method_fns.items():
-                    result_tcp = fn(traj_uncerTcp[i:])
-                    # print(uncerTcp[i:])
-                    # print(result_tcp)
-                    traj_instability_tcp[name].append(result_tcp)
-                    i = i - 1
-                traj_uncerActions = np.roll(traj_uncerActions, -1, axis=0)
-                traj_uncerTcp = np.roll(traj_uncerTcp, -1, axis=0)
-            time_execution8 = time.time()
-            print(f"Time to calculate the trajectory instability: {time_execution8 - time_execution7}")
-            exec_times_dict['instability'].append(time_execution8 - time_execution7)
-
-            # ---------------------------------------------------------------------------------------------------------------------------
-            """
             # update image observation
             image = get_image_from_maniskill2_obs_dict(env, obs)
             images.append(image)
@@ -307,7 +167,7 @@ class VLAInterface:
         print(f"Episode success: {success}")
         env.close()
         del env
-        return images, episode_stats, actions, tcp_poses, token_based_dict, variability, optimal_traj, traj_inst_gradients, traj_instability, traj_instability_tcp, exec_times_dict
+        return images, episode_stats, actions, tcp_poses
 
 
 class VLAInterfaceLM(VLAInterface):

@@ -12,16 +12,7 @@ import re
 import torch
 import subprocess
 
-#torch.backends.cuda.enable_mem_efficient_sdp(False)
-#torch.backends.cuda.enable_flash_sdp(False)
 
-#os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-#os.environ.setdefault("VK_ICD_FILENAMES", "/usr/share/vulkan/icd.d/nvidia_icd.json")
-        # Try EGL for OpenGL offscreen if available
-#os.environ.setdefault("PYOPENGL_PLATFORM", "egl")
-
-
-# Setup paths
 PACKAGE_DIR = Path(__file__).parent.resolve()
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:32"
 
@@ -68,21 +59,17 @@ if __name__ == '__main__':
 
     if match:
         task_type = match.group(1)
-        #print(task_type)  # Output: put-in
     else:
         print("No match found")
 
-    metamorphic_VS_methods=['vs1','vs2', 'vs3', 'vs4']
-    instability_methods=['position_instability','velocity_instability', 'acceleration_instability']
-
     if "grasp" in dataset_name:
-        vla = VLAInterface(model_name=args.model, task="google_robot_pick_customizable", instability_methods=instability_methods)
+        vla = VLAInterface(model_name=args.model, task="google_robot_pick_customizable")
     elif "move" in dataset_name:
-        vla = VLAInterface(model_name=args.model, task="google_robot_move_near_customizable",  instability_methods=instability_methods)
+        vla = VLAInterface(model_name=args.model, task="google_robot_move_near_customizable")
     elif "put-on" in dataset_name:
-        vla = VLAInterface(model_name=args.model, task="widowx_put_on_customizable",  instability_methods=instability_methods)
+        vla = VLAInterface(model_name=args.model, task="widowx_put_on_customizable")
     elif "put-in" in dataset_name:
-        vla = VLAInterface(model_name=args.model, task="widowx_put_in_customizable",  instability_methods=instability_methods)
+        vla = VLAInterface(model_name=args.model, task="widowx_put_in_customizable")
     else:
         raise NotImplementedError
 
@@ -100,76 +87,13 @@ if __name__ == '__main__':
             shutil.rmtree(result_dir)
     os.makedirs(result_dir, exist_ok=True)
 
-    
-    #if args.image_output:
-    #    image_dir = args.image_output + data_path.split('/')[-1].split(".")[0]
-    #    os.makedirs(image_dir, exist_ok=True)
-    #    image_dir += f'/{args.model}_{random_seed}'
-    #    os.makedirs(image_dir, exist_ok=True)
-    #else:
-    #    image_dir = None
 
     for idx in tqdm(range(round(tasks["num"]/2))):
         if args.resume and os.path.exists(result_dir + f"/allMetrics/{idx}/" + '/log.json'):  # if resume allowed then skip the finished runs.
             continue
         options = tasks[str(idx)]
-        images, episode_stats, actions, tcp_poses, uncertainty_token, uncertainty_variability, optimal_traj, traj_inst_gradients,  traj_instability, traj_instability_tcp, exec_times_dict  = vla.run_interface(seed=random_seed, options=options, task_type=task_type)
+        images, episode_stats, actions, tcp_poses = vla.run_interface(seed=random_seed, options=options, task_type=task_type)
         os.makedirs(result_dir + f"/allMetrics/{idx}", exist_ok=True)
-
-# ----------------------------- UNCERTAINTY METRICS ----------------------------------------------------------------------------------------------------
-        #Execution time
-        for method_name, values in exec_times_dict.items():
-            file_path = result_dir + f"/allMetrics/{idx}/" + f"exec_time_{method_name}.json"
-            with open(file_path, "w") as f:
-                json.dump(convert_to_native(values), f, indent=2)
-
-        
-        # Token-based metrics
-        for method_name, values in uncertainty_token.items():
-            file_path = result_dir + f"/allMetrics/{idx}/" + f"Token_based_{method_name}.json"
-            with open(file_path, "w") as f:
-                json.dump(convert_to_native(values), f, indent=2)
-
-        
-
-        # Execution Variability
-        serialized_values = [v.tolist() if isinstance(v, np.ndarray) else v for v in uncertainty_variability]
-        file_path = result_dir + f"/allMetrics/{idx}/" + f"Execution_Variability.json"
-        with open(file_path, "w") as f:
-            json.dump(serialized_values, f, indent=4)
-
-
-        # Optimal trejectory
-        optimal_traj=np.array(optimal_traj).tolist()
-        uncertainty = np.diff(optimal_traj, prepend=optimal_traj[0])
-        normalized_uncertainty = ((uncertainty + 1) / 2).tolist()
-        with open(result_dir + f"/allMetrics/{idx}/" + '/Optimal_Trajectory.json', "w") as f:
-            json.dump(normalized_uncertainty, f, indent=4)
-
-
-        # Trajectory Instability Gradients
-        serialized_values = [v.tolist() if isinstance(v, np.ndarray) else v for v in traj_inst_gradients]
-        file_path = result_dir + f"/allMetrics/{idx}/" + f"Trajectory_Instability_Gradients.json"
-        with open(file_path, "w") as f:
-            json.dump(serialized_values, f, indent=4)
-        
-       
-        # Trajectory Instability
-        for method_name, values in traj_instability.items():
-            serialized_values = [v.tolist() if isinstance(v, np.ndarray) else v for v in values]
-            file_path = result_dir + f"/allMetrics/{idx}/" + f"{method_name}.json"
-            with open(file_path, "w") as f:
-                json.dump(serialized_values, f, indent=4)
-
-        for method_name, values in traj_instability_tcp.items():
-            serialized_values = [v.tolist() if isinstance(v, np.ndarray) else v for v in values]
-            file_path = result_dir + f"/allMetrics/{idx}/" + f"TCP_{method_name}.json"
-            with open(file_path, "w") as f:
-                json.dump(serialized_values, f, indent=4)
-
-
-#-------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
         with open(result_dir + f"/allMetrics/{idx}/" + '/log.json', "w") as f:
             json.dump(episode_stats, f, cls=StableJSONizer)
@@ -183,8 +107,7 @@ if __name__ == '__main__':
         
         with open(result_dir + f"/allMetrics/{idx}/" + '/tcp_poses.json', "w") as f:
             json.dump(tcp_poses, f, indent=2)
-        #if image_dir:
-            #os.makedirs(image_dir + f"/{idx}", exist_ok=True)
+
             
         video_path = os.path.join(result_dir , f"allMetrics/{idx}", f"{idx}_simulation_orig.mp4")
         video_path_dest = os.path.join(result_dir , f"allMetrics/{idx}", f"{idx}_simulation.mp4")
@@ -210,10 +133,6 @@ if __name__ == '__main__':
                 frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
             
             out.write(frame)
-            #im = Image.fromarray(images[img_idx])
-            #im.save(imagePath+"/Input_"+str(img_idx)+".jpg")
-
-
 
         out.release()
         command = [
@@ -231,7 +150,4 @@ if __name__ == '__main__':
             print("Error during conversion:", e)
         os.remove(video_path)
         print(f"Video saved to {video_path}")
-            #for img_idx in range(len(images)):
-            #    print(len(images[img_idx]))
-            #    im = Image.fromarray(images[img_idx])
-            #    im.save(result_dir + f"/{idx}/" + f'{img_idx}.j
+

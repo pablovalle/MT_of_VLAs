@@ -54,6 +54,7 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 # Main experiment loop
 for data in "${datasets[@]}"; do
   for model in "${models[@]}"; do
+
     echo -e "\n${YELLOW}▶ Running model: ${model} | Dataset: ${data}${NC}"
     MUJOCO_GL="glx" \
 SAPIEN_RENDER_BACKEND="glx" \
