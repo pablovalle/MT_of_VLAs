@@ -1,0 +1,54 @@
+#!/bin/bash
+
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# Configuration
+ENV_NAME="SPATIALVLA"
+REPO_DIR="/home/ubuntu/MT_of_VLAs"
+
+# 1. Initialize Conda for this shell session
+# This allows 'conda activate' to work inside the script
+CONDA_PATH=$(conda info --base)
+source "$CONDA_PATH/etc/profile.d/conda.sh"
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main || true
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r || true
+echo "--- Creating Conda Environment: $ENV_NAME ---"
+conda create -n "$ENV_NAME" python=3.10 -y
+conda activate "$ENV_NAME"
+
+
+
+
+echo "--- Installing LeRobot and EO1 ---"
+pip install numpy==1.24.4
+echo "--- Installing ManiSkill2 real2sim ---"
+cd "$REPO_DIR/ManiSkill2_real2sim"
+pip install -e .
+
+echo "--- Installing main package ---"
+cd "$REPO_DIR"
+pip install -e .
+apt install ffmpeg
+
+pip install tensorflow==2.15.0
+pip install -r requirements_full_install.txt
+pip install tensorflow[and-cuda]==2.15.1
+pip install git+https://github.com/nathanrooy/simulated-annealing
+pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
+pip install --no-build-isolation flash-attn==2.7.1.post4
+
+pip install -r spatialVLA_requirements.txt
+echo "--- Installing transformers ---"
+cd "$REPO_DIR/transformers-4.48.1"
+pip install -e .
+
+pip install "numpy==1.24.4"
+pip install matplotlib
+echo "--- Downloading models ---"
+cd "$REPO_DIR/checkpoints"
+python download_model.py IPEC-COMMUNITY/spatialvla-4b-mix-224-pt
+cp modeling_spatialvla.py spatialvla-4b-mix-224-pt
+
+echo "--- Setup Complete! ---"
+echo "To start using the environment, run: conda activate $ENV_NAME"

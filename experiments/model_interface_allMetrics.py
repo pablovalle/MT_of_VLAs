@@ -2,6 +2,8 @@
 
 import os
 import sys
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 # Add the project root to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -74,16 +76,16 @@ class VLAInterface:
             self.policy_setup = "widowx_bridge"
         if "openvla" in model_name:
             from simpler_env.policies.openvla.openvla_model import OpenVLAInference
-            self.model = OpenVLAInference(model_type='checkpoints/openvla-7b', policy_setup=self.policy_setup)
+            self.model = OpenVLAInference(model_type='../checkpoints/openvla-7b', policy_setup=self.policy_setup)
             #self.followUpModel = OpenVLAInference(model_type=model_name, policy_setup=self.policy_setup)
            # self.variability_models=[OpenVLAInference(model_type='../checkpoints/openvla-7b' , policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             
         elif "pi0" in model_name:
             from simpler_env.policies.lerobotpi.pi0_or_fast import LerobotPiFastInference
             if self.policy_setup == "widowx_bridge":
-                model_path = "checkpoints/lerobot-pi0-bridge"
+                model_path = "../checkpoints/lerobot-pi0-bridge"
             else:
-                model_path = "checkpoints/lerobot-pi0-fractal"
+                model_path = "../checkpoints/lerobot-pi0-fractal"
 
             self.model = LerobotPiFastInference(saved_model_path=model_path, policy_setup=self.policy_setup)
            # self.variability_models=[LerobotPiFastInference(saved_model_path=model_path, policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
@@ -91,7 +93,7 @@ class VLAInterface:
         elif "spatialvla" in model_name:
             from simpler_env.policies.spatialvla.spatialvla_model import SpatialVLAInference
 
-            self.model = SpatialVLAInference(saved_model_path="checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup)
+            self.model = SpatialVLAInference(saved_model_path="../checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup)
            # self.variability_models=[SpatialVLAInference(saved_model_path="../checkpoints/spatialvla-4b-mix-224-pt",policy_setup=self.policy_setup) for i in range(0,uncerMetrics.VARIABILITY)]
             
             #self.followUpModel = SpatialVLAInference(model_type=model_name, policy_setup=self.policy_setup)
@@ -117,12 +119,13 @@ class VLAInterface:
 
     def run_interface(self, seed=None, options=None, task_type=None, prompt=None):
 
-
+        print("Step 1: Environment Make...")
         env = simpler_env.make(self.task)
+        print("Step 2: Environment Reset...")
         obs, reset_info = env.reset(seed=seed, options=options)
         instruction = env.unwrapped.get_language_instruction()
-        if prompt is not None:
-            self.model.reset(prompt)
+        print("Step 3: Model Reset...")
+        self.model.reset(instruction)
 
        # [self.variability_models[i].reset(instruction) for i in range(0, len(self.variability_models))]
         image = get_image_from_maniskill2_obs_dict(env, obs)  # np.ndarray of shape (H, W, 3), uint8

@@ -55,7 +55,9 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 for data in "${datasets[@]}"; do
   for model in "${models[@]}"; do
     echo -e "\n${YELLOW}▶ Running model: ${model} | Dataset: ${data}${NC}"
-    MUJOCO_GL="glx" xvfb-run -s "-screen 0 1280x720x24" -a python3.10 run_fuzzer_allMetrics.py -m "${model}" -d "../data/${data}"
+    MUJOCO_GL="glx" \
+SAPIEN_RENDER_BACKEND="glx" \
+xvfb-run -s "-screen 0 1600x1200x24 +extension GLX" -a python3.10 run_fuzzer_allMetrics.py -m "${model}" -d "../data/${data}"
 
     if [[ $? -ne 0 ]]; then
       echo -e "${RED}✘ Failed: ${model} on ${data}${NC}"
