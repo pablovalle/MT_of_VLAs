@@ -49,7 +49,7 @@ if __name__ == '__main__':
     parser.add_argument('-io', '--image_output', type=str, default=None, help="Image output path, e.g., folder")
     parser.add_argument('-s', '--seed', type=int, default=None, help="Random Seed")
     parser.add_argument('-m', '--model', type=str,
-                        choices=["openvla-7b", "pi0", "spatialvla-4b", "gr00t"],
+                        choices=["openvla-7b", "pi0", "spatialvla-4b", "gr00t", "eo1"],
                         default="gr00t",
                         help="VLA model")
     parser.add_argument('-r', '--resume', type=bool, default=True, help="Resume from where we left.")

@@ -22,10 +22,8 @@ fi
 
 conda_env=$1
 specific_model=$2
-
-# Conda init (adjust this if needed)
-source ~/anaconda3/etc/profile.d/conda.sh
-
+CONDA_PATH=$(conda info --base)
+source "$CONDA_PATH/etc/profile.d/conda.sh"
 # Activate conda environment
 echo -e "${BLUE}➤ Activating Conda environment: ${GREEN}${conda_env}${NC}"
 conda activate "$conda_env" || {
@@ -34,7 +32,7 @@ conda activate "$conda_env" || {
 }
 
 # Define model list
-models=(openvla-7b spatialvla-4b pi0 gr00t)
+models=(openvla-7b spatialvla-4b pi0 gr00t eo1)
 if [[ -n "$specific_model" ]]; then
   echo -e "${BLUE}➤ Running only for model: ${YELLOW}${specific_model}${NC}"
   models=("$specific_model")
@@ -57,7 +55,7 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 for data in "${datasets[@]}"; do
   for model in "${models[@]}"; do
     echo -e "\n${YELLOW}▶ Running model: ${model} | Dataset: ${data}${NC}"
-    python3.10 run_fuzzer_allMetrics.py -m "${model}" -d "../data/${data}"
+    MUJOCO_GL="glx" xvfb-run -s "-screen 0 1280x720x24" -a python3.10 run_fuzzer_allMetrics.py -m "${model}" -d "../data/${data}"
 
     if [[ $? -ne 0 ]]; then
       echo -e "${RED}✘ Failed: ${model} on ${data}${NC}"
