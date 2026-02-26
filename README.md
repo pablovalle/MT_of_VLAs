@@ -113,7 +113,7 @@ cd MT_of_VLAs
 
 ## Usage:
 <details>
-<summary><h3><b>Setting up the conda environment and downloading the models</summary></h3></b>
+<summary><b>Setting up the conda environment and downloading the models</summary></b>
 
 Once everything is sat up and you can access to the repository either on your local machine or inside the docker, for each VLA one conda environment will be generated and the corresponding models will be downloaded, for that inside [environment_mount](/environment_mount/) you can find one ```.sh``` file for each model. To setup the environment and download the models:
 
@@ -125,7 +125,7 @@ cd {this_repo/environment_mount}
 Once it finishes, you will find the model weights inside [checkpoints](/checkpoints/) folder and you will have the corresponding conda environment wiht the same name as the ```.sh``` file your launched. For example if you launched ```EO1.sh``` you will have a conda env called EO1.
 </details>
 <details>
-<summary><h3><b>Generating the follow-up test cases</summary></h3></b>
+<summary><b>Generating the follow-up test cases</summary></b>
 
 To generate the follow-up test cases just a .sh file should be ran:
 
