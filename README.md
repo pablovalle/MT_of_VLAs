@@ -1,13 +1,59 @@
 <div align="center">
 
 # Metamorphic Testing of of Vision-Language Action-enabled Robots
-This paper applies metamorphic testing to Vision-Language Action models in robotic manipulation, systematically evaluating their robustness, reliability, and consistency under varied conditions. 
+In this paper, we explore whether Metamorphic Testing (MT) can alleviate the test oracle problem in this context. To do so, we propose two metamorphic relation patterns and five metamorphic relations to assess whether changes to the test inputs impact the original trajectory of the VLA-enabled robots. An empirical study involving five VLA models, two simulated robots, and four robotic tasks shows that MT can effectively alleviate the test oracle problem by automatically detecting diverse types of failures, including, but not limited to, uncompleted tasks. More importantly, the proposed MRs are generalizable, making the proposed approach applicable across different VLA models, robots, and tasks, even in the absence of test oracles.
 
 [Pablo Valle](https://scholar.google.com/citations?user=-3y0BlAAAAAJ&hl=en)<sup>1</sup>, [Sergio Segura](https://scholar.google.com/citations?user=AcMLHeEAAAAJ&hl=en)<sup>2</sup>, [Shaukat Ali](https://scholar.google.com/citations?user=S_UVLhUAAAAJ&hl=en)<sup>3</sup>, [Aitor Arrieta](https://scholar.google.com/citations?user=ft06jF4AAAAJ&hl=en)<sup>1</sup></br>
 Mondragon Unibertsitatea<sup>1</sup>, University of Seville<sup>2</sup> ,Simula Research Laboratory<sup>3</sup>
 
 </div>
 
+## Hardware and Software Requirements
+
+
+## Installation
+
+<details>
+<summary>### Using Docker (Highly recommended)</summary>
+
+Using Docker handles the complex installation of robotics simulators and specific CUDA requirements.
+
+1.  **Build the image:**
+    ```bash
+    docker build -t mt-vla-artifact .
+    ```
+2.  **Run the container with GPU support:**
+    ```bash
+    docker run --gpus all -it --rm -v $(pwd)/data:/app/data mt-vla-artifact
+    ```
+3.  **Verify the installation:**
+    Inside the container, run:
+    ```bash
+    python3 scripts/check_env.py
+    ```
+</details>
+
+<details>
+<summary>### From source</summary>
+
+If you prefer to install locally, ensure you have **Python 3.9+** and **CUDA 11.8+** installed.
+
+1.  **Create a virtual environment:**
+    ```bash
+    conda create -n mt_vla python=3.9
+    conda activate mt_vla
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Install Simulators:**
+    Follow the specific instructions in `docs/SIMULATOR_SETUP.md` to configure the physics engine.
+4.  **Download Model Weights:**
+    ```bash
+    bash scripts/download_weights.sh
+    ```
+</details>
 
 
 ## Prerequisites:
