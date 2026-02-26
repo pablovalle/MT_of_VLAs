@@ -3,74 +3,141 @@
 # Metamorphic Testing of of Vision-Language Action-enabled Robots
 
 > [Pablo Valle](https://scholar.google.com/citations?user=-3y0BlAAAAAJ&hl=en)<sup>1</sup>, [Sergio Segura](https://scholar.google.com/citations?user=AcMLHeEAAAAJ&hl=en)<sup>2</sup>, [Shaukat Ali](https://scholar.google.com/citations?user=S_UVLhUAAAAJ&hl=en)<sup>3</sup>, [Aitor Arrieta](https://scholar.google.com/citations?user=ft06jF4AAAAJ&hl=en)<sup>1</sup></br>
-> Mondragon Unibertsitatea<sup>1</sup>, University of Seville<sup>2</sup> ,Simula Research Laboratory<sup>3</sup>
+> Mondragon Unibertsitatea<sup>1</sup>, University of Seville<sup>2</sup>, Simula Research Laboratory<sup>3</sup>
 
-[\[📄Paper\]]()  [\[🔥Project Page\]]()
+[\[📄Paper\]](https://aitorarrietamarcos.github.io/assets/Metamorphic_vla.pdf)  [\[🔥Project Page\]](https://pablovalle.github.io/MT_of_VLAs_web/)
 
 </div>
 
 In this paper, we explore whether Metamorphic Testing (MT) can alleviate the test oracle problem in this context. To do so, we propose two metamorphic relation patterns and five metamorphic relations to assess whether changes to the test inputs impact the original trajectory of the VLA-enabled robots. An empirical study involving five VLA models, two simulated robots, and four robotic tasks shows that MT can effectively alleviate the test oracle problem by automatically detecting diverse types of failures, including, but not limited to, uncompleted tasks. More importantly, the proposed MRs are generalizable, making the proposed approach applicable across different VLA models, robots, and tasks, even in the absence of test oracles.
 
 ## Hardware and Software Requirements
+The software requirements to run this are minimal:
+ - Docker
+> **Note:** "Minimal" refers ot the users that want to use the docker we provide. However, to run this on your local machine will require additional software requirements listed in [Building from source](#Building from source).
 
+The hardware requirements to run this are VLA dependant since each VLA needs a specific amount of GPU RAM, overall the following requirements are needed:
+ - 8-12GBs GPU (We tested the approach in a NVIDIA RTX4080Ti and in a NVIDIA RTX A6000)
+ - A high amount of disk space. For each VLA model around 60GBs are needed. (We tested the approach with 250GBs of free space)
 
 ## Installation
+For the installation and usage of this repository there are two alternatives:
+ - Using Docker, which we strongly recommend, to avoid dependency conflicts or library discrepancies. 
+ - Running in your machine building from source this repo. This option will require much more time and some depedency issues may arise between the software requirements and the environments.
+
+Below you can find a furhter guide on how to setup for both cases:
 
 <details>
 <summary><b>Using Docker (Highly recommended)</b></summary>
 
-Using Docker handles the complex installation of robotics simulators and specific CUDA requirements.
+Using Docker handles the complex installation of robotics simulators and specific CUDA requirements. For that we provide a [Dockerfile](Dockerfile) and also we provide a Docker image at [Dockerhub](https://hub.docker.com/r/pvalleentrena/mt_of_vlas). before starting ensure you have installed docker and that you can passthrough your GPU to the docker.
 
 1.  **Build the image:**
+    Download only the Docker file and build de image:
     ```bash
-    docker build -t mt-vla-artifact .
+    docker build -t mt_4_vlas .
     ```
 2.  **Run the container with GPU support:**
+    If you built from image:
+
     ```bash
-    docker run --gpus all -it --rm -v $(pwd)/data:/app/data mt-vla-artifact
+    docker run -d --gpus all -e NVIDIA_DRIVER_CAPABILITIES=all --name="mt_4_vlas" mt_4_vlas
     ```
-3.  **Verify the installation:**
+
+    If you are runing from the image we provide:
+
+    ```bash
+    docker run -d --gpus all -e NVIDIA_DRIVER_CAPABILITIES=all --name="mt_4_vlas" pvalleentrena/mt_of_vlas
+    ```
+
+3.  **Enter in the container and check that you see the GPUs:**
     Inside the container, run:
     ```bash
-    python3 scripts/check_env.py
+    docker exec -it mt_4_vlas bash
+    nvidia-smi
     ```
 </details>
 
 <details>
-<summary><b>From source</b></summary>
+<summary name="Building from source"><b>Building from source</b></summary>
 
-If you prefer to install locally, ensure you have **Python 3.9+** and **CUDA 11.8+** installed.
+If you prefer to install locally, ensure you have **CUDA 12.1+** installed (we tested it using Cuda 12.1).
+Install the following commands (We tested it in an Ubuntu 22.04 machine):
+1. **The core graphics, audio, and utility packages:**
+```bash
+    sudo apt-get update && sudo apt-get install -y \
+    dbus-x11 git locales pavucontrol pulseaudio pulseaudio-utils \
+    software-properties-common sudo vim x11-xserver-utils \
+    xfce4 xfce4-goodies xorgxrdp xrdp ffmpeg libaio-dev \
+    python3-pip python3-venv python3-dev \
+    vulkan-tools libvulkan1 mesa-vulkan-drivers libgl1-mesa-glx \
+    gnupg wget nano git-lfs xvfb ca-certificates
+```
+2. **NVIDIA & Vulkan Configuration:**
+> **Note:** Ensure you have NVIDIA drivers installed on your host (recommended version 525+).
+```bash
+    sudo apt-get install -y libglvnd-dev
+    # if it doesn't exist
+    sudo mkdir -p /usr/share/vulkan/icd.d/ /usr/share/glvnd/egl_vendor.d/
 
-1.  **Create a virtual environment:**
-    ```bash
-    conda create -n mt_vla python=3.9
-    conda activate mt_vla
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Install Simulators:**
-    Follow the specific instructions in `docs/SIMULATOR_SETUP.md` to configure the physics engine.
-4.  **Download Model Weights:**
-    ```bash
-    bash scripts/download_weights.sh
-    ```
+    # Configure Vulkan ICD if it doesn't exist
+    echo '{ "file_format_version" : "1.0.0", "ICD": { "library_path": "libGLX_nvidia.so.0", "api_version" : "1.2.155" } }' | sudo tee /usr/share/vulkan/icd.d/nvidia_icd.json
+
+    # Configure EGL Vendor if it doesn't exist
+    echo '{ "file_format_version" : "1.0.0", "ICD" : { "library_path" : "libEGL_nvidia.so.0" } }' | sudo tee /usr/share/glvnd/egl_vendor.d/10_nvidia.json
+```
+
+3. **Miniconda Setup:**
+```bash
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+    bash ~/miniconda.sh -b -p $HOME/miniconda
+    source "$HOME/miniconda/bin/activate"
+    conda init bash
+```
+
+4. **Repository Setup:**
+```bash
+    git clone https://github.com/pablovalle/MT_of_VLAs.git
+    cd MT_of_VLAs
+```
 </details>
 
 
-## Prerequisites:
-- CUDA version >=12.
-- Cuda toolkit (nvcc)
-- An NVIDIA GPU.
-- Python >= 3.10
-- Vulkan 
-- Anaconda or environment virtualization tool
+## Usage:
 
-Clone this repo:
+1. **Setting up the conda environment and downloading the models**
+Once everything is sat up and you can access to the repository either on your local machine or inside the docker, for each VLA one conda environment will be generated and the corresponding models will be downloaded, for that inside [environment_mount](/environment_mount/) you can find one ```.sh``` file for each model. To setup the environment and download the models:
+
 ```
-git clone https://github.com/pablovalle/VLA_UQ.git
+cd {this_repo/environment_mount}
+./{model_name}.sh   #Options: EO1, GR00T, PI0, SPATIALVLA, and OPENVLA
 ```
+
+Once it finishes, you will find the model weights inside [checkpoints](/checkpoints/) folder and you will have the corresponding conda environment wiht the same name as the ```.sh``` file your launched. For example if you launched ```EO1.sh``` you will have a conda env called EO1.
+
+2. **Generating the follow-up test cases**
+To generate the follow-up test cases just a .sh file should be ran:
+
+```
+cd {this_repo/experiments}
+./{follow_up_generator.sh}.sh -e <env> -m <model> [options]
+```
+
+| Flag | Status   | Description                                                                                     |
+|------|----------|-------------------------------------------------------------------------------------------------|
+| -e   | REQUIRED | Conda Environment: The name of the specific Conda environment you wish to activate for the run. |
+| -m   | REQUIRED | Model Name: The identifier for the model being tested (e.g., gpt-4, llama-3, eo1).            |
+| -r   | OPTIONAL | Metamorphic Relations: Specifies which relations to apply (MR1 through MR5). Multiple values should be comma-separated. |
+| -t   | OPTIONAL | Task ID Filter: Filters the execution to specific tasks. Accepts arrays like [1,2,3] or ranges like [1-50]. |
+| -d   | OPTIONAL | Dataset JSON: Allows you to target specific dataset files (e.g., t-grasp_n-1000_o-m3_s-2498586606.json). |
+| -h   | OPTIONAL | Help: Displays the manual and all available options, then exits the script.                  |
+
+Usage example:
+```
+./follow_up_generator.sh -e EO1 -m eo1 -r "MR1,MR3" -t [1-10,15,18] -d t-grasp_n-1000_o-m3_s-2498586606.json
+```
+
+
 
 ## Installation for each VLA
 Each VLA needs it's own dependencies and libraries, so we opted to generate a virtual environment for each of them. First, follow the following steps that are common for all the environments execpt for Gr00t.
