@@ -71,7 +71,7 @@ echo -e "${BLUE}➤ Running only for model: ${YELLOW}${specific_model}${NC}"
 mrs=(
   MR1
   MR2
-  #MR3
+  MR3
   MR4
   MR5
 )
@@ -120,7 +120,7 @@ echo -e "━━━━━━━━━━━━━━━━━━━━━━━�
 # Main experiment loop
 
 for mr in "${mrs[@]}"; do
-  echo -e "\n${YELLOW}▶ Running: MR: ${mr} | Model: ${specific_model} | Dataset: ${data}${NC}"
+  echo -e "\n${YELLOW}▶ Running: MR: ${mr} | Model: ${specific_model} | Dataset: ${python_tasks_array}${NC}"
   MUJOCO_GL="glx" \
 SAPIEN_RENDER_BACKEND="glx" \
 xvfb-run -s "-screen 0 1600x1200x24 +extension GLX" -a python3.10 Follow_up_test_case_launcher.py --mr "${mr}" --model "${specific_model}" --tasks "${python_tasks_array}"

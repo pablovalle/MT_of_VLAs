@@ -76,7 +76,7 @@ echo -e "${BLUE}➤ Running only for model: ${YELLOW}${specific_model}${NC}"
 mrs=(
   MR1
   MR2
-  #MR3
+  MR3
   MR4
   MR5
 )
