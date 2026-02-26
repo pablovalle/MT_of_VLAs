@@ -25,7 +25,7 @@ import numpy as np
 RANDOM_SEED=42
 random.seed()
 # Known MR codes
-KNOWN_MRS = ["C_MR1", "C_MR2", "V_MR1", "V_MR2"]
+KNOWN_MRS = ["MR1", "MR2", "MR3", "MR4", "MR5"]
 OFFSET_DISTANCE=0.1
 NUM_OF_TASKS=20
 
@@ -60,6 +60,7 @@ def expand_task_spec(spec: str) -> List[int]:
       "1,3,7" -> [1,3,7]
       "0-2,5,8-9" -> [0,1,2,5,8,9]
     """
+    spec=spec[1:-1]
     out = set()
     parts = [p.strip() for p in spec.split(",") if p.strip()]
     for part in parts:
@@ -481,10 +482,10 @@ def create_for_V_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
 
 # Map MR code -> function
 MR_FUNCTIONS = {
-    "C_MR1": create_for_C_MR1,
-    "C_MR2": create_for_C_MR2,
-    "V_MR1": create_for_V_MR1,
-    "V_MR2": create_for_V_MR2,
+    "MR1": create_for_C_MR1,
+    "MR2": create_for_C_MR2,
+    "MR4": create_for_V_MR1,
+    "MR5": create_for_V_MR2,
 }
 
 # ---------------------------
@@ -566,18 +567,19 @@ def main():
     #mr="V_MR2"
     #model="pi0"
     #dataset="data/t-grasp_n-1000_o-m3_s-2498586606.json"
-
+    if args.tasks!="None":
+        task_ids = expand_task_spec(args.tasks)
+    else:
+        try:
+        #task_ids=[0]
+        #task_ids = expand_task_spec(args.tasks)
+            task_ids, quality_of_tasks = get_from_human_eval(model,dataset)
+        except Exception as e:
+            logging.error("Invalid --tasks spec: %s", e)
+            raise SystemExit(3)
     if mr not in KNOWN_MRS:
         logging.error("Unknown MR '%s'. Known MRs: %s", mr, ", ".join(KNOWN_MRS))
         raise SystemExit(2)
-
-    try:
-        #task_ids=[0]
-        #task_ids = expand_task_spec(args.tasks)
-        task_ids, quality_of_tasks = get_from_human_eval(model,dataset)
-    except Exception as e:
-        logging.error("Invalid --tasks spec: %s", e)
-        raise SystemExit(3)
     outdir = Path(f"../data/FollowUp/{model}")
     overwrite= False
     run_for_mr(mr, task_ids, outdir,dataset, overwrite=overwrite)

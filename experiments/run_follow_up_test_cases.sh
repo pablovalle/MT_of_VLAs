@@ -23,26 +23,21 @@ show_help() {
   echo -e "  ${YELLOW}-r${NC}  ${BLUE}[OPTIONAL]${NC} Metamorphic Relations (MRs). Accepts single or multiple values"
   echo -e "      separated by commas or spaces. Example: \"MR1,MR2,MR5\"."
   echo -e "      Default: MR1, MR2, MR3, MR4, MR5."
-  echo -e "  ${YELLOW}-t${NC}  ${BLUE}[OPTIONAL]${NC} Specific Task IDs to filter the execution."
-  echo -e "      in an array way separated with commas. Example: [1] or [1,2,3,4]"
-  echo -e "      in a range of values separated with -. Example: [1-10] or [1-10,20-25]"
-  echo -e "      Default: None (runs all tasks that have been marked as pass in the human evaluation)."
   echo -e "  ${YELLOW}-d${NC}  ${BLUE}[OPTIONAL]${NC} Filename of the dataset JSON."
-  echo -e "      one or various separated with commas. Example: t-grasp_n-1000_o-m3_s-2498586606.json,t-move_n-1000_o-m3_s-2263834374.json"
-  echo -e "      Default: Runs the 4 standard datasets (t-grasp_n-1000_o-m3_s-2498586606.json, t-move_n-1000_o-m3_s-2263834374.json, t-put-in_n-1000_o-m3_s-2905191776.json, t-put-on_n-1000_o-m3_s-2593734741.json)."
+  echo -e "      one or various separated with commas. Example: grasp,move"
+  echo -e "      Default: Runs the 4 standard datasets (grasp, move, put-in, put-on)."
   echo -e "  ${YELLOW}-h${NC}  Show this help message."
   echo -e ""
   echo -e "${GREEN}USAGE EXAMPLE${NC}"
-  echo -e "  $0 -e EO1 -m eo1 -r \"MR1,MR3\" -t [1-10,15,18] -d t-grasp_n-1000_o-m3_s-2498586606.json"
+  echo -e "  $0 -e EO1 -m eo1 -r \"MR1,MR3\" -d grasp"
   exit 0
 }
 
-while getopts "e:m:r:t:d:h" opt; do
+while getopts "e:m:r:d:h" opt; do
   case $opt in
     e) conda_env="$OPTARG" ;;
     m) specific_model="$OPTARG" ;;
     r) mr_one="$OPTARG" ;;
-    t) task_ids="$OPTARG" ;;
     d) dataset="$OPTARG" ;;
     h) show_help ;;
     *) exit 1 ;;
@@ -51,7 +46,7 @@ done
 
 if [[ -z "$conda_env" || -z "$specific_model" ]]; then
   echo -e "${RED}Error: Conda environment name (-e) and model (-m) are required.${NC}"
-  echo -e "Usage: ${YELLOW}./run_Follow_up_generator.sh -e <env> -m <model> [-r <mr>] [-t <tasks>] [-d <dataset>]${NC}"
+  echo -e "Usage: ${YELLOW}./run_Follow_up_generator.sh -e <env> -m <model> [-r <mr>] [-d <dataset>]${NC}"
   exit 1
 fi
 
@@ -97,11 +92,14 @@ fi
 
 # Define datasets
 datasets=(
-  t-grasp_n-1000_o-m3_s-2498586606.json
-  t-move_n-1000_o-m3_s-2263834374.json
-  t-put-in_n-1000_o-m3_s-2905191776.json
-  t-put-on_n-1000_o-m3_s-2593734741.json
+  grasp
+  move
+  put-on
+  put-in
 )
+formatted_list=$(printf "'%s', " "${datasets[@]}")
+# Remove the trailing comma and space, then wrap in brackets
+python_tasks_array="[${formatted_list%, }]"
 
 
 if [[ -n "$dataset" ]]; then
@@ -116,24 +114,24 @@ fi
 
 # Start banner
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "      🚀 Launching Follow-up Test Generator"
+echo -e "      🚀 Launching Follow-up Test Launcher"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 
 # Main experiment loop
-for data in "${datasets[@]}"; do
 
-  for mr in "${mrs[@]}"; do
-    echo -e "\n${YELLOW}▶ Running: MR: ${mr} | Model: ${specific_model} | Dataset: ${data}${NC}"
-    python3.10 Follow_up_test_case_generator.py --mr "${mr}" --model "${specific_model}" --dataset "../data/${data}" --tasks "${tasks}"
+for mr in "${mrs[@]}"; do
+  echo -e "\n${YELLOW}▶ Running: MR: ${mr} | Model: ${specific_model} | Dataset: ${data}${NC}"
+  MUJOCO_GL="glx" \
+SAPIEN_RENDER_BACKEND="glx" \
+xvfb-run -s "-screen 0 1600x1200x24 +extension GLX" -a python3.10 Follow_up_test_case_launcher.py --mr "${mr}" --model "${specific_model}" --tasks "${python_tasks_array}"
 
-    if [[ $? -ne 0 ]]; then
-      echo -e "${RED}✘ Failed: ${specific_model} on ${data}${NC}"
-    else
-      echo -e "${GREEN}✔ Completed: ${specific_model} on ${data}${NC}"
-    fi
-  done
-
+  if [[ $? -ne 0 ]]; then
+    echo -e "${RED}✘ Failed: ${specific_model} on ${data}${NC}"
+  else
+    echo -e "${GREEN}✔ Completed: ${specific_model} on ${data}${NC}"
+  fi
 done
+
 
 # Done!
 echo -e "\n${GREEN}🎉 All experiments completed successfully.${NC}"
