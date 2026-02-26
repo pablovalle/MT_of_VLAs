@@ -28,7 +28,7 @@ For the installation and usage of this repository there are two alternatives:
 Below you can find a furhter guide on how to setup for both cases:
 
 <details>
-<summary><h2><b>Using Docker (Highly recommended)</b></h2></summary>
+<summary><h3><b>Using Docker (Highly recommended)</b></h3></summary>
 
 Using Docker handles the complex installation of robotics simulators and specific CUDA requirements. For that we provide a [Dockerfile](Dockerfile) and also we provide a Docker image at [Dockerhub](https://hub.docker.com/r/pvalleentrena/mt_of_vlas). before starting ensure you have installed docker and that you can passthrough your GPU to the docker.
 
@@ -62,10 +62,11 @@ Using Docker handles the complex installation of robotics simulators and specifi
 </details>
 
 <details>
-<summary name="Building from source"><h2><b>Building from source</b></h2></summary>
+<summary name="Building from source"><h3><b>Building from source</b></h3></summary>
 
 If you prefer to install locally, ensure you have **CUDA 12.1+** installed (we tested it using Cuda 12.1).
 Install the following commands (We tested it in an Ubuntu 22.04 machine):
+
 1. **The core graphics, audio, and utility packages:**
 
 ```bash
@@ -111,8 +112,8 @@ cd MT_of_VLAs
 
 
 ## Usage:
-
-1. **Setting up the conda environment and downloading the models**
+<details>
+<summary><h3><b>Setting up the conda environment and downloading the models</summary></h3></b>
 
 Once everything is sat up and you can access to the repository either on your local machine or inside the docker, for each VLA one conda environment will be generated and the corresponding models will be downloaded, for that inside [environment_mount](/environment_mount/) you can find one ```.sh``` file for each model. To setup the environment and download the models:
 
@@ -122,8 +123,9 @@ cd {this_repo/environment_mount}
 ```
 
 Once it finishes, you will find the model weights inside [checkpoints](/checkpoints/) folder and you will have the corresponding conda environment wiht the same name as the ```.sh``` file your launched. For example if you launched ```EO1.sh``` you will have a conda env called EO1.
-
-2. **Generating the follow-up test cases**
+</details>
+<details>
+<summary><h3><b>Generating the follow-up test cases</summary></h3></b>
 
 To generate the follow-up test cases just a .sh file should be ran:
 
@@ -145,7 +147,8 @@ Usage example:
 ```
 ./follow_up_generator.sh -e EO1 -m eo1 -r MR1,MR3 -t [1-10,15,18] -d t-grasp_n-1000_o-m3_s-2498586606.json
 ```
-
+</details>
+<details>
 
 
 ## Installation for each VLA
