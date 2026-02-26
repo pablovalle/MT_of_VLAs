@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 3,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "blue_plastic_bottle",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.37847413689341414,
+            0.05813708416900765
+          ],
+          "init_rot_quat": [
+            0.26199291234922034,
+            0.0,
+            0.0,
+            0.9650697974130026
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.4897808502102875,
+            0.18729781994510739
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.41193149569672205,
+            0.32554627375628864
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move pepsi can near blue plastic bottle"
+  }
+]

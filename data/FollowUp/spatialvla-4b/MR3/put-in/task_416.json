@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 416,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "dummy_sink_target_plane",
+        "opened_fanta_can",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.13294383436298252,
+            0.16620284712593195
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.16357579718962426,
+            0.15371190086619468
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.15989421445947036,
+            0.11777554612209229
+          ],
+          "init_rot_quat": [
+            0.9744816494760469,
+            0.0,
+            0.0,
+            -0.224467179860315
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the blue plastic bottle into the yellow basket"
+  }
+]

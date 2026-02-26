@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 420,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "dummy_sink_target_plane",
+        "opened_fanta_can",
+        "apple",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.19058830427309817,
+            0.11846019438656215
+          ],
+          "init_rot_quat": [
+            0.9819100253073417,
+            0.0,
+            0.0,
+            0.1893480979596453
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.18582433003105975,
+            0.15048378837212312
+          ],
+          "init_rot_quat": [
+            0.49878568039945403,
+            0.0,
+            0.0,
+            -0.866725357324022
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.14588385684815183,
+            0.12944582563649684
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.19086005225141472,
+            0.10175409117437458
+          ],
+          "init_rot_quat": [
+            0.341149506475557,
+            0.0,
+            0.0,
+            0.9400090500795638
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the eggplant into the yellow basket"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 452,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "dummy_sink_target_plane",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.12397310715931317,
+            0.1690342940588755
+          ],
+          "init_rot_quat": [
+            0.9976061288134408,
+            0.0,
+            0.0,
+            -0.069152091464109
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.13221912974127786,
+            0.15657619246152962
+          ],
+          "init_rot_quat": [
+            0.5850366821166751,
+            0.0,
+            0.0,
+            0.811006831400274
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the 7up can into the yellow basket"
+  }
+]

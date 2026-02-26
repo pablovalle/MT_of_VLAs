@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 218,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "apple",
+        "bridge_spoon_generated_modified",
+        "opened_fanta_can",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.17213530516342795,
+            0.20448190177999406
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.4183849822322493,
+            0.2690577016113191
+          ],
+          "init_rot_quat": [
+            0.9610981170480715,
+            0.0,
+            0.0,
+            -0.27620718565354435
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.23367742292011134,
+            0.044346608823728983
+          ],
+          "init_rot_quat": [
+            0.654987020824409,
+            0.0,
+            0.0,
+            -0.7556401276742556
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.22118300076728586,
+            0.35959634836667803
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.41567936856599247,
+            0.08644253211001991
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 0,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move fanta can near sponge"
+  }
+]

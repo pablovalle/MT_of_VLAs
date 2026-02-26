@@ -1,0 +1,71 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 77,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.13803786759109493,
+          0.17710092603349947
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "blue_plastic_bottle",
+        "opened_coke_can",
+        "fanta_can"
+      ],
+      "distractor_obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.1623862175149065,
+            0.1652806259842289
+          ],
+          "init_rot_quat": [
+            0.936971243236671,
+            0.0,
+            0.0,
+            -0.3494064815476769
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.3244818105059145,
+            0.26051123279826977
+          ],
+          "init_rot_quat": [
+            0.9990896134445559,
+            0.0,
+            0.0,
+            -0.04266080528081756
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.18635366409846715,
+            0.11244196062937291
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick 7up can"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 170,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_fanta_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.29120054950903407,
+          0.2696548146954645
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "blue_plastic_bottle",
+        "green_cube_3cm"
+      ],
+      "distractor_obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.38551214307526266,
+            0.3371019334223114
+          ],
+          "init_rot_quat": [
+            0.5093803781607258,
+            0.0,
+            0.0,
+            0.8605414750869571
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.2555513821959604,
+            0.13637244916701138
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick fanta can"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 296,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "redbull_can",
+        "sprite_can",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.21927003942035755,
+            0.18786224789404635
+          ],
+          "init_rot_quat": [
+            0.28525538336688677,
+            0.0,
+            0.0,
+            -0.9584515461202044
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.154518003807404,
+            0.040829073650617255
+          ],
+          "init_rot_quat": [
+            0.4382959224294303,
+            0.0,
+            0.0,
+            -0.8988307317741949
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.45108354384653965,
+            0.3311865705296898
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.11522063336134458,
+            0.3750120324975228
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move fanta can near redbull can"
+  }
+]

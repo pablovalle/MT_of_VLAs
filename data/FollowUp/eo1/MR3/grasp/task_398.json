@@ -1,0 +1,45 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 398,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.349273043376345,
+          0.2179656177500438
+        ],
+        "orientation": [
+          0.35118721205393366,
+          0.0,
+          0.0,
+          -0.9363052611674173
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.41732085674182867,
+            0.22000654085120544
+          ],
+          "init_rot_quat": [
+            0.9217167445158945,
+            0.0,
+            0.0,
+            -0.3878636911068388
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick blue plastic bottle"
+  }
+]

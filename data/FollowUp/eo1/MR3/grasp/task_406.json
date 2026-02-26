@@ -1,0 +1,28 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 406,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_redbull_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.36091114470953367,
+          0.03679002931851141
+        ],
+        "orientation": [
+          0.25423164717953806,
+          0.0,
+          0.0,
+          -0.9671433552335346
+        ]
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick redbull can"
+  }
+]

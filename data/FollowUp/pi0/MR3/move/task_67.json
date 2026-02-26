@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 67,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "bridge_spoon_generated_modified",
+        "sponge",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.17603099315776533,
+            0.3428339956717291
+          ],
+          "init_rot_quat": [
+            0.6583294760135834,
+            0.0,
+            0.0,
+            0.7527298991083592
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.26320717559930584,
+            0.04537544272790113
+          ],
+          "init_rot_quat": [
+            0.5651895345345365,
+            0.0,
+            0.0,
+            0.824961083962531
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.46053105724038684,
+            0.006869802505402145
+          ],
+          "init_rot_quat": [
+            0.352503627924312,
+            0.0,
+            0.0,
+            -0.9358104467787257
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.46569442916847253,
+            0.27532570807373297
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 2,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move apple near sponge"
+  }
+]

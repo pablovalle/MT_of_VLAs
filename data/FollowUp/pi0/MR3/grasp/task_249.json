@@ -1,0 +1,71 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 249,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "sponge",
+      "obj_init_options": {
+        "init_xy": [
+          -0.2728096278708557,
+          0.17461319135340103
+        ],
+        "orientation": [
+          0.11519038320527496,
+          0.0,
+          0.0,
+          0.993343432865503
+        ]
+      },
+      "distractor_model_ids": [
+        "bridge_carrot_generated_modified",
+        "opened_pepsi_can",
+        "orange"
+      ],
+      "distractor_obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.39822946867112574,
+            0.02827103996832907
+          ],
+          "init_rot_quat": [
+            0.6704220640267005,
+            0.0,
+            0.0,
+            0.7419799566471986
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.4222668344824368,
+            0.3039583825843107
+          ],
+          "init_rot_quat": [
+            0.5791688601547119,
+            0.0,
+            0.0,
+            0.8152076002019926
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.43740775610632865,
+            0.31557107375705606
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick sponge"
+  }
+]

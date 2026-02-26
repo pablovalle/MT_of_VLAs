@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 61,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "bridge_plate_objaverse_larger",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.2768226617672815,
+            -0.008896662005473427
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.11629319934440024,
+            0.01967372987323804
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.10023147924023934,
+            0.09316195865283536
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the eggplant on the plate larger"
+  }
+]

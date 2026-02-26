@@ -1,0 +1,58 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 52,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "green_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.24484777452107703,
+          0.18462588652582795
+        ],
+        "orientation": [
+          0.9773675610279371,
+          0.0,
+          0.0,
+          0.21154822299017698
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_coke_can",
+        "sponge"
+      ],
+      "distractor_obj_init_options": {
+        "opened_coke_can": {
+          "init_xy": [
+            -0.4246960300006842,
+            0.06913480278702915
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.3409680901177591,
+            0.327160408037376
+          ],
+          "init_rot_quat": [
+            0.665777305814594,
+            0.0,
+            0.0,
+            0.7461505069771517
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick green cube"
+  }
+]

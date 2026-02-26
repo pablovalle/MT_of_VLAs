@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 123,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "dummy_sink_target_plane",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.18315217200381986,
+            0.19181743222387268
+          ],
+          "init_rot_quat": [
+            0.2495686220520248,
+            0.0,
+            0.0,
+            0.9683571153696624
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.1705601439535579,
+            0.11805523662734435
+          ],
+          "init_rot_quat": [
+            0.37597685040039014,
+            0.0,
+            0.0,
+            -0.9266290562911368
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the yellow cube into the yellow basket"
+  }
+]

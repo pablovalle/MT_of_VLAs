@@ -1,0 +1,47 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 414,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "dummy_sink_target_plane"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.148859640250928,
+            0.14263793640797634
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the coke can into the yellow basket"
+  }
+]

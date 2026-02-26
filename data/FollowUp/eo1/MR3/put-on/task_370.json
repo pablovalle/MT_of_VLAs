@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 370,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sprite_can",
+        "bridge_plate_objaverse",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.14577635547605156,
+            -0.0988491369839717
+          ],
+          "init_rot_quat": [
+            0.9315485381395104,
+            0.0,
+            0.0,
+            0.3636169978014518
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.03768162494643401,
+            -0.0819234661396221
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.11442366981908939,
+            -0.010116304633054518
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the sprite can on the plate"
+  }
+]

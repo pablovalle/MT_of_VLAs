@@ -1,0 +1,45 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 257,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "green_cube_3cm",
+      "obj_init_options": {
+        "init_xy": [
+          -0.17816670631016823,
+          0.11819279889677543
+        ],
+        "orientation": [
+          0.8393901987677193,
+          0.0,
+          0.0,
+          -0.5435292947143592
+        ]
+      },
+      "distractor_model_ids": [
+        "7up_can"
+      ],
+      "distractor_obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.281080088266012,
+            0.31827265813815014
+          ],
+          "init_rot_quat": [
+            0.09758052820716503,
+            0.0,
+            0.0,
+            0.9952276325116836
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick green cube"
+  }
+]

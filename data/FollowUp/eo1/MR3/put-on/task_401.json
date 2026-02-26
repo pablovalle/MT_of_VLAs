@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 401,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_7up_can",
+        "table_cloth_generated_shorter",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_7up_can": {
+          "init_xy": [
+            -0.21285243191289555,
+            -0.07590854454524658
+          ],
+          "init_rot_quat": [
+            0.8517476776954813,
+            0.0,
+            0.0,
+            0.523952186311265
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.21496197876460088,
+            -0.006725588479214256
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.1500187565652012,
+            -0.06328900154519052
+          ],
+          "init_rot_quat": [
+            0.9687917211586459,
+            0.0,
+            0.0,
+            0.24787618081305937
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the 7up can on the table cloth shorter"
+  }
+]

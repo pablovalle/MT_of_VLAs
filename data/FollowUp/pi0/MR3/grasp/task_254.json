@@ -1,0 +1,28 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 254,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "sprite_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.3706487496812607,
+          0.017978709515878277
+        ],
+        "orientation": [
+          0.8543251991474838,
+          0.0,
+          0.0,
+          0.5197388325896114
+        ]
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick sprite can"
+  }
+]

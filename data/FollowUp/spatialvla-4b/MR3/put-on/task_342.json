@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 342,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "table_cloth_generated",
+        "sponge",
+        "orange",
+        "bridge_carrot_generated_modified"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.21430740363645773,
+            0.03378349851180554
+          ],
+          "init_rot_quat": [
+            0.6918456862140974,
+            0.0,
+            0.0,
+            0.7220453908633063
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.1932190412258612,
+            -0.1568594659870755
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.12598683134529678,
+            -0.1571096253163547
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.18518928097882312,
+            -0.07495452331231744
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.032200514726996865,
+            0.08248935105833305
+          ],
+          "init_rot_quat": [
+            0.9476613785020851,
+            0.0,
+            0.0,
+            0.3192771706457067
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the green cube on the table cloth"
+  }
+]

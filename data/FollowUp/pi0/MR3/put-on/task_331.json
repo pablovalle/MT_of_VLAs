@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 331,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "bridge_plate_objaverse_larger",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.13042436714080227,
+            0.012033335783783294
+          ],
+          "init_rot_quat": [
+            0.9951662466041162,
+            0.0,
+            0.0,
+            -0.09820459062526242
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.0792685914937939,
+            -0.039994453185331305
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.12014098228511164,
+            -0.13666286998695754
+          ],
+          "init_rot_quat": [
+            0.8280646084069737,
+            0.0,
+            0.0,
+            -0.5606326821581179
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the 7up can on the plate larger"
+  }
+]

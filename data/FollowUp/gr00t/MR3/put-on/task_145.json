@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 145,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "sponge",
+        "table_cloth_generated_shorter",
+        "redbull_can",
+        "blue_plastic_bottle"
+      ],
+      "obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.12068150313955281,
+            0.07754682535615551
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.2566481368186418,
+            0.11541269945944041
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.07836461761844238,
+            -0.11930443953010647
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.25246145278221677,
+            -0.15006517085397691
+          ],
+          "init_rot_quat": [
+            0.810866034465164,
+            0.0,
+            0.0,
+            -0.5852318123194769
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the sponge on the table cloth shorter"
+  }
+]

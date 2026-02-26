@@ -1,0 +1,71 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 3,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "blue_plastic_bottle",
+      "obj_init_options": {
+        "init_xy": [
+          -0.11231488971104897,
+          0.03010123983264079
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "opened_pepsi_can",
+        "bridge_carrot_generated_modified",
+        "sponge"
+      ],
+      "distractor_obj_init_options": {
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.22151180895442657,
+            0.19478440277188014
+          ],
+          "init_rot_quat": [
+            0.9944997622690712,
+            0.0,
+            0.0,
+            0.104738831608725
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.3616210294925105,
+            0.23355340934552796
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.2943484724615477,
+            0.35427468727903755
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick blue plastic bottle"
+  }
+]

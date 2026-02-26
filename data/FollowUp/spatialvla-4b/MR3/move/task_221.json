@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 221,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "opened_fanta_can",
+        "opened_pepsi_can",
+        "opened_coke_can",
+        "orange"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.4088236780765366,
+            0.13555764180716934
+          ],
+          "init_rot_quat": [
+            0.7961147346690355,
+            0.0,
+            0.0,
+            -0.6051457091005861
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.12027942647819384,
+            0.2594556500063256
+          ],
+          "init_rot_quat": [
+            0.4247652308021415,
+            0.0,
+            0.0,
+            -0.9053035395388684
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.44128195072285464,
+            0.35564482231068817
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.11910123759596858,
+            0.06325767644601825
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.28485512707058047,
+            0.2659144288272756
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 4,
+      "target_obj_id": 2,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move orange near pepsi can"
+  }
+]

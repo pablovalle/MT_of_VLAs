@@ -1,0 +1,47 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 14,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.26096017617580797,
+            0.39111002880494555
+          ],
+          "init_rot_quat": [
+            0.25666721393978864,
+            0.0,
+            0.0,
+            -0.9664998402940307
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.31506907071340806,
+            0.14736630972028594
+          ],
+          "init_rot_quat": [
+            0.2735298114683506,
+            0.0,
+            0.0,
+            0.961863525786319
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move apple near sponge"
+  }
+]

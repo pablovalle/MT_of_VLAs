@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 451,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse_larger",
+        "orange",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.0874856104022822,
+            -0.017855584679691144
+          ],
+          "init_rot_quat": [
+            0.32390749197926233,
+            0.0,
+            0.0,
+            -0.9460887572737053
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.13592681182493233,
+            -0.15032880446862998
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.28366890508539006,
+            -0.11891630561459178
+          ],
+          "init_rot_quat": [
+            0.98638903171965,
+            0.0,
+            0.0,
+            0.1644283372876204
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.21080852014832957,
+            -0.043689061573890506
+          ],
+          "init_rot_quat": [
+            0.8451210077290471,
+            0.0,
+            0.0,
+            0.5345750483281463
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the green cube on the plate larger"
+  }
+]

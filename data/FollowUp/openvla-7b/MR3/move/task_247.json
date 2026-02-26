@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 247,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "opened_pepsi_can",
+        "orange",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.43368419748406356,
+            0.02814637978962833
+          ],
+          "init_rot_quat": [
+            0.05615729024266153,
+            0.0,
+            0.0,
+            -0.9984219342305143
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.1370928510791134,
+            0.3004108510917413
+          ],
+          "init_rot_quat": [
+            0.9348971560674585,
+            0.0,
+            0.0,
+            0.3549187337644747
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.303418504135481,
+            0.29838131235711635
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.13029880998305254,
+            0.027634459946292145
+          ],
+          "init_rot_quat": [
+            0.05216260827332619,
+            0.0,
+            0.0,
+            0.9986386044501402
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 3,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move pepsi can near fanta can"
+  }
+]

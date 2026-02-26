@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 292,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "redbull_can",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.2914502668186634,
+            0.06814858174862178
+          ],
+          "init_rot_quat": [
+            0.4970907011512755,
+            0.0,
+            0.0,
+            0.8676985852408273
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.10501971460463383,
+            0.30283039252094307
+          ],
+          "init_rot_quat": [
+            0.7357924384112742,
+            0.0,
+            0.0,
+            0.6772071230995664
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.49172324694259867,
+            0.07384349480675932
+          ],
+          "init_rot_quat": [
+            0.3710410548123468,
+            0.0,
+            0.0,
+            -0.9286164631556675
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move redbull can near coke can"
+  }
+]

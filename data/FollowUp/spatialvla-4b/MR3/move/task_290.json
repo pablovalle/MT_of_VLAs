@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 290,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "eggplant",
+        "blue_plastic_bottle",
+        "bridge_carrot_generated_modified",
+        "orange",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "eggplant": {
+          "init_xy": [
+            -0.2413960527068954,
+            0.037971051148278395
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.44191693759338657,
+            0.12998566142172968
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.10233765361256386,
+            0.353128062219042
+          ],
+          "init_rot_quat": [
+            0.9951464625678467,
+            0.0,
+            0.0,
+            0.09840486796242037
+          ]
+        },
+        "orange": {
+          "init_xy": [
+            -0.35876402892863124,
+            0.3463553944994407
+          ],
+          "init_rot_quat": [
+            0.9971292481843806,
+            0.0,
+            0.0,
+            -0.07571830964338647
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.16834244871567144,
+            0.17317111272662591
+          ],
+          "init_rot_quat": [
+            0.8322339091343683,
+            0.0,
+            0.0,
+            -0.5544246752147021
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 4,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move orange near sprite can"
+  }
+]

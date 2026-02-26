@@ -1,0 +1,47 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 133,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_spoon_generated_modified",
+        "table_cloth_generated"
+      ],
+      "obj_init_options": {
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.2759790902892185,
+            0.04763956707430181
+          ],
+          "init_rot_quat": [
+            0.9061643907206721,
+            0.0,
+            0.0,
+            0.42292564002414545
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.26861780178084976,
+            0.09754362658839313
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the spoon on the table cloth"
+  }
+]

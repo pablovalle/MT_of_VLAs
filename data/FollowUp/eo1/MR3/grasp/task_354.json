@@ -1,0 +1,45 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 354,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "eggplant",
+      "obj_init_options": {
+        "init_xy": [
+          -0.22521323073388416,
+          0.04998670809305548
+        ],
+        "orientation": [
+          0.9779888202576049,
+          0.0,
+          0.0,
+          0.20865729666402308
+        ]
+      },
+      "distractor_model_ids": [
+        "sprite_can"
+      ],
+      "distractor_obj_init_options": {
+        "sprite_can": {
+          "init_xy": [
+            -0.4158980073261166,
+            0.325507548772056
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick eggplant"
+  }
+]

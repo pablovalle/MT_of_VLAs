@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 315,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "fanta_can",
+        "pepsi_can",
+        "7up_can",
+        "bridge_carrot_generated_modified",
+        "redbull_can"
+      ],
+      "obj_init_options": {
+        "fanta_can": {
+          "init_xy": [
+            -0.4482953834923843,
+            0.026428285212241144
+          ],
+          "init_rot_quat": [
+            0.8932228846549859,
+            0.0,
+            0.0,
+            0.44961414382626547
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.10531497103446652,
+            0.39870208826842224
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.3031035918126018,
+            0.38841377433490615
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.16356007056693556,
+            0.1626943547475137
+          ],
+          "init_rot_quat": [
+            0.3895223206835052,
+            0.0,
+            0.0,
+            -0.9210170257326064
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.363804390499205,
+            0.1879050131856598
+          ],
+          "init_rot_quat": [
+            0.9982813258917931,
+            0.0,
+            0.0,
+            0.05860370616030711
+          ]
+        }
+      },
+      "source_obj_id": 4,
+      "target_obj_id": 0,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move redbull can near fanta can"
+  }
+]

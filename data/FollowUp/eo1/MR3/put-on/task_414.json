@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 414,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_sprite_can",
+        "bridge_plate_objaverse_larger",
+        "redbull_can",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.22883226701872517,
+            0.07627228471371017
+          ],
+          "init_rot_quat": [
+            0.8003272341032566,
+            0.0,
+            0.0,
+            0.5995634398065239
+          ]
+        },
+        "bridge_plate_objaverse_larger": {
+          "init_xy": [
+            -0.26312690610011136,
+            -0.084269826598909
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.07559483470172162,
+            0.09882767266039413
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.08802490870759297,
+            0.03004263208460689
+          ],
+          "init_rot_quat": [
+            0.5230318881751617,
+            0.0,
+            0.0,
+            -0.8523131137979312
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the sprite can on the plate larger"
+  }
+]

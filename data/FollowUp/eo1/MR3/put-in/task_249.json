@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 249,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "dummy_sink_target_plane",
+        "sponge",
+        "bridge_spoon_generated_modified",
+        "opened_redbull_can"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.16246927362744384,
+            0.12479408218669771
+          ],
+          "init_rot_quat": [
+            0.8682316510972288,
+            0.0,
+            0.0,
+            -0.4961590471139068
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.17058718248239707,
+            0.16949988972898683
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.1694163627571273,
+            0.12896303157765515
+          ],
+          "init_rot_quat": [
+            0.8956462412512266,
+            0.0,
+            0.0,
+            0.4447671419209715
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.10895951693949203,
+            0.17558775319046532
+          ],
+          "init_rot_quat": [
+            0.9668895023708066,
+            0.0,
+            0.0,
+            -0.2551953961284058
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the fanta can into the yellow basket"
+  }
+]

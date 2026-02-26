@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 192,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "dummy_sink_target_plane",
+        "yellow_cube_3cm",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.13054808489644448,
+            0.1663474558465481
+          ],
+          "init_rot_quat": [
+            0.033332156028794024,
+            0.0,
+            0.0,
+            0.9994443293022739
+          ]
+        },
+        "dummy_sink_target_plane": {
+          "init_xy": [
+            -0.125,
+            0.025
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.18088969381464198,
+            0.13579760739487168
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.16580110135065665,
+            0.19728280949210236
+          ],
+          "init_rot_quat": [
+            0.25719208462709336,
+            0.0,
+            0.0,
+            -0.9663603011326417
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the orange into the yellow basket"
+  }
+]

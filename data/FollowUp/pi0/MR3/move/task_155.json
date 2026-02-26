@@ -1,0 +1,47 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 155,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "pepsi_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.1362800540369829,
+            0.009172872146575407
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.1889615226410597,
+            0.2889485600902194
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move orange near pepsi can"
+  }
+]

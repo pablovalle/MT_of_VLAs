@@ -1,0 +1,47 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 58,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "opened_sprite_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.15135731105633454,
+            0.32819642727190435
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_sprite_can": {
+          "init_xy": [
+            -0.251308356816457,
+            0.17520012062107965
+          ],
+          "init_rot_quat": [
+            0.5635916514328707,
+            0.0,
+            0.0,
+            -0.8260535396904789
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move sprite can near carrot"
+  }
+]

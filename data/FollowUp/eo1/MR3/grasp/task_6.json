@@ -1,0 +1,28 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 6,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "eggplant",
+      "obj_init_options": {
+        "init_xy": [
+          -0.21274018239818265,
+          0.2688981532643226
+        ],
+        "orientation": [
+          0.5001687073117027,
+          0.0,
+          0.0,
+          -0.8659279786599693
+        ]
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick eggplant"
+  }
+]

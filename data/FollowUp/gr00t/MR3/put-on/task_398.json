@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 398,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse",
+        "opened_fanta_can",
+        "sponge",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.1921648693649463,
+            0.07780105184074146
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.2195799256039602,
+            -0.11915331622303192
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.22400360875804806,
+            -0.039461231188193224
+          ],
+          "init_rot_quat": [
+            0.033761941810194006,
+            0.0,
+            0.0,
+            -0.9994299031373861
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.16256547976299338,
+            -0.12887288894662519
+          ],
+          "init_rot_quat": [
+            0.978032777882365,
+            0.0,
+            0.0,
+            -0.20845115827863508
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.12699956800808115,
+            0.054669679931063475
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the green cube on the plate"
+  }
+]

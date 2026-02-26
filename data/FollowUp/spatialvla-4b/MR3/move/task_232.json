@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 232,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "apple",
+        "opened_redbull_can",
+        "yellow_cube_3cm"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.17070615832244712,
+            0.305729925762661
+          ],
+          "init_rot_quat": [
+            0.7109756013261862,
+            0.0,
+            0.0,
+            0.7032166766501402
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.13613662597475834,
+            0.1555258033559992
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_redbull_can": {
+          "init_xy": [
+            -0.4791198213476292,
+            0.09859139659907874
+          ],
+          "init_rot_quat": [
+            0.4936525403901542,
+            0.0,
+            0.0,
+            0.8696592259996712
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.41372491463837135,
+            0.3674229314549013
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 2,
+      "target_obj_id": 3,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move redbull can near yellow cube"
+  }
+]

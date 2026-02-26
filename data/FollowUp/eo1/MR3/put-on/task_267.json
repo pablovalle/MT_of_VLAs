@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 267,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "table_cloth_generated",
+        "yellow_cube_3cm",
+        "opened_coke_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.2451130868740357,
+            0.008853779368681175
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.29451442564261643,
+            -0.01678518160968495
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.015609207088689958,
+            -0.005180935848383694
+          ],
+          "init_rot_quat": [
+            0.6818616990828515,
+            0.0,
+            0.0,
+            0.731481116177203
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.09872710776605031,
+            -0.09360978727838777
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.14442509015392943,
+            -0.018907715200407793
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the apple on the table cloth"
+  }
+]

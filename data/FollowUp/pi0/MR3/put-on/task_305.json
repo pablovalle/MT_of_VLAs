@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 305,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "bridge_plate_objaverse",
+        "pepsi_can",
+        "apple"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.09961145268915192,
+            -0.10956735067532497
+          ],
+          "init_rot_quat": [
+            0.9756162091544912,
+            0.0,
+            0.0,
+            0.21948351290021775
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.165240686693695,
+            -0.13722686181871946
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.12778136512876806,
+            -0.06669595205597526
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.15343821344089523,
+            0.09448720457066609
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the yellow cube on the plate"
+  }
+]

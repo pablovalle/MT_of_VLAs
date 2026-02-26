@@ -1,0 +1,47 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 15,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "bridge_plate_objaverse"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.15548001179599327,
+            0.05647581260479845
+          ],
+          "init_rot_quat": [
+            0.9426881150855718,
+            0.0,
+            0.0,
+            0.33367516790497276
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.2394673445931635,
+            0.0825528700045525
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the green cube on the plate"
+  }
+]

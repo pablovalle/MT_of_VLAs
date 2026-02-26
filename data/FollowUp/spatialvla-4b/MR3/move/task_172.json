@@ -1,0 +1,47 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 172,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "green_cube_3cm",
+        "sponge"
+      ],
+      "obj_init_options": {
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.27983543924540866,
+            0.14622753250548404
+          ],
+          "init_rot_quat": [
+            0.8426997052488222,
+            0.0,
+            0.0,
+            -0.5383838842067509
+          ]
+        },
+        "sponge": {
+          "init_xy": [
+            -0.3548611643289048,
+            0.3302312730161745
+          ],
+          "init_rot_quat": [
+            0.602146800549716,
+            0.0,
+            0.0,
+            -0.7983853897634527
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 0,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move sponge near green cube"
+  }
+]

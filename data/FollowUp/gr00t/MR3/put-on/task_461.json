@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 461,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "apple",
+        "table_cloth_generated",
+        "eggplant",
+        "opened_fanta_can"
+      ],
+      "obj_init_options": {
+        "apple": {
+          "init_xy": [
+            -0.13940977581514588,
+            0.010367401210405996
+          ],
+          "init_rot_quat": [
+            0.7982296255681834,
+            0.0,
+            0.0,
+            0.6023532724782673
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.24095452727046168,
+            0.05803001168462607
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.21998200300202525,
+            -0.11955014439295669
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.02969615773540568,
+            -0.08079427350459822
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the apple on the table cloth"
+  }
+]

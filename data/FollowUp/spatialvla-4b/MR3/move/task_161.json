@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 161,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "7up_can",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.4089373678871838,
+            0.11948964608440438
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.31940048805703747,
+            0.3276359961763309
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.15223730385688938,
+            0.027770082425625953
+          ],
+          "init_rot_quat": [
+            0.10573229917641425,
+            0.0,
+            0.0,
+            0.9943946303710963
+          ]
+        }
+      },
+      "source_obj_id": 1,
+      "target_obj_id": 2,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move 7up can near green cube"
+  }
+]

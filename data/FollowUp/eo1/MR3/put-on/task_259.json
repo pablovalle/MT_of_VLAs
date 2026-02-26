@@ -1,0 +1,86 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 259,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "opened_fanta_can",
+        "bridge_plate_objaverse",
+        "pepsi_can",
+        "redbull_can",
+        "eggplant"
+      ],
+      "obj_init_options": {
+        "opened_fanta_can": {
+          "init_xy": [
+            -0.21198205473369003,
+            -0.015419867736133352
+          ],
+          "init_rot_quat": [
+            0.3937488083808036,
+            0.0,
+            0.0,
+            -0.9192180785312576
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.030340768491619208,
+            0.10239990353279574
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "pepsi_can": {
+          "init_xy": [
+            -0.12171386522491265,
+            0.10629715107321333
+          ],
+          "init_rot_quat": [
+            0.4099320813829243,
+            0.0,
+            0.0,
+            -0.9121160499920301
+          ]
+        },
+        "redbull_can": {
+          "init_xy": [
+            -0.0023189563536402114,
+            -0.05301866665397098
+          ],
+          "init_rot_quat": [
+            0.9475153921621451,
+            0.0,
+            0.0,
+            0.319710152506636
+          ]
+        },
+        "eggplant": {
+          "init_xy": [
+            -0.26603613049163766,
+            -0.1112911539157564
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the fanta can on the plate"
+  }
+]

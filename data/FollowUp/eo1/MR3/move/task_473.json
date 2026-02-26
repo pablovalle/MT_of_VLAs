@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 473,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "sprite_can",
+        "opened_coke_can",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.3683734415808747,
+            0.11445984825727412
+          ],
+          "init_rot_quat": [
+            0.9741730985653964,
+            0.0,
+            0.0,
+            0.22580251112752156
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.1463108133773457,
+            0.24232888458004914
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.374741520841948,
+            0.3584836864125971
+          ],
+          "init_rot_quat": [
+            0.7807090359834638,
+            0.0,
+            0.0,
+            0.6248947120385727
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.10461005158068304,
+            0.08527956049767114
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move fanta can near sprite can"
+  }
+]

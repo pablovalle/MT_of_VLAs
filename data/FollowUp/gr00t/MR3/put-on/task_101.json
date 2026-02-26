@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 101,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "blue_plastic_bottle",
+        "bridge_plate_objaverse",
+        "sprite_can"
+      ],
+      "obj_init_options": {
+        "blue_plastic_bottle": {
+          "init_xy": [
+            -0.2609641474898774,
+            -0.13950495405016836
+          ],
+          "init_rot_quat": [
+            0.5998946487608652,
+            0.0,
+            0.0,
+            -0.800079002591668
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.13795498176369672,
+            0.011447802706713722
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "sprite_can": {
+          "init_xy": [
+            -0.18510600154937584,
+            0.11615140391113918
+          ],
+          "init_rot_quat": [
+            0.9983003770727424,
+            0.0,
+            0.0,
+            -0.05827827327933035
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the blue plastic bottle on the plate"
+  }
+]

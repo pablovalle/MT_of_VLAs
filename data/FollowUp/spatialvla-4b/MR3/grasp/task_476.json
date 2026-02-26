@@ -1,0 +1,28 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 476,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "bridge_carrot_generated_modified",
+      "obj_init_options": {
+        "init_xy": [
+          -0.17666852784574427,
+          0.38377875038947273
+        ],
+        "orientation": [
+          0.6953496500384767,
+          0.0,
+          0.0,
+          0.7186715969003978
+        ]
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick carrot"
+  }
+]

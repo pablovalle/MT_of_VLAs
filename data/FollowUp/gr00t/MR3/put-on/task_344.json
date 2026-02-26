@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 344,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "table_cloth_generated",
+        "bridge_spoon_generated_modified"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.1359464741910762,
+            -0.11116725109129198
+          ],
+          "init_rot_quat": [
+            0.952587293220577,
+            0.0,
+            0.0,
+            -0.30426542490840863
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.10961395943620303,
+            0.08551748797197203
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.02367543474570305,
+            -0.04863796178369495
+          ],
+          "init_rot_quat": [
+            0.5083270781731001,
+            0.0,
+            0.0,
+            0.8611640851754089
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the carrot on the table cloth"
+  }
+]

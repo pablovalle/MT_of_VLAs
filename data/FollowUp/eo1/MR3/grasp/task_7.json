@@ -1,0 +1,28 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 7,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_coke_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.46787054429225605,
+          0.27503333641735883
+        ],
+        "orientation": [
+          0.862613739935359,
+          0.0,
+          0.0,
+          0.5058631590407954
+        ]
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick coke can"
+  }
+]

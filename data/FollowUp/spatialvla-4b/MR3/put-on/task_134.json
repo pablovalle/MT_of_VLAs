@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 134,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "bridge_plate_objaverse",
+        "bridge_carrot_generated_modified",
+        "opened_pepsi_can"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.20179803944030852,
+            -0.0879241840194948
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.04526578394343156,
+            -0.03376071276689885
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.0959504732144528,
+            -0.15816693447690353
+          ],
+          "init_rot_quat": [
+            0.7423325801177906,
+            0.0,
+            0.0,
+            -0.6700315966397884
+          ]
+        },
+        "opened_pepsi_can": {
+          "init_xy": [
+            -0.04136022307680143,
+            -0.09729265573356931
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the yellow cube on the plate"
+  }
+]

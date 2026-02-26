@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 424,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "orange",
+        "table_cloth_generated",
+        "opened_coke_can"
+      ],
+      "obj_init_options": {
+        "orange": {
+          "init_xy": [
+            -0.21850889734865137,
+            -0.1330540579541188
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated": {
+          "init_xy": [
+            -0.11006739336607482,
+            -0.04004939630360481
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.09969840882655293,
+            -0.13970644846197883
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the orange on the table cloth"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 203,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "coke_can",
+        "bridge_plate_objaverse",
+        "bridge_spoon_generated_modified",
+        "opened_7up_can"
+      ],
+      "obj_init_options": {
+        "coke_can": {
+          "init_xy": [
+            -0.04512430632718878,
+            0.05225178484608073
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.255393935447714,
+            0.07141346299763282
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.006417281402180286,
+            -0.09398286744340634
+          ],
+          "init_rot_quat": [
+            0.13089437677423846,
+            0.0,
+            0.0,
+            -0.9913963194045475
+          ]
+        },
+        "opened_7up_can": {
+          "init_xy": [
+            -0.17196717955539012,
+            -0.0538644309493468
+          ],
+          "init_rot_quat": [
+            0.26284690242035447,
+            0.0,
+            0.0,
+            -0.9648375541447507
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the coke can on the plate"
+  }
+]

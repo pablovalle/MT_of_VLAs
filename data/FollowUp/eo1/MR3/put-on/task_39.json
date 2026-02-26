@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 39,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "yellow_cube_3cm",
+        "table_cloth_generated_shorter",
+        "apple",
+        "green_cube_3cm"
+      ],
+      "obj_init_options": {
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.2860017161870671,
+            -0.03137291935796155
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "table_cloth_generated_shorter": {
+          "init_xy": [
+            -0.1702139220429764,
+            0.09679104279780507
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "apple": {
+          "init_xy": [
+            -0.265352422236186,
+            -0.10034748437956417
+          ],
+          "init_rot_quat": [
+            0.9643860555961983,
+            0.0,
+            0.0,
+            0.26449864984836174
+          ]
+        },
+        "green_cube_3cm": {
+          "init_xy": [
+            -0.035329840800786105,
+            -0.08074150937177876
+          ],
+          "init_rot_quat": [
+            0.5374455903404388,
+            0.0,
+            0.0,
+            -0.8432984272626253
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the yellow cube on the table cloth shorter"
+  }
+]

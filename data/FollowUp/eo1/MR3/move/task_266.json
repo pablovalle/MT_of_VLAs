@@ -1,0 +1,73 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 266,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "bridge_carrot_generated_modified",
+        "opened_coke_can",
+        "bridge_spoon_generated_modified",
+        "7up_can"
+      ],
+      "obj_init_options": {
+        "bridge_carrot_generated_modified": {
+          "init_xy": [
+            -0.3350761479610744,
+            0.3179179462383935
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "opened_coke_can": {
+          "init_xy": [
+            -0.4821655119186692,
+            0.12275960302667555
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.15727988951952898,
+            0.17506771772167912
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "7up_can": {
+          "init_xy": [
+            -0.20188504473632923,
+            0.0063698192274491035
+          ],
+          "init_rot_quat": [
+            0.704966933090405,
+            0.0,
+            0.0,
+            -0.7092401731776821
+          ]
+        }
+      },
+      "source_obj_id": 3,
+      "target_obj_id": 2,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "move 7up can near spoon"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 91,
+    "follow-up": 0,
+    "task_data": {
+      "model_ids": [
+        "7up_can",
+        "bridge_plate_objaverse",
+        "fanta_can"
+      ],
+      "obj_init_options": {
+        "7up_can": {
+          "init_xy": [
+            -0.23648168361188804,
+            0.009742580998119477
+          ],
+          "init_rot_quat": [
+            0.3064972634076182,
+            0.0,
+            0.0,
+            -0.9518715394020567
+          ]
+        },
+        "bridge_plate_objaverse": {
+          "init_xy": [
+            -0.29340462621382835,
+            0.11119880119568828
+          ],
+          "init_rot_quat": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        "fanta_can": {
+          "init_xy": [
+            -0.16809138789581088,
+            -0.13281781221572853
+          ],
+          "init_rot_quat": [
+            0.5753037342890791,
+            0.0,
+            0.0,
+            0.8179398592274623
+          ]
+        }
+      },
+      "source_obj_id": 0,
+      "target_obj_id": 1,
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "put the 7up can on the plate"
+  }
+]

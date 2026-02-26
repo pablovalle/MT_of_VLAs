@@ -1,0 +1,71 @@
+[
+  {
+    "mr": "C_MR3",
+    "task_id": 112,
+    "follow-up": 0,
+    "task_data": {
+      "model_id": "opened_7up_can",
+      "obj_init_options": {
+        "init_xy": [
+          -0.4159805403642812,
+          0.08495412007657599
+        ],
+        "orientation": [
+          0.7071067811865476,
+          0.7071067811865475,
+          0.0,
+          0.0
+        ]
+      },
+      "distractor_model_ids": [
+        "sponge",
+        "yellow_cube_3cm",
+        "bridge_spoon_generated_modified"
+      ],
+      "distractor_obj_init_options": {
+        "sponge": {
+          "init_xy": [
+            -0.4208243253837641,
+            0.17663857322398446
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        },
+        "yellow_cube_3cm": {
+          "init_xy": [
+            -0.30172353459516,
+            0.10766296594423293
+          ],
+          "init_rot_quat": [
+            0.2680645820862389,
+            0.0,
+            0.0,
+            0.9634009444831005
+          ]
+        },
+        "bridge_spoon_generated_modified": {
+          "init_xy": [
+            -0.4870422747734814,
+            0.13863798582514228
+          ],
+          "init_rot_quat": [
+            0.7071067811865476,
+            0.7071067811865475,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "lighting_cfgs": [
+        "DARK",
+        1.25,
+        5
+      ]
+    },
+    "prompt": "pick 7up can"
+  }
+]
