@@ -395,7 +395,7 @@ def create_for_C_MR1(task_id: int, out_path: Path, task_data, prompt, task_type)
     rest = parts[1] if len(parts) > 1 else ""
 
     candidates = get_synonyms(task_type, num_variants, rest)
-
+    task_data.update({"lighting_cfgs": None})
     payloads = []
     for i, new_prompt in enumerate(candidates):
         payload = {
@@ -427,6 +427,7 @@ def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
     payloads=[]
     #for i, task in enumerate(new_tasks_data):
     #    task
+    new_tasks_data[selected].update({"lighting_cfgs": None})
     payload = {
         "mr": "C_MR2",
         "task_id": task_id,
@@ -439,12 +440,28 @@ def create_for_C_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
     # Write all payloads into the same file as a JSON list
     out_path.write_text(json.dumps(payloads, indent=2))
 
+def create_for_C_MR3(task_id: int, out_path: Path, task_data, prompt, task_type):
+    payloads=[]
+    task_data.update({"lighting_cfgs": ["DARK", 1.25, 5]})
+    payload = {
+        "mr": "C_MR3",
+        "task_id": task_id,
+        "follow-up": 0,
+        "task_data": task_data,
+        "prompt": prompt
+    }
+    payloads.append(payload)
+
+    # Write all payloads into the same file as a JSON list
+    out_path.write_text(json.dumps(payloads, indent=2))
+
+
 def create_for_V_MR1(task_id: int, out_path: Path, task_data, prompt, task_type):
     """V_MR1: Variation pattern add a negative statement in the prompt."""
     num_variants=1
     
     candidates = get_negative(prompt, num_variants)
-
+    task_data.update({"lighting_cfgs": None})
     payloads = []
     for i, new_prompt in enumerate(candidates):
         payload = {
@@ -466,7 +483,7 @@ def create_for_V_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
     new_tasks_data, directions=move_main_object(task_data, task_type, mode, prompt)
     payloads=[]
     selected=random.randint(0,7)
-    
+    new_tasks_data[selected].update({"lighting_cfgs": None})
     #for i, task in enumerate(new_tasks_data):
         #task
     payload = {
@@ -484,6 +501,7 @@ def create_for_V_MR2(task_id: int, out_path: Path, task_data, prompt, task_type)
 MR_FUNCTIONS = {
     "MR1": create_for_C_MR1,
     "MR2": create_for_C_MR2,
+    "MR3": create_for_C_MR3,
     "MR4": create_for_V_MR1,
     "MR5": create_for_V_MR2,
 }
@@ -527,14 +545,23 @@ def run_for_mr(mr_code: str, task_ids: List[int], outdir: Path, dataset, overwri
             logging.exception("Failed to create output for MR=%s task=%s: %s", mr_code, task_id, e)
 
 def get_from_human_eval(model, dataset):
+    """
+    result_folder="../filtered_videos_EO1"
+    dataset_name = dataset.split('/')[-1].split(".")[0]
+    folder=result_folder+f"/{dataset_name}"
+    selected_indexes=[]
+    selected_qualities=[]
+    for filename in os.listdir(folder):
+        selected_indexes.append(int(filename.split("_")[0]))
+        selected_qualities.append("High_Quality")
+    """
     result_folder="../results/human_eval/"
     dataset_name = dataset.split('/')[-1]
     match = re.search(r't-(.*?)_n', dataset_name)
     if match:
         task_type = match.group(1)
-    
+
     file=result_folder+f"final_evaluations_{model}_{task_type}.xlsx"
-    
     data= pd.read_excel(file)
 
     high_samples = data[data['final_evaluation'] == 'High Quality']#.sample(n=np.min([20,len(data[data['final_evaluation'] == 'High Quality'])]), random_state=RANDOM_SEED)
@@ -552,9 +579,10 @@ def get_from_human_eval(model, dataset):
 
     #[selected_indexes.append(i)  for i in sampled_missing]
     #[selected_qualities.append('Failure')  for i in sampled_missing]
+    
 
+    #return list(selected_indexes), list(selected_qualities)
     return selected_indexes, selected_qualities
-
 
 
 def main():
