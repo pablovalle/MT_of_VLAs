@@ -39,7 +39,7 @@ The repository is organized as follows:
 - [Dockerfile](https://github.com/pablovalle/MT_of_VLAs/blob/main/Dockerfile): Docker configuration for building the replication environment. 
 
 ## Provided Datasets
-We provide a comprehensive benchmark for evaluating Vision-Language-Action (VLA) models, including the environments and simulators required to run experiments. Specifically, the benchmark supports five VLA models, [Isaac-Groot](https://github.com/NVIDIA/Isaac-GR00T), [pi0](https://github.com/Physical-Intelligence/openpi), [EO-1](https://github.com/SHAILAB-IPEC/EO1), [OpenVLA](https://github.com/DelinQu/SimplerEnv-OpenVLA), and [SpatialVLA](https://github.com/SpatialVLA/SpatialVLA),across four manipulation tasks and two robotic platforms, corresponding to the [Bridge](https://github.com/rail-berkeley/bridge_data_robot) and [Fractal](https://github.com/google-research/robotics_transformer) datasets.
+We provide a comprehensive benchmark for evaluating Vision-Language-Action (VLA) models, including the environments and simulators required to run experiments. Specifically, the benchmark supports five VLA models, [Isaac-Groot](https://github.com/NVIDIA/Isaac-GR00T), [pi0](https://github.com/Physical-Intelligence/openpi), [EO-1](https://github.com/SHAILAB-IPEC/EO1), [OpenVLA](https://github.com/DelinQu/SimplerEnv-OpenVLA), and [SpatialVLA](https://github.com/SpatialVLA/SpatialVLA), across four manipulation tasks and two robotic platforms, corresponding to the [Bridge](https://github.com/rail-berkeley/bridge_data_robot) and [Fractal](https://github.com/google-research/robotics_transformer) datasets.
 
 For each task (*pick up*, *move near*, *put in*, and *put on*), we include 500 distinct scenes, along with the execution results for each VLA model, enabling standardized comparisons.
 
@@ -61,7 +61,7 @@ There are two ways to install and use this repository:
 
 
 <details>
-<summary><b>Using Docker (Highly recommended)</b></summary>
+<summary><b>Using Docker (Strongly recommended)</b></summary>
 
 Docker simplifies the installation of robotics simulators and CUDA requirements. We provide a [Dockerfile](Dockerfile) and a prebuilt image on [Dockerhub](https://hub.docker.com/r/pvalleentrena/mt_of_vlas). Ensure Docker is installed and GPU passthrough is enabled.
 
@@ -267,5 +267,7 @@ If you find this project useful in your research, please consider cite:
 }
 ```
 
-## Acknowledgement
-This project is built with reference to the code of the following projects: [Isaac-Groot](https://github.com/NVIDIA/Isaac-GR00T), [Lerobot](https://github.com/huggingface/lerobot), [EO-1](https://github.com/SHAILAB-IPEC/EO1), [SimplerEnv-OpenVLA](https://github.com/DelinQu/SimplerEnv-OpenVLA), [VLATest](https://github.com/ma-labo/VLATest), and [Evaluating Uncertainty and Quality of Visual Language Action-enabled Robots](https://github.com/pablovalle/VLA_UQ)
+## Acknowledgements
+This project is built with reference to the code of the following projects: [Isaac-Groot](https://github.com/NVIDIA/Isaac-GR00T), [Lerobot](https://github.com/huggingface/lerobot), [EO-1](https://github.com/SHAILAB-IPEC/EO1), [SimplerEnv-OpenVLA](https://github.com/DelinQu/SimplerEnv-OpenVLA), [VLATest](https://github.com/ma-labo/VLATest), and [Evaluating Uncertainty and Quality of Visual Language Action-enabled Robots](https://github.com/pablovalle/VLA_UQ).
+
+Pablo Valle and Aitor Arrieta are part of the Software and Systems Engineering research group of Mondragon Unibertsitatea (IT1519-22), supported by the Department of Education, Universities and Research of the Basque Country. Pablo Valle is supported by the Pre-doctoral Program for the Formation of Non-Doctoral Research Staff of the Education Department of the Basque Government (Grant n. PRE_2025_2_0252). Shaukat Ali is supported by the Co-tester project (No. 314544) funded by the Research Council of Norway. This work has been partially funded by the Spanish Ministry of Science, Innovation and Universities (project PID2023-152979OA-I00), funded by MCIU/AEI/10.13039/501100011033/FEDER, UE. This paper is also part of the project PID2024-156482NB-I00, funded by MICIU/AEI/10.13039/501100011033 and by the ESF+.
