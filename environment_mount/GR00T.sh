@@ -38,6 +38,9 @@ pip install -e .
 pip install "numpy==1.24.4"
 pip install matplotlib
 pip install openpyxl
+pip install seaborn
+pip install frechetdist
+pip install matplotlib_venn
 echo "--- Downloading Models ---"
 cd "$REPO_DIR/checkpoints"
 python download_model.py nvidia/GR00T-N1.6-bridge

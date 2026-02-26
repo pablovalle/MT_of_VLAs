@@ -14,7 +14,7 @@ Mondragon Unibertsitatea<sup>1</sup>, University of Seville<sup>2</sup> ,Simula 
 ## Installation
 
 <details>
-<summary>### Using Docker (Highly recommended)</summary>
+<summary><b>Using Docker (Highly recommended)</b></summary>
 
 Using Docker handles the complex installation of robotics simulators and specific CUDA requirements.
 
@@ -34,7 +34,7 @@ Using Docker handles the complex installation of robotics simulators and specifi
 </details>
 
 <details>
-<summary>### From source</summary>
+<summary><b>From source</b></summary>
 
 If you prefer to install locally, ensure you have **Python 3.9+** and **CUDA 11.8+** installed.
 

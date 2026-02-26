@@ -32,9 +32,9 @@ def calcualteOracleMR(verdict_orig, verdict_mt, mr):
 
 results = []
 
-base_dir = "results"
+base_dir = "../results"
 #model="openvla-7b"
-mt_results_dir="FollowUp_Results"
+mt_results_dir="../FollowUp_Results"
 task_mapping={"grasp":"t-grasp_n-1000_o-m3_s-2498586606","move":"t-move_n-1000_o-m3_s-2263834374",
               "put-in":"t-put-in_n-1000_o-m3_s-2905191776","put-on":"t-put-on_n-1000_o-m3_s-2593734741"}
 model_mapping={"eo1": "EO-1", "gr00t": "GR00T-N1.5", "openvla-7b": "OpenVLA-7B", "pi0": "pi0", "spatialvla-4b": "SpatialVLA-4B"}
@@ -111,7 +111,7 @@ for threshold in thresholds:
     # Load and concat data
     array_of_dfs = []
     for model_res in os.listdir(mt_results_dir): 
-        data=pd.read_excel(f"result_analysis/RQ1_results_{model_res}.xlsx") 
+        data=pd.read_excel(f"RQ1_results_{model_res}.xlsx") 
         array_of_dfs.append(data) 
     df=pd.concat(array_of_dfs) 
     print(len(df))
@@ -209,5 +209,5 @@ for i,threshold in enumerate(thresholds):
 
 #plt.ylabel("Threshold - Task", fontsize=12)
 plt.tight_layout()
-plt.savefig("heatmap_all_thresholds_single.png", dpi=300, bbox_inches="tight")
+plt.savefig("figures/heatmap_all_thresholds_single.png", dpi=300, bbox_inches="tight")
 plt.show()
