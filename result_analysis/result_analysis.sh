@@ -60,13 +60,13 @@ echo -e "${BLUE}➤ Evaluating the results for all the models ${NC}"
 
 # Start banner
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo -e "      🚀 RQ1 result analisis"
+echo -e "      🚀 Result analysis"
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 
 # Main experiment loop
 
 echo -e "\n${GREEN}▶ Analizing Models${NC}"
-  #python3.10 RQ1_result_analyzer.py
+  python3.10 RQ1_result_analyzer.py
 
 echo -e "\n${GREEN}▶ Analizing the MT thresholds${NC}"
 python3.10 MT_threshold_estimation.py
@@ -76,6 +76,9 @@ python3.10 RQ1_Venn.py
 
 echo -e "\n${GREEN}▶ Generating Heatmap (Figure 4)${NC}"
 python3.10 RQ1_hetamap_distances.py
+
+echo -e "\n${GREEN}▶ Getting the videos for Taxonomy${NC}"
+python3.10 RQ3.py
 
 # Done!
 echo -e "\n${GREEN}🎉 Analisis for RQ1 and RQ2 finished.${NC}"

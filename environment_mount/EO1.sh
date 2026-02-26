@@ -39,6 +39,7 @@ pip install -e .
 echo "--- Installing main package ---"
 cd "$REPO_DIR"
 pip install -e .
+pip install moviepy
 pip install "numpy==1.24.4"
 pip install matplotlib
 pip install openpyxl

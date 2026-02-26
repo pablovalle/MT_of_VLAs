@@ -42,7 +42,7 @@ pip install -r spatialVLA_requirements.txt
 echo "--- Installing transformers ---"
 cd "$REPO_DIR/transformers-4.48.1"
 pip install -e .
-
+pip install moviepy
 pip install "numpy==1.24.4"
 pip install matplotlib
 pip install openpyxl

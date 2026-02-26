@@ -64,9 +64,9 @@ def calcualteOracleMR(verdict_orig, verdict_mt, mr):
     return verdict
 results = []
 
-base_dir = "results"
-model="eo1"
-mt_results_dir="FollowUp_Results"
+base_dir = "../results"
+
+mt_results_dir="../FollowUp_Results"
 task_mapping={"grasp":"t-grasp_n-1000_o-m3_s-2498586606","move":"t-move_n-1000_o-m3_s-2263834374",
               "put-in":"t-put-in_n-1000_o-m3_s-2905191776","put-on":"t-put-on_n-1000_o-m3_s-2593734741"}
 task_mapping2={"t-grasp_n-1000_o-m3_s-2498586606": "grasp","t-move_n-1000_o-m3_s-2263834374": "move",
@@ -108,7 +108,7 @@ def load_json_file(filepath):
     with open(filepath, 'r') as f:
         return json.load(f)
 
-def get_prompts(row, base_data_path="data"):
+def get_prompts(row, base_data_path="../data"):
     """
     Determines the source prompt and the follow-up prompt based on logic.
     Returns: (source_prompt_text, follow_up_prompt_text)
@@ -212,9 +212,9 @@ def process_single_video(args):
         # Resolve paths
         mapped_task = task_mapping.get(task, task)
         
-        path_source = f"results/{mapped_task}/{model}/allMetrics/{scene_id}/{scene_id}_simulation.mp4"
-        path_source2 = f"results/{mapped_task}/{model}/allMetrics/{scene_id}/{scene_id}_simulation_orig.mp4"
-        path_followup = f"FollowUp_Results/{model}/{mr}/{task}/task_{scene_id}/follow_up_{fu_num}/simulation.mp4"
+        path_source = f"../results/{mapped_task}/{model}/allMetrics/{scene_id}/{scene_id}_simulation.mp4"
+        path_source2 = f"../results/{mapped_task}/{model}/allMetrics/{scene_id}/{scene_id}_simulation_orig.mp4"
+        path_followup = f"../FollowUp_Results/{model}/{mr}/{task}/task_{scene_id}/follow_up_{fu_num}/simulation.mp4"
         
         if not os.path.exists(path_source) and os.path.exists(path_source2):
             path_source = path_source2
@@ -328,7 +328,7 @@ def process_videos_parallel(df, output_folder="merged_videos", type_val=None, ta
         tasks.append((row.to_dict(), output_folder, type_val, task_mapping))
 
     # Determine number of workers (Max 60 or CPU count)
-    max_workers = min(60, multiprocessing.cpu_count())
+    max_workers = min(60, multiprocessing.cpu_count()-2)
     print(f"Starting parallel processing with {max_workers} workers...")
 
     # Execute

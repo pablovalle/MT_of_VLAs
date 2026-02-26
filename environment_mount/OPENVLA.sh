@@ -41,7 +41,7 @@ pip install flash-attn==2.6.1 --no-build-isolation
 echo "--- Installing transformers ---"
 cd "$REPO_DIR/transformers-4.40.1"
 pip install -e .
-
+pip install moviepy
 pip install "numpy==1.24.4"
 pip install matplotlib
 pip install openpyxl
