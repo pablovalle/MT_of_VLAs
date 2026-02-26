@@ -2,8 +2,10 @@
 
 # Metamorphic Testing of of Vision-Language Action-enabled Robots
 
-[Pablo Valle](https://scholar.google.com/citations?user=-3y0BlAAAAAJ&hl=en)<sup>1</sup>, [Sergio Segura](https://scholar.google.com/citations?user=AcMLHeEAAAAJ&hl=en)<sup>2</sup>, [Shaukat Ali](https://scholar.google.com/citations?user=S_UVLhUAAAAJ&hl=en)<sup>3</sup>, [Aitor Arrieta](https://scholar.google.com/citations?user=ft06jF4AAAAJ&hl=en)<sup>1</sup></br>
-Mondragon Unibertsitatea<sup>1</sup>, University of Seville<sup>2</sup> ,Simula Research Laboratory<sup>3</sup>
+> [Pablo Valle](https://scholar.google.com/citations?user=-3y0BlAAAAAJ&hl=en)<sup>1</sup>, [Sergio Segura](https://scholar.google.com/citations?user=AcMLHeEAAAAJ&hl=en)<sup>2</sup>, [Shaukat Ali](https://scholar.google.com/citations?user=S_UVLhUAAAAJ&hl=en)<sup>3</sup>, [Aitor Arrieta](https://scholar.google.com/citations?user=ft06jF4AAAAJ&hl=en)<sup>1</sup></br>
+> Mondragon Unibertsitatea<sup>1</sup>, University of Seville<sup>2</sup> ,Simula Research Laboratory<sup>3</sup>
+
+[\[📄Paper\]]()  [\[🔥Project Page\]]()
 
 </div>
 
