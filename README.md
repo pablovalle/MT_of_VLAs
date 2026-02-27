@@ -5,7 +5,7 @@
 > [Pablo Valle](https://scholar.google.com/citations?user=-3y0BlAAAAAJ&hl=en)<sup>1</sup>, [Sergio Segura](https://scholar.google.com/citations?user=AcMLHeEAAAAJ&hl=en)<sup>2</sup>, [Shaukat Ali](https://scholar.google.com/citations?user=S_UVLhUAAAAJ&hl=en)<sup>3</sup>, [Aitor Arrieta](https://scholar.google.com/citations?user=ft06jF4AAAAJ&hl=en)<sup>1</sup></br>
 > Mondragon Unibertsitatea<sup>1</sup>, University of Seville<sup>2</sup>, Simula Research Laboratory<sup>3</sup>
 
-[\[📄Paper\]](https://aitorarrietamarcos.github.io/assets/Metamorphic_vla.pdf)  [\[🔥Project Page\]](https://pablovalle.github.io/MT_of_VLAs_web/)
+[\[📄Paper\]](https://arxiv.org/pdf/2602.22579)  [\[🔥Project Page\]](https://pablovalle.github.io/MT_of_VLAs_web/)
 
 </div>
 
