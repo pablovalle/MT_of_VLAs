@@ -155,7 +155,7 @@ Once everything is sat up and you can access to the repository either on your lo
 cd {this_repo/environment_mount}
 ./{model_name}.sh   #Options: EO1, GR00T, PI0, SPATIALVLA, and OPENVLA
 ```
-> **Note:** The model name corresponding to each conda environment is the same name but in lowercase: ```eo1```, ```gr00t```, ```pi0``` and for spatialVLA and openVLA the number of parameters should be added: ```spatialvla-4b``` and ```openvla-7b```.
+> **Note:** Setting up the environment may take approximately 10–15 minutes, depending on your internet connection (Overall the fastest model in installation and execution is EO1). The model name corresponding to each conda environment is the same name but in lowercase: ```eo1```, ```gr00t```, ```pi0``` and for spatialVLA and openVLA the number of parameters should be added: ```spatialvla-4b``` and ```openvla-7b```.
 
 Once it finishes, you will find the model weights inside [checkpoints](/checkpoints/) folder and you will have the corresponding conda environment wiht the same name as the ```.sh``` file you launched. For example if you launched ```EO1.sh``` you will have a conda env called EO1.
 </details>
@@ -168,7 +168,7 @@ To generate the follow-up test cases just a ```.sh``` file should be ran:
 cd {this_repo/experiments}
 ./{follow_up_generator.sh}.sh -e <env> -m <model> [options]
 ```
-> **Note:** Pre-generated follow-up cases used in our evaluation are available in [data/FollowUp](/data/FollowUp/). Remove this folder if you want to regenerate test cases.
+> **Note:** Pre-generated follow-up cases used in our evaluation are available in [data/FollowUp](/data/FollowUp/). Remove, rename or move this folder if you want to regenerate test cases.
 
 | Flag | Status   | Description                                                                                     |
 |------|----------|-------------------------------------------------------------------------------------------------|
@@ -196,7 +196,7 @@ To execute the source test cases just a ```.sh``` file should be ran:
 cd {this_repo/experiments}
 ./{run_source_test_cases.sh}.sh -e <env> -m <model> [options]
 ```
-> **Note:** Precomputed results for the source test cases are available in [results](/results). By default, the script will not re-run these test cases. To execute them again, you can rename, move, or remove the ```/results``` folder.
+> **Note:** Precomputed results for the source test cases are available in [results](/results). By default, the script will not re-run these test cases. To execute them again, you can rename, move, or remove the ```/results``` folder. **Do not remove the ```/results/human_eval``` folder**
 
 | Flag | Status   | Description |
 |------|----------|------------|
@@ -259,11 +259,15 @@ The taxonomy itself was generated using a questionnaire, which is available here
 If you find this project useful in your research, please consider cite:
 
 ```BibTeX
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={}
+@article{valle2026mt_of_vlas,
+  title={Metamorphic Testing of Vision-Language Action-Enabled Robots}, 
+  author={Pablo Valle and Sergio Segura and Shaukat Ali and Aitor Arrieta},
+  year={2026},
+  eprint={2602.22579},
+  journal={arXiv preprint arXiv:2602.22579},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2602.22579}, 
 }
 ```
 

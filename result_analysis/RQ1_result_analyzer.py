@@ -174,6 +174,7 @@ for model_res in os.listdir(mt_results_dir):
     plt.tight_layout()
 
     # Save figure
+    os.makedirs("figures", exist_ok=True)
     save_path = f"figures/boxplot_{model_res}.png"
     plt.savefig(save_path, dpi=300, bbox_inches="tight")
     print(f"Saved figure to: {save_path}")
