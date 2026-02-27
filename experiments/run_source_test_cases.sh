@@ -1,9 +1,7 @@
 #!/usr/bin/bash
 
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-# ┃                  UQ4VLAs v1.0                    ┃
-# ┃  Run uncertainty and quality experiments across  ┃
-# ┃          models and datasets in style!           ┃
+# ┃                     MT4VLAs                      ┃
 # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 # Colors
