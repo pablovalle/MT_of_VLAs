@@ -259,15 +259,16 @@ The taxonomy itself was generated using a questionnaire, which is available here
 If you find this project useful in your research, please consider cite:
 
 ```BibTeX
-@article{valle2026mt_of_vlas,
-  title={Metamorphic Testing of Vision-Language Action-Enabled Robots}, 
-  author={Pablo Valle and Sergio Segura and Shaukat Ali and Aitor Arrieta},
-  year={2026},
-  eprint={2602.22579},
-  journal={arXiv preprint arXiv:2602.22579},
-  archivePrefix={arXiv},
-  primaryClass={cs.RO},
-  url={https://arxiv.org/abs/2602.22579}, 
+@inproceedings{valle2026mt_of_vlas_icst,
+  title        = {Metamorphic Testing of Vision-Language Action-Enabled Robots},
+  author       = {Pablo Valle and Sergio Segura and Shaukat Ali and Aitor Arrieta},
+  booktitle    = {Proceedings of the 19th IEEE International Conference on Software Testing, Verification and Validation (ICST 2026)},
+  year         = {2026},
+  month        = may,
+  address      = {Daejeon, Republic of Korea},
+  organization = {IEEE},
+  note         = {\url{https://arxiv.org/abs/2602.22579}},
+  url          = {https://arxiv.org/abs/2602.22579}
 }
 ```
 
