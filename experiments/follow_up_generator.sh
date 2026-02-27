@@ -19,7 +19,7 @@ show_help() {
   echo -e ""
   echo -e "${GREEN}ARGUMENTS DESCRIPTION${NC}"
   echo -e "  ${YELLOW}-e${NC}  ${RED}[REQUIRED]${NC} Conda environment name to activate."
-  echo -e "  ${YELLOW}-m${NC}  ${RED}[REQUIRED]${NC} Specific model name to run (e.g., gpt-4, llama-3)."
+  echo -e "  ${YELLOW}-m${NC}  ${RED}[REQUIRED]${NC} Specific model name to run (e.g., gr00t, eo1)."
   echo -e "  ${YELLOW}-r${NC}  ${BLUE}[OPTIONAL]${NC} Metamorphic Relations (MRs). Accepts single or multiple values"
   echo -e "      separated by commas or spaces. Example: \"MR1,MR2,MR5\"."
   echo -e "      Default: MR1, MR2, MR3, MR4, MR5."
