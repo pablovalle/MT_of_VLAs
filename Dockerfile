@@ -39,7 +39,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get update && \
     apt-get install -y google-chrome-stable && \
     rm -rf /var/lib/apt/lists/* && \
-    locale-gen es_ES.UTF-8
+    locale-gen en_EN.UTF-8
 RUN apt update && apt install -y \
     vulkan-tools \
     libvulkan1 \
