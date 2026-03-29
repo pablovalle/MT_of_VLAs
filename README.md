@@ -51,6 +51,7 @@ The software requirements to run this are minimal:
  - Docker
  - Vulkan
 > **Note:** "Minimal" applies to users who choose to run the provided Docker image. Running directly on your local machine requires additional software dependencies, which are detailed in [Building from source](#building-from-source).
+
 > **Note:** More info about how installing vulakn on your machine can be found here: 
 
 The hardware requirements to run this are VLA dependant since each VLA needs a specific amount of GPU RAM, overall the following requirements are needed:
