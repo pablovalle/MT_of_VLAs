@@ -14,11 +14,12 @@ In this paper, we explore whether Metamorphic Testing (MT) can alleviate the tes
 ## Index
 1. [Repo Structure](#repo-structure)
 2. [Provided Datasets](#provided-datasets)
-2. [Hardware and Software Requirements](#hardware-and-software-requirements)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Citation](#citation)
-6. [Acknowledgment](#acknowledgment)
+3. [Hardware and Software Requirements](#hardware-and-software-requirements)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Troubleshooting](#troubleshooting)
+7. [Citation](#citation)
+8. [Acknowledgements](#acknowledgements)
 
 ## Repo Structure
 The repository is organized as follows:
@@ -48,7 +49,9 @@ Additionally, the benchmark contains 9,320 follow-up test cases generated using 
 ## Hardware and Software Requirements
 The software requirements to run this are minimal:
  - Docker
+ - Vulkan
 > **Note:** "Minimal" applies to users who choose to run the provided Docker image. Running directly on your local machine requires additional software dependencies, which are detailed in [Building from source](#building-from-source).
+> **Note:** More info about how installing vulakn on your machine can be found here: 
 
 The hardware requirements to run this are VLA dependant since each VLA needs a specific amount of GPU RAM, overall the following requirements are needed:
 - GPU: 8–12 GB (tested on NVIDIA RTX 4080 Ti and NVIDIA RTX A6000)  
@@ -68,7 +71,7 @@ Docker simplifies the installation of robotics simulators and CUDA requirements.
 
 1.  **Build the image:**
 
-    Download only the Docker file and build de image:
+    Download only the Docker file and build the image:
     ```bash
     docker build -t mt_4_vlas .
     ```
@@ -92,6 +95,29 @@ Docker simplifies the installation of robotics simulators and CUDA requirements.
     ```bash
     docker exec -it mt_4_vlas bash
     nvidia-smi
+    ```
+    You should see something similar to this showing which is the status of the GPU associated to the Docker:
+    ```bash
+    +-----------------------------------------------------------------------------------------+
+    | NVIDIA-SMI 570.172.08             Driver Version: 570.172.08     CUDA Version: 12.8     |
+    |-----------------------------------------+------------------------+----------------------+
+    | GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+    | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+    |                                         |                        |               MIG M. |
+    |=========================================+========================+======================|
+    |   0  NVIDIA RTX A6000               Off |   00000000:01:00.0 Off |                  Off |
+    | 30%   39C    P0             73W /  300W |       0MiB /  49140MiB |      2%      Default |
+    |                                         |                        |                  N/A |
+    +-----------------------------------------+------------------------+----------------------+
+    
+    +-----------------------------------------------------------------------------------------+
+    | Processes:                                                                              |
+    |  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+    |        ID   ID                                                               Usage      |
+    |=========================================================================================|
+    |  No running processes found                                                             |
+    +-----------------------------------------------------------------------------------------+
+   
     ```
 </details>
 
@@ -149,7 +175,7 @@ The following steps apply to both Docker and source installations.
 <details>
 <summary><b>Setting up the conda environment and downloading the models</summary></b>
 
-Once everything is sat up and you can access to the repository either on your local machine or inside the docker, for each VLA one conda environment will be generated and the corresponding models will be downloaded. To do so, inside [environment_mount](/environment_mount/) you can find one ```.sh``` file for each model. To setup the environment and download the models:
+Once everything is set up and you can access to the repository either on your local machine or inside the docker, for each VLA one conda environment will be generated and the corresponding models will be downloaded. To do so, inside [environment_mount](/environment_mount/) you can find one ```.sh``` file for each model. To setup the environment and download the models:
 
 ```
 cd {this_repo/environment_mount}
@@ -254,6 +280,30 @@ Running the analysis will process the results for RQ1 and RQ2, generating a set 
 The taxonomy itself was generated using a questionnaire, which is available here: [questionnaire](https://github.com/pablovalle/MT_questionnaire/tree/main)
 
 </details>
+
+## Troubleshooting
+
+1. If you encounter issues such as
+
+```
+RuntimeError: vk::Instance::enumeratePhysicalDevices: ErrorInitializationFailed
+Some required Vulkan extension is not present. You may not use the renderer to render, however, CPU resources will be still available.
+Segmentation fault (core dumped)
+```
+
+Follow [this link](https://maniskill.readthedocs.io/en/latest/user_guide/getting_started/installation.html#vulkan) to troubleshoot the issue. (Even though the doc points to SAPIEN 3 and ManiSkill3, the troubleshooting section still applies to the current environments that use SAPIEN 2.2 and ManiSkill2).
+
+2. You can ignore the following error if it is caused by tensorflow's internal code. Sometimes this error will occur when running the inference or debugging scripts.
+
+```
+TypeError: 'NoneType' object is not subscriptable
+```
+
+3. Please also refer to the original repo or [vulkan_setup](https://github.com/SpatialVLA/SpatialVLA/issues/3#issuecomment-2641739404) if you encounter any problems.
+
+4. `tensorflow-2.15.0` conflicts with `tensorflow-2.15.1`?
+The dlimp library has not been maintained for a long time, so the TensorFlow version might be out of date. A reliable solution is to comment out tensorflow==2.15.0 in the requirements file, install all other dependencies, and then install tensorflow==2.15.0 finally. Currently, using tensorflow==2.15.0 has not caused any problems.
+
 
 ## Citation
 If you find this project useful in your research, please consider cite:
