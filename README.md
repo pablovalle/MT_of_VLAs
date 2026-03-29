@@ -52,8 +52,6 @@ The software requirements to run this are minimal:
  - Vulkan
 > **Note:** "Minimal" applies to users who choose to run the provided Docker image. Running directly on your local machine requires additional software dependencies, which are detailed in [Building from source](#building-from-source).
 
-> **Note:** More info about how installing vulakn on your machine can be found here: 
-
 The hardware requirements to run this are VLA dependant since each VLA needs a specific amount of GPU RAM, overall the following requirements are needed:
 - GPU: 8–12 GB (tested on NVIDIA RTX 4080 Ti and NVIDIA RTX A6000)  
 - Disk space: At least 60 GB per VLA model. We tested the setup with 250 GB of free space.
