@@ -16,7 +16,7 @@ conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r 
 echo "--- Creating Conda Environment: $ENV_NAME ---"
 conda create -n "$ENV_NAME" python=3.10 -y
 conda activate "$ENV_NAME"
-
+pip install torch==2.7.1 torchvision==0.22.1 packaging
 echo "--- Installing repo ---"
 cd "$REPO_DIR"
 # Check if EO1 already exists before cloning
